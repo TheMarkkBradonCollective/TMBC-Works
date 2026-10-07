@@ -1,4 +1,6 @@
-"""Merge enrichment JSON with palette + layout profile for rendering."""
+"""Merge curated lead_enrichment.json with palette + assets for rendering."""
+import hashlib
+import html
 import json
 import os
 
@@ -20,7 +22,57 @@ PALETTES = [
     {"bg": "#18181b", "surface": "#27272a", "text": "#fafafa", "muted": "#a1a1aa", "accent": "#f43f5e", "accent2": "#fb7185", "hero_overlay": "rgba(24,24,27,.82)", "radius": "2px"},
 ]
 
+IMAGES = {
+    "barber": "https://images.unsplash.com/photo-1585747860715-2b67a7a7f336?w=1600&q=80",
+    "spa": "https://images.unsplash.com/photo-1604654890710-f6390f18ddb0?w=1600&q=80",
+    "donut": "https://images.unsplash.com/photo-1551024601-bec78ae704b3?w=1600&q=80",
+    "bakery": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1600&q=80",
+    "mex": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=1600&q=80",
+    "food": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=1600&q=80",
+    "tire": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1600&q=80",
+    "fabric": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80",
+    "check": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1600&q=80",
+    "smog": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1600&q=80",
+    "auto": "https://images.unsplash.com/photo-1487754180451-c456f581a583?w=1600&q=80",
+    "shoe": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=1600&q=80",
+    "mower": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1600&q=80",
+    "appliance": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1600&q=80",
+    "rad": "https://images.unsplash.com/photo-1625047509248-ec889cbff107?w=1600&q=80",
+    "weld": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1600&q=80",
+    "martial": "https://images.unsplash.com/photo-1555597673-b21d5c935865?w=1600&q=80",
+    "trophy": "https://images.unsplash.com/photo-1517649763962-0c62306601b7?w=1600&q=80",
+    "tv": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=1600&q=80",
+    "euro": "https://images.unsplash.com/photo-1619642751034-765df279d565?w=1600&q=80",
+    "plumb": "https://images.unsplash.com/photo-1585704032915-ebc035e00588?w=1600&q=80",
+    "pet": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=1600&q=80",
+    "industrial": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1600&q=80",
+    "rug": "https://images.unsplash.com/photo-1600166896085-959adc3512d1?w=1600&q=80",
+    "thai": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=1600&q=80",
+    "tow": "https://images.unsplash.com/photo-1544622351-20a7f5172b20?w=1600&q=80",
+    "fence": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1600&q=80",
+    "alter": "https://images.unsplash.com/photo-1558171813-4c088753af8f?w=1600&q=80",
+}
+
 _cache = None
+
+
+def _fonts_query(head: str, body: str) -> str:
+    return (
+        f"family={head.replace(' ', '+')}:wght@400;600;700&"
+        f"family={body.replace(' ', '+')}:wght@400;500;600"
+    )
+
+
+def _nav_html(nav) -> str:
+    if isinstance(nav, str):
+        return nav
+    parts = []
+    for item in nav:
+        href = item.get("href", "#")
+        if href == "#location":
+            href = "#visit"
+        parts.append(f'<a href="{html.escape(href)}">{html.escape(item.get("label", ""))}</a>')
+    return "".join(parts)
 
 
 def _load():
@@ -32,14 +84,28 @@ def _load():
 
 
 def profile_for(slug: str, row: dict) -> dict:
-    data = _load()[slug]
-    pal = PALETTES[data["palette_idx"] % len(PALETTES)]
+    data = dict(_load()[slug])
+    idx = data.get("palette_idx")
+    if idx is None:
+        idx = int(hashlib.sha256(slug.encode()).hexdigest(), 16) % len(PALETTES)
+    pal = PALETTES[idx % len(PALETTES)]
+
+    head = data["font_head"]
+    body = data["font_body"]
+    image_key = data.get("image_key", "auto")
+    hero_image = data.get("hero_image") or IMAGES.get(image_key) or IMAGES["auto"]
+
     p = {
         **data,
         "colors": pal,
-        "font_head": f"'{data['font_head']}'",
-        "font_body": f"'{data['font_body']}'",
+        "font_head": f"'{head}'",
+        "font_body": f"'{body}'",
+        "fonts_query": data.get("fonts_query") or _fonts_query(head, body),
+        "hero_image": hero_image,
+        "nav": _nav_html(data.get("nav")),
     }
-    # Drop non-render keys
     p.pop("palette_idx", None)
+    p.pop("verification", None)
+    p.pop("sources", None)
+    p.pop("image_key", None)
     return p

@@ -27,8 +27,8 @@ Live URL pattern: `https://themarkkbradoncollective.github.io/TMBC-Works/<slug>/
 
 ```bash
 cd scripts
-python3 build_enrichment.py    # refresh data/lead_enrichment.json from leads + research
-python3 capture_legacy.py      # optional: screenshots for compare.html
+# Edit data/lead_enrichment.json (curated copy) then:
+python3 capture_legacy.py      # optional: refresh compare screenshots
 python3 generate_previews.py
 python3 verify_previews.py     # with local server under /TMBC-Works/
 ```

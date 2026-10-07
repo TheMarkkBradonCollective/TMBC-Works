@@ -55,12 +55,11 @@ def compare_upgrades(row: dict) -> list[str]:
 
 
 def main():
-    # Ensure enrichment exists
     enrich = os.path.join(ROOT, "data", "lead_enrichment.json")
     if not os.path.isfile(enrich):
-        import build_enrichment
-
-        build_enrichment.main()
+        raise SystemExit(
+            "Missing data/lead_enrichment.json — add curated enrichment before generating."
+        )
 
     write_shared_config()
     rows = []

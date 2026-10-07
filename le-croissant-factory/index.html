@@ -5,37 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
   <title>Le Croissant Factory — Bakery</title>
-  <meta name="description" content="6413 Riverside Blvd — pastries and baked goods.">
+  <meta name="description" content="Le Croissant Factory, 6413 Riverside Blvd, Sacramento. Bakery. Call (916) 392-9227.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Le Croissant Factory">
-  <meta property="og:description" content="6413 Riverside Blvd — pastries and baked goods.">
+  <meta property="og:description" content="Le Croissant Factory, 6413 Riverside Blvd, Sacramento. Bakery. Call (916) 392-9227.">
   <meta property="og:url" content="https://themarkkbradoncollective.github.io/TMBC-Works/le-croissant-factory/">
   <meta property="og:image" content="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1600&amp;q=80">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../_shared/tmbc.css">
   <style>
     :root {
-      --bg: #fff7ed;
-      --surface: #ffffff;
-      --text: #431407;
-      --muted: #9a3412;
-      --accent: #ea580c;
-      --accent2: #fb923c;
-      --hero-overlay: rgba(67,20,7,.55);
-      --radius: 18px;
+      --bg: #111827;
+      --surface: #1f2937;
+      --text: #f3f4f6;
+      --muted: #9ca3af;
+      --accent: #a3e635;
+      --accent2: #84cc16;
+      --hero-overlay: rgba(17,24,39,.8);
+      --radius: 8px;
     }
-    body { margin:0; background:var(--bg); color:var(--text); font-family:'IBM Plex Sans', system-ui, sans-serif; line-height:1.65; }
-    h1,h2,h3 { font-family:'Space Grotesk', Georgia, serif; line-height:1.15; }
+    body { margin:0; background:var(--bg); color:var(--text); font-family:'Lato', system-ui, sans-serif; line-height:1.65; }
+    h1,h2,h3 { font-family:'Playfair Display', Georgia, serif; line-height:1.15; }
     .wrap { max-width: 1100px; margin: 0 auto; padding: 0 1.25rem; }
     a { color: var(--accent); }
     .site-header {
       display:flex; align-items:center; justify-content:space-between; gap:1rem;
       padding:1rem 1.25rem; max-width:1100px; margin:0 auto;
     }
-    .logo { font-family:'Space Grotesk', serif; font-weight:700; font-size:1.15rem; letter-spacing:.02em; }
+    .logo { font-family:'Playfair Display', serif; font-weight:700; font-size:1.15rem; letter-spacing:.02em; }
     .site-nav a { color:var(--muted); text-decoration:none; margin-left:1rem; font-size:.9rem; }
     .site-nav a:hover { color:var(--accent); }
     .hero { position:relative; min-height:72vh; display:flex; align-items:flex-end; overflow:hidden; }
@@ -85,41 +85,49 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: split */
+    /* layout: cardhero */
     </style>
-  <!-- Hero image: Unsplash — bakery -->
+  <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
 <body data-biz-phone="tel:+19163929227" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=6413%20Riverside%20Blvd%2C%20Sacramento%2C%20CA%2095831">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Le Croissant Factory</div>
-    <nav class="site-nav" aria-label="Primary"><a href="#about">About</a><a href="#services">Services</a><a href="#visit">Visit</a><a href="#contact">Contact</a></nav>
+    <nav class="site-nav" aria-label="Primary"><a href="#story">About</a><a href="#menu">Menu</a><a href="#hours">Hours</a><a href="#visit">Find us</a><a href="#contact">Contact</a></nav>
   </header>
-  <section class="hero layout-split" aria-label="Welcome">
+  <section class="hero layout-cardhero" aria-label="Welcome">
     <div class="hero-bg" role="img" aria-label="Decorative photograph"></div>
     <div class="hero-inner">
       <p class="hero-kicker">Bakery</p>
-      <h1>Riverside Boulevard bakery</h1>
-      <p class="hero-lead">6413 Riverside Blvd — pastries and baked goods.</p>
+      <h1>Le Croissant Factory</h1>
+      <p class="hero-lead">Bakery on Riverside Blvd in Sacramento.</p>
       <div class="btn-row">
         <a class="btn btn-primary" href="tel:+19163929227">Call (916) 392-9227</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=6413%20Riverside%20Blvd%2C%20Sacramento%2C%20CA%2095831">Directions</a>
       </div>
-      
+      <div class="highlights"><div class="hl">6413 Riverside Blvd</div><div class="hl">Bakery</div><div class="hl">Call (916) 392-9227</div></div>
       
     </div>
   </section>
   
-    <section class="story-block reveal" id="about">
+    <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>Le Croissant Factory offers baked goods from Riverside Boulevard.</p><p>Highlight counter hours and directions for pickup orders.</p></div>
-        <div class="story-aside"></div>
+        <div class="story-copy"><p>Le Croissant Factory is a bakery at 6413 Riverside Blvd in Sacramento.</p><p>Call (916) 392-9227 to ask about today&#x27;s baked goods and current hours.</p></div>
+        <div class="story-aside"><p><strong>Address:</strong> 6413 Riverside Blvd, Sacramento, CA 95831</p><p><strong>Phone:</strong> (916) 392-9227</p></div>
       </div>
     </section>
-    <section class="services-block reveal" id="services">
+    <section class="menu-block reveal" id="menu">
       <div class="wrap">
-        <h2>Services</h2>
-        <ul class="svc-list"><li>Croissants &amp; pastries</li><li>Baked goods</li><li>Counter orders</li></ul>
+        <h2>From the oven</h2>
+        <p class="menu-note">Call the bakery for today&#x27;s selection.</p>
+        <div class="menu-grid"><article class="menu-card reveal"><h3>At the bakery</h3><ul><li>Croissants</li><li>Pastries</li><li>Coffee</li></ul></article></div>
+      </div>
+    </section>
+    <section class="hours-block reveal" id="hours">
+      <div class="wrap">
+        <h2>Hours</h2>
+        
+        <p>Call for current hours.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

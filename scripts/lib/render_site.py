@@ -51,15 +51,19 @@ def favicon_svg(initial: str, accent: str) -> str:
 
 def section_hours(profile: dict) -> str:
     hours = profile.get("hours") or []
-    if not hours:
+    hours_note = (profile.get("hours_note") or "").strip()
+    if not hours and not hours_note:
         return ""
     items = "".join(f"<li>{html.escape(h)}</li>" for h in hours)
+    note = hours_note
+    if note and not note.startswith("<"):
+        note = f"<p>{html.escape(note)}</p>"
     return f"""
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
-        <ul class="hours-list">{items}</ul>
-        {profile.get("hours_note", "")}
+        {f'<ul class="hours-list">{items}</ul>' if items else ''}
+        {note}
       </div>
     </section>"""
 
@@ -103,7 +107,7 @@ def section_story(profile: dict) -> str:
         return ""
     ps = "".join(f"<p>{html.escape(p)}</p>" for p in paras)
     return f"""
-    <section class="story-block reveal" id="about">
+    <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
         <div class="story-copy">{ps}</div>
         <div class="story-aside">{profile.get("aside_html", "")}</div>
@@ -237,7 +241,7 @@ def render_index(row: dict, profile: dict, slug: str, base_url: str) -> str:
     ph = phone_href(phone)
     nav = profile.get(
         "nav",
-        '<a href="#about">About</a><a href="#services">Services</a><a href="#visit">Visit</a><a href="#contact">Contact</a>',
+        '<a href="#story">About</a><a href="#services">Services</a><a href="#visit">Visit</a><a href="#contact">Contact</a>',
     )
     highlights = profile.get("highlights") or []
     hl_html = "".join(f'<div class="hl">{html.escape(h)}</div>' for h in highlights)
