@@ -23,9 +23,9 @@ PALETTES = [
 ]
 
 IMAGES = {
-    "barber": "https://images.unsplash.com/photo-1585747860715-2b67a7a7f336?w=1600&q=80",
-    "spa": "https://images.unsplash.com/photo-1604654890710-f6390f18ddb0?w=1600&q=80",
-    "donut": "https://images.unsplash.com/photo-1551024601-bec78ae704b3?w=1600&q=80",
+    "barber": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=1600&q=80",
+    "spa": "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=1600&q=80",
+    "donut": "https://images.unsplash.com/photo-1587241321921-91a834d6d191?w=1600&q=80",
     "bakery": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1600&q=80",
     "mex": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=1600&q=80",
     "food": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=1600&q=80",
@@ -33,25 +33,56 @@ IMAGES = {
     "fabric": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80",
     "check": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1600&q=80",
     "smog": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1600&q=80",
-    "auto": "https://images.unsplash.com/photo-1487754180451-c456f581a583?w=1600&q=80",
+    "auto": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1600&q=80",
     "shoe": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=1600&q=80",
-    "mower": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1600&q=80",
+    "mower": "https://images.unsplash.com/photo-1558904541-efa843a96f01?w=1600&q=80",
     "appliance": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1600&q=80",
-    "rad": "https://images.unsplash.com/photo-1625047509248-ec889cbff107?w=1600&q=80",
+    "rad": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1600&q=80",
     "weld": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1600&q=80",
     "martial": "https://images.unsplash.com/photo-1555597673-b21d5c935865?w=1600&q=80",
-    "trophy": "https://images.unsplash.com/photo-1517649763962-0c62306601b7?w=1600&q=80",
+    "trophy": "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=1600&q=80",
     "tv": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=1600&q=80",
-    "euro": "https://images.unsplash.com/photo-1619642751034-765df279d565?w=1600&q=80",
-    "plumb": "https://images.unsplash.com/photo-1585704032915-ebc035e00588?w=1600&q=80",
+    "euro": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=1600&q=80",
+    "plumb": "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=1600&q=80",
     "pet": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=1600&q=80",
     "industrial": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1600&q=80",
-    "rug": "https://images.unsplash.com/photo-1600166896085-959adc3512d1?w=1600&q=80",
+    "rug": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80",
     "thai": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=1600&q=80",
-    "tow": "https://images.unsplash.com/photo-1544622351-20a7f5172b20?w=1600&q=80",
+    "tow": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=1600&q=80",
     "fence": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1600&q=80",
     "alter": "https://images.unsplash.com/photo-1558171813-4c088753af8f?w=1600&q=80",
+    "tool": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1600&q=80",
 }
+
+CATEGORY_IMAGE_KEY = {
+    "Plumbing": "plumb",
+    "European auto repair": "euro",
+    "Import auto repair": "euro",
+    "Lawn mower / small engine repair": "mower",
+    "Welding / fabrication": "weld",
+    "Mobile welding": "weld",
+    "Industrial contractor / millwright": "industrial",
+    "Trophies / engraving": "trophy",
+    "TV repair (in-home)": "tv",
+    "Rug cleaning": "rug",
+    "Fence & concrete contractor": "fence",
+    "Alterations / tailor": "alter",
+    "Tire shop": "tire",
+    "Radiator repair": "rad",
+    "Appliance repair": "appliance",
+    "Towing": "tow",
+}
+
+
+def resolve_image_key(image_key: str, category: str) -> str:
+    if category == "Towing" and image_key == "auto":
+        return "tow"
+    if category in ("European auto repair", "Import auto repair") and image_key == "auto":
+        return "euro"
+    if image_key == "tool" or image_key not in IMAGES:
+        return CATEGORY_IMAGE_KEY.get(category, "tool" if "tool" in IMAGES else "auto")
+    return image_key
+
 
 CATEGORY_SKELETON = {
     "Barbershop": "studio_booking",
@@ -132,9 +163,7 @@ def profile_for(slug: str, row: dict) -> dict:
     head = data["font_head"]
     body = data["font_body"]
     category = row.get("category", "")
-    image_key = data.get("image_key", "auto")
-    if category == "Towing" and image_key == "auto":
-        image_key = "tow"
+    image_key = resolve_image_key(data.get("image_key", "auto"), category)
     hero_image = data.get("hero_image") or IMAGES.get(image_key) or IMAGES.get("food") or IMAGES["auto"]
     sk = data.get("skeleton") or CATEGORY_SKELETON.get(category, "service_trust")
     if sk in ("menu_forward", "studio_booking", "service_trust", "service_emergency") and not hero_image:
