@@ -5,9 +5,14 @@ import html
 import json
 import os
 import re
+import sys
 import urllib.parse
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, SCRIPT_DIR)
+from tmbc_constants import TMBC_EMAIL, TMBC_LOCATION, TMBC_PHONE_DISPLAY, TMBC_PHONE_TEL
+
+ROOT = os.path.dirname(SCRIPT_DIR)
 CSV_PATH = os.path.join(ROOT, "leads.csv")
 BASE_URL = "https://themarkkbradoncollective.github.io/TMBC-Works"
 
@@ -528,7 +533,8 @@ def build_page(row: dict, lead_num: int, theme: dict) -> str:
 <body>
   <div class="tmbc-banner">
     Website preview designed by TMBC Works ·
-    <a href="mailto:hello@tmbcworks.com">hello@tmbcworks.com</a> · Sacramento, CA
+    <a href="mailto:{html.escape(TMBC_EMAIL)}">{html.escape(TMBC_EMAIL)}</a> ·
+    <a href="tel:{TMBC_PHONE_TEL}">{html.escape(TMBC_PHONE_DISPLAY)}</a> · {html.escape(TMBC_LOCATION)}
   </div>
   <header class="site-header">
     <div class="logo">{html.escape(name)}</div>
@@ -592,7 +598,24 @@ def build_page(row: dict, lead_num: int, theme: dict) -> str:
 """
 
 
+def write_shared_config() -> None:
+    """Sync _shared/tmbc-config.js from scripts/tmbc_constants.py."""
+    shared_dir = os.path.join(ROOT, "_shared")
+    os.makedirs(shared_dir, exist_ok=True)
+    js = f"""/** TMBC Works contact — edit scripts/tmbc_constants.py and re-run generate_previews.py */
+window.TMBC_CONFIG = {{
+  email: {json.dumps(TMBC_EMAIL)},
+  phoneDisplay: {json.dumps(TMBC_PHONE_DISPLAY)},
+  phoneTel: {json.dumps(TMBC_PHONE_TEL)},
+  location: {json.dumps(TMBC_LOCATION)},
+}};
+"""
+    with open(os.path.join(shared_dir, "tmbc-config.js"), "w", encoding="utf-8") as f:
+        f.write(js)
+
+
 def main():
+    write_shared_config()
     # Copy CSV to repo root if using uploads path
     upload_csv = "/home/ubuntu/.cursor/projects/workspace/uploads/leads_c721.csv"
     if not os.path.exists(CSV_PATH) and os.path.exists(upload_csv):

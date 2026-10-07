@@ -47,4 +47,8 @@ Edit `scripts/generate_previews.py` (themes, copy templates, slugs) before regen
 
 ## TMBC Works contact
 
-Preview banner placeholder: `hello@tmbcworks.com` — update when the owner’s pitch email is finalized.
+TMBC contact lives in `scripts/tmbc_constants.py` (mirrored to `_shared/tmbc-config.js`). Regenerate after edits:
+
+```bash
+python3 scripts/generate_previews.py
+```
