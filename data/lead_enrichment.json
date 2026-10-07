@@ -1,0 +1,3309 @@
+{
+  "knock-out-barber-shop": {
+    "layout": "split",
+    "font_head": "Oswald",
+    "font_body": "Source Sans 3",
+    "image_key": "barber",
+    "headline": "Knock Out Barber Shop",
+    "subhead": "Neighborhood barbershop on Del Paso Blvd, Sacramento.",
+    "meta_description": "Knock Out Barber Shop at 2829 Del Paso Blvd, Sacramento. Haircuts and barbering; book online or call (916) 927-3989.",
+    "paragraphs": [
+      "Knock Out Barber Shop is a barbershop at 2829 Del Paso Blvd in Sacramento, serving the Del Paso Heights area.",
+      "Appointments are available through online booking platforms (Booksy and Fresha list the shop), or you can call the shop directly at (916) 927-3989."
+    ],
+    "highlights": [
+      "2829 Del Paso Blvd",
+      "Online booking listed",
+      "Call (916) 927-3989"
+    ],
+    "services": [
+      "Men's haircuts",
+      "Beard trims",
+      "Shape-ups and line-ups",
+      "Call to ask about other services"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Barbering",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 2829 Del Paso Blvd, Sacramento, CA 95815</p><p><strong>Phone:</strong> (916) 927-3989</p><p>Booking: listed on Booksy and Fresha.</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Barbering",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "K",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "aarins-barbershop": {
+    "layout": "editorial",
+    "font_head": "Bebas Neue",
+    "font_body": "Inter",
+    "image_key": "barber",
+    "headline": "Aarin’s Barbershop",
+    "subhead": "Stockton Blvd barbershop in Sacramento.",
+    "meta_description": "Aarin’s Barbershop, 7837 Stockton Blvd Ste 600, Sacramento. Haircuts and barbering. Call (916) 754-2165.",
+    "paragraphs": [
+      "Aarin’s Barbershop is located at 7837 Stockton Blvd, Suite 600, in Sacramento.",
+      "The shop takes appointments through an online booking platform (Booksy lists it) and by phone at (916) 754-2165."
+    ],
+    "highlights": [
+      "7837 Stockton Blvd Ste 600",
+      "Booksy booking listed",
+      "Call (916) 754-2165"
+    ],
+    "services": [
+      "Men's haircuts",
+      "Beard trims",
+      "Line-ups and edge-ups",
+      "Call to ask about other services"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Barbering",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 7837 Stockton Blvd Ste 600, Sacramento, CA 95823</p><p><strong>Phone:</strong> (916) 754-2165</p><p>Booking: listed on Booksy.</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Barbering",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "A",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "norms-barber-shop": {
+    "layout": "cardhero",
+    "font_head": "Playfair Display",
+    "font_body": "Lato",
+    "image_key": "barber",
+    "headline": "Norm's Barber Shop",
+    "subhead": "Barbershop on 4th Ave, Sacramento.",
+    "meta_description": "Norm's Barber Shop, 2890 4th Ave, Sacramento. Haircuts and barbering. Call (916) 456-9713.",
+    "paragraphs": [
+      "Norm's Barber Shop is at 2890 4th Ave in Sacramento.",
+      "To check availability, call the shop at (916) 456-9713."
+    ],
+    "highlights": [
+      "2890 4th Ave",
+      "Walk-in or call ahead",
+      "Call (916) 456-9713"
+    ],
+    "services": [
+      "Men's haircuts",
+      "Beard trims",
+      "Neck and edge clean-ups",
+      "Call to ask about other services"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Barbering",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 2890 4th Ave, Sacramento, CA 95818</p><p><strong>Phone:</strong> (916) 456-9713</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Barbering",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "N",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "antonios-barber-shop": {
+    "layout": "split",
+    "font_head": "Libre Baskerville",
+    "font_body": "Work Sans",
+    "image_key": "barber",
+    "headline": "Antonio's Barber Shop",
+    "subhead": "A classic neighborhood barbershop on Folsom Blvd.",
+    "meta_description": "Antonio's Barber Shop, 5134 Folsom Blvd, Sacramento. Classic neighborhood barbershop. Call (916) 942-9171.",
+    "paragraphs": [
+      "Antonio's Barber Shop is a classic neighborhood barbershop at 5134 Folsom Blvd in Sacramento.",
+      "Stop by or call (916) 942-9171 to ask about availability."
+    ],
+    "highlights": [
+      "5134 Folsom Blvd",
+      "Classic neighborhood shop",
+      "Call (916) 942-9171"
+    ],
+    "services": [
+      "Men's haircuts",
+      "Beard trims",
+      "Neck and edge clean-ups",
+      "Call to ask about other services"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Barbering",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 5134 Folsom Blvd, Sacramento, CA 95819</p><p><strong>Phone:</strong> (916) 942-9171</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Barbering",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "A",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "royal-nails": {
+    "layout": "cardhero",
+    "font_head": "Cormorant Garamond",
+    "font_body": "Jost",
+    "image_key": "spa",
+    "headline": "Royal Nails",
+    "subhead": "Nail salon on Greenback Lane in Citrus Heights.",
+    "meta_description": "Royal Nails, 7333 Greenback Ln, Citrus Heights. Nail salon; book via Fresha or call (916) 729-1989.",
+    "paragraphs": [
+      "Royal Nails is a nail salon at 7333 Greenback Ln in Citrus Heights.",
+      "Appointments can be booked through the Fresha booking platform where the salon is listed, or by phone at (916) 729-1989."
+    ],
+    "highlights": [
+      "7333 Greenback Ln",
+      "Fresha booking listed",
+      "Call (916) 729-1989"
+    ],
+    "services": [
+      "Manicures",
+      "Pedicures",
+      "Nail polish and nail art",
+      "Call to ask about other services"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Nail services",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 7333 Greenback Ln, Citrus Heights, CA 95621</p><p><strong>Phone:</strong> (916) 729-1989</p><p>Booking: listed on Fresha.</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Nail services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "R",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "maries-donuts": {
+    "layout": "editorial",
+    "font_head": "Fredoka",
+    "font_body": "Nunito",
+    "image_key": "donut",
+    "headline": "Marie's Donuts",
+    "subhead": "A Freeport Blvd donut shop known for its late-night and early-morning hours.",
+    "meta_description": "Marie's Donuts, 2950 Freeport Blvd, Sacramento. Popular local donut shop. Call (916) 444-5245 for current hours.",
+    "paragraphs": [
+      "Marie's Donuts is a local donut shop at 2950 Freeport Blvd in Sacramento, popular with late-night and early-morning customers.",
+      "Published hours vary by source, and delivery platforms list a morning pickup window, so please call (916) 444-5245 to confirm when the shop is open."
+    ],
+    "highlights": [
+      "2950 Freeport Blvd",
+      "Late-night local favorite",
+      "Call (916) 444-5245"
+    ],
+    "services": [
+      "Fresh donuts",
+      "Coffee",
+      "Takeout",
+      "Delivery-app listings (check app for window)"
+    ],
+    "hours": [],
+    "menu_heading": "Donuts & more",
+    "menu_note": "Call the shop for today's selection.",
+    "services_heading": "At the counter",
+    "hours_note": "Hours listed online conflict by source, and delivery platforms list a morning pickup window. Call for current hours.",
+    "sections": [
+      "story",
+      "menu",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 2950 Freeport Blvd, Sacramento, CA 95818</p><p><strong>Phone:</strong> (916) 444-5245</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "M",
+    "verification": "Lead notes plus conflicting public hours listings (hours intentionally omitted)",
+    "menu_categories": [
+      {
+        "title": "At the shop",
+        "items": [
+          "Fresh donuts",
+          "Coffee"
+        ]
+      }
+    ]
+  },
+  "broadway-donuts": {
+    "layout": "split",
+    "font_head": "Fredoka",
+    "font_body": "Nunito",
+    "image_key": "donut",
+    "headline": "Broadway Donuts",
+    "subhead": "Sacramento's Broadway donut shop, reopened December 2025 under a new owner who is the longtime baker.",
+    "meta_description": "Broadway Donuts, 2731 Broadway, Sacramento. Reopened December 2025 under new ownership with the longtime baker. Call (916) 736-2544.",
+    "paragraphs": [
+      "Broadway Donuts at 2731 Broadway in Sacramento reopened in December 2025 under new ownership after the previous owners announced plans to close.",
+      "Local news outlets reported that a longtime baker at the shop stepped in to become the new owner, so the donuts keep the same hands behind them.",
+      "The shop opened about 37 years ago as Baker Ben's and has been a neighborhood stop on the Broadway corridor since."
+    ],
+    "highlights": [
+      "Reopened December 2025",
+      "New owner is the longtime baker",
+      "2731 Broadway"
+    ],
+    "services": [
+      "Fresh donuts",
+      "Coffee",
+      "Takeout",
+      "Call to ask about large orders"
+    ],
+    "hours": [],
+    "menu_heading": "Donuts & more",
+    "menu_note": "Call the shop for today's selection.",
+    "services_heading": "At the counter",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "menu",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 2731 Broadway, Sacramento, CA 95818</p><p><strong>Phone:</strong> (916) 736-2544</p><p>Coverage: reported by SacBee, ABC10, FOX40, and Sacramento Business Journal (December 2025).</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "B",
+    "verification": "Lead notes plus local press (SacBee, ABC10, FOX40, Sacramento Business Journal)",
+    "menu_categories": [
+      {
+        "title": "At the shop",
+        "items": [
+          "Fresh donuts",
+          "Coffee"
+        ]
+      }
+    ],
+    "sources": [
+      "https://www.sacbee.com/food-drink/restaurants/article313652372.html",
+      "https://fox40.com/news/local-news/sacramento/broadway-donuts-sacramento-to-reopen-under-new-ownership/",
+      "https://www.abc10.com/article/life/food/broadway-donuts-new-owners-shop-stays-open-sacramento/103-e9368849-e405-4a39-922c-23763b026359"
+    ]
+  },
+  "jacks-donuts-wheel": {
+    "layout": "cardhero",
+    "font_head": "Baloo 2",
+    "font_body": "Nunito",
+    "image_key": "donut",
+    "headline": "Jack's Donuts Wheel",
+    "subhead": "Donut shop on Northgate Blvd, Sacramento.",
+    "meta_description": "Jack's Donuts Wheel, 2261 Northgate Blvd, Sacramento. Donut shop. Call (916) 925-6619.",
+    "paragraphs": [
+      "Jack's Donuts Wheel is a donut shop at 2261 Northgate Blvd in Sacramento.",
+      "Call (916) 925-6619 to ask about today's selection and current hours."
+    ],
+    "highlights": [
+      "2261 Northgate Blvd",
+      "Fresh donuts",
+      "Call (916) 925-6619"
+    ],
+    "services": [
+      "Fresh donuts",
+      "Coffee",
+      "Takeout",
+      "Call to ask about large orders"
+    ],
+    "hours": [],
+    "menu_heading": "Donuts & more",
+    "menu_note": "Call the shop for today's selection.",
+    "services_heading": "At the counter",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "menu",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 2261 Northgate Blvd, Sacramento, CA 95833</p><p><strong>Phone:</strong> (916) 925-6619</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "J",
+    "verification": "Lead notes only; services are category-level, not business-specific claims",
+    "menu_categories": [
+      {
+        "title": "At the shop",
+        "items": [
+          "Fresh donuts",
+          "Coffee"
+        ]
+      }
+    ]
+  },
+  "cks-donuts": {
+    "layout": "editorial",
+    "font_head": "Fredoka",
+    "font_body": "Karla",
+    "image_key": "donut",
+    "headline": "CK's Donuts",
+    "subhead": "Donut shop on Folsom Blvd, Sacramento.",
+    "meta_description": "CK's Donuts, 8333 Folsom Blvd, Sacramento. Donut shop. Call (916) 381-3818.",
+    "paragraphs": [
+      "CK's Donuts is a donut shop at 8333 Folsom Blvd in Sacramento.",
+      "Call (916) 381-3818 to ask about today's selection and current hours."
+    ],
+    "highlights": [
+      "8333 Folsom Blvd",
+      "Fresh donuts",
+      "Call (916) 381-3818"
+    ],
+    "services": [
+      "Fresh donuts",
+      "Coffee",
+      "Takeout",
+      "Call to ask about large orders"
+    ],
+    "hours": [],
+    "menu_heading": "Donuts & more",
+    "menu_note": "Call the shop for today's selection.",
+    "services_heading": "At the counter",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "menu",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 8333 Folsom Blvd, Sacramento, CA 95826</p><p><strong>Phone:</strong> (916) 381-3818</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "C",
+    "verification": "Lead notes only; services are category-level, not business-specific claims",
+    "menu_categories": [
+      {
+        "title": "At the shop",
+        "items": [
+          "Fresh donuts",
+          "Coffee"
+        ]
+      }
+    ]
+  },
+  "16th-street-donuts": {
+    "layout": "split",
+    "font_head": "Baloo 2",
+    "font_body": "Nunito",
+    "image_key": "donut",
+    "headline": "16th Street Donuts",
+    "subhead": "Donut shop at 16th and F in downtown Sacramento.",
+    "meta_description": "16th Street Donuts, 1601 F St, Sacramento. Donut shop. Call (916) 443-6689.",
+    "paragraphs": [
+      "16th Street Donuts is a donut shop at 1601 F St in Sacramento.",
+      "Call (916) 443-6689 to ask about today's selection and current hours."
+    ],
+    "highlights": [
+      "1601 F St",
+      "Fresh donuts",
+      "Call (916) 443-6689"
+    ],
+    "services": [
+      "Fresh donuts",
+      "Coffee",
+      "Takeout",
+      "Call to ask about large orders"
+    ],
+    "hours": [],
+    "menu_heading": "Donuts & more",
+    "menu_note": "Call the shop for today's selection.",
+    "services_heading": "At the counter",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "menu",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 1601 F St, Sacramento, CA 95814</p><p><strong>Phone:</strong> (916) 443-6689</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "1",
+    "verification": "Lead notes only; services are category-level, not business-specific claims",
+    "menu_categories": [
+      {
+        "title": "At the shop",
+        "items": [
+          "Fresh donuts",
+          "Coffee"
+        ]
+      }
+    ]
+  },
+  "le-croissant-factory": {
+    "layout": "cardhero",
+    "font_head": "Playfair Display",
+    "font_body": "Lato",
+    "image_key": "bakery",
+    "headline": "Le Croissant Factory",
+    "subhead": "Bakery on Riverside Blvd in Sacramento.",
+    "meta_description": "Le Croissant Factory, 6413 Riverside Blvd, Sacramento. Bakery. Call (916) 392-9227.",
+    "paragraphs": [
+      "Le Croissant Factory is a bakery at 6413 Riverside Blvd in Sacramento.",
+      "Call (916) 392-9227 to ask about today's baked goods and current hours."
+    ],
+    "highlights": [
+      "6413 Riverside Blvd",
+      "Bakery",
+      "Call (916) 392-9227"
+    ],
+    "services": [
+      "Croissants",
+      "Pastries",
+      "Coffee",
+      "Takeout"
+    ],
+    "hours": [],
+    "menu_heading": "From the oven",
+    "menu_note": "Call the bakery for today's selection.",
+    "services_heading": "From the bakery",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "menu",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 6413 Riverside Blvd, Sacramento, CA 95831</p><p><strong>Phone:</strong> (916) 392-9227</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "L",
+    "verification": "Lead notes only; services are category-level, not business-specific claims",
+    "menu_categories": [
+      {
+        "title": "At the bakery",
+        "items": [
+          "Croissants",
+          "Pastries",
+          "Coffee"
+        ]
+      }
+    ]
+  },
+  "taqueria-sanchez": {
+    "layout": "editorial",
+    "font_head": "Alfa Slab One",
+    "font_body": "Karla",
+    "image_key": "mex",
+    "headline": "Taqueria Sanchez",
+    "subhead": "Mexican restaurant on Norwood Ave, Sacramento.",
+    "meta_description": "Taqueria Sanchez, 2885 Norwood Ave, Sacramento. Mexican restaurant. Call (916) 345-3015.",
+    "paragraphs": [
+      "Taqueria Sanchez is a Mexican restaurant at 2885 Norwood Ave in Sacramento.",
+      "The restaurant is also listed on delivery apps such as Seamless. For the current menu and hours, call (916) 345-3015."
+    ],
+    "highlights": [
+      "2885 Norwood Ave",
+      "Delivery apps listed",
+      "Call (916) 345-3015"
+    ],
+    "services": [
+      "Mexican restaurant",
+      "Takeout by phone",
+      "Delivery-app ordering",
+      "Call for today's menu"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "How to order",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 2885 Norwood Ave, Sacramento, CA 95815</p><p><strong>Phone:</strong> (916) 345-3015</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "T",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "e-z-tires": {
+    "layout": "split",
+    "font_head": "Anton",
+    "font_body": "Inter",
+    "image_key": "auto",
+    "headline": "E Z Tires",
+    "subhead": "Tire shop on Winters St in Sacramento.",
+    "meta_description": "E Z Tires, 4011 Winters St, Sacramento. Tire shop. Call (916) 923-5767.",
+    "paragraphs": [
+      "E Z Tires is a tire shop at 4011 Winters St in Sacramento.",
+      "Call (916) 923-5767 to ask about tire sizes, availability, and current hours."
+    ],
+    "highlights": [
+      "4011 Winters St",
+      "Tire shop",
+      "Call (916) 923-5767"
+    ],
+    "services": [
+      "Tire sales",
+      "Tire installation",
+      "Tire repair",
+      "Call to ask about other services"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Tire services",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 4011 Winters St, Sacramento, CA 95838</p><p><strong>Phone:</strong> (916) 923-5767</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "E",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "golden-state-upholstery": {
+    "layout": "cardhero",
+    "font_head": "Cormorant Garamond",
+    "font_body": "Montserrat",
+    "image_key": "fabric",
+    "headline": "Golden State Upholstery",
+    "subhead": "Auto, marine, and furniture upholstery in Sacramento.",
+    "meta_description": "Golden State Upholstery, 5401 Warehouse Way, Sacramento. Auto, marine, and furniture upholstery. Call (916) 969-5720.",
+    "paragraphs": [
+      "Golden State Upholstery is an upholstery shop at 5401 Warehouse Way in Sacramento, working on auto, marine, and furniture projects.",
+      "Call (916) 969-5720 to describe your project and ask for an estimate."
+    ],
+    "highlights": [
+      "Auto, marine, furniture",
+      "5401 Warehouse Way",
+      "Call (916) 969-5720"
+    ],
+    "services": [
+      "Auto upholstery",
+      "Marine upholstery",
+      "Furniture upholstery",
+      "Call for project estimates"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Upholstery",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 5401 Warehouse Way, Sacramento, CA 95826</p><p><strong>Phone:</strong> (916) 969-5720</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "G",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "upholstery-unlimited": {
+    "layout": "split",
+    "font_head": "Libre Baskerville",
+    "font_body": "Work Sans",
+    "image_key": "fabric",
+    "headline": "Upholstery Unlimited",
+    "subhead": "Furniture upholstery on 14th Ave in Sacramento.",
+    "meta_description": "Upholstery Unlimited, 7930 14th Ave, Sacramento. Furniture upholstery. Call (916) 454-3277.",
+    "paragraphs": [
+      "Upholstery Unlimited is a furniture upholstery shop at 7930 14th Ave in Sacramento.",
+      "Call (916) 454-3277 to describe your piece and ask for an estimate."
+    ],
+    "highlights": [
+      "Furniture upholstery",
+      "7930 14th Ave",
+      "Call (916) 454-3277"
+    ],
+    "services": [
+      "Furniture upholstery",
+      "Reupholstery of existing pieces",
+      "Fabric selection help",
+      "Call for project estimates"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Upholstery",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 7930 14th Ave, Sacramento, CA 95826</p><p><strong>Phone:</strong> (916) 454-3277</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "U",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "pass-and-go-smog": {
+    "layout": "cardhero",
+    "font_head": "Poppins",
+    "font_body": "Inter",
+    "image_key": "check",
+    "headline": "Pass and Go Smog",
+    "subhead": "Smog checks on Marysville Blvd, Sacramento.",
+    "meta_description": "Pass and Go Smog, 3927 Marysville Blvd, Sacramento. Smog check station. Call (916) 692-5400.",
+    "paragraphs": [
+      "Pass and Go Smog is a smog check station at 3927 Marysville Blvd in Sacramento.",
+      "Call (916) 692-5400 to ask about what to bring, vehicle eligibility, and current hours."
+    ],
+    "highlights": [
+      "3927 Marysville Blvd",
+      "Smog check station",
+      "Call (916) 692-5400"
+    ],
+    "services": [
+      "Smog checks",
+      "Questions about vehicle eligibility",
+      "Guidance on what to bring",
+      "Call ahead with questions"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Smog services",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 3927 Marysville Blvd, Sacramento, CA 95838</p><p><strong>Phone:</strong> (916) 692-5400</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "P",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "5-star-smog": {
+    "layout": "split",
+    "font_head": "Poppins",
+    "font_body": "Inter",
+    "image_key": "check",
+    "headline": "5 Star Smog",
+    "subhead": "STAR smog check station on Fruitridge Rd, Sacramento.",
+    "meta_description": "5 STAR SMOG (Star Station), 2790 Fruitridge Rd, Sacramento. STAR smog check. Call (916) 400-3531.",
+    "paragraphs": [
+      "5 Star Smog is a smog check station at 2790 Fruitridge Rd in Sacramento, listed as a STAR station.",
+      "Call (916) 400-3531 (or the alternate listed number, (530) 821-9363) to ask about eligibility and current hours."
+    ],
+    "highlights": [
+      "STAR station",
+      "2790 Fruitridge Rd",
+      "Call (916) 400-3531"
+    ],
+    "services": [
+      "Smog checks",
+      "STAR smog check program",
+      "Questions about vehicle eligibility",
+      "Guidance on what to bring"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Smog services",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 2790 Fruitridge Rd, Sacramento, CA 95820</p><p><strong>Phone:</strong> (916) 400-3531</p><p>Alternate phone: (530) 821-9363.</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "5",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "smog-xperts": {
+    "layout": "editorial",
+    "font_head": "Poppins",
+    "font_body": "Inter",
+    "image_key": "check",
+    "headline": "Smog Xperts",
+    "subhead": "Veteran-owned smog check station on Otto Circle, Sacramento.",
+    "meta_description": "Smog Xperts, 121 Otto Cir #B, Sacramento. Veteran-owned smog check station. Call (916) 306-4810.",
+    "paragraphs": [
+      "Smog Xperts is a veteran-owned smog check station at 121 Otto Cir, Suite B, in Sacramento.",
+      "Call (916) 306-4810 to ask about eligibility, what to bring, and current hours."
+    ],
+    "highlights": [
+      "Veteran-owned",
+      "121 Otto Cir #B",
+      "Call (916) 306-4810"
+    ],
+    "services": [
+      "Smog checks",
+      "Questions about vehicle eligibility",
+      "Guidance on what to bring",
+      "Call ahead with questions"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Smog services",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 121 Otto Cir # B, Sacramento, CA 95822</p><p><strong>Phone:</strong> (916) 306-4810</p><p>Veteran-owned business.</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "S",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "j-t-auto-repair": {
+    "layout": "split",
+    "font_head": "Teko",
+    "font_body": "Roboto",
+    "image_key": "auto",
+    "headline": "J & T Auto Repair",
+    "subhead": "Auto repair on Watt Ave in North Highlands.",
+    "meta_description": "J & T Auto Repair, 6315 Watt Ave #124, North Highlands. Auto repair. Call (916) 332-7560.",
+    "paragraphs": [
+      "J & T Auto Repair is an auto repair shop at 6315 Watt Ave, #124, in North Highlands.",
+      "Call (916) 332-7560 to describe your vehicle's issue and ask about availability."
+    ],
+    "highlights": [
+      "6315 Watt Ave #124",
+      "North Highlands",
+      "Call (916) 332-7560"
+    ],
+    "services": [
+      "Auto repair",
+      "Diagnostics",
+      "Brake service",
+      "Maintenance and oil changes"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Auto services",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 6315 Watt Ave #124, North Highlands, CA 95660</p><p><strong>Phone:</strong> (916) 332-7560</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "J",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "fix-cars-auto-repair": {
+    "layout": "cardhero",
+    "font_head": "Barlow Condensed",
+    "font_body": "Barlow",
+    "image_key": "auto",
+    "headline": "Fix Car's Automotive Diagnostic & Repair",
+    "subhead": "Diagnostics and repair on Fruitridge Rd, Sacramento.",
+    "meta_description": "Fix Car's Automotive Diagnostic & Repair Shop, 8500 Fruitridge Rd Unit 11, Sacramento. Call (916) 601-2535.",
+    "paragraphs": [
+      "Fix Car's is an automotive diagnostic and repair shop at 8500 Fruitridge Rd, Unit 11, in Sacramento.",
+      "Call (916) 601-2535 to describe your vehicle's issue and ask about availability."
+    ],
+    "highlights": [
+      "Diagnostics and repair",
+      "8500 Fruitridge Rd Unit 11",
+      "Call (916) 601-2535"
+    ],
+    "services": [
+      "Automotive diagnostics",
+      "Auto repair",
+      "Maintenance",
+      "Call to ask about specific repairs"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Auto services",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 8500 Fruitridge Rd Unit11, Sacramento, CA 95826</p><p><strong>Phone:</strong> (916) 601-2535</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "F",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "schroeders-shoe-repair": {
+    "layout": "editorial",
+    "font_head": "Libre Baskerville",
+    "font_body": "Work Sans",
+    "image_key": "shoe",
+    "headline": "Schroeder's Shoe Repair",
+    "subhead": "Long-running shoe repair shop on 10th Street, Sacramento.",
+    "meta_description": "Schroeder's Shoe Repair, 2022 10th St, Sacramento. Long-running shoe repair shop. Call (916) 441-1912.",
+    "paragraphs": [
+      "Schroeder's Shoe Repair is a long-running shoe repair shop at 2022 10th St in Sacramento.",
+      "Call (916) 441-1912 to ask about repairs and current hours."
+    ],
+    "highlights": [
+      "Long-running shop",
+      "2022 10th St",
+      "Call (916) 441-1912"
+    ],
+    "services": [
+      "Shoe repair",
+      "Heel and sole repair",
+      "Leather repair",
+      "Call to ask about other repairs"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Repairs",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 2022 10th St, Sacramento, CA 95818</p><p><strong>Phone:</strong> (916) 441-1912</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "S",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "ks-complete-shoe-repair": {
+    "layout": "cardhero",
+    "font_head": "Libre Baskerville",
+    "font_body": "Work Sans",
+    "image_key": "shoe",
+    "headline": "K.S Complete Shoe Repair",
+    "subhead": "Shoe and leather repair on J Street, across from Cesar Chavez Park.",
+    "meta_description": "K.S Complete Shoe Repair, 912 J St, Sacramento. Shoe and leather repair. Call (916) 448-3655.",
+    "paragraphs": [
+      "K.S Complete Shoe Repair handles shoe and leather repair at 912 J St in Sacramento, across from Cesar Chavez Park.",
+      "Call (916) 448-3655 to ask about repairs and current hours."
+    ],
+    "highlights": [
+      "Shoe and leather repair",
+      "912 J St",
+      "Across from Cesar Chavez Park"
+    ],
+    "services": [
+      "Shoe repair",
+      "Leather repair",
+      "Heel and sole repair",
+      "Call to ask about other repairs"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Repairs",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 912 J St, Sacramento, CA 95814</p><p><strong>Phone:</strong> (916) 448-3655</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "K",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "linda-lee-alterations": {
+    "layout": "split",
+    "font_head": "Cormorant Garamond",
+    "font_body": "Jost",
+    "image_key": "fabric",
+    "headline": "Linda Lee Alterations",
+    "subhead": "Clothing alterations on Freeport Blvd in Sacramento.",
+    "meta_description": "Linda Lee Alterations, 3000 Freeport Blvd #2, Sacramento. Clothing alterations. Call (916) 444-3553.",
+    "paragraphs": [
+      "Linda Lee Alterations offers clothing alterations at 3000 Freeport Blvd, #2, in Sacramento.",
+      "Call (916) 444-3553 to ask about your garment and current hours."
+    ],
+    "highlights": [
+      "Clothing alterations",
+      "3000 Freeport Blvd #2",
+      "Call (916) 444-3553"
+    ],
+    "services": [
+      "Hemming",
+      "Clothing alterations",
+      "Garment repairs",
+      "Call to ask about other work"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Alterations",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 3000 Freeport Blvd #2, Sacramento, CA 95818</p><p><strong>Phone:</strong> (916) 444-3553</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "L",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "mikes-mower-shop": {
+    "layout": "split",
+    "font_head": "Archivo Black",
+    "font_body": "Archivo",
+    "image_key": "tool",
+    "headline": "Mike's Mower Shop",
+    "subhead": "Lawn mower and small-engine repair on Silica Ave, Sacramento.",
+    "meta_description": "Mike's Mower Shop, 1815 Silica Ave Ste A, Sacramento. Lawn mower and small engine repair. Call (916) 921-8601.",
+    "paragraphs": [
+      "Mike's Mower Shop repairs lawn mowers and small engines at 1815 Silica Ave, Suite A, in Sacramento.",
+      "Call (916) 921-8601 to describe your equipment and ask about turnaround."
+    ],
+    "highlights": [
+      "Lawn mower repair",
+      "Small-engine repair",
+      "1815 Silica Ave Ste A"
+    ],
+    "services": [
+      "Lawn mower repair",
+      "Small-engine repair",
+      "Tune-ups and maintenance",
+      "Call to ask about other equipment"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Repairs",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 1815 Silica Ave Ste A, Sacramento, CA 95815</p><p><strong>Phone:</strong> (916) 921-8601</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "M",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "all-green-power-equipment": {
+    "layout": "cardhero",
+    "font_head": "Archivo Black",
+    "font_body": "Archivo",
+    "image_key": "tool",
+    "headline": "All Green Power Equipment",
+    "subhead": "Lawn mower and small-engine repair on La Castana Way, Sacramento.",
+    "meta_description": "All Green Power Equipment, 5885 La Castana Way, Sacramento. Lawn mower and small engine repair. Call (916) 676-3608.",
+    "paragraphs": [
+      "All Green Power Equipment repairs lawn mowers and small engines at 5885 La Castana Way in Sacramento.",
+      "Call (916) 676-3608 to describe your equipment and ask about turnaround."
+    ],
+    "highlights": [
+      "Lawn mower repair",
+      "Small-engine repair",
+      "5885 La Castana Way"
+    ],
+    "services": [
+      "Lawn mower repair",
+      "Small-engine repair",
+      "Power equipment service",
+      "Tune-ups and maintenance"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Repairs",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 5885 La Castana Way, Sacramento, CA 95823</p><p><strong>Phone:</strong> (916) 676-3608</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "A",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "prime-service-appliance-repair": {
+    "layout": "editorial",
+    "font_head": "Roboto Slab",
+    "font_body": "Roboto",
+    "image_key": "tool",
+    "headline": "Prime Service Co. Appliance Repair",
+    "subhead": "Appliance repair on Norwood Ave, Sacramento.",
+    "meta_description": "Prime Service Co. Appliance Repair, 4408 Norwood Ave #8, Sacramento. Appliance repair. Call (916) 994-0054.",
+    "paragraphs": [
+      "Prime Service Co. is an appliance repair business at 4408 Norwood Ave, #8, in Sacramento.",
+      "Call (916) 994-0054 to describe your appliance and ask about scheduling."
+    ],
+    "highlights": [
+      "Appliance repair",
+      "4408 Norwood Ave #8",
+      "Call (916) 994-0054"
+    ],
+    "services": [
+      "Appliance diagnostics",
+      "Appliance repair",
+      "Call to ask which appliances are covered",
+      "Call to ask about scheduling"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Appliance repair",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 4408 Norwood Ave #8, Sacramento, CA 95838</p><p><strong>Phone:</strong> (916) 994-0054</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "P",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "el-novillero": {
+    "layout": "editorial",
+    "font_head": "Alfa Slab One",
+    "font_body": "Karla",
+    "image_key": "mex",
+    "headline": "El Novillero Restaurant",
+    "subhead": "Family-run Mexican food in Sacramento since 1970.",
+    "meta_description": "El Novillero, 4216 Franklin Blvd at 18th Ave, Sacramento. Family-run Mexican restaurant since 1970. Open Tue-Sun 11:30-7. Call (916) 456-4287.",
+    "paragraphs": [
+      "El Novillero opened in 1970 as a 28-seat restaurant and, according to the Davalos family, has grown into one of Sacramento's best-known Mexican restaurants with seating for 180.",
+      "The kitchen makes everything fresh daily, from the sauces to the corn chips.",
+      "The restaurant is at 4216 Franklin Blvd on the corner of 18th Avenue, with its own 127-space parking lot. It does not take reservations."
+    ],
+    "highlights": [
+      "Family-run since 1970",
+      "Sauces and chips made fresh daily",
+      "127-space parking lot"
+    ],
+    "services": [
+      "Dine-in Mexican food",
+      "Fresh sauces made daily",
+      "Corn chips made daily",
+      "El Novillero gift cards",
+      "Parking lot with lighting and security cameras"
+    ],
+    "hours": [
+      "Monday: Closed",
+      "Tuesday - Sunday: 11:30 AM - 7:00 PM"
+    ],
+    "menu_heading": "From the kitchen",
+    "menu_note": "Everything is made fresh daily, from the sauces to the corn chips. Call (916) 456-4287 for the current menu.",
+    "services_heading": "At El Novillero",
+    "hours_note": "Per the restaurant's website, these hours are in effect until further notice, with some closed dates. No reservations. Call (916) 456-4287 to confirm.",
+    "sections": [
+      "story",
+      "menu",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 4216 Franklin Blvd, corner of 18th Avenue, Sacramento</p><p><strong>Phone:</strong> (916) 456-4287</p><p><strong>Cards accepted:</strong> Visa, Mastercard, American Express, Discover</p><p><strong>Reservations:</strong> not accepted</p><p><strong>Parking:</strong> 127-space lot</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "E",
+    "verification": "Business's own website and lead notes (elnov.com)",
+    "menu_categories": [
+      {
+        "title": "Made fresh daily",
+        "items": [
+          "Sauces",
+          "Corn chips"
+        ]
+      }
+    ],
+    "sources": [
+      "https://www.elnov.com/"
+    ]
+  },
+  "sacramento-radiator": {
+    "layout": "split",
+    "font_head": "Archivo Black",
+    "font_body": "Archivo",
+    "image_key": "auto",
+    "headline": "Sacramento Radiator Sales and Service",
+    "subhead": "Family-owned radiator shop on Franklin Blvd, serving Sacramento since 1972.",
+    "meta_description": "Sacramento Radiator Service, 6430 Franklin Blvd #4. Family-owned since 1972. Cars, trucks, RVs, industrial. Free estimates. (916) 392-1149.",
+    "paragraphs": [
+      "Sacramento Radiator Service is a family-owned and operated shop at 6430 Franklin Blvd, #4, serving the Sacramento area since 1972, according to its website.",
+      "The shop repairs automotive and industrial radiators for cars, trucks, RVs, and industrial equipment, plus heater cores and water pumps.",
+      "Its website lists same-day service, free pick-up and delivery, free estimates, and guaranteed work."
+    ],
+    "highlights": [
+      "Family-owned since 1972",
+      "Same-day service",
+      "Free estimates"
+    ],
+    "services": [
+      "Radiator repair",
+      "Heater cores",
+      "Water pumps",
+      "Cars, trucks, and RVs",
+      "Industrial radiators",
+      "Free pick-up and delivery"
+    ],
+    "hours": [
+      "Monday - Friday: 7:00 AM - 5:00 PM",
+      "Saturday: By appointment"
+    ],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Cooling system service",
+    "hours_note": "Per the shop's website; call (916) 392-1149 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 6430 Franklin Blvd # 4, Sacramento, CA 95823</p><p><strong>Phone:</strong> (916) 392-1149</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "S",
+    "verification": "Business's own website and lead notes (sacramentoradiator.wixsite.com)",
+    "sources": [
+      "https://sacramentoradiator.wixsite.com/sacramentoradiator"
+    ]
+  },
+  "pinos-auto-repair": {
+    "layout": "editorial",
+    "font_head": "Teko",
+    "font_body": "Roboto",
+    "image_key": "auto",
+    "headline": "Pino's Auto Repair",
+    "subhead": "Independently owned auto repair in North Highlands since 1990.",
+    "meta_description": "Pino's Auto Repair, 3805 Madison Ave Suite B, North Highlands. Independently owned since 1990. Call (916) 256-7996.",
+    "paragraphs": [
+      "Pino's Auto Repair opened in 1990 and is independently owned and operated at 3805 Madison Ave, Suite B, in North Highlands.",
+      "According to its website, the owner graduated from Wyotech Automotive Institute in 1986 and opened the shop four years later.",
+      "The shop lists monthly specials, so call for current offers."
+    ],
+    "highlights": [
+      "Independently owned since 1990",
+      "North Highlands",
+      "Mon - Fri 9 to 5"
+    ],
+    "services": [
+      "Auto repair",
+      "Inspection diagnosis",
+      "Radiator replacement",
+      "Oil change and filter",
+      "Brake inspection"
+    ],
+    "hours": [
+      "Monday - Friday: 9:00 AM - 5:00 PM"
+    ],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Services",
+    "hours_note": "Per the shop's website, which appears to be several years old; call (916) 256-7996 to confirm. Appointments are recommended.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 3805 Madison Ave, North Highlands, CA 95660</p><p><strong>Phone:</strong> (916) 256-7996</p><p>Independently owned and operated.</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "P",
+    "verification": "Business's own website and lead notes (pinosauto.1020access.com)",
+    "sources": [
+      "http://www.pinosauto.1020access.com/"
+    ]
+  },
+  "sk-auto-repair": {
+    "layout": "cardhero",
+    "font_head": "Barlow Condensed",
+    "font_body": "Barlow",
+    "image_key": "auto",
+    "headline": "SK Auto Repair",
+    "subhead": "Auto repair and smog in Natomas, with a limited smog special.",
+    "meta_description": "SK Auto Repair & Smog, 4381 Gateway Park Blvd #500, Sacramento. Brakes, A/C, diagnostics, smog. Mon-Fri 8:30-5:30. (916) 922-2976.",
+    "paragraphs": [
+      "SK Auto Repair serves Sacramento from 4381 Gateway Park Blvd, Suite 500, in Natomas, offering a full range of garage services for passenger cars, SUVs, and medium-sized trucks.",
+      "Per its website, the shop's goal is dealership-level quality in a more personal, friendly setting.",
+      "Its website lists a limited smog special: $10 off for 2000 and newer vehicles."
+    ],
+    "highlights": [
+      "Smog special: $10 off 2000+ vehicles",
+      "Mon - Fri 8:30 to 5:30",
+      "Gateway Park Blvd"
+    ],
+    "services": [
+      "Engine diagnostics",
+      "Lube, oil, and filters",
+      "Belts and hoses",
+      "Air conditioning",
+      "Brake repair",
+      "Smog check"
+    ],
+    "hours": [
+      "Monday - Friday: 8:30 AM - 5:30 PM"
+    ],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Services",
+    "hours_note": "Weekend hours are not listed; call to confirm. Smog special is as listed on the shop's website and may change.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 4381 Gateway Park Blvd #500, Sacramento, CA 95834</p><p><strong>Phone:</strong> (916) 922-2976</p><p>Smog special (per website): $10 off for 2000 or newer vehicles.</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "S",
+    "verification": "Business's own website and lead notes (skautorepairandsmog.com)",
+    "sources": [
+      "http://www.skautorepairandsmog.com/"
+    ]
+  },
+  "weldmasters": {
+    "layout": "cardhero",
+    "font_head": "Archivo Black",
+    "font_body": "Archivo",
+    "image_key": "tool",
+    "headline": "Aluminum and Stainless Weldmasters",
+    "subhead": "Specialty aluminum and stainless welding in Sacramento.",
+    "meta_description": "Aluminum & Stainless Weldmasters, 1621 Juliesse Ave Suite B, Sacramento. X-ray quality welding by appointment. (916) 747-9487.",
+    "paragraphs": [
+      "Aluminum & Stainless Weldmasters handles specialty welding from 1621 Juliesse Ave, Suite B, in Sacramento.",
+      "According to its website, the shop offers in-shop X-ray quality welding by appointment with quick turnaround, and welcomes prototypes, production runs of any size, and emergency repairs on specialized parts."
+    ],
+    "highlights": [
+      "X-ray quality welding",
+      "By appointment",
+      "Prototypes welcome"
+    ],
+    "services": [
+      "Aluminum welding",
+      "Stainless steel welding",
+      "Prototype products",
+      "Small, medium, and large production runs",
+      "Emergency repairs on specialized parts"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Welding",
+    "hours_note": "Work is by appointment. Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 1621 Juliesse Ave Suite B, Sacramento, CA 95815</p><p><strong>Phone:</strong> (916) 747-9487</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "A",
+    "verification": "Business's own website and lead notes (theweldmaster.com)",
+    "sources": [
+      "http://www.theweldmaster.com/"
+    ]
+  },
+  "eagle-claw-kung-fu-of-sacramento": {
+    "layout": "split",
+    "font_head": "Teko",
+    "font_body": "Rubik",
+    "image_key": "martial",
+    "headline": "Eagle Claw Kung Fu of Sacramento",
+    "subhead": "Traditional Northern Eagle Claw kung fu on 24th Street.",
+    "meta_description": "Eagle Claw Kung Fu of Sacramento, 2791 24th St, Sacramento. Traditional Northern Eagle Claw martial arts. Call (916) 441-7215.",
+    "paragraphs": [
+      "Eagle Claw Kung Fu of Sacramento is a school of traditional martial arts at 2791 24th St, at the corner of 24th Street and 4th Avenue.",
+      "The school teaches the Northern Eagle Claw system, which its older website describes as suitable for men and women of various ages, body types, and athletic ability."
+    ],
+    "highlights": [
+      "Northern Eagle Claw system",
+      "All ages and body types",
+      "2791 24th St"
+    ],
+    "services": [
+      "Traditional kung fu instruction",
+      "Northern Eagle Claw system",
+      "Classes for men and women",
+      "Ask about welcome rate for new students"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Training",
+    "hours_note": "Class schedule is not verified. Call for current hours and class times.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 2791 24th St, Sacramento, CA 95818</p><p><strong>Phone:</strong> (916) 441-7215</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "E",
+    "verification": "Older school website (sacramentoeagleclaw.com) plus lead notes; contact phone from lead listing",
+    "sources": [
+      "http://www.sacramentoeagleclaw.com/"
+    ]
+  },
+  "trophy-center-port-engraving": {
+    "layout": "editorial",
+    "font_head": "Cinzel",
+    "font_body": "Lato",
+    "image_key": "trophy",
+    "headline": "Trophy Center & Port Engraving",
+    "subhead": "Awards, trophies, and engraving for over 65 years.",
+    "meta_description": "Trophy Center & Port Engraving, 3609 Bradshaw Rd Suite G, Sacramento. Over 65 years. Laser, rotary, diamond-drag engraving on site.",
+    "paragraphs": [
+      "Trophy Center & Port Engraving has served Sacramento for more than 65 years with trophies, awards, and engraving, now at 3609 Bradshaw Rd, Suite G.",
+      "Engraving is done on site, using laser, rotary, and diamond-drag methods. The shop also notes express service at no extra cost.",
+      "The shop is half a mile south of Highway 50 at Old Placerville Rd, between AutoZone and UPS."
+    ],
+    "highlights": [
+      "65+ years in business",
+      "Engraving done on site",
+      "Express service at no extra cost"
+    ],
+    "services": [
+      "Trophies and awards",
+      "Laser engraving",
+      "Rotary engraving",
+      "Diamond-drag engraving",
+      "Express service",
+      "Large in-stock showroom"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Products and services",
+    "hours_note": "Hours are not listed on the website. Call (916) 739-8624 for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 3609 Bradshaw Rd, Suite G, Sacramento, CA 95827</p><p><strong>Phone:</strong> (916) 739-8624</p><p><strong>Directions:</strong> 1/2 mile south of Hwy 50 at Old Placerville Rd, between AutoZone and UPS</p><p><strong>Note:</strong> Recently moved less than 10 minutes from the previous location.</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "T",
+    "verification": "Business's own website and lead notes (awardandtrophycenter.com)",
+    "sources": [
+      "https://www.awardandtrophycenter.com/"
+    ]
+  },
+  "par-tv-services": {
+    "layout": "editorial",
+    "font_head": "Roboto Slab",
+    "font_body": "Roboto",
+    "image_key": "tool",
+    "headline": "Par TV Services",
+    "subhead": "In-home TV repair for Sacramento and surrounding cities.",
+    "meta_description": "Par TV Services, in-home TV repair serving Sacramento area. Diagnostics, lamp replacement, installations. Call (916) 760-0427.",
+    "paragraphs": [
+      "Par TV Services provides in-home TV repair across the Sacramento area; its website lists a contact address in Davis.",
+      "The website lists problem diagnostics, picture tuning, bulb and lamp replacement, installations, and repairs for major TV brands.",
+      "The shop states it does not repair or replace TV screens or glass."
+    ],
+    "highlights": [
+      "In-home TV repair",
+      "TV lamp replacement",
+      "Sacramento-area service"
+    ],
+    "services": [
+      "Problem diagnostics",
+      "Picture tuning",
+      "Bulb and lamp replacement",
+      "Installations",
+      "TV repairs"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "TV services",
+    "hours_note": "Mobile service by appointment. Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 1802 Alicante St, Davis, CA 95618 (per website; in-home mobile service)</p><p><strong>Phone:</strong> (916) 760-0427</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "P",
+    "verification": "Business's own website and lead notes (sacramentotvrepair.com)",
+    "sources": [
+      "http://www.sacramentotvrepair.com/"
+    ]
+  },
+  "i-love-my-shoe-shine": {
+    "layout": "editorial",
+    "font_head": "Libre Baskerville",
+    "font_body": "Work Sans",
+    "image_key": "shoe",
+    "headline": "I Love My Shoeshine",
+    "subhead": "Downtown Sacramento shoeshine, plus mobile service for events.",
+    "meta_description": "I Love My Shoeshine, 824 L St, Sacramento. Shoeshine downtown and mobile shoeshine for events. Call (916) 213-7723.",
+    "paragraphs": [
+      "I Love My Shoeshine offers shoeshine service in downtown Sacramento at 824 L St (Sutter Club Garage) and mobile service for events.",
+      "Its website says the founder shined shoes for more than 20 years at Sacramento's international airport before opening downtown locations.",
+      "Mobile service is offered for parties, trade shows, meetings, weddings, golf tournaments, conventions, and appreciation days. Gift certificates are available."
+    ],
+    "highlights": [
+      "Downtown shoeshine",
+      "Mobile shoeshine for events",
+      "Gift certificates"
+    ],
+    "services": [
+      "Shoeshine",
+      "Mobile shoeshine for events",
+      "Weddings and parties",
+      "Trade shows and conventions",
+      "Gift certificates"
+    ],
+    "hours": [
+      "Monday - Friday: 11:30 AM - 2:30 PM (824 L St, Sutter Club Garage)"
+    ],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Shoeshine services",
+    "hours_note": "Per the business's website; appointments recommended. Call (916) 213-7723 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 824 L St, Sacramento, CA 95814</p><p><strong>Phone:</strong> (916) 213-7723</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "I",
+    "verification": "Business's own website and lead notes (ilovemyshoeshine.com)",
+    "sources": [
+      "http://www.ilovemyshoeshine.com/"
+    ]
+  },
+  "chitas-taqueria": {
+    "layout": "cardhero",
+    "font_head": "Bebas Neue",
+    "font_body": "Karla",
+    "image_key": "mex",
+    "headline": "Chita's Taqueria",
+    "subhead": "Neighborhood taqueria on Q Street, serving Sacramento since 2006.",
+    "meta_description": "Chita's Taqueria, 2019 Q St, Sacramento. Serving authentic Mexican food since 2006. Call (916) 930-0951.",
+    "paragraphs": [
+      "Chita's Taqueria has been serving Sacramento since 2006 from a small, cozy spot at 2019 Q St, with local artwork on the walls and seating that ranges from counter spots to small tables.",
+      "The restaurant's own website highlights its breakfast burritos, seasoned al pastor, creamy beans, and tortas that can be customized with thin-sliced ham or chorizo."
+    ],
+    "highlights": [
+      "Serving Sacramento since 2006",
+      "Breakfast burritos",
+      "Tortas with ham or chorizo"
+    ],
+    "services": [
+      "Breakfast burritos",
+      "Al pastor",
+      "Tortas",
+      "Beans and eggs",
+      "Counter and small-table seating"
+    ],
+    "hours": [],
+    "menu_heading": "Known for",
+    "menu_note": "Highlights from the restaurant's website. Call (916) 930-0951 for the full menu.",
+    "services_heading": "What to order",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "menu",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 2019 Q St, Sacramento, CA 95811</p><p><strong>Phone:</strong> (916) 930-0951</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "C",
+    "verification": "Business's own website and lead notes (chitasmexicangrill.com)",
+    "menu_categories": [
+      {
+        "title": "From their website",
+        "items": [
+          "Breakfast burritos",
+          "Al pastor",
+          "Tortas (add thin-sliced ham or chorizo)",
+          "Creamy beans"
+        ]
+      }
+    ],
+    "sources": [
+      "http://www.chitasmexicangrill.com/"
+    ]
+  },
+  "capitol-city-european": {
+    "layout": "split",
+    "font_head": "Barlow Condensed",
+    "font_body": "Barlow",
+    "image_key": "auto",
+    "headline": "Capitol City European",
+    "subhead": "European auto service on Power Inn Rd, with a 2-year / 24,000-mile warranty.",
+    "meta_description": "Capitol City European, 4150 Power Inn Rd Unit 2, Sacramento. European diagnostics, maintenance, brakes, A/C. 2 year / 24,000 mile warranty.",
+    "paragraphs": [
+      "Capitol City European is an independent shop for European cars at 4150 Power Inn Rd, Unit 2, in Sacramento.",
+      "The shop handles computer diagnostics, factory-recommended maintenance, electrical repairs, heating and A/C, and brake and suspension work.",
+      "Repairs are backed by a 2-year / 24,000-mile warranty. Online appointment requests ask for 48 hours' notice."
+    ],
+    "highlights": [
+      "2-year / 24,000-mile warranty",
+      "European car specialists",
+      "Mon - Fri 8 to 5"
+    ],
+    "services": [
+      "Computer diagnostics",
+      "Factory-recommended maintenance",
+      "Electrical repairs",
+      "Heating and A/C repair",
+      "Brake and suspension repair"
+    ],
+    "hours": [
+      "Monday - Friday: 8:00 AM - 5:00 PM",
+      "Saturday - Sunday: Closed"
+    ],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "European car service",
+    "hours_note": "Hours as listed on the shop's website.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 4150 Power Inn Rd, Unit 2, Sacramento, CA 95826</p><p><strong>Phone:</strong> (916) 452-5811</p><p><strong>Warranty:</strong> 2 years / 24,000 miles</p><p><strong>Appointments:</strong> 48 hours' notice requested for online requests</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "C",
+    "verification": "Business's own website and lead notes (capcityeuro.com)",
+    "sources": [
+      "http://capcityeuro.com/"
+    ]
+  },
+  "star-motors": {
+    "layout": "editorial",
+    "font_head": "Barlow Condensed",
+    "font_body": "Inter",
+    "image_key": "auto",
+    "headline": "Star Motors Service Center",
+    "subhead": "Import and high-end auto repair off Florin Road.",
+    "meta_description": "Star Motors Service Center, 2680 Florin Rd #103a, Sacramento. Mercedes, BMW, Lexus, Sprinter service. Call (916) 421-4007.",
+    "paragraphs": [
+      "Star Motors Service Center is an import repair shop at 2680 Florin Rd, Suite 103a, in Sacramento.",
+      "Its website says the shop focuses on Mercedes, BMW, Lexus, and Sprinter repair and maintenance, for cars, SUVs, and diesels.",
+      "The shop describes using in-depth diagnostic equipment and top brand-name parts and fluids."
+    ],
+    "highlights": [
+      "Mercedes, BMW, Lexus, Sprinter",
+      "Diagnostics and maintenance",
+      "Call (916) 421-4007"
+    ],
+    "services": [
+      "Mercedes-Benz A and B service",
+      "BMW service",
+      "A/C service",
+      "Electrical diagnosis and service",
+      "Brakes",
+      "Oil change and scheduled maintenance"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Services",
+    "hours_note": "Hours are not listed on the shop's website. Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 2680 Florin Rd #103a, Sacramento, CA 95822</p><p><strong>Phone:</strong> (916) 421-4007</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "S",
+    "verification": "Business's own website and lead notes (starmotorsservice.com)",
+    "sources": [
+      "http://www.starmotorsservice.com/"
+    ]
+  },
+  "jays-mobile-welding": {
+    "layout": "editorial",
+    "font_head": "Anton",
+    "font_body": "Roboto",
+    "image_key": "tool",
+    "headline": "Jay's Mobile Welding & Fabricating",
+    "subhead": "Mobile welding and fabrication in Sacramento.",
+    "meta_description": "Jay's Mobile Welding & Fabricating, 8581 Younger Creek Dr Ste 200, Sacramento. Mobile welding. Call (916) 203-8082.",
+    "paragraphs": [
+      "Jay's Mobile Welding & Fabricating offers mobile welding and fabrication in the Sacramento area, with a shop address at 8581 Younger Creek Dr, Suite 200.",
+      "The business's previous website is offline, so call (916) 203-8082 to discuss a job."
+    ],
+    "highlights": [
+      "Mobile welding",
+      "Fabrication",
+      "Call (916) 203-8082"
+    ],
+    "services": [
+      "Mobile welding",
+      "Fabrication",
+      "Repairs",
+      "Call to discuss your project"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Welding and fabrication",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 8581 Younger Creek Dr Ste 200, Sacramento, CA 95828</p><p><strong>Phone:</strong> (916) 203-8082</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "J",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "sac-city-plumbing": {
+    "layout": "split",
+    "font_head": "Roboto Slab",
+    "font_body": "Roboto",
+    "image_key": "tool",
+    "headline": "Sac City Plumbing",
+    "subhead": "Plumbing service in Sacramento.",
+    "meta_description": "Sac City Plumbing, 3031 E St, Sacramento. Plumbing service. Call (657) 756-7519.",
+    "paragraphs": [
+      "Sac City Plumbing is a plumbing business at 3031 E St in Sacramento.",
+      "Call (657) 756-7519 to describe your plumbing issue and ask about scheduling."
+    ],
+    "highlights": [
+      "Plumbing service",
+      "3031 E St",
+      "Call (657) 756-7519"
+    ],
+    "services": [
+      "Plumbing repair",
+      "Leak diagnosis",
+      "Fixture installation",
+      "Call to ask about other work"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Plumbing",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 3031 E St, Sacramento, CA 95816</p><p><strong>Phone:</strong> (657) 756-7519</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "S",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "xpert-upholstery-works": {
+    "layout": "editorial",
+    "font_head": "Cormorant Garamond",
+    "font_body": "Montserrat",
+    "image_key": "fabric",
+    "headline": "Xpert Upholstery Works",
+    "subhead": "Custom upholstery and embroidery for auto, marine, residential, and commercial projects.",
+    "meta_description": "Xpert Upholstery Works, 7941 Amador Ave Suite 3, Sacramento. Custom upholstery and embroidery. Mon-Fri.",
+    "paragraphs": [
+      "Xpert Upholstery Works handles custom upholstery and embroidery from 7941 Amador Ave, Suite 3, in Sacramento.",
+      "Its website lists auto, marine, residential, and commercial upholstery, plus embroidered or screen-printed apparel and heat-transfer decals."
+    ],
+    "highlights": [
+      "Auto, marine, residential, commercial",
+      "Custom embroidery",
+      "Mon - Fri"
+    ],
+    "services": [
+      "Auto upholstery",
+      "Marine upholstery",
+      "Residential and commercial upholstery",
+      "Custom embroidery",
+      "Embroidered or screen-printed apparel",
+      "Heat-transfer decals"
+    ],
+    "hours": [
+      "Monday - Friday: 8:00 AM - 6:30 PM"
+    ],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Upholstery and embroidery",
+    "hours_note": "Per the business's website; call to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 7941 Amador Ave suite 3, Sacramento, CA 95826</p><p><strong>Phone:</strong> (279) 786-5422</p><p>Website lists email: info@xpertupholsteryworks.net.</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "X",
+    "verification": "Business's own website and lead notes (xpertupholsteryworks.net)",
+    "sources": [
+      "https://www.xpertupholsteryworks.net/"
+    ]
+  },
+  "friends-of-bailee": {
+    "layout": "editorial",
+    "font_head": "Baloo 2",
+    "font_body": "Nunito",
+    "image_key": "pet",
+    "headline": "Friends Of Bailee Dog Grooming",
+    "subhead": "Dog grooming studio on Freeport Blvd, across from Bing Maloney Golf Course.",
+    "meta_description": "Friends Of Bailee Dog Grooming Studio, 6622 Freeport Blvd #4, Sacramento. Call or text (916) 662-4942.",
+    "paragraphs": [
+      "Friends Of Bailee is a dog grooming studio at 6622 Freeport Blvd, #4, in Sacramento, across from Bing Maloney Golf Course.",
+      "The shop encourages regular grooming and bath appointments, and shares coat-care tips like regular brushing down to the skin to help prevent matting.",
+      "Call or text (916) 662-4942 to book."
+    ],
+    "highlights": [
+      "Dog grooming studio",
+      "Call or text to book",
+      "Coat-care tips"
+    ],
+    "services": [
+      "Dog grooming",
+      "Bath appointments",
+      "De-matting guidance",
+      "Brushing and coat-care tips"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Grooming",
+    "hours_note": "Hours are not listed on the website. Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 6622 Freeport Blvd #4, Sacramento, CA 95822</p><p><strong>Phone:</strong> (916) 662-4942</p><p>Call or text to book. Website lists email: FriendsOfBailee@gmail.com.</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "F",
+    "verification": "Business's own website and lead notes (friendsofbailee.com)",
+    "sources": [
+      "http://www.friendsofbailee.com/"
+    ]
+  },
+  "larson-industrial-services": {
+    "layout": "split",
+    "font_head": "Barlow Condensed",
+    "font_body": "Barlow",
+    "image_key": "tool",
+    "headline": "Larson Industrial Services, Inc.",
+    "subhead": "Industrial millwright and piping contractor serving Northern California.",
+    "meta_description": "Larson Industrial Services, 6000 Midway St Ste 400, Sacramento. Millwright, welding, piping, conveyors. (916) 383-6022.",
+    "paragraphs": [
+      "Larson Industrial Services, Inc. is a Sacramento-based industrial millwright and piping contractor serving much of Northern California.",
+      "Its website lists welding, machinery installation and maintenance, conveyors, industrial piping, food processing support, and emergency and shut-down support.",
+      "The company's stated values are safety, customer satisfaction, teamwork, and quality workmanship."
+    ],
+    "highlights": [
+      "Millwright and piping contractor",
+      "Mobile and industrial welding",
+      "Emergency and shut-down support"
+    ],
+    "services": [
+      "Industrial and mobile welding",
+      "Machinery installation and maintenance",
+      "Conveyor installation and maintenance",
+      "Stainless steel and sanitary piping",
+      "Food processing support",
+      "Emergency and shut-down support"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Specialties",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 6000 Midway St Ste 400, Sacramento, CA 95828</p><p><strong>Phone:</strong> (916) 383-6022</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "L",
+    "verification": "Business's own website and lead notes (larsonindustrial.com)",
+    "sources": [
+      "http://www.larsonindustrial.com"
+    ]
+  },
+  "moores-martial-arts": {
+    "layout": "cardhero",
+    "font_head": "Teko",
+    "font_body": "Rubik",
+    "image_key": "martial",
+    "headline": "Moore's Martial Arts of Sacramento",
+    "subhead": "Martial arts classes for kids, teens, and adults on Broadway.",
+    "meta_description": "Moore's Martial Arts of Sacramento, 5708 Broadway. Classes for kids, teens, adults, plus women's self-defense. Call (916) 613-6994.",
+    "paragraphs": [
+      "Moore's Martial Arts of Sacramento teaches martial arts to kids, teens, and adults from 5708 Broadway in Sacramento, focusing on fitness, confidence, and self-defense.",
+      "Its website lists adult and teen classes, kids' classes, women's self-defense, private classes, customized lessons for large groups, and one-day training camps held in May and September."
+    ],
+    "highlights": [
+      "Kids, teens, and adults",
+      "Women's self-defense",
+      "One-day camps in May and September"
+    ],
+    "services": [
+      "Adult and teen classes",
+      "Kids' classes",
+      "Women's self-defense",
+      "Private classes",
+      "Group lessons",
+      "One-day training camps"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Classes",
+    "hours_note": "Class schedule is on the school's website. Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 5708 Broadway, Sacramento, CA 95820</p><p><strong>Phone:</strong> (916) 613-6994</p><p>Payment accepted: cash or personal check (per website).</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "M",
+    "verification": "Business's own website and lead notes (mooresmartialartssacramento.com)",
+    "sources": [
+      "https://www.mooresmartialartssacramento.com/"
+    ]
+  },
+  "59th-street-barbershop": {
+    "layout": "editorial",
+    "font_head": "Oswald",
+    "font_body": "Roboto",
+    "image_key": "barber",
+    "headline": "59th Street Barbershop",
+    "subhead": "Barbershop on 59th Street in Sacramento.",
+    "meta_description": "59th Street Barbershop, 2917 59th St, Sacramento. Haircuts and barbering. Call (916) 809-0338.",
+    "paragraphs": [
+      "59th Street Barbershop is located at 2917 59th St in Sacramento.",
+      "The shop's previously listed website is currently offline, so the best way to reach the barbers is by phone at (916) 809-0338."
+    ],
+    "highlights": [
+      "2917 59th St",
+      "Call to book",
+      "(916) 809-0338"
+    ],
+    "services": [
+      "Men's haircuts",
+      "Beard trims",
+      "Line-ups and edge-ups",
+      "Call to ask about other services"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Barbering",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 2917 59th St, Sacramento, CA 95817</p><p><strong>Phone:</strong> (916) 809-0338</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Barbering",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "5",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "sacramento-rug-works": {
+    "layout": "cardhero",
+    "font_head": "Playfair Display",
+    "font_body": "Lato",
+    "image_key": "fabric",
+    "headline": "Sacramento Rug Works",
+    "subhead": "Rug and carpet care in Sacramento since 1905.",
+    "meta_description": "Sacramento Rug Works, 1308 65th St, Sacramento. Rug and carpet care since 1905, Oriental rug specialists. (916) 455-3081.",
+    "paragraphs": [
+      "Sacramento Rug Works has specialized in rug and carpet care since 1905, according to its website, from its location at 1308 65th St near 65th and Folsom Blvd.",
+      "Services include handmade and Oriental rug cleaning, hand repair, fringing, in-home carpet cleaning, and carpet sales and installation. Pick-up and delivery are available for area rugs."
+    ],
+    "highlights": [
+      "Rug and carpet care since 1905",
+      "Oriental rug specialists",
+      "Family owned"
+    ],
+    "services": [
+      "Rug cleaning",
+      "Oriental rug cleaning and hand repair",
+      "Fringing",
+      "In-home carpet cleaning",
+      "Carpet sales and installation",
+      "Pick-up and delivery"
+    ],
+    "hours": [
+      "Monday - Friday: 7:00 AM - 5:00 PM"
+    ],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Rug and carpet care",
+    "hours_note": "Per the business's website; call to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 1308 65th St, Sacramento, CA 95819</p><p><strong>Phone:</strong> (916) 455-3081</p><p>Contractor's License #439893 (per website).</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "S",
+    "verification": "Business's own website and lead notes (sacrugworks.com)",
+    "sources": [
+      "https://sacrugworks.com"
+    ]
+  },
+  "changs-thai-cuisine": {
+    "layout": "split",
+    "font_head": "Poppins",
+    "font_body": "Inter",
+    "image_key": "food",
+    "headline": "Chang's Thai Cuisine",
+    "subhead": "Thai food on N Freeway Blvd, with Halal chicken and beef.",
+    "meta_description": "Chang's Thai Cuisine, 3620 N Freeway Blvd #310, Sacramento. Halal chicken and beef, order online. Call (916) 333-2978.",
+    "paragraphs": [
+      "Chang's Thai Cuisine serves Thai dishes from 3620 N Freeway Blvd, Suite 310, in Sacramento, with a focus on consistent, well-prepared food.",
+      "The restaurant is Halal certified for its chicken and beef dishes.",
+      "Pickup and delivery are available, and the restaurant's website offers online ordering."
+    ],
+    "highlights": [
+      "Halal chicken and beef",
+      "Pickup and delivery",
+      "Order online"
+    ],
+    "services": [
+      "Thai dishes",
+      "Halal chicken and beef",
+      "Pickup",
+      "Delivery",
+      "Online ordering"
+    ],
+    "hours": [
+      "Tuesday - Friday: 11:00 AM - 3:30 PM and 4:30 PM - 9:00 PM",
+      "Saturday - Sunday: 12:00 PM - 9:00 PM"
+    ],
+    "menu_heading": "Menu",
+    "menu_note": "Order online or call (916) 333-2978 for the full menu.",
+    "services_heading": "Dine in, pick up, or delivery",
+    "hours_note": "Monday is not listed on the restaurant's website; call to confirm.",
+    "sections": [
+      "story",
+      "menu",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 3620 N Freeway Blvd #310, Sacramento, CA 95834</p><p><strong>Phone:</strong> (916) 333-2978</p><p><strong>Halal:</strong> certified for chicken and beef dishes</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "C",
+    "verification": "Business's own website and lead notes (changsthaicuisine.com)",
+    "menu_categories": [
+      {
+        "title": "Afternoon Special (Tue - Fri, 4:30 - 6:00 PM)",
+        "items": [
+          "Buy two entrees and get free potstickers or a fried roll",
+          "Plus a free Thai tea or soda"
+        ]
+      }
+    ],
+    "sources": [
+      "http://changsthaicuisine.com/"
+    ]
+  },
+  "smog-express": {
+    "layout": "cardhero",
+    "font_head": "Poppins",
+    "font_body": "Inter",
+    "image_key": "check",
+    "headline": "Smog Express",
+    "subhead": "STAR smog check station on 16th Street, Sacramento.",
+    "meta_description": "Smog Express, 2401 16th St, Sacramento. STAR smog check station. Call (279) 386-8014.",
+    "paragraphs": [
+      "Smog Express is a STAR smog check station at 2401 16th St in Sacramento.",
+      "The business's old website domain has lapsed, so please call (279) 386-8014 (or the alternate listed number, (916) 498-8477) for current details."
+    ],
+    "highlights": [
+      "STAR station",
+      "2401 16th St",
+      "Call (279) 386-8014"
+    ],
+    "services": [
+      "Smog checks",
+      "STAR smog check program",
+      "Questions about vehicle eligibility",
+      "Guidance on what to bring"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Smog services",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 2401 16th St, Sacramento, CA 95818</p><p><strong>Phone:</strong> (279) 386-8014</p><p>Alternate phone: (916) 498-8477.</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "S",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "johns-towing": {
+    "layout": "editorial",
+    "font_head": "Anton",
+    "font_body": "Roboto",
+    "image_key": "auto",
+    "headline": "John's Towing",
+    "subhead": "Towing service on Elder Creek Rd, Sacramento.",
+    "meta_description": "John's Towing, 8540 Elder Creek Rd Ste D, Sacramento. Towing service. Call (916) 712-1578.",
+    "paragraphs": [
+      "John's Towing is a Sacramento towing business at 8540 Elder Creek Rd, Suite D.",
+      "Call (916) 712-1578 to request a tow and ask about availability."
+    ],
+    "highlights": [
+      "8540 Elder Creek Rd Ste D",
+      "Sacramento towing",
+      "Call (916) 712-1578"
+    ],
+    "services": [
+      "Vehicle towing",
+      "Tow requests by phone",
+      "Call to ask about service area",
+      "Call to ask about availability"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Towing",
+    "hours_note": "Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 8540 Elder Creek Rd Ste D, Sacramento, CA 95828</p><p><strong>Phone:</strong> (916) 712-1578</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "J",
+    "verification": "Lead notes only; services are category-level, not business-specific claims"
+  },
+  "nor-cali-fences-and-concrete": {
+    "layout": "cardhero",
+    "font_head": "Archivo Black",
+    "font_body": "Archivo",
+    "image_key": "tool",
+    "headline": "Nor Cali Fences And Concrete",
+    "subhead": "Fence and concrete contractor serving Sacramento and Antioch.",
+    "meta_description": "Nor Cali Fences And Concrete, Sacramento and Antioch. Bonded and insured, C-8 & C-13 Lic#1097337. Call (925) 303-2664.",
+    "paragraphs": [
+      "Nor Cali Fences And Concrete is a fence and concrete contractor based in Sacramento and Antioch, specializing in wood fence installation.",
+      "Its website lists fence installation and maintenance, gate installation, and concrete work including driveways, patios, and sidewalks.",
+      "The company says it is bonded and insured and holds C-8 and C-13 contractor licenses."
+    ],
+    "highlights": [
+      "Bonded and insured",
+      "Wood fence installation",
+      "Fences and concrete"
+    ],
+    "services": [
+      "Wood fence installation",
+      "Fence maintenance",
+      "Gate installation",
+      "Driveways",
+      "Patios and sidewalks"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Fences and concrete",
+    "hours_note": "Free estimate appointments are listed on the website. Call for current hours.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 2186 Ferran Ave, Sacramento, CA 95832</p><p><strong>Phone:</strong> (925) 303-2664</p><p>Bonded and insured. C-8 &amp; C-13 License #1097337 (per website).</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "N",
+    "verification": "Business's own website and lead notes (norcalifencesandconcrete.com)",
+    "sources": [
+      "http://NorCaliFencesAndConcrete.com/"
+    ]
+  }
+}
