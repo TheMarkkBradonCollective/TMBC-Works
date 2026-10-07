@@ -85,11 +85,18 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: editorial */
+    
+    body.skel-craft_workshop .hero { min-height: 50vh; }
+    body.skel-craft_workshop .process-split { display: grid; gap: 2rem; padding: 3rem 0; }
+    @media(min-width:768px) { body.skel-craft_workshop .process-split { grid-template-columns: 1fr 1fr; align-items: start; } }
+    body.skel-craft_workshop .process-step { background: var(--surface); padding: 1.25rem; border-radius: var(--radius); margin-bottom: .75rem; border-left: 4px solid var(--accent2); }
+    body.skel-craft_workshop .services-block { background: var(--surface); }
+    
+    /* layout: editorial skeleton: craft_workshop */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19167398624" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=3609%20Bradshaw%20Rd%20Ste%20G%2C%20Sacramento%2C%20CA%2095827">
+<body class="skel-craft_workshop" data-biz-phone="tel:+19167398624" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=3609%20Bradshaw%20Rd%20Ste%20G%2C%20Sacramento%2C%20CA%2095827">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Trophy Center &amp; Port Engraving</div>
@@ -105,28 +112,29 @@
         <a class="btn btn-primary" href="tel:+19167398624">Call (916) 739-8624</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=3609%20Bradshaw%20Rd%20Ste%20G%2C%20Sacramento%2C%20CA%2095827">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">65+ years in business</div><div class="hl">Engraving done on site</div><div class="hl">Express service at no extra cost</div></div>
+      <div class="highlights"><div class="hl">Over 65 years in business</div><div class="hl">Engraving done on site: laser, rotary, diamond drag</div><div class="hl">Trophies, plaques, medals and corporate awards</div><div class="hl">Express service at no extra cost</div><div class="hl">Now at 3609 Bradshaw Rd, Suite G</div></div>
       <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+      
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
-        <div class="story-copy"><p>Trophy Center &amp; Port Engraving has served Sacramento for more than 65 years with trophies, awards, and engraving, now at 3609 Bradshaw Rd, Suite G.</p><p>Engraving is done on site, using laser, rotary, and diamond-drag methods. The shop also notes express service at no extra cost.</p><p>The shop is half a mile south of Highway 50 at Old Placerville Rd, between AutoZone and UPS.</p></div>
-        <div class="story-aside"><p><strong>Address:</strong> 3609 Bradshaw Rd, Suite G, Sacramento, CA 95827</p><p><strong>Phone:</strong> (916) 739-8624</p><p><strong>Directions:</strong> 1/2 mile south of Hwy 50 at Old Placerville Rd, between AutoZone and UPS</p><p><strong>Note:</strong> Recently moved less than 10 minutes from the previous location.</p></div>
+      <div class="wrap process-split">
+        <div class="story-copy"><p>Trophy Center &amp; Port Engraving says it has provided over 65 years of local service. The shop recently moved, less than 10 minutes from its prior location, to 3609 Bradshaw Road, Suite G, half a mile south of Highway 50 at Old Placerville Road, between AutoZone and UPS.</p><p>Engraving is done on site with laser, rotary and diamond drag equipment, and assembly and manufacturing are also done on site. The website lists crystal and glass awards, plaques, acrylic and corporate awards, desk items and gifts, trophies and resins, medals and ribbons, promotional products, badges, signs, and electrical and industrial engraving.</p><p>Express service is listed at no extra cost. Call (916) 739-8624, or the after-hours mobile contact listed on the site, to ask about timing.</p><p><strong>Address:</strong> 3609 Bradshaw Rd, Suite G, Sacramento, CA 95827</p><p><strong>Phone:</strong> (916) 739-8624</p><p><strong>Directions:</strong> 1/2 mile south of Hwy 50 at Old Placerville Rd, between AutoZone and UPS</p><p><strong>Note:</strong> Recently moved less than 10 minutes from the previous location.</p></div>
+        <div><div class="process-step reveal"><p style="margin:0">Call (916) 739-8624 or visit the Bradshaw Rd showroom</p></div><div class="process-step reveal"><p style="margin:0">Choose the award, plaque or item and the engraving method</p></div><div class="process-step reveal"><p style="margin:0">Provide your wording or artwork</p></div><div class="process-step reveal"><p style="margin:0">Pick up, with express service available at no extra cost</p></div></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Products and services</h2>
-        <ul class="svc-list"><li>Trophies and awards</li><li>Laser engraving</li><li>Rotary engraving</li><li>Diamond-drag engraving</li><li>Express service</li><li>Large in-stock showroom</li></ul>
+        <ul class="svc-list"><li>Trophies and resins</li><li>Plaques</li><li>Crystal and glass awards</li><li>Medals and ribbons</li><li>Badges and signs</li><li>Laser, rotary and diamond-drag engraving</li><li>Industrial and electrical engraving</li><li>Promotional products</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         
-        <p>Hours are not listed on the website. Call (916) 739-8624 for current hours.</p>
+        <p>Hours are not listed on the shop&#x27;s website. The website also lists an after-hours mobile contact, (916) 710-1908. Call (916) 739-8624 to confirm hours.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

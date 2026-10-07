@@ -85,11 +85,18 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: cardhero */
+    
+    body.skel-craft_workshop .hero { min-height: 50vh; }
+    body.skel-craft_workshop .process-split { display: grid; gap: 2rem; padding: 3rem 0; }
+    @media(min-width:768px) { body.skel-craft_workshop .process-split { grid-template-columns: 1fr 1fr; align-items: start; } }
+    body.skel-craft_workshop .process-step { background: var(--surface); padding: 1.25rem; border-radius: var(--radius); margin-bottom: .75rem; border-left: 4px solid var(--accent2); }
+    body.skel-craft_workshop .services-block { background: var(--surface); }
+    
+    /* layout: cardhero skeleton: craft_workshop */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19169695720" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=5401%20Warehouse%20Way%2C%20Sacramento%2C%20CA%2095826">
+<body class="skel-craft_workshop" data-biz-phone="tel:+19169695720" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=5401%20Warehouse%20Way%2C%20Sacramento%2C%20CA%2095826">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Golden State Upholstery</div>
@@ -105,28 +112,29 @@
         <a class="btn btn-primary" href="tel:+19169695720">Call (916) 969-5720</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=5401%20Warehouse%20Way%2C%20Sacramento%2C%20CA%2095826">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Auto, marine, furniture</div><div class="hl">5401 Warehouse Way</div><div class="hl">Call (916) 969-5720</div></div>
+      <div class="highlights"><div class="hl">Auto, marine and furniture upholstery</div><div class="hl">20 years of upholstery experience per Yelp</div><div class="hl">Convertible tops and interior upgrades</div><div class="hl">Credit cards accepted, military discount listed</div><div class="hl">5401 Warehouse Way, Suite 107</div></div>
+      
       
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
-        <div class="story-copy"><p>Golden State Upholstery is an upholstery shop at 5401 Warehouse Way in Sacramento, working on auto, marine, and furniture projects.</p><p>Call (916) 969-5720 to describe your project and ask for an estimate.</p></div>
-        <div class="story-aside"><p><strong>Address:</strong> 5401 Warehouse Way, Sacramento, CA 95826</p><p><strong>Phone:</strong> (916) 969-5720</p></div>
+      <div class="wrap process-split">
+        <div class="story-copy"><p>Golden State Upholstery is an auto, marine and furniture upholstery shop at 5401 Warehouse Way, Suite 107, in Sacramento. Its Yelp page says the shop brings 20 years of upholstery experience in Sacramento and focuses on craftsmanship and customer service.</p><p>The shop&#x27;s Facebook page says most of its work is automotive, marine and convertible tops, with some small furniture restoration. Recent posts show leather and Alcantara interior upgrades on a sports car.</p><p>The shop accepts credit cards and lists a military discount. Call (916) 969-5720 to describe your project.</p><p><strong>Address:</strong> 5401 Warehouse Way, Sacramento, CA 95826</p><p><strong>Phone:</strong> (916) 969-5720</p></div>
+        <div><div class="process-step reveal"><p style="margin:0">Call (916) 969-5720 and describe your vehicle, boat or piece</p></div><div class="process-step reveal"><p style="margin:0">Talk through materials and options before work starts</p></div><div class="process-step reveal"><p style="margin:0">Schedule drop-off at the Warehouse Way shop</p></div><div class="process-step reveal"><p style="margin:0">Pick up and inspect the finished interior</p></div></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Upholstery</h2>
-        <ul class="svc-list"><li>Auto upholstery</li><li>Marine upholstery</li><li>Furniture upholstery</li><li>Call for project estimates</li></ul>
+        <ul class="svc-list"><li>Auto seat upholstery and repair</li><li>Headliner replacement</li><li>Convertible tops</li><li>Marine and boat upholstery</li><li>Leather and Alcantara interior upgrades</li><li>Small furniture restoration</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
-        
-        <p>Call for current hours.</p>
+        <ul class="hours-list"><li>Monday - Friday: 9:00 AM - 5:00 PM</li><li>Sunday: Closed</li></ul>
+        <p>Monday - Friday hours match Yelp, Exa and other listings; Saturday is shown as 9 AM - 12 PM on some listings and closed on Yelp. Call (916) 969-5720 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

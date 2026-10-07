@@ -227,11 +227,17 @@ def layout_css(profile: dict) -> str:
     .biz-footer {{ text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }}
     .img-credit {{ font-size:.65rem; color:var(--muted); margin-top:.5rem; }}
     {extra}
-    /* layout: {lid} */
+    {profile.get("_skeleton_css", "")}
+    /* layout: {lid} skeleton: {profile.get("skeleton", "default")} */
     """
 
 
 def render_index(row: dict, profile: dict, slug: str, base_url: str) -> str:
+    from lib.skeletons import build_sections, render_hero_extras, skeleton_css
+
+    skeleton = profile.get("skeleton", "service_trust")
+    profile = {**profile, "_skeleton_css": skeleton_css(skeleton)}
+
     name = row["business_name"]
     address = row["address"]
     phone = row["phone"]
@@ -250,24 +256,8 @@ def render_index(row: dict, profile: dict, slug: str, base_url: str) -> str:
     if has_web:
         compare_link = f'<p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>'
 
-    sections_order = profile.get(
-        "sections",
-        ["story", "services", "menu", "hours", "location", "contact"],
-    )
-    sec_html = ""
-    for s in sections_order:
-        if s == "story":
-            sec_html += section_story(profile)
-        elif s == "services":
-            sec_html += section_services(profile)
-        elif s == "menu":
-            sec_html += section_menu(profile)
-        elif s == "hours":
-            sec_html += section_hours(profile)
-        elif s == "location":
-            sec_html += section_location(name, address, lat, lon)
-        elif s == "contact":
-            sec_html += section_contact(row)
+    hero_extra = render_hero_extras(skeleton, profile, phone, highlights)
+    sec_html = build_sections(skeleton, profile, row, name, address, lat, lon, phone, map_url)
 
     og_img = profile["hero_image"]
     page_url = f"{base_url}/{slug}/"
@@ -300,7 +290,7 @@ def render_index(row: dict, profile: dict, slug: str, base_url: str) -> str:
   <style>{layout_css(profile)}</style>
   <!-- Hero image: {html.escape(profile.get('hero_credit', 'Unsplash'))} -->
 </head>
-<body data-biz-phone="{ph}" data-biz-map="{html.escape(map_url)}">
+<body class="skel-{html.escape(skeleton)}" data-biz-phone="{ph}" data-biz-map="{html.escape(map_url)}">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">{html.escape(name)}</div>
@@ -318,6 +308,7 @@ def render_index(row: dict, profile: dict, slug: str, base_url: str) -> str:
       </div>
       {f'<div class="highlights">{hl_html}</div>' if hl_html else ''}
       {compare_link}
+      {hero_extra}
     </div>
   </section>
   {sec_html}

@@ -85,11 +85,24 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: split */
+    
+    body.skel-studio_booking .hero { min-height: 48vh; }
+    body.skel-studio_booking .gallery-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; max-width: 1100px; margin: -2.5rem auto 0; padding: 0 1.25rem; position: relative; z-index: 3; }
+    body.skel-studio_booking .gallery-row div { aspect-ratio: 4/5; border-radius: var(--radius); background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 30%, #111), var(--surface)); border: 1px solid color-mix(in srgb, var(--muted) 30%, transparent); display: flex; align-items: flex-end; padding: .75rem; font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+    @media(max-width:640px) { body.skel-studio_booking .gallery-row { grid-template-columns: 1fr; } body.skel-studio_booking .gallery-row div { aspect-ratio: 16/9; } }
+    body.skel-studio_booking .booking-panel { background: var(--surface); margin: 2rem 1.25rem; max-width: 1060px; margin-left: auto; margin-right: auto; padding: 2rem; border-radius: calc(var(--radius) * 1.5); display: grid; gap: 1rem; text-align: center; box-shadow: 0 16px 48px rgba(0,0,0,.1); }
+    @media(min-width:768px) { body.skel-studio_booking .booking-panel { grid-template-columns: 1fr auto auto; align-items: center; text-align: left; } }
+    body.skel-studio_booking .chip-row { display: flex; flex-wrap: wrap; gap: .5rem; justify-content: center; }
+    body.skel-studio_booking .chip { padding: .45rem .85rem; border-radius: 999px; background: color-mix(in srgb, var(--accent) 15%, transparent); font-size: .82rem; font-weight: 600; }
+    body.skel-studio_booking .services-block { padding-top: 1rem; }
+    body.skel-studio_booking .svc-list { columns: 1; display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; padding: 0; }
+    body.skel-studio_booking .svc-list li { background: var(--surface); padding: .5rem .9rem; border-radius: 999px; border: 1px solid color-mix(in srgb, var(--muted) 25%, transparent); }
+    
+    /* layout: split skeleton: studio_booking */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19169429171" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=5134%20Folsom%20Blvd%2C%20Sacramento%2C%20CA%2095819">
+<body class="skel-studio_booking" data-biz-phone="tel:+19169429171" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=5134%20Folsom%20Blvd%2C%20Sacramento%2C%20CA%2095819">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Antonio&#x27;s Barber Shop</div>
@@ -105,28 +118,38 @@
         <a class="btn btn-primary" href="tel:+19169429171">Call (916) 942-9171</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=5134%20Folsom%20Blvd%2C%20Sacramento%2C%20CA%2095819">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">5134 Folsom Blvd</div><div class="hl">Classic neighborhood shop</div><div class="hl">Call (916) 942-9171</div></div>
+      <div class="highlights"><div class="hl">5134 Folsom Blvd, East Sacramento</div><div class="hl">Neighborhood shop on Folsom Blvd</div><div class="hl">Square booking page listed</div><div class="hl">Call (916) 942-9171</div></div>
+      
       
     </div>
   </section>
   
-    <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
-        <div class="story-copy"><p>Antonio&#x27;s Barber Shop is a classic neighborhood barbershop at 5134 Folsom Blvd in Sacramento.</p><p>Stop by or call (916) 942-9171 to ask about availability.</p></div>
-        <div class="story-aside"><p><strong>Address:</strong> 5134 Folsom Blvd, Sacramento, CA 95819</p><p><strong>Phone:</strong> (916) 942-9171</p></div>
+    <div class="gallery-row reveal" aria-hidden="true"><div>Men&#x27;s haircuts</div><div>Beard trims</div><div>Neck clean-ups</div></div>
+    <div class="booking-panel reveal">
+      <div>
+        <h2 style="margin:0 0 .5rem;font-size:1.25rem">Book your visit</h2>
+        <p style="margin:0;color:var(--muted);font-size:.92rem">Call (916) 942-9171 or use the shop&#x27;s Square booking page if listed for your service.</p>
       </div>
-    </section>
+      <a class="btn btn-primary" href="tel:+19169429171">Call (916) 942-9171</a>
+      <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=5134%20Folsom%20Blvd%2C%20Sacramento%2C%20CA%2095819">Directions</a>
+    </div>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Barbering</h2>
-        <ul class="svc-list"><li>Men&#x27;s haircuts</li><li>Beard trims</li><li>Neck and edge clean-ups</li><li>Call to ask about other services</li></ul>
+        <div class="chip-row"><span class="chip">Men&#x27;s haircuts</span><span class="chip">Beard trims</span><span class="chip">Neck and edge clean-ups</span><span class="chip">Barbering and grooming</span><span class="chip">Booking by phone or Square page</span></div>
+      </div>
+    </section>
+    <section class="story-block reveal" id="story">
+      <div class="wrap story-grid">
+        <div class="story-copy"><p>Antonio&#x27;s Barber Shop is a classic neighborhood barbershop at 5134 Folsom Blvd in East Sacramento, between 51st and 52nd Streets. Listing reviews indicate the shop was formerly known as Johnny&#x27;s and is now run by Antonio.</p><p>A Square booking page is listed for the shop, and you can call (916) 942-9171 to ask about availability.</p><p>Published hours differ between directories, so call before you go.</p></div>
+        <div class="story-aside"><p><strong>Address:</strong> 5134 Folsom Blvd, Sacramento, CA 95819</p><p><strong>Phone:</strong> (916) 942-9171</p></div>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         
-        <p>Call for current hours.</p>
+        <p>Listings conflict: one shows Monday - Friday 9 AM - 6 PM, another shows Monday - Friday 9 AM - 4 PM and Saturday 9 AM - 2 PM. Call (916) 942-9171 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

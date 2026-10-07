@@ -85,11 +85,21 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: editorial */
+    
+    body.skel-service_trust .hero { min-height: 62vh; }
+    body.skel-service_trust .trust-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; max-width: 1100px; margin: -2rem auto 0; padding: 0 1.25rem; position: relative; z-index: 2; }
+    body.skel-service_trust .trust-bar article { background: var(--surface); padding: 1.1rem; border-radius: var(--radius); box-shadow: 0 10px 30px rgba(0,0,0,.08); border-top: 3px solid var(--accent); font-size: .88rem; }
+    body.skel-service_trust .trust-bar strong { display: block; font-size: 1rem; margin-bottom: .25rem; }
+    body.skel-service_trust .services-block { background: linear-gradient(180deg, var(--bg), var(--surface)); }
+    body.skel-service_trust .svc-list { columns: 1; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .65rem; list-style: none; padding: 0; }
+    body.skel-service_trust .svc-list li { background: var(--surface); padding: .85rem 1rem; border-radius: 8px; border: 1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
+    body.skel-service_trust .svc-list li::before { content: "✓ "; color: var(--accent); font-weight: 700; }
+    
+    /* layout: editorial skeleton: service_trust */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19162567996" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=3805%20Madison%20Ave%2C%20North%20Highlands%2C%20CA%2095660">
+<body class="skel-service_trust" data-biz-phone="tel:+19162567996" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=3805%20Madison%20Ave%2C%20North%20Highlands%2C%20CA%2095660">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Pino&#x27;s Auto Repair</div>
@@ -105,21 +115,22 @@
         <a class="btn btn-primary" href="tel:+19162567996">Call (916) 256-7996</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=3805%20Madison%20Ave%2C%20North%20Highlands%2C%20CA%2095660">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Independently owned since 1990</div><div class="hl">North Highlands</div><div class="hl">Mon - Fri 9 to 5</div></div>
+      <div class="highlights"><div class="hl">Independently owned since 1990</div><div class="hl">Owner trained at Wyotech Automotive Institute</div><div class="hl">North Highlands</div><div class="hl">Monday - Friday 9 AM - 5 PM</div><div class="hl">Monthly specials listed</div></div>
       <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+      <div class="trust-bar reveal"><article class='reveal'><strong>Independently owned since 1990</strong></article><article class='reveal'><strong>Owner trained at Wyotech Automotive Institute</strong></article><article class='reveal'><strong>North Highlands</strong></article><article class='reveal'><strong>Monday - Friday 9 AM - 5 PM</strong></article></div>
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>Pino&#x27;s Auto Repair opened in 1990 and is independently owned and operated at 3805 Madison Ave, Suite B, in North Highlands.</p><p>According to its website, the owner graduated from Wyotech Automotive Institute in 1986 and opened the shop four years later.</p><p>The shop lists monthly specials, so call for current offers.</p></div>
+        <div class="story-copy"><p>Pino&#x27;s Auto Repair opened in 1990 and is independently owned and operated at 3805 Madison Ave, Suite B, in North Highlands.</p><p>According to the shop&#x27;s website, the owner graduated from Wyotech Automotive Institute in 1986 and opened the shop four years later.</p><p>The website lists general auto repair, inspection diagnosis, radiator replacement, oil change and filter, and brake inspection, and mentions monthly specials. The page appears to be several years old, so call to confirm current offers.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 3805 Madison Ave, North Highlands, CA 95660</p><p><strong>Phone:</strong> (916) 256-7996</p><p>Independently owned and operated.</p></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Services</h2>
-        <ul class="svc-list"><li>Auto repair</li><li>Inspection diagnosis</li><li>Radiator replacement</li><li>Oil change and filter</li><li>Brake inspection</li></ul>
+        <ul class="svc-list"><li>General auto repair</li><li>Inspection diagnosis</li><li>Radiator replacement</li><li>Oil change and filter</li><li>Brake inspection</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">

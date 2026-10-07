@@ -85,11 +85,18 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: cardhero */
+    
+    body.skel-craft_workshop .hero { min-height: 50vh; }
+    body.skel-craft_workshop .process-split { display: grid; gap: 2rem; padding: 3rem 0; }
+    @media(min-width:768px) { body.skel-craft_workshop .process-split { grid-template-columns: 1fr 1fr; align-items: start; } }
+    body.skel-craft_workshop .process-step { background: var(--surface); padding: 1.25rem; border-radius: var(--radius); margin-bottom: .75rem; border-left: 4px solid var(--accent2); }
+    body.skel-craft_workshop .services-block { background: var(--surface); }
+    
+    /* layout: cardhero skeleton: craft_workshop */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19167479487" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=1621%20Juliesse%20Ave%20Suite%20B%2C%20Sacramento%2C%20CA%2095815">
+<body class="skel-craft_workshop" data-biz-phone="tel:+19167479487" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=1621%20Juliesse%20Ave%20Suite%20B%2C%20Sacramento%2C%20CA%2095815">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Aluminum and Stainless Weldmasters</div>
@@ -105,28 +112,29 @@
         <a class="btn btn-primary" href="tel:+19167479487">Call (916) 747-9487</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=1621%20Juliesse%20Ave%20Suite%20B%2C%20Sacramento%2C%20CA%2095815">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">X-ray quality welding</div><div class="hl">By appointment</div><div class="hl">Prototypes welcome</div></div>
+      <div class="highlights"><div class="hl">30+ years in welding per the shop&#x27;s website</div><div class="hl">Aluminum, stainless, titanium and exotic metals</div><div class="hl">Prototypes and production runs</div><div class="hl">Emergency repairs</div><div class="hl">By appointment, seven days</div></div>
       <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+      
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
-        <div class="story-copy"><p>Aluminum &amp; Stainless Weldmasters handles specialty welding from 1621 Juliesse Ave, Suite B, in Sacramento.</p><p>According to its website, the shop offers in-shop X-ray quality welding by appointment with quick turnaround, and welcomes prototypes, production runs of any size, and emergency repairs on specialized parts.</p></div>
-        <div class="story-aside"><p><strong>Address:</strong> 1621 Juliesse Ave Suite B, Sacramento, CA 95815</p><p><strong>Phone:</strong> (916) 747-9487</p></div>
+      <div class="wrap process-split">
+        <div class="story-copy"><p>Aluminum &amp; Stainless Weldmasters is a specialty welding shop at 1621 Juliesse Ave, Suite B, in Sacramento. Its website describes the shop as thin-material specialists who repair almost any part made from aluminum, stainless, titanium, brass, cast iron and exotic metals.</p><p>The site lists X-ray quality welding in the shop by appointment only with quick turnaround, prototype products, small to large production runs and emergency repairs, and says no job is too small.</p><p>Past work listed on the site includes aircraft parts, cracked aluminum wheels, vintage car parts and fenders, motorcycle and bicycle frames, aluminum boats and trailers, transmission cases, manifolds, heads, radiators and oil pans. The About page says the shop has more than 30 years in welding and has references that sub-contract from aircraft manufacturers.</p><p><strong>Address:</strong> 1621 Juliesse Ave Suite B, Sacramento, CA 95815</p><p><strong>Phone:</strong> (916) 747-9487</p></div>
+        <div><div class="process-step reveal"><p style="margin:0">Call (916) 747-9487 and describe the part and metal</p></div><div class="process-step reveal"><p style="margin:0">Set an appointment to discuss the weld</p></div><div class="process-step reveal"><p style="margin:0">Bring the part to the Juliesse Ave shop</p></div><div class="process-step reveal"><p style="margin:0">Pick up the finished work</p></div></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Welding</h2>
-        <ul class="svc-list"><li>Aluminum welding</li><li>Stainless steel welding</li><li>Prototype products</li><li>Small, medium, and large production runs</li><li>Emergency repairs on specialized parts</li></ul>
+        <ul class="svc-list"><li>Aluminum and stainless welding</li><li>Titanium, brass and cast iron repair</li><li>Aluminum wheel crack repair</li><li>Motorcycle and bicycle frames</li><li>Aluminum boats and trailers</li><li>Transmission cases and manifolds</li><li>Prototype and production runs</li><li>Emergency repairs</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
-        
-        <p>Work is by appointment. Call for current hours.</p>
+        <ul class="hours-list"><li>Monday - Sunday: By appointment</li></ul>
+        <p>The website lists shop hours as Monday through Sunday for your convenience, by appointment only. Call (916) 747-9487 to set up a time.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

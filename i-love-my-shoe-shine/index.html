@@ -85,11 +85,24 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: editorial */
+    
+    body.skel-studio_booking .hero { min-height: 48vh; }
+    body.skel-studio_booking .gallery-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; max-width: 1100px; margin: -2.5rem auto 0; padding: 0 1.25rem; position: relative; z-index: 3; }
+    body.skel-studio_booking .gallery-row div { aspect-ratio: 4/5; border-radius: var(--radius); background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 30%, #111), var(--surface)); border: 1px solid color-mix(in srgb, var(--muted) 30%, transparent); display: flex; align-items: flex-end; padding: .75rem; font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+    @media(max-width:640px) { body.skel-studio_booking .gallery-row { grid-template-columns: 1fr; } body.skel-studio_booking .gallery-row div { aspect-ratio: 16/9; } }
+    body.skel-studio_booking .booking-panel { background: var(--surface); margin: 2rem 1.25rem; max-width: 1060px; margin-left: auto; margin-right: auto; padding: 2rem; border-radius: calc(var(--radius) * 1.5); display: grid; gap: 1rem; text-align: center; box-shadow: 0 16px 48px rgba(0,0,0,.1); }
+    @media(min-width:768px) { body.skel-studio_booking .booking-panel { grid-template-columns: 1fr auto auto; align-items: center; text-align: left; } }
+    body.skel-studio_booking .chip-row { display: flex; flex-wrap: wrap; gap: .5rem; justify-content: center; }
+    body.skel-studio_booking .chip { padding: .45rem .85rem; border-radius: 999px; background: color-mix(in srgb, var(--accent) 15%, transparent); font-size: .82rem; font-weight: 600; }
+    body.skel-studio_booking .services-block { padding-top: 1rem; }
+    body.skel-studio_booking .svc-list { columns: 1; display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; padding: 0; }
+    body.skel-studio_booking .svc-list li { background: var(--surface); padding: .5rem .9rem; border-radius: 999px; border: 1px solid color-mix(in srgb, var(--muted) 25%, transparent); }
+    
+    /* layout: editorial skeleton: studio_booking */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19162137723" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=824%20L%20St%2C%20Sacramento%2C%20CA%2095814">
+<body class="skel-studio_booking" data-biz-phone="tel:+19162137723" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=824%20L%20St%2C%20Sacramento%2C%20CA%2095814">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">I love my shoe shine</div>
@@ -105,28 +118,38 @@
         <a class="btn btn-primary" href="tel:+19162137723">Call (916) 213-7723</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=824%20L%20St%2C%20Sacramento%2C%20CA%2095814">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Downtown shoeshine</div><div class="hl">Mobile shoeshine for events</div><div class="hl">Gift certificates</div></div>
+      <div class="highlights"><div class="hl">Downtown shoe shines at 824 L St</div><div class="hl">Appointments recommended</div><div class="hl">Mobile shoeshine for events</div><div class="hl">Gift certificates available</div><div class="hl">Owner shined shoes at the airport for 20+ years</div></div>
       <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+      
     </div>
   </section>
   
-    <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
-        <div class="story-copy"><p>I Love My Shoeshine offers shoeshine service in downtown Sacramento at 824 L St (Sutter Club Garage) and mobile service for events.</p><p>Its website says the founder shined shoes for more than 20 years at Sacramento&#x27;s international airport before opening downtown locations.</p><p>Mobile service is offered for parties, trade shows, meetings, weddings, golf tournaments, conventions, and appreciation days. Gift certificates are available.</p></div>
-        <div class="story-aside"><p><strong>Address:</strong> 824 L St, Sacramento, CA 95814</p><p><strong>Phone:</strong> (916) 213-7723</p></div>
+    <div class="gallery-row reveal" aria-hidden="true"><div>Downtown shine stand</div><div>Mobile event shines</div><div>Wedding and event service</div></div>
+    <div class="booking-panel reveal">
+      <div>
+        <h2 style="margin:0 0 .5rem;font-size:1.25rem">Book your visit</h2>
+        <p style="margin:0;color:var(--muted);font-size:.92rem">Appointments are recommended. Call (916) 213-7723, or use the contact form on the website, to book a shine or ask about mobile service for your event.</p>
       </div>
-    </section>
+      <a class="btn btn-primary" href="tel:+19162137723">Call (916) 213-7723</a>
+      <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=824%20L%20St%2C%20Sacramento%2C%20CA%2095814">Directions</a>
+    </div>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Shoeshine services</h2>
-        <ul class="svc-list"><li>Shoeshine</li><li>Mobile shoeshine for events</li><li>Weddings and parties</li><li>Trade shows and conventions</li><li>Gift certificates</li></ul>
+        <div class="chip-row"><span class="chip">Shoe shines</span><span class="chip">Mobile shoeshine for events</span><span class="chip">Weddings and conventions</span><span class="chip">Corporate and customer appreciation events</span><span class="chip">Gift certificates</span></div>
+      </div>
+    </section>
+    <section class="story-block reveal" id="story">
+      <div class="wrap story-grid">
+        <div class="story-copy"><p>I Love My Shoeshine offers professional shoe shines at 824 L St in downtown Sacramento, at the Sutter Club Garage. The owner spent more than 20 years shining shoes for travelers at Sacramento&#x27;s airport before opening her own downtown locations, according to the business&#x27;s website and Sacramento Bee coverage it links to.</p><p>The website lists the L Street location on weekdays at midday and says appointments are recommended. Earlier it also listed Wednesday visits at the Matsui Federal Courthouse, which has since moved to the L Street location.</p><p>The business also offers mobile shoeshine service for events including parties, trade shows, meetings, weddings, golf tournaments, conventions and customer appreciation days, and sells gift certificates. Call (916) 213-7723 for quotes and bookings.</p></div>
+        <div class="story-aside"><p><strong>Address:</strong> 824 L St, Sacramento, CA 95814</p><p><strong>Phone:</strong> (916) 213-7723</p></div>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
-        <ul class="hours-list"><li>Monday - Friday: 11:30 AM - 2:30 PM (824 L St, Sutter Club Garage)</li></ul>
-        <p>Per the business&#x27;s website; appointments recommended. Call (916) 213-7723 to confirm.</p>
+        <ul class="hours-list"><li>Monday - Friday: 11:30 AM - 2:30 PM (Sutter Club Garage, 824 L St)</li></ul>
+        <p>Hours are from the business&#x27;s website, which includes notes dating to 2017. Appointments recommended. Call (916) 213-7723 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

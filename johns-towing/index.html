@@ -85,11 +85,26 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: editorial */
+    
+    body.skel-service_emergency .hero { min-height: 58vh; background: var(--surface); align-items: stretch; }
+    body.skel-service_emergency .hero-bg { opacity: .35; }
+    body.skel-service_emergency .hero-inner { display: grid; gap: 1.5rem; align-items: center; }
+    @media(min-width:768px) { body.skel-service_emergency .hero-inner { grid-template-columns: 1fr auto; text-align: left; } }
+    body.skel-service_emergency .emergency-cta { background: var(--accent); color: #fff; padding: 1.5rem 2rem; border-radius: var(--radius); text-align: center; box-shadow: 0 12px 40px color-mix(in srgb, var(--accent) 45%, transparent); }
+    body.skel-service_emergency .emergency-cta a { color: #fff !important; font-size: 1.75rem; font-weight: 800; text-decoration: none; display: block; }
+    body.skel-service_emergency .emergency-cta span { display: block; font-size: .85rem; opacity: .9; margin-top: .35rem; font-weight: 500; }
+    body.skel-service_emergency .trust-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: .75rem; margin: 2rem 0 0; }
+    body.skel-service_emergency .trust-strip div { background: var(--surface); padding: .75rem; border-radius: 8px; font-size: .82rem; text-align: center; border: 1px solid color-mix(in srgb, var(--muted) 25%, transparent); }
+    body.skel-service_emergency .services-block { background: #0f172a; color: #f8fafc; }
+    body.skel-service_emergency .services-block h2 { color: #f8fafc; }
+    body.skel-service_emergency .svc-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; list-style: none; padding: 0; margin: 0; }
+    body.skel-service_emergency .svc-cards li { background: #1e293b; padding: 1rem 1.1rem; border-radius: 10px; border-left: 3px solid var(--accent2); }
+    
+    /* layout: editorial skeleton: service_emergency */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19167121578" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=8540%20Elder%20Creek%20Rd%20Ste%20D%2C%20Sacramento%2C%20CA%2095828">
+<body class="skel-service_emergency" data-biz-phone="tel:+19167121578" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=8540%20Elder%20Creek%20Rd%20Ste%20D%2C%20Sacramento%2C%20CA%2095828">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">John&#x27;s Towing</div>
@@ -105,28 +120,33 @@
         <a class="btn btn-primary" href="tel:+19167121578">Call (916) 712-1578</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=8540%20Elder%20Creek%20Rd%20Ste%20D%2C%20Sacramento%2C%20CA%2095828">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">8540 Elder Creek Rd Ste D</div><div class="hl">Sacramento towing</div><div class="hl">Call (916) 712-1578</div></div>
+      <div class="highlights"><div class="hl">Towing in Sacramento and Elk Grove</div><div class="hl">Jump-starts, lockouts and flat tires</div><div class="hl">Winching and vehicle recovery</div><div class="hl">Fuel delivery and accident recovery</div><div class="hl">Call (916) 712-1578</div></div>
       <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+      
+    <div class="emergency-cta reveal">
+      <a href="tel:+19167121578">(916) 712-1578</a>
+      <span>Need a tow? Call (916) 712-1578 and confirm availability in your area.</span>
+    </div><div class="trust-strip"><div>Sacramento and Elk Grove service area</div><div>Winching and recovery equipment</div><div>Credit cards by phone per listing</div><div>Elder Creek Rd location</div></div>
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>John&#x27;s Towing is a Sacramento towing business at 8540 Elder Creek Rd, Suite D.</p><p>Call (916) 712-1578 to request a tow and ask about availability.</p></div>
+        <div class="story-copy"><p>John&#x27;s Towing is a Sacramento towing company at 8540 Elder Creek Rd, Suite D. Its website describes fast, damage-free towing and roadside dispatch across Sacramento and Elk Grove, with tow trucks stationed around the region.</p><p>Directory listings name towing, battery jump-starts, car lockout service, flat tire help, fuel delivery and accident recovery. The website also describes heavy-duty winching and vehicle recovery for vehicles stuck in a ditch, mud or off-road terrain.</p><p>Hours conflict: directory listings show open 24 hours every day, while the company&#x27;s website shows by appointment only. One listing says credit cards are accepted over the phone. Call (916) 712-1578 to confirm before you rely on it in an emergency.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 8540 Elder Creek Rd Ste D, Sacramento, CA 95828</p><p><strong>Phone:</strong> (916) 712-1578</p></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Towing</h2>
-        <ul class="svc-list"><li>Vehicle towing</li><li>Tow requests by phone</li><li>Call to ask about service area</li><li>Call to ask about availability</li></ul>
+        <ul class="svc-cards"><li>Towing</li><li>Battery jump-start</li><li>Car lockout service</li><li>Flat tire help</li><li>Fuel delivery</li><li>Accident recovery</li><li>Winching and vehicle recovery</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         
-        <p>Call for current hours.</p>
+        <p>Conflict: directories list open 24 hours daily, but the company&#x27;s website lists Monday - Sunday by appointment only. Another listing uses (916) 908-3309. Call (916) 712-1578 to confirm availability.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

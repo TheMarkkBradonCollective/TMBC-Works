@@ -85,11 +85,18 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: split */
+    
+    body.skel-craft_workshop .hero { min-height: 50vh; }
+    body.skel-craft_workshop .process-split { display: grid; gap: 2rem; padding: 3rem 0; }
+    @media(min-width:768px) { body.skel-craft_workshop .process-split { grid-template-columns: 1fr 1fr; align-items: start; } }
+    body.skel-craft_workshop .process-step { background: var(--surface); padding: 1.25rem; border-radius: var(--radius); margin-bottom: .75rem; border-left: 4px solid var(--accent2); }
+    body.skel-craft_workshop .services-block { background: var(--surface); }
+    
+    /* layout: split skeleton: craft_workshop */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19169218601" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=1815%20Silica%20Ave%20Ste%20A%2C%20Sacramento%2C%20CA%2095815">
+<body class="skel-craft_workshop" data-biz-phone="tel:+19169218601" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=1815%20Silica%20Ave%20Ste%20A%2C%20Sacramento%2C%20CA%2095815">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Mike&#x27;s Mower Shop</div>
@@ -105,28 +112,29 @@
         <a class="btn btn-primary" href="tel:+19169218601">Call (916) 921-8601</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=1815%20Silica%20Ave%20Ste%20A%2C%20Sacramento%2C%20CA%2095815">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Lawn mower repair</div><div class="hl">Small-engine repair</div><div class="hl">1815 Silica Ave Ste A</div></div>
+      <div class="highlights"><div class="hl">Lawn mower and garden equipment repair</div><div class="hl">Chainsaws, edgers and rototillers</div><div class="hl">Small gas engines for go-carts and mini bikes</div><div class="hl">Closed Sunday and Monday</div><div class="hl">Wheelchair accessible</div></div>
+      
       
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
-        <div class="story-copy"><p>Mike&#x27;s Mower Shop repairs lawn mowers and small engines at 1815 Silica Ave, Suite A, in Sacramento.</p><p>Call (916) 921-8601 to describe your equipment and ask about turnaround.</p></div>
-        <div class="story-aside"><p><strong>Address:</strong> 1815 Silica Ave Ste A, Sacramento, CA 95815</p><p><strong>Phone:</strong> (916) 921-8601</p></div>
+      <div class="wrap process-split">
+        <div class="story-copy"><p>Mike&#x27;s Mower Shop is at 1815 Silica Ave, Suite A, in Sacramento. A directory description from the business says it services and repairs lawn mowers and garden equipment such as weed eaters, rototillers, edgers and chainsaws.</p><p>The same description says the shop also repairs small gas engines used in go-carts, scooters and mini bikes. Call (916) 921-8601 to ask about a specific repair.</p><p>Hours differ between listings, and the shop is closed Sunday and Monday, so confirm before you load up the mower. Listings note the location is wheelchair accessible.</p><p><strong>Address:</strong> 1815 Silica Ave Ste A, Sacramento, CA 95815</p><p><strong>Phone:</strong> (916) 921-8601</p></div>
+        <div><div class="process-step reveal"><p style="margin:0">Call (916) 921-8601 and describe the equipment and the problem</p></div><div class="process-step reveal"><p style="margin:0">Bring it to Silica Ave</p></div><div class="process-step reveal"><p style="margin:0">Approve the repair after the shop looks it over</p></div><div class="process-step reveal"><p style="margin:0">Pick up the repaired equipment</p></div></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Repairs</h2>
-        <ul class="svc-list"><li>Lawn mower repair</li><li>Small-engine repair</li><li>Tune-ups and maintenance</li><li>Call to ask about other equipment</li></ul>
+        <ul class="svc-list"><li>Lawn mower repair</li><li>Weed eater and trimmer repair</li><li>Rototiller repair</li><li>Edger repair</li><li>Chainsaw repair</li><li>Small gas engines for go-carts, scooters and mini bikes</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         
-        <p>Call for current hours.</p>
+        <p>Listings conflict: the business&#x27;s directory description and Superpages show Tuesday - Friday 10 AM - 6 PM and Saturday 8 AM - 12 PM, while Exa and Yahoo Local show Tuesday - Saturday 8 AM - 12 PM. Closed Sunday and Monday. Call (916) 921-8601 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

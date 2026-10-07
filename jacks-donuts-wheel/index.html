@@ -85,11 +85,23 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: cardhero */
+    
+    body.skel-menu_forward .hero { min-height: 52vh; align-items: center; text-align: center; }
+    body.skel-menu_forward .hero-inner { max-width: 720px; margin: 0 auto; }
+    body.skel-menu_forward .hero h1 { max-width: none; }
+    body.skel-menu_forward .menu-block { background: var(--surface); padding: 3.5rem 0; margin-top: -2rem; position: relative; z-index: 2; border-radius: calc(var(--radius) * 2) calc(var(--radius) * 2) 0 0; box-shadow: 0 -20px 50px rgba(0,0,0,.08); }
+    body.skel-menu_forward .menu-grid { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; }
+    body.skel-menu_forward .menu-card { padding: 1.35rem 1.5rem; border-left: 4px solid var(--accent); box-shadow: 0 8px 24px rgba(0,0,0,.06); }
+    body.skel-menu_forward .menu-card h3 { font-size: 1.15rem; margin-top: 0; }
+    body.skel-menu_forward .hours-block { background: color-mix(in srgb, var(--accent) 12%, var(--bg)); padding: 2rem 0; }
+    body.skel-menu_forward .hours-list { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+    body.skel-menu_forward .story-block { padding-top: 2rem; }
+    
+    /* layout: cardhero skeleton: menu_forward */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19169256619" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=2261%20Northgate%20Blvd%2C%20Sacramento%2C%20CA%2095833">
+<body class="skel-menu_forward" data-biz-phone="tel:+19169256619" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=2261%20Northgate%20Blvd%2C%20Sacramento%2C%20CA%2095833">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Jack&#x27;s Donuts Wheel</div>
@@ -105,29 +117,30 @@
         <a class="btn btn-primary" href="tel:+19169256619">Call (916) 925-6619</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=2261%20Northgate%20Blvd%2C%20Sacramento%2C%20CA%2095833">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">2261 Northgate Blvd</div><div class="hl">Fresh donuts</div><div class="hl">Call (916) 925-6619</div></div>
+      <div class="highlights"><div class="hl">2261 Northgate Blvd</div><div class="hl">Donuts, iced rolls and donut holes</div><div class="hl">Croissant breakfast sandwiches</div><div class="hl">Mom-and-pop shop since 1992 per listings</div></div>
+      
       
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>Jack&#x27;s Donuts Wheel is a donut shop at 2261 Northgate Blvd in Sacramento.</p><p>Call (916) 925-6619 to ask about today&#x27;s selection and current hours.</p></div>
+        <div class="story-copy"><p>Jack&#x27;s Donuts Wheel is a donut shop at 2261 Northgate Blvd in Sacramento. Restaurantji describes it as a mom-and-pop shop that has been a local favorite since 1992.</p><p>Listings show glazed donuts, iced rolls, donut holes and donut sticks, along with filled donuts and croissant breakfast sandwiches. Coffee is listed as Peerless.</p><p>Hours differ between listings, so call (916) 925-6619 to confirm when the shop is open before you go.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 2261 Northgate Blvd, Sacramento, CA 95833</p><p><strong>Phone:</strong> (916) 925-6619</p></div>
       </div>
     </section>
     <section class="menu-block reveal" id="menu">
       <div class="wrap">
-        <h2>Donuts &amp; more</h2>
-        <p class="menu-note">Call the shop for today&#x27;s selection.</p>
-        <div class="menu-grid"><article class="menu-card reveal"><h3>At the shop</h3><ul><li>Fresh donuts</li><li>Coffee</li></ul></article></div>
+        <h2>Donuts &amp; breakfast</h2>
+        <p class="menu-note">Menu items come from public listings. Call (916) 925-6619 to ask what is fresh.</p>
+        <div class="menu-grid"><article class="menu-card reveal"><h3>Donuts</h3><ul><li>Glazed donuts</li><li>Maple custard-filled donut</li><li>Strawberry cream glazed donut</li><li>Coconut chocolate donut</li><li>Crumb cake donut</li><li>Fancy donuts by the dozen</li></ul></article><article class="menu-card reveal"><h3>Iced rolls, holes &amp; sticks</h3><ul><li>Iced rolls (chocolate, caramel, peanut butter, toasted coconut)</li><li>Donut holes by the dozen</li><li>Frosted jelly-filled donut holes</li><li>Donut sticks</li></ul></article><article class="menu-card reveal"><h3>Croissant sandwiches &amp; coffee</h3><ul><li>Bacon, sausage, egg and cheese croissant</li><li>Jalapeno ham and cheese croissant sandwich</li><li>Breakfast croissant sandwiches</li><li>Peerless coffee</li></ul></article></div>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         
-        <p>Call for current hours.</p>
+        <p>Listings conflict: Exa and Restaurantji show Tuesday - Sunday 4 AM - 2 PM with Monday closed, while other directories show daily hours ending 3 PM or later. Call (916) 925-6619 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

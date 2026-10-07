@@ -85,11 +85,21 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: editorial */
+    
+    body.skel-service_trust .hero { min-height: 62vh; }
+    body.skel-service_trust .trust-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; max-width: 1100px; margin: -2rem auto 0; padding: 0 1.25rem; position: relative; z-index: 2; }
+    body.skel-service_trust .trust-bar article { background: var(--surface); padding: 1.1rem; border-radius: var(--radius); box-shadow: 0 10px 30px rgba(0,0,0,.08); border-top: 3px solid var(--accent); font-size: .88rem; }
+    body.skel-service_trust .trust-bar strong { display: block; font-size: 1rem; margin-bottom: .25rem; }
+    body.skel-service_trust .services-block { background: linear-gradient(180deg, var(--bg), var(--surface)); }
+    body.skel-service_trust .svc-list { columns: 1; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .65rem; list-style: none; padding: 0; }
+    body.skel-service_trust .svc-list li { background: var(--surface); padding: .85rem 1rem; border-radius: 8px; border: 1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
+    body.skel-service_trust .svc-list li::before { content: "✓ "; color: var(--accent); font-weight: 700; }
+    
+    /* layout: editorial skeleton: service_trust */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19169940054" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=4408%20Norwood%20Ave%20%238%2C%20Sacramento%2C%20CA%2095838">
+<body class="skel-service_trust" data-biz-phone="tel:+19169940054" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=4408%20Norwood%20Ave%20%238%2C%20Sacramento%2C%20CA%2095838">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Prime Service Co. Appliance Repair</div>
@@ -105,28 +115,29 @@
         <a class="btn btn-primary" href="tel:+19169940054">Call (916) 994-0054</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=4408%20Norwood%20Ave%20%238%2C%20Sacramento%2C%20CA%2095838">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Appliance repair</div><div class="hl">4408 Norwood Ave #8</div><div class="hl">Call (916) 994-0054</div></div>
+      <div class="highlights"><div class="hl">Household and commercial appliance repair</div><div class="hl">Washers, dryers, refrigerators and ovens</div><div class="hl">Same-day diagnostic appointments listed</div><div class="hl">Open Monday - Saturday</div><div class="hl">Serves Sacramento, Elk Grove, Rancho Cordova and Carmichael</div></div>
       
+      <div class="trust-bar reveal"><article class='reveal'><strong>Household and commercial appliance repair</strong></article><article class='reveal'><strong>Washers, dryers, refrigerators and ovens</strong></article><article class='reveal'><strong>Same-day diagnostic appointments listed</strong></article><article class='reveal'><strong>Open Monday - Saturday</strong></article></div>
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>Prime Service Co. is an appliance repair business at 4408 Norwood Ave, #8, in Sacramento.</p><p>Call (916) 994-0054 to describe your appliance and ask about scheduling.</p></div>
+        <div class="story-copy"><p>Prime Service Co. Appliance Repair is at 4408 Norwood Ave, Suite 8, in the Robla area of Sacramento. Listings describe repair for household, professional and commercial appliances, including washers, dryers, refrigerators, ovens and ice makers.</p><p>Directory listings mention same-day diagnostic appointments for sudden breakdowns, clear explanation of which parts need attention, and preventive maintenance such as dryer drum and lint checks. Service areas listed include Sacramento, Elk Grove, Rancho Cordova and Carmichael.</p><p>Call (916) 994-0054 to describe the problem and ask about scheduling.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 4408 Norwood Ave #8, Sacramento, CA 95838</p><p><strong>Phone:</strong> (916) 994-0054</p></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Appliance repair</h2>
-        <ul class="svc-list"><li>Appliance diagnostics</li><li>Appliance repair</li><li>Call to ask which appliances are covered</li><li>Call to ask about scheduling</li></ul>
+        <ul class="svc-list"><li>Washer repair</li><li>Dryer repair</li><li>Refrigerator repair</li><li>Oven and range repair</li><li>Ice maker repair</li><li>Same-day diagnosis</li><li>Preventive maintenance</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
-        
-        <p>Call for current hours.</p>
+        <ul class="hours-list"><li>Monday - Friday: 8:00 AM - 6:00 PM</li><li>Saturday: 8:00 AM - 3:00 PM</li><li>Sunday: Closed</li></ul>
+        <p>Hours match Exa, Loc8NearMe, Wheree and HVACService listings. An unclaimed Birdeye profile shows 9 AM - 6 PM weekdays and closed Saturday. Call (916) 994-0054 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

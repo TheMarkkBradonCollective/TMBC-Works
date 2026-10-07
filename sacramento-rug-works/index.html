@@ -85,11 +85,18 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: cardhero */
+    
+    body.skel-craft_workshop .hero { min-height: 50vh; }
+    body.skel-craft_workshop .process-split { display: grid; gap: 2rem; padding: 3rem 0; }
+    @media(min-width:768px) { body.skel-craft_workshop .process-split { grid-template-columns: 1fr 1fr; align-items: start; } }
+    body.skel-craft_workshop .process-step { background: var(--surface); padding: 1.25rem; border-radius: var(--radius); margin-bottom: .75rem; border-left: 4px solid var(--accent2); }
+    body.skel-craft_workshop .services-block { background: var(--surface); }
+    
+    /* layout: cardhero skeleton: craft_workshop */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19164553081" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=1308%2065th%20St%2C%20Sacramento%2C%20CA%2095819">
+<body class="skel-craft_workshop" data-biz-phone="tel:+19164553081" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=1308%2065th%20St%2C%20Sacramento%2C%20CA%2095819">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Sacramento Rug Works</div>
@@ -105,28 +112,29 @@
         <a class="btn btn-primary" href="tel:+19164553081">Call (916) 455-3081</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=1308%2065th%20St%2C%20Sacramento%2C%20CA%2095819">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Rug and carpet care since 1905</div><div class="hl">Oriental rug specialists</div><div class="hl">Family owned</div></div>
+      <div class="highlights"><div class="hl">Rug and carpet care since 1905</div><div class="hl">Oriental rug cleaning and hand repair</div><div class="hl">On-site cleaning and pick-up and delivery</div><div class="hl">Carpet sales and installation</div><div class="hl">Contractor&#x27;s license number listed</div></div>
       <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+      
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
-        <div class="story-copy"><p>Sacramento Rug Works has specialized in rug and carpet care since 1905, according to its website, from its location at 1308 65th St near 65th and Folsom Blvd.</p><p>Services include handmade and Oriental rug cleaning, hand repair, fringing, in-home carpet cleaning, and carpet sales and installation. Pick-up and delivery are available for area rugs.</p></div>
-        <div class="story-aside"><p><strong>Address:</strong> 1308 65th St, Sacramento, CA 95819</p><p><strong>Phone:</strong> (916) 455-3081</p><p>Contractor's License #439893 (per website).</p></div>
+      <div class="wrap process-split">
+        <div class="story-copy"><p>Sacramento Rug Works has specialized in rug and carpet care since 1905, according to its website, from its location at 1308 65th St near 65th Street and Folsom Blvd. The site says that after over 100 years the company is a family-owned Northern California business for carpet and area rug needs.</p><p>Services listed include on-site cleaning, Oriental rug cleaning, carpet sales and installation, custom area rugs, rug repair (handmade or machine-made), and area rug pads. Hand repairs and fringing are listed under craftsmanship.</p><p>Pick-up and delivery are available for area rugs, and the site lists a contractor&#x27;s license number, monthly specials and weekday hours of 7 AM to 5 PM.</p><p><strong>Address:</strong> 1308 65th St, Sacramento, CA 95819</p><p><strong>Phone:</strong> (916) 455-3081</p><p>Contractor's License #439893 (per website).</p></div>
+        <div><div class="process-step reveal"><p style="margin:0">Call (916) 455-3081 and describe the rug or carpet</p></div><div class="process-step reveal"><p style="margin:0">Arrange in-home service or pick-up of your area rug</p></div><div class="process-step reveal"><p style="margin:0">Cleaning or hand repair at the 65th St workshop</p></div><div class="process-step reveal"><p style="margin:0">Delivery back to your home</p></div></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Rug and carpet care</h2>
-        <ul class="svc-list"><li>Rug cleaning</li><li>Oriental rug cleaning and hand repair</li><li>Fringing</li><li>In-home carpet cleaning</li><li>Carpet sales and installation</li><li>Pick-up and delivery</li></ul>
+        <ul class="svc-list"><li>On-site carpet cleaning</li><li>Oriental rug cleaning</li><li>Rug repair and fringing</li><li>Custom area rugs</li><li>Area rug pads</li><li>Carpet sales and installation</li><li>Pick-up and delivery for area rugs</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         <ul class="hours-list"><li>Monday - Friday: 7:00 AM - 5:00 PM</li></ul>
-        <p>Per the business&#x27;s website; call to confirm.</p>
+        <p>Per the business&#x27;s website; call (916) 455-3081 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

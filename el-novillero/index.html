@@ -85,11 +85,23 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: editorial */
+    
+    body.skel-menu_forward .hero { min-height: 52vh; align-items: center; text-align: center; }
+    body.skel-menu_forward .hero-inner { max-width: 720px; margin: 0 auto; }
+    body.skel-menu_forward .hero h1 { max-width: none; }
+    body.skel-menu_forward .menu-block { background: var(--surface); padding: 3.5rem 0; margin-top: -2rem; position: relative; z-index: 2; border-radius: calc(var(--radius) * 2) calc(var(--radius) * 2) 0 0; box-shadow: 0 -20px 50px rgba(0,0,0,.08); }
+    body.skel-menu_forward .menu-grid { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; }
+    body.skel-menu_forward .menu-card { padding: 1.35rem 1.5rem; border-left: 4px solid var(--accent); box-shadow: 0 8px 24px rgba(0,0,0,.06); }
+    body.skel-menu_forward .menu-card h3 { font-size: 1.15rem; margin-top: 0; }
+    body.skel-menu_forward .hours-block { background: color-mix(in srgb, var(--accent) 12%, var(--bg)); padding: 2rem 0; }
+    body.skel-menu_forward .hours-list { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+    body.skel-menu_forward .story-block { padding-top: 2rem; }
+    
+    /* layout: editorial skeleton: menu_forward */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19164564287" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=4216%20Franklin%20Blvd%2C%20Sacramento%2C%20CA%2095820">
+<body class="skel-menu_forward" data-biz-phone="tel:+19164564287" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=4216%20Franklin%20Blvd%2C%20Sacramento%2C%20CA%2095820">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">El Novillero Restaurant</div>
@@ -105,22 +117,23 @@
         <a class="btn btn-primary" href="tel:+19164564287">Call (916) 456-4287</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=4216%20Franklin%20Blvd%2C%20Sacramento%2C%20CA%2095820">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Family-run since 1970</div><div class="hl">Sauces and chips made fresh daily</div><div class="hl">127-space parking lot</div></div>
+      <div class="highlights"><div class="hl">Family-run since 1970</div><div class="hl">Carnitas de puerco is the listed specialty</div><div class="hl">Sauces and chips made fresh daily</div><div class="hl">127-space parking lot</div><div class="hl">Seats 180, no reservations</div></div>
       <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+      
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>El Novillero opened in 1970 as a 28-seat restaurant and, according to the Davalos family, has grown into one of Sacramento&#x27;s best-known Mexican restaurants with seating for 180.</p><p>The kitchen makes everything fresh daily, from the sauces to the corn chips.</p><p>The restaurant is at 4216 Franklin Blvd on the corner of 18th Avenue, with its own 127-space parking lot. It does not take reservations.</p></div>
+        <div class="story-copy"><p>El Novillero opened in 1970 at 4216 Franklin Blvd, on the corner of 18th Avenue, as a 28-seat restaurant. The Davalos family says it has grown into one of Sacramento&#x27;s best-known Mexican restaurants, now seating 180. The name means The Apprentice Bullfighter.</p><p>The restaurant&#x27;s menu notes say the family&#x27;s patriarch opened several Mexican restaurants in downtown Sacramento before El Novillero, serving huevos rancheros, chile verde and carnitas, and that carnitas became his specialty. Carnitas de puerco, roasted pork served several ways, is listed on the menu as the house specialty.</p><p>The kitchen makes everything fresh daily, from the sauces to the corn chips. The menu notes that lard is used to prepare dishes, and a vegetarian information section lists which items are meat-free and which sauces contain pork, peanuts or gluten.</p><p>The restaurant has its own 127-space lot, does not take reservations, and accepts Visa, Mastercard, American Express and Discover. Alcohol is served only with food.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 4216 Franklin Blvd, corner of 18th Avenue, Sacramento</p><p><strong>Phone:</strong> (916) 456-4287</p><p><strong>Cards accepted:</strong> Visa, Mastercard, American Express, Discover</p><p><strong>Reservations:</strong> not accepted</p><p><strong>Parking:</strong> 127-space lot</p></div>
       </div>
     </section>
     <section class="menu-block reveal" id="menu">
       <div class="wrap">
         <h2>From the kitchen</h2>
-        <p class="menu-note">Everything is made fresh daily, from the sauces to the corn chips. Call (916) 456-4287 for the current menu.</p>
-        <div class="menu-grid"><article class="menu-card reveal"><h3>Made fresh daily</h3><ul><li>Sauces</li><li>Corn chips</li></ul></article></div>
+        <p class="menu-note">Dishes below are listed on the restaurant&#x27;s printed menu. Prices are on the menu and subject to change; call (916) 456-4287 for the current menu.</p>
+        <div class="menu-grid"><article class="menu-card reveal"><h3>Carnitas specialty</h3><ul><li>Carnitas dinner platter with rice, beans, avocado slices and pico de gallo</li><li>Carnitas de puerco served several ways</li><li>Flautas de maiz with carnitas or house chicken</li><li>Carnitas in burritos, enchiladas, tacos and quesadillas</li></ul></article><article class="menu-card reveal"><h3>House favorites</h3><ul><li>Super burrito</li><li>La parrillada (grilled flap steak, peppers, onions, bacon, mushrooms)</li><li>La bandera mexicana (beef, chicken and chile verde enchiladas)</li><li>Gallina en mole</li><li>Gallina a la tampiquena</li><li>Chimichanga grande</li><li>Huevos rancheros and chorizo con huevos</li><li>Enchiladas rancheras</li></ul></article><article class="menu-card reveal"><h3>Combos &amp; create your own</h3><ul><li>Two cheese enchiladas</li><li>Two chicken or ground beef tacos</li><li>Two chile rellenos</li><li>Two bean burritos</li><li>Create your own: burrito, enchilada, tostada, taco, flauta, sope, quesadilla or tamale</li></ul></article><article class="menu-card reveal"><h3>Drinks</h3><ul><li>Soft drinks, iced tea and pink lemonade</li><li>Coffee or hot tea</li><li>Juices and milk</li><li>Virgin strawberry margarita or daiquiri</li><li>Mexican and domestic beers (with food)</li><li>Wine by the glass or bottle (with food)</li></ul></article></div>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">

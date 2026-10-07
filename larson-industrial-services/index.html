@@ -85,11 +85,18 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: split */
+    
+    body.skel-craft_workshop .hero { min-height: 50vh; }
+    body.skel-craft_workshop .process-split { display: grid; gap: 2rem; padding: 3rem 0; }
+    @media(min-width:768px) { body.skel-craft_workshop .process-split { grid-template-columns: 1fr 1fr; align-items: start; } }
+    body.skel-craft_workshop .process-step { background: var(--surface); padding: 1.25rem; border-radius: var(--radius); margin-bottom: .75rem; border-left: 4px solid var(--accent2); }
+    body.skel-craft_workshop .services-block { background: var(--surface); }
+    
+    /* layout: split skeleton: craft_workshop */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19163836022" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=6000%20Midway%20St%20Ste%20400%2C%20Sacramento%2C%20CA%2095828">
+<body class="skel-craft_workshop" data-biz-phone="tel:+19163836022" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=6000%20Midway%20St%20Ste%20400%2C%20Sacramento%2C%20CA%2095828">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Larson Industrial Services, Inc.</div>
@@ -105,28 +112,29 @@
         <a class="btn btn-primary" href="tel:+19163836022">Call (916) 383-6022</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=6000%20Midway%20St%20Ste%20400%2C%20Sacramento%2C%20CA%2095828">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Millwright and piping contractor</div><div class="hl">Mobile and industrial welding</div><div class="hl">Emergency and shut-down support</div></div>
+      <div class="highlights"><div class="hl">Millwright and industrial piping contractor</div><div class="hl">Mobile and industrial welding</div><div class="hl">Food processing and sanitary piping</div><div class="hl">Emergency and shut-down support</div><div class="hl">Safety-first values</div></div>
       <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+      
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
-        <div class="story-copy"><p>Larson Industrial Services, Inc. is a Sacramento-based industrial millwright and piping contractor serving much of Northern California.</p><p>Its website lists welding, machinery installation and maintenance, conveyors, industrial piping, food processing support, and emergency and shut-down support.</p><p>The company&#x27;s stated values are safety, customer satisfaction, teamwork, and quality workmanship.</p></div>
-        <div class="story-aside"><p><strong>Address:</strong> 6000 Midway St Ste 400, Sacramento, CA 95828</p><p><strong>Phone:</strong> (916) 383-6022</p></div>
+      <div class="wrap process-split">
+        <div class="story-copy"><p>Larson Industrial Services, Inc. is a Sacramento-based industrial millwright and piping contractor at 6000 Midway St, Suite 400, serving much of Northern California. Its website says it can man any size job with trained professionals in industrial construction.</p><p>The site&#x27;s specialties are welding services, material handling, machinery installation, food processing, emergency services, engineered quality, and pipes and piping. Work listed includes mobile welding, conveyor installation and maintenance, stainless steel piping and tubing, sanitary welding, shut-down support and plant maintenance.</p><p>The company&#x27;s stated values are safety, customer satisfaction, teamwork and quality workmanship. Call (916) 383-6022 to discuss an industrial project.</p><p><strong>Address:</strong> 6000 Midway St Ste 400, Sacramento, CA 95828</p><p><strong>Phone:</strong> (916) 383-6022</p></div>
+        <div><div class="process-step reveal"><p style="margin:0">Call (916) 383-6022 with the plant, line or piping scope</p></div><div class="process-step reveal"><p style="margin:0">Review the job and safety requirements</p></div><div class="process-step reveal"><p style="margin:0">Mobilize crews for installation, welding or maintenance</p></div><div class="process-step reveal"><p style="margin:0">Complete the work and hand off</p></div></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Specialties</h2>
-        <ul class="svc-list"><li>Industrial and mobile welding</li><li>Machinery installation and maintenance</li><li>Conveyor installation and maintenance</li><li>Stainless steel and sanitary piping</li><li>Food processing support</li><li>Emergency and shut-down support</li></ul>
+        <ul class="svc-list"><li>Industrial and mobile welding</li><li>Machinery installation and maintenance</li><li>Conveyor installation and maintenance</li><li>Stainless steel and sanitary piping</li><li>Pneumatic conveyor and material handling systems</li><li>Supports, stairways and catwalks</li><li>Food processing support</li><li>Emergency and shut-down support</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         
-        <p>Call for current hours.</p>
+        <p>Business hours are not listed on the website. Call (916) 383-6022 to reach the office.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

@@ -85,11 +85,21 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: split */
+    
+    body.skel-service_trust .hero { min-height: 62vh; }
+    body.skel-service_trust .trust-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; max-width: 1100px; margin: -2rem auto 0; padding: 0 1.25rem; position: relative; z-index: 2; }
+    body.skel-service_trust .trust-bar article { background: var(--surface); padding: 1.1rem; border-radius: var(--radius); box-shadow: 0 10px 30px rgba(0,0,0,.08); border-top: 3px solid var(--accent); font-size: .88rem; }
+    body.skel-service_trust .trust-bar strong { display: block; font-size: 1rem; margin-bottom: .25rem; }
+    body.skel-service_trust .services-block { background: linear-gradient(180deg, var(--bg), var(--surface)); }
+    body.skel-service_trust .svc-list { columns: 1; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .65rem; list-style: none; padding: 0; }
+    body.skel-service_trust .svc-list li { background: var(--surface); padding: .85rem 1rem; border-radius: 8px; border: 1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
+    body.skel-service_trust .svc-list li::before { content: "✓ "; color: var(--accent); font-weight: 700; }
+    
+    /* layout: split skeleton: service_trust */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19169235767" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=4011%20Winters%20St%2C%20Sacramento%2C%20CA%2095838">
+<body class="skel-service_trust" data-biz-phone="tel:+19169235767" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=4011%20Winters%20St%2C%20Sacramento%2C%20CA%2095838">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">E Z Tires</div>
@@ -105,28 +115,29 @@
         <a class="btn btn-primary" href="tel:+19169235767">Call (916) 923-5767</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=4011%20Winters%20St%2C%20Sacramento%2C%20CA%2095838">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">4011 Winters St</div><div class="hl">Tire shop</div><div class="hl">Call (916) 923-5767</div></div>
+      <div class="highlights"><div class="hl">Open seven days a week</div><div class="hl">New tires, flat repair, rotation and balancing</div><div class="hl">Alignment and TPMS service listed</div><div class="hl">Credit cards accepted</div><div class="hl">4011 Winters St, Del Paso Heights</div></div>
       
+      <div class="trust-bar reveal"><article class='reveal'><strong>Open seven days a week</strong></article><article class='reveal'><strong>New tires, flat repair, rotation and balancing</strong></article><article class='reveal'><strong>Alignment and TPMS service listed</strong></article><article class='reveal'><strong>Credit cards accepted</strong></article></div>
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>E Z Tires is a tire shop at 4011 Winters St in Sacramento.</p><p>Call (916) 923-5767 to ask about tire sizes, availability, and current hours.</p></div>
+        <div class="story-copy"><p>E Z Tires is a tire shop at 4011 Winters St in Sacramento&#x27;s Del Paso Heights area. Public listings show it open seven days a week, with Monday through Saturday hours from 9 AM to 6 PM and shorter hours on Sunday.</p><p>Directory listings describe new tire sales and installation, flat repair, rotation and balancing, alignment, TPMS sensor service, seasonal tire changeovers and free tire pressure checks. Listings also note credit cards are accepted.</p><p>Call (916) 923-5767 to ask whether your tire size is in stock and what the shop can do for your vehicle.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 4011 Winters St, Sacramento, CA 95838</p><p><strong>Phone:</strong> (916) 923-5767</p></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Tire services</h2>
-        <ul class="svc-list"><li>Tire sales</li><li>Tire installation</li><li>Tire repair</li><li>Call to ask about other services</li></ul>
+        <ul class="svc-list"><li>New tire sales and installation</li><li>Flat tire repair</li><li>Tire rotation and balancing</li><li>Alignment</li><li>TPMS sensor service</li><li>Seasonal tire changeovers</li><li>Free tire pressure checks</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
-        
-        <p>Call for current hours.</p>
+        <ul class="hours-list"><li>Monday - Saturday: 9:00 AM - 6:00 PM</li><li>Sunday: 9:30 AM - 5:00 PM</li></ul>
+        <p>Hours match Exa, Waze, Loc8NearMe and other listings; one directory shows Sunday opening at 10 AM. Call (916) 923-5767 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

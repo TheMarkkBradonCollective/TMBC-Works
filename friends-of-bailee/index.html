@@ -85,11 +85,24 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: editorial */
+    
+    body.skel-studio_booking .hero { min-height: 48vh; }
+    body.skel-studio_booking .gallery-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; max-width: 1100px; margin: -2.5rem auto 0; padding: 0 1.25rem; position: relative; z-index: 3; }
+    body.skel-studio_booking .gallery-row div { aspect-ratio: 4/5; border-radius: var(--radius); background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 30%, #111), var(--surface)); border: 1px solid color-mix(in srgb, var(--muted) 30%, transparent); display: flex; align-items: flex-end; padding: .75rem; font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+    @media(max-width:640px) { body.skel-studio_booking .gallery-row { grid-template-columns: 1fr; } body.skel-studio_booking .gallery-row div { aspect-ratio: 16/9; } }
+    body.skel-studio_booking .booking-panel { background: var(--surface); margin: 2rem 1.25rem; max-width: 1060px; margin-left: auto; margin-right: auto; padding: 2rem; border-radius: calc(var(--radius) * 1.5); display: grid; gap: 1rem; text-align: center; box-shadow: 0 16px 48px rgba(0,0,0,.1); }
+    @media(min-width:768px) { body.skel-studio_booking .booking-panel { grid-template-columns: 1fr auto auto; align-items: center; text-align: left; } }
+    body.skel-studio_booking .chip-row { display: flex; flex-wrap: wrap; gap: .5rem; justify-content: center; }
+    body.skel-studio_booking .chip { padding: .45rem .85rem; border-radius: 999px; background: color-mix(in srgb, var(--accent) 15%, transparent); font-size: .82rem; font-weight: 600; }
+    body.skel-studio_booking .services-block { padding-top: 1rem; }
+    body.skel-studio_booking .svc-list { columns: 1; display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; padding: 0; }
+    body.skel-studio_booking .svc-list li { background: var(--surface); padding: .5rem .9rem; border-radius: 999px; border: 1px solid color-mix(in srgb, var(--muted) 25%, transparent); }
+    
+    /* layout: editorial skeleton: studio_booking */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19166624942" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=6622%20Freeport%20Blvd%20%234%2C%20Sacramento%2C%20CA%2095822">
+<body class="skel-studio_booking" data-biz-phone="tel:+19166624942" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=6622%20Freeport%20Blvd%20%234%2C%20Sacramento%2C%20CA%2095822">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Friends Of Bailee</div>
@@ -105,28 +118,38 @@
         <a class="btn btn-primary" href="tel:+19166624942">Call (916) 662-4942</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=6622%20Freeport%20Blvd%20%234%2C%20Sacramento%2C%20CA%2095822">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Dog grooming studio</div><div class="hl">Call or text to book</div><div class="hl">Coat-care tips</div></div>
+      <div class="highlights"><div class="hl">One-on-one appointment for each dog</div><div class="hl">Bath, Bath &amp; Trim and Full Groom</div><div class="hl">Add-ons: nails, ears, glands, teeth brushing</div><div class="hl">Rabies vaccination required</div><div class="hl">Call or text (916) 662-4942</div></div>
       <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+      
     </div>
   </section>
   
-    <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
-        <div class="story-copy"><p>Friends Of Bailee is a dog grooming studio at 6622 Freeport Blvd, #4, in Sacramento, across from Bing Maloney Golf Course.</p><p>The shop encourages regular grooming and bath appointments, and shares coat-care tips like regular brushing down to the skin to help prevent matting.</p><p>Call or text (916) 662-4942 to book.</p></div>
-        <div class="story-aside"><p><strong>Address:</strong> 6622 Freeport Blvd #4, Sacramento, CA 95822</p><p><strong>Phone:</strong> (916) 662-4942</p><p>Call or text to book. Website lists email: FriendsOfBailee@gmail.com.</p></div>
+    <div class="gallery-row reveal" aria-hidden="true"><div>Bath</div><div>Bath &amp; Trim</div><div>Full Groom</div></div>
+    <div class="booking-panel reveal">
+      <div>
+        <h2 style="margin:0 0 .5rem;font-size:1.25rem">Book your visit</h2>
+        <p style="margin:0;color:var(--muted);font-size:.92rem">Call or text (916) 662-4942 to book. Each dog gets its own appointment time; 24 hours notice is requested for cancellations and dogs must be current on rabies vaccinations.</p>
       </div>
-    </section>
+      <a class="btn btn-primary" href="tel:+19166624942">Call (916) 662-4942</a>
+      <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=6622%20Freeport%20Blvd%20%234%2C%20Sacramento%2C%20CA%2095822">Directions</a>
+    </div>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Grooming</h2>
-        <ul class="svc-list"><li>Dog grooming</li><li>Bath appointments</li><li>De-matting guidance</li><li>Brushing and coat-care tips</li></ul>
+        <div class="chip-row"><span class="chip">Bath with brush-out, blow dry and ear cleaning</span><span class="chip">Bath &amp; Trim with sanitary and paw pad trim</span><span class="chip">Full Groom cut and style</span><span class="chip">Nail trim</span><span class="chip">Teeth brushing</span><span class="chip">Gland expression on request</span><span class="chip">Brushing and coat-care tips</span></div>
+      </div>
+    </section>
+    <section class="story-block reveal" id="story">
+      <div class="wrap story-grid">
+        <div class="story-copy"><p>Friends Of Bailee is a dog grooming studio at 6622 Freeport Blvd, #4, in Sacramento, across from Bing Maloney Golf Course. Its website says it aims to create a calm environment by booking each dog its own appointment time, with lots of praise, patience and one-on-one attention.</p><p>The grooming menu starts with a Bath, which includes brush-out, bath with personalized shampoo and conditioner, blow dry, nail trim, ear cleaning, a bow or bandana, and gland expression by request on dogs 30 pounds and up. Bath &amp; Trim adds a sanitary trim, paw pad trim and shaping of the legs, feet and hocks, and a Full Groom adds a cut and style to fit your dog&#x27;s lifestyle.</p><p>The site lists add-ons such as nail trim, ear cleaning, gland expression and teeth brushing. Policies include 24 hours notice for cancellations, current rabies vaccinations, and arriving on time. Call or text (916) 662-4942 to book.</p></div>
+        <div class="story-aside"><p><strong>Address:</strong> 6622 Freeport Blvd #4, Sacramento, CA 95822</p><p><strong>Phone:</strong> (916) 662-4942</p><p>Call or text to book. Website lists email: FriendsOfBailee@gmail.com.</p></div>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         
-        <p>Hours are not listed on the website. Call for current hours.</p>
+        <p>Hours are not listed on the website; grooming is by appointment. Call or text (916) 662-4942 to book.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

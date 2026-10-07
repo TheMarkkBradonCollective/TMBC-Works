@@ -85,11 +85,21 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: split */
+    
+    body.skel-service_trust .hero { min-height: 62vh; }
+    body.skel-service_trust .trust-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; max-width: 1100px; margin: -2rem auto 0; padding: 0 1.25rem; position: relative; z-index: 2; }
+    body.skel-service_trust .trust-bar article { background: var(--surface); padding: 1.1rem; border-radius: var(--radius); box-shadow: 0 10px 30px rgba(0,0,0,.08); border-top: 3px solid var(--accent); font-size: .88rem; }
+    body.skel-service_trust .trust-bar strong { display: block; font-size: 1rem; margin-bottom: .25rem; }
+    body.skel-service_trust .services-block { background: linear-gradient(180deg, var(--bg), var(--surface)); }
+    body.skel-service_trust .svc-list { columns: 1; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .65rem; list-style: none; padding: 0; }
+    body.skel-service_trust .svc-list li { background: var(--surface); padding: .85rem 1rem; border-radius: 8px; border: 1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
+    body.skel-service_trust .svc-list li::before { content: "✓ "; color: var(--accent); font-weight: 700; }
+    
+    /* layout: split skeleton: service_trust */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19163327560" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=6315%20Watt%20Ave%20%23124%2C%20North%20Highlands%2C%20CA%2095660">
+<body class="skel-service_trust" data-biz-phone="tel:+19163327560" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=6315%20Watt%20Ave%20%23124%2C%20North%20Highlands%2C%20CA%2095660">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">J &amp; T Auto Repair</div>
@@ -105,28 +115,29 @@
         <a class="btn btn-primary" href="tel:+19163327560">Call (916) 332-7560</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=6315%20Watt%20Ave%20%23124%2C%20North%20Highlands%2C%20CA%2095660">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">6315 Watt Ave #124</div><div class="hl">North Highlands</div><div class="hl">Call (916) 332-7560</div></div>
+      <div class="highlights"><div class="hl">General auto repair and diagnostics</div><div class="hl">Brake, engine and maintenance work</div><div class="hl">Weekdays 8:30 AM - 5:30 PM</div><div class="hl">Major cards and debit accepted</div><div class="hl">Wheelchair accessible</div></div>
       
+      <div class="trust-bar reveal"><article class='reveal'><strong>General auto repair and diagnostics</strong></article><article class='reveal'><strong>Brake, engine and maintenance work</strong></article><article class='reveal'><strong>Weekdays 8:30 AM - 5:30 PM</strong></article><article class='reveal'><strong>Major cards and debit accepted</strong></article></div>
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>J &amp; T Auto Repair is an auto repair shop at 6315 Watt Ave, #124, in North Highlands.</p><p>Call (916) 332-7560 to describe your vehicle&#x27;s issue and ask about availability.</p></div>
+        <div class="story-copy"><p>J &amp; T Auto Repair is an auto repair shop at 6315 Watt Ave, Suite 124, in North Highlands. Public listings agree on weekday hours from 8:30 AM to 5:30 PM, with the shop closed on weekends.</p><p>Listings describe general repair including diagnostics, engine repair, oil changes and fluid checks, tune-ups, brake work such as pad replacement and rotor resurfacing, and tire balancing and alignment. Directory pages also mention transmission repair, water pump changes and head gasket repairs.</p><p>The shop accepts American Express, Visa, MasterCard and debit cards per directory listings, and the location is wheelchair accessible. Call (916) 332-7560 to describe your car&#x27;s symptoms.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 6315 Watt Ave #124, North Highlands, CA 95660</p><p><strong>Phone:</strong> (916) 332-7560</p></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Auto services</h2>
-        <ul class="svc-list"><li>Auto repair</li><li>Diagnostics</li><li>Brake service</li><li>Maintenance and oil changes</li></ul>
+        <ul class="svc-list"><li>Diagnostics</li><li>Engine repair</li><li>Oil changes and fluid checks</li><li>Tune-ups</li><li>Brake pads and rotor resurfacing</li><li>Tire balancing and alignment</li><li>Transmission repair</li><li>Water pump and head gasket repairs</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
-        
-        <p>Call for current hours.</p>
+        <ul class="hours-list"><li>Monday - Friday: 8:30 AM - 5:30 PM</li><li>Saturday and Sunday: Closed</li></ul>
+        <p>Hours match Exa, CMac and Wheree listings. Call (916) 332-7560 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

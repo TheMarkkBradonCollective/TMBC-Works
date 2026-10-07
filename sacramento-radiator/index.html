@@ -85,11 +85,21 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: split */
+    
+    body.skel-service_trust .hero { min-height: 62vh; }
+    body.skel-service_trust .trust-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; max-width: 1100px; margin: -2rem auto 0; padding: 0 1.25rem; position: relative; z-index: 2; }
+    body.skel-service_trust .trust-bar article { background: var(--surface); padding: 1.1rem; border-radius: var(--radius); box-shadow: 0 10px 30px rgba(0,0,0,.08); border-top: 3px solid var(--accent); font-size: .88rem; }
+    body.skel-service_trust .trust-bar strong { display: block; font-size: 1rem; margin-bottom: .25rem; }
+    body.skel-service_trust .services-block { background: linear-gradient(180deg, var(--bg), var(--surface)); }
+    body.skel-service_trust .svc-list { columns: 1; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .65rem; list-style: none; padding: 0; }
+    body.skel-service_trust .svc-list li { background: var(--surface); padding: .85rem 1rem; border-radius: 8px; border: 1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
+    body.skel-service_trust .svc-list li::before { content: "✓ "; color: var(--accent); font-weight: 700; }
+    
+    /* layout: split skeleton: service_trust */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19163921149" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=6430%20Franklin%20Blvd%20%23%204%2C%20Sacramento%2C%20CA%2095823">
+<body class="skel-service_trust" data-biz-phone="tel:+19163921149" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=6430%20Franklin%20Blvd%20%23%204%2C%20Sacramento%2C%20CA%2095823">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Sacramento Radiator Sales and Service</div>
@@ -105,21 +115,22 @@
         <a class="btn btn-primary" href="tel:+19163921149">Call (916) 392-1149</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=6430%20Franklin%20Blvd%20%23%204%2C%20Sacramento%2C%20CA%2095823">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Family-owned since 1972</div><div class="hl">Same-day service</div><div class="hl">Free estimates</div></div>
+      <div class="highlights"><div class="hl">Family-owned since 1972</div><div class="hl">All work guaranteed</div><div class="hl">Same-day service</div><div class="hl">Free estimates</div><div class="hl">Free pick-up and delivery</div></div>
       <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+      <div class="trust-bar reveal"><article class='reveal'><strong>Family-owned since 1972</strong></article><article class='reveal'><strong>All work guaranteed</strong></article><article class='reveal'><strong>Same-day service</strong></article><article class='reveal'><strong>Free estimates</strong></article></div>
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>Sacramento Radiator Service is a family-owned and operated shop at 6430 Franklin Blvd, #4, serving the Sacramento area since 1972, according to its website.</p><p>The shop repairs automotive and industrial radiators for cars, trucks, RVs, and industrial equipment, plus heater cores and water pumps.</p><p>Its website lists same-day service, free pick-up and delivery, free estimates, and guaranteed work.</p></div>
+        <div class="story-copy"><p>Sacramento Radiator Service is a family-owned and operated shop at 6430 Franklin Blvd, #4, serving the Sacramento area since 1972, according to its website. The site describes more than 40 years of experience as industrial and automotive radiator specialists.</p><p>The shop repairs radiators for cars, trucks, RVs and industrial equipment, plus heater cores and water pumps. Its website says all work is guaranteed.</p><p>Listed benefits include same-day service, free pick-up and delivery, and free estimates. Call (916) 392-1149 to describe the problem.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 6430 Franklin Blvd # 4, Sacramento, CA 95823</p><p><strong>Phone:</strong> (916) 392-1149</p></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Cooling system service</h2>
-        <ul class="svc-list"><li>Radiator repair</li><li>Heater cores</li><li>Water pumps</li><li>Cars, trucks, and RVs</li><li>Industrial radiators</li><li>Free pick-up and delivery</li></ul>
+        <ul class="svc-list"><li>Radiator repair</li><li>Heater cores</li><li>Water pumps</li><li>Cars, trucks and RVs</li><li>Industrial radiators</li><li>Free pick-up and delivery</li><li>Free estimates</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">

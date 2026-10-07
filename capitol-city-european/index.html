@@ -85,11 +85,21 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: split */
+    
+    body.skel-service_trust .hero { min-height: 62vh; }
+    body.skel-service_trust .trust-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; max-width: 1100px; margin: -2rem auto 0; padding: 0 1.25rem; position: relative; z-index: 2; }
+    body.skel-service_trust .trust-bar article { background: var(--surface); padding: 1.1rem; border-radius: var(--radius); box-shadow: 0 10px 30px rgba(0,0,0,.08); border-top: 3px solid var(--accent); font-size: .88rem; }
+    body.skel-service_trust .trust-bar strong { display: block; font-size: 1rem; margin-bottom: .25rem; }
+    body.skel-service_trust .services-block { background: linear-gradient(180deg, var(--bg), var(--surface)); }
+    body.skel-service_trust .svc-list { columns: 1; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .65rem; list-style: none; padding: 0; }
+    body.skel-service_trust .svc-list li { background: var(--surface); padding: .85rem 1rem; border-radius: 8px; border: 1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
+    body.skel-service_trust .svc-list li::before { content: "✓ "; color: var(--accent); font-weight: 700; }
+    
+    /* layout: split skeleton: service_trust */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19164525811" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=4150%20Power%20Inn%20Rd%2C%20Sacramento%2C%20CA%2095826">
+<body class="skel-service_trust" data-biz-phone="tel:+19164525811" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=4150%20Power%20Inn%20Rd%2C%20Sacramento%2C%20CA%2095826">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Capitol City European</div>
@@ -105,21 +115,22 @@
         <a class="btn btn-primary" href="tel:+19164525811">Call (916) 452-5811</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=4150%20Power%20Inn%20Rd%2C%20Sacramento%2C%20CA%2095826">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">2-year / 24,000-mile warranty</div><div class="hl">European car specialists</div><div class="hl">Mon - Fri 8 to 5</div></div>
+      <div class="highlights"><div class="hl">European car specialists since 2001</div><div class="hl">Mercedes-Benz and BMW repair</div><div class="hl">2-year or 24,000-mile repair warranty</div><div class="hl">Free courtesy inspection listed</div><div class="hl">Monday - Friday 8 AM - 5 PM</div></div>
       <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+      <div class="trust-bar reveal"><article class='reveal'><strong>European car specialists since 2001</strong></article><article class='reveal'><strong>Mercedes-Benz and BMW repair</strong></article><article class='reveal'><strong>2-year or 24,000-mile repair warranty</strong></article><article class='reveal'><strong>Free courtesy inspection listed</strong></article></div>
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>Capitol City European is an independent shop for European cars at 4150 Power Inn Rd, Unit 2, in Sacramento.</p><p>The shop handles computer diagnostics, factory-recommended maintenance, electrical repairs, heating and A/C, and brake and suspension work.</p><p>Repairs are backed by a 2-year / 24,000-mile warranty. Online appointment requests ask for 48 hours&#x27; notice.</p></div>
+        <div class="story-copy"><p>Capitol City European is a European car service center at 4150 Power Inn Rd, Unit 2, in Sacramento. The owner started it in fall 2001, according to the About page, and the services page focuses on Mercedes-Benz and BMW repair.</p><p>The site lists computer diagnostics, factory-recommended maintenance, electrical repairs, heating and air conditioning, brake and suspension repairs and more. It says repairs are explained clearly and backed by a 2-year or 24,000-mile warranty.</p><p>Service categories on the site include air conditioning, fuel system, cooling and heating, steering and suspension, brakes, exhaust, oil and fluid services, scheduled 15k to 90k services, and electrical diagnostics. The shop is open weekdays 8 AM to 5 PM; call (916) 452-5811.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 4150 Power Inn Rd, Unit 2, Sacramento, CA 95826</p><p><strong>Phone:</strong> (916) 452-5811</p><p><strong>Warranty:</strong> 2 years / 24,000 miles</p><p><strong>Appointments:</strong> 48 hours' notice requested for online requests</p></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>European car service</h2>
-        <ul class="svc-list"><li>Computer diagnostics</li><li>Factory-recommended maintenance</li><li>Electrical repairs</li><li>Heating and A/C repair</li><li>Brake and suspension repair</li></ul>
+        <ul class="svc-list"><li>Computer diagnostics</li><li>Air conditioning and heating</li><li>Brake system service</li><li>Steering and suspension</li><li>Electrical and check engine light</li><li>Mercedes A and B services</li><li>15k, 30k, 60k and 90k services</li><li>Free courtesy inspection</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">

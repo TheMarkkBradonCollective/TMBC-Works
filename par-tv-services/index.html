@@ -85,11 +85,18 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: editorial */
+    
+    body.skel-craft_workshop .hero { min-height: 50vh; }
+    body.skel-craft_workshop .process-split { display: grid; gap: 2rem; padding: 3rem 0; }
+    @media(min-width:768px) { body.skel-craft_workshop .process-split { grid-template-columns: 1fr 1fr; align-items: start; } }
+    body.skel-craft_workshop .process-step { background: var(--surface); padding: 1.25rem; border-radius: var(--radius); margin-bottom: .75rem; border-left: 4px solid var(--accent2); }
+    body.skel-craft_workshop .services-block { background: var(--surface); }
+    
+    /* layout: editorial skeleton: craft_workshop */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19167600427" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=1802%20Alicante%20St%2C%20Davis%2C%20CA%2095618%20%28per%20website%3B%20in-home%20mobile%20service%29">
+<body class="skel-craft_workshop" data-biz-phone="tel:+19167600427" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=1802%20Alicante%20St%2C%20Davis%2C%20CA%2095618%20%28per%20website%3B%20in-home%20mobile%20service%29">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Par TV Services</div>
@@ -105,28 +112,29 @@
         <a class="btn btn-primary" href="tel:+19167600427">Call (916) 760-0427</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=1802%20Alicante%20St%2C%20Davis%2C%20CA%2095618%20%28per%20website%3B%20in-home%20mobile%20service%29">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">In-home TV repair</div><div class="hl">TV lamp replacement</div><div class="hl">Sacramento-area service</div></div>
+      <div class="highlights"><div class="hl">In-home mobile TV repair</div><div class="hl">25 years in the field per the website</div><div class="hl">Authorized Mitsubishi service center per the website</div><div class="hl">Specializes in TV lamp replacement</div><div class="hl">Does not repair TV screens or glass</div></div>
       <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+      
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
-        <div class="story-copy"><p>Par TV Services provides in-home TV repair across the Sacramento area; its website lists a contact address in Davis.</p><p>The website lists problem diagnostics, picture tuning, bulb and lamp replacement, installations, and repairs for major TV brands.</p><p>The shop states it does not repair or replace TV screens or glass.</p></div>
-        <div class="story-aside"><p><strong>Address:</strong> 1802 Alicante St, Davis, CA 95618 (per website; in-home mobile service)</p><p><strong>Phone:</strong> (916) 760-0427</p></div>
+      <div class="wrap process-split">
+        <div class="story-copy"><p>Par TV Services is a mobile, in-home TV repair business serving Sacramento and surrounding communities; its website lists a contact address in Davis. The site says the business has been in the field for 25 years and repairs 4K, LED, LCD, plasma, projection, DLP, direct-view CRT and digital TVs.</p><p>In-home service covers major brands including Samsung, Mitsubishi, Vizio, LG, Zenith, Sony, Hitachi, Toshiba and Panasonic, and the site describes the business as an authorized Mitsubishi service center. It says it stocks commonly needed parts, including TV lamps, and specializes in lamp replacement.</p><p>The site is clear about limits: it does not repair or replace TV screens or glass. It also explains that a diagnostic fee is credited toward the repair if you go ahead. The service area list includes Sacramento, Elk Grove, Citrus Heights, Roseville, Rancho Cordova, Folsom, Davis, West Sacramento and many other nearby cities.</p><p><strong>Address:</strong> 1802 Alicante St, Davis, CA 95618 (per website; in-home mobile service)</p><p><strong>Phone:</strong> (916) 760-0427</p></div>
+        <div><div class="process-step reveal"><p style="margin:0">Call (916) 760-0427 and describe the problem</p></div><div class="process-step reveal"><p style="margin:0">Schedule an in-home visit</p></div><div class="process-step reveal"><p style="margin:0">Technician diagnoses the TV at your home</p></div><div class="process-step reveal"><p style="margin:0">Approve the repair or the replacement-part option</p></div></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>TV services</h2>
-        <ul class="svc-list"><li>Problem diagnostics</li><li>Picture tuning</li><li>Bulb and lamp replacement</li><li>Installations</li><li>TV repairs</li></ul>
+        <ul class="svc-list"><li>Problem diagnostics</li><li>Picture tuning</li><li>Bulb and lamp replacement</li><li>TV installations</li><li>In-home repairs</li><li>4K, LED, LCD, plasma and projection TVs</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         
-        <p>Mobile service by appointment. Call for current hours.</p>
+        <p>Mobile appointment service; no shop hours are listed on the website. Call (916) 760-0427 to schedule.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

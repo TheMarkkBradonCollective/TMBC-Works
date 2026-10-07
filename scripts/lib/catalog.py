@@ -53,6 +53,45 @@ IMAGES = {
     "alter": "https://images.unsplash.com/photo-1558171813-4c088753af8f?w=1600&q=80",
 }
 
+CATEGORY_SKELETON = {
+    "Barbershop": "studio_booking",
+    "Nail salon": "studio_booking",
+    "Donut shop": "menu_forward",
+    "Bakery": "menu_forward",
+    "Mexican restaurant": "menu_forward",
+    "Thai restaurant": "menu_forward",
+    "Tire shop": "service_trust",
+    "Auto repair": "service_trust",
+    "Auto repair / diagnostics": "service_trust",
+    "Auto repair & smog": "service_trust",
+    "Smog check": "service_trust",
+    "Smog check (STAR)": "service_trust",
+    "European auto repair": "service_trust",
+    "Import auto repair": "service_trust",
+    "Radiator repair": "service_trust",
+    "Appliance repair": "service_trust",
+    "Towing": "service_emergency",
+    "Plumbing": "service_emergency",
+    "Martial arts (kung fu)": "studio_booking",
+    "Martial arts": "studio_booking",
+    "Dog grooming": "studio_booking",
+    "Shoe shine": "studio_booking",
+    "Auto/marine/furniture upholstery": "craft_workshop",
+    "Furniture upholstery": "craft_workshop",
+    "Upholstery & embroidery": "craft_workshop",
+    "Shoe repair": "craft_workshop",
+    "Shoe & leather repair": "craft_workshop",
+    "Alterations / tailor": "craft_workshop",
+    "Lawn mower / small engine repair": "craft_workshop",
+    "Welding / fabrication": "craft_workshop",
+    "Mobile welding": "craft_workshop",
+    "Industrial contractor / millwright": "craft_workshop",
+    "Trophies / engraving": "craft_workshop",
+    "TV repair (in-home)": "craft_workshop",
+    "Rug cleaning": "craft_workshop",
+    "Fence & concrete contractor": "craft_workshop",
+}
+
 _cache = None
 
 
@@ -95,6 +134,7 @@ def profile_for(slug: str, row: dict) -> dict:
     image_key = data.get("image_key", "auto")
     hero_image = data.get("hero_image") or IMAGES.get(image_key) or IMAGES["auto"]
 
+    category = row.get("category", "")
     p = {
         **data,
         "colors": pal,
@@ -103,6 +143,7 @@ def profile_for(slug: str, row: dict) -> dict:
         "fonts_query": data.get("fonts_query") or _fonts_query(head, body),
         "hero_image": hero_image,
         "nav": _nav_html(data.get("nav")),
+        "skeleton": data.get("skeleton") or CATEGORY_SKELETON.get(category, "service_trust"),
     }
     p.pop("palette_idx", None)
     p.pop("verification", None)

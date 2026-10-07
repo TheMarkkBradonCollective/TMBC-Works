@@ -85,11 +85,18 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: cardhero */
+    
+    body.skel-craft_workshop .hero { min-height: 50vh; }
+    body.skel-craft_workshop .process-split { display: grid; gap: 2rem; padding: 3rem 0; }
+    @media(min-width:768px) { body.skel-craft_workshop .process-split { grid-template-columns: 1fr 1fr; align-items: start; } }
+    body.skel-craft_workshop .process-step { background: var(--surface); padding: 1.25rem; border-radius: var(--radius); margin-bottom: .75rem; border-left: 4px solid var(--accent2); }
+    body.skel-craft_workshop .services-block { background: var(--surface); }
+    
+    /* layout: cardhero skeleton: craft_workshop */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19166763608" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=5885%20La%20Castana%20Way%2C%20Sacramento%2C%20CA%2095823">
+<body class="skel-craft_workshop" data-biz-phone="tel:+19166763608" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=5885%20La%20Castana%20Way%2C%20Sacramento%2C%20CA%2095823">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">All Green Power Equipment</div>
@@ -105,28 +112,29 @@
         <a class="btn btn-primary" href="tel:+19166763608">Call (916) 676-3608</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=5885%20La%20Castana%20Way%2C%20Sacramento%2C%20CA%2095823">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Lawn mower repair</div><div class="hl">Small-engine repair</div><div class="hl">5885 La Castana Way</div></div>
+      <div class="highlights"><div class="hl">More than 12 years in business per GreenPal</div><div class="hl">Mowers, weed whackers and leaf blowers</div><div class="hl">Honda, Stihl, Echo, Toro and Briggs &amp; Stratton listed</div><div class="hl">Blade sharpening and tune-ups</div><div class="hl">Closed Friday and Sunday</div></div>
+      
       
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
-        <div class="story-copy"><p>All Green Power Equipment repairs lawn mowers and small engines at 5885 La Castana Way in Sacramento.</p><p>Call (916) 676-3608 to describe your equipment and ask about turnaround.</p></div>
-        <div class="story-aside"><p><strong>Address:</strong> 5885 La Castana Way, Sacramento, CA 95823</p><p><strong>Phone:</strong> (916) 676-3608</p></div>
+      <div class="wrap process-split">
+        <div class="story-copy"><p>All Green Power Equipment is a small engine and lawn equipment repair shop at 5885 La Castana Way in Sacramento. GreenPal&#x27;s listing says it has been in business for more than 12 years.</p><p>Listed services include engine diagnostics, carburetor replacement, blade sharpening, tune-ups, spark plug and pull cord replacement, oil changes, leaf blower repair, and weed whacker and walk-behind mower service. Brands listed include Honda, Stihl, Echo, Toro and Briggs &amp; Stratton.</p><p>Hours are consistent across listings, with Friday and Sunday closed. Call (916) 676-3608 to ask about your equipment.</p><p><strong>Address:</strong> 5885 La Castana Way, Sacramento, CA 95823</p><p><strong>Phone:</strong> (916) 676-3608</p></div>
+        <div><div class="process-step reveal"><p style="margin:0">Call (916) 676-3608 and describe what the equipment is doing</p></div><div class="process-step reveal"><p style="margin:0">Bring it to La Castana Way during open hours</p></div><div class="process-step reveal"><p style="margin:0">Approve the diagnosis and repair</p></div><div class="process-step reveal"><p style="margin:0">Pick up your equipment</p></div></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Repairs</h2>
-        <ul class="svc-list"><li>Lawn mower repair</li><li>Small-engine repair</li><li>Power equipment service</li><li>Tune-ups and maintenance</li></ul>
+        <ul class="svc-list"><li>Engine diagnostics</li><li>Carburetor replacement</li><li>Blade sharpening</li><li>Tune-ups and oil changes</li><li>Spark plug and pull cord replacement</li><li>Leaf blower repair</li><li>Walk-behind mower and weed whacker service</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
-        
-        <p>Call for current hours.</p>
+        <ul class="hours-list"><li>Monday - Thursday: 10:00 AM - 6:00 PM</li><li>Saturday: 12:00 PM - 5:00 PM</li><li>Friday and Sunday: Closed</li></ul>
+        <p>Hours match Exa, GreenPal and Wheree listings. Call (916) 676-3608 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

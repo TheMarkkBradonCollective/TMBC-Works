@@ -85,11 +85,23 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: split */
+    
+    body.skel-menu_forward .hero { min-height: 52vh; align-items: center; text-align: center; }
+    body.skel-menu_forward .hero-inner { max-width: 720px; margin: 0 auto; }
+    body.skel-menu_forward .hero h1 { max-width: none; }
+    body.skel-menu_forward .menu-block { background: var(--surface); padding: 3.5rem 0; margin-top: -2rem; position: relative; z-index: 2; border-radius: calc(var(--radius) * 2) calc(var(--radius) * 2) 0 0; box-shadow: 0 -20px 50px rgba(0,0,0,.08); }
+    body.skel-menu_forward .menu-grid { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; }
+    body.skel-menu_forward .menu-card { padding: 1.35rem 1.5rem; border-left: 4px solid var(--accent); box-shadow: 0 8px 24px rgba(0,0,0,.06); }
+    body.skel-menu_forward .menu-card h3 { font-size: 1.15rem; margin-top: 0; }
+    body.skel-menu_forward .hours-block { background: color-mix(in srgb, var(--accent) 12%, var(--bg)); padding: 2rem 0; }
+    body.skel-menu_forward .hours-list { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+    body.skel-menu_forward .story-block { padding-top: 2rem; }
+    
+    /* layout: split skeleton: menu_forward */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19164436689" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=1601%20F%20St%2C%20Sacramento%2C%20CA%2095814">
+<body class="skel-menu_forward" data-biz-phone="tel:+19164436689" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=1601%20F%20St%2C%20Sacramento%2C%20CA%2095814">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">16th Street Donuts</div>
@@ -105,29 +117,30 @@
         <a class="btn btn-primary" href="tel:+19164436689">Call (916) 443-6689</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=1601%20F%20St%2C%20Sacramento%2C%20CA%2095814">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">1601 F St</div><div class="hl">Fresh donuts</div><div class="hl">Call (916) 443-6689</div></div>
+      <div class="highlights"><div class="hl">1601 F St in Midtown</div><div class="hl">Donuts by the dozen: regular, favorite and fancy mixes</div><div class="hl">Croissants, fritters and cinnamon rolls</div><div class="hl">Apple Pay and credit cards</div></div>
+      
       
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>16th Street Donuts is a donut shop at 1601 F St in Sacramento.</p><p>Call (916) 443-6689 to ask about today&#x27;s selection and current hours.</p></div>
+        <div class="story-copy"><p>16th Street Donuts is a donut shop at 1601 F St in Midtown Sacramento. Listings describe a short, classic menu: fluffy glazed donuts, cream-filled varieties, fritters, cinnamon rolls and croissants, plus coffee and drinks.</p><p>Dozens are offered as a regular mix, a favorite mix or fancies. Drinks listed include pot drip coffee, hot tea, juices, chocolate milk, canned soda and bottled water.</p><p>Apple Maps lists Apple Pay, contactless payments and credit cards, plus validated and lot parking. Listings show takeout and delivery.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 1601 F St, Sacramento, CA 95814</p><p><strong>Phone:</strong> (916) 443-6689</p></div>
       </div>
     </section>
     <section class="menu-block reveal" id="menu">
       <div class="wrap">
-        <h2>Donuts &amp; more</h2>
-        <p class="menu-note">Call the shop for today&#x27;s selection.</p>
-        <div class="menu-grid"><article class="menu-card reveal"><h3>At the shop</h3><ul><li>Fresh donuts</li><li>Coffee</li></ul></article></div>
+        <h2>Donuts &amp; coffee</h2>
+        <p class="menu-note">Menu items come from public listings. Call (916) 443-6689 for today&#x27;s selection.</p>
+        <div class="menu-grid"><article class="menu-card reveal"><h3>Donuts by the dozen</h3><ul><li>One dozen regular mix</li><li>One dozen favorite mix</li><li>One dozen fancies</li><li>Glazed donuts</li><li>Cream-filled donuts</li></ul></article><article class="menu-card reveal"><h3>Fritters, rolls &amp; croissants</h3><ul><li>Apple fritter</li><li>Cinnamon roll</li><li>Croissants</li><li>Bars and twists</li></ul></article><article class="menu-card reveal"><h3>Coffee &amp; drinks</h3><ul><li>Pot drip coffee</li><li>Hazelnut coffee</li><li>Hot tea</li><li>Chocolate milk</li><li>Orange juice and apple juice</li><li>Bottled water and canned soda</li></ul></article></div>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         
-        <p>Call for current hours.</p>
+        <p>Listings conflict: Exa shows Monday - Friday 4 AM - 3 PM and Saturday - Sunday 5 AM - 3 PM, Apple Maps shows 4 AM - 4 PM daily, and other directories show 6 AM - 5 PM. Call (916) 443-6689 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

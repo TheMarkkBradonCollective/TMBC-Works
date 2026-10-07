@@ -85,11 +85,24 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: split */
+    
+    body.skel-studio_booking .hero { min-height: 48vh; }
+    body.skel-studio_booking .gallery-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; max-width: 1100px; margin: -2.5rem auto 0; padding: 0 1.25rem; position: relative; z-index: 3; }
+    body.skel-studio_booking .gallery-row div { aspect-ratio: 4/5; border-radius: var(--radius); background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 30%, #111), var(--surface)); border: 1px solid color-mix(in srgb, var(--muted) 30%, transparent); display: flex; align-items: flex-end; padding: .75rem; font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+    @media(max-width:640px) { body.skel-studio_booking .gallery-row { grid-template-columns: 1fr; } body.skel-studio_booking .gallery-row div { aspect-ratio: 16/9; } }
+    body.skel-studio_booking .booking-panel { background: var(--surface); margin: 2rem 1.25rem; max-width: 1060px; margin-left: auto; margin-right: auto; padding: 2rem; border-radius: calc(var(--radius) * 1.5); display: grid; gap: 1rem; text-align: center; box-shadow: 0 16px 48px rgba(0,0,0,.1); }
+    @media(min-width:768px) { body.skel-studio_booking .booking-panel { grid-template-columns: 1fr auto auto; align-items: center; text-align: left; } }
+    body.skel-studio_booking .chip-row { display: flex; flex-wrap: wrap; gap: .5rem; justify-content: center; }
+    body.skel-studio_booking .chip { padding: .45rem .85rem; border-radius: 999px; background: color-mix(in srgb, var(--accent) 15%, transparent); font-size: .82rem; font-weight: 600; }
+    body.skel-studio_booking .services-block { padding-top: 1rem; }
+    body.skel-studio_booking .svc-list { columns: 1; display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; padding: 0; }
+    body.skel-studio_booking .svc-list li { background: var(--surface); padding: .5rem .9rem; border-radius: 999px; border: 1px solid color-mix(in srgb, var(--muted) 25%, transparent); }
+    
+    /* layout: split skeleton: studio_booking */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19169273989" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=2829%20Del%20Paso%20Blvd%2C%20Sacramento%2C%20CA%2095815">
+<body class="skel-studio_booking" data-biz-phone="tel:+19169273989" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=2829%20Del%20Paso%20Blvd%2C%20Sacramento%2C%20CA%2095815">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Knock Out Barber Shop</div>
@@ -105,28 +118,38 @@
         <a class="btn btn-primary" href="tel:+19169273989">Call (916) 927-3989</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=2829%20Del%20Paso%20Blvd%2C%20Sacramento%2C%20CA%2095815">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">2829 Del Paso Blvd</div><div class="hl">Online booking listed</div><div class="hl">Call (916) 927-3989</div></div>
+      <div class="highlights"><div class="hl">Barbering at 2829 Del Paso Blvd</div><div class="hl">Book through Booksy or Fresha</div><div class="hl">Men&#x27;s haircuts, beard trims and hot towel shaves</div><div class="hl">Street and private-lot parking</div><div class="hl">Wheelchair accessible</div></div>
+      
       
     </div>
   </section>
   
-    <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
-        <div class="story-copy"><p>Knock Out Barber Shop is a barbershop at 2829 Del Paso Blvd in Sacramento, serving the Del Paso Heights area.</p><p>Appointments are available through online booking platforms (Booksy and Fresha list the shop), or you can call the shop directly at (916) 927-3989.</p></div>
-        <div class="story-aside"><p><strong>Address:</strong> 2829 Del Paso Blvd, Sacramento, CA 95815</p><p><strong>Phone:</strong> (916) 927-3989</p><p>Booking: listed on Booksy and Fresha.</p></div>
+    <div class="gallery-row reveal" aria-hidden="true"><div>Men&#x27;s haircuts</div><div>Beard trims</div><div>Hot towel shaves</div></div>
+    <div class="booking-panel reveal">
+      <div>
+        <h2 style="margin:0 0 .5rem;font-size:1.25rem">Book your visit</h2>
+        <p style="margin:0;color:var(--muted);font-size:.92rem">Book a chair on Booksy or Fresha, or call (916) 927-3989. Listings describe the shop as by appointment.</p>
       </div>
-    </section>
+      <a class="btn btn-primary" href="tel:+19169273989">Call (916) 927-3989</a>
+      <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=2829%20Del%20Paso%20Blvd%2C%20Sacramento%2C%20CA%2095815">Directions</a>
+    </div>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Barbering</h2>
-        <ul class="svc-list"><li>Men&#x27;s haircuts</li><li>Beard trims</li><li>Shape-ups and line-ups</li><li>Call to ask about other services</li></ul>
+        <div class="chip-row"><span class="chip">Men&#x27;s haircuts</span><span class="chip">Beard trims</span><span class="chip">Hot towel shaves</span><span class="chip">Barbering and hair styling</span><span class="chip">Appointments by Booksy, Fresha or phone</span></div>
+      </div>
+    </section>
+    <section class="story-block reveal" id="story">
+      <div class="wrap story-grid">
+        <div class="story-copy"><p>Knock Out Barber Shop is a barbershop at 2829 Del Paso Blvd in Sacramento&#x27;s Hagginwood area. The shop is listed on Booksy as Knockout Barbershop and on Fresha, and it also takes calls at (916) 927-3989.</p><p>Fresha lists barbering and hair-styling services including men&#x27;s haircuts, beard trims and hot towel shaves. Directory listings describe a welcoming shop with sports or music videos on the TVs and note that visits are by appointment.</p><p>Listings show street parking and a private lot, wheelchair access, and gender-neutral restrooms. Because the shop works by appointment, book online or call ahead before you drive over.</p></div>
+        <div class="story-aside"><p><strong>Address:</strong> 2829 Del Paso Blvd, Sacramento, CA 95815</p><p><strong>Phone:</strong> (916) 927-3989</p><p>Booking: listed on Booksy and Fresha.</p></div>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
-        
-        <p>Call for current hours.</p>
+        <ul class="hours-list"><li>Tuesday - Friday: 9:00 AM - 5:00 PM</li><li>Saturday: 8:00 AM - 3:00 PM</li><li>Monday and Sunday: Closed</li></ul>
+        <p>Hours match across several public listings; one directory shows earlier Saturday hours. Appointments recommended. Call (916) 927-3989 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

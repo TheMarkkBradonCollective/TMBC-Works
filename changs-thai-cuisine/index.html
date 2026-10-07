@@ -85,11 +85,23 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: split */
+    
+    body.skel-menu_forward .hero { min-height: 52vh; align-items: center; text-align: center; }
+    body.skel-menu_forward .hero-inner { max-width: 720px; margin: 0 auto; }
+    body.skel-menu_forward .hero h1 { max-width: none; }
+    body.skel-menu_forward .menu-block { background: var(--surface); padding: 3.5rem 0; margin-top: -2rem; position: relative; z-index: 2; border-radius: calc(var(--radius) * 2) calc(var(--radius) * 2) 0 0; box-shadow: 0 -20px 50px rgba(0,0,0,.08); }
+    body.skel-menu_forward .menu-grid { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; }
+    body.skel-menu_forward .menu-card { padding: 1.35rem 1.5rem; border-left: 4px solid var(--accent); box-shadow: 0 8px 24px rgba(0,0,0,.06); }
+    body.skel-menu_forward .menu-card h3 { font-size: 1.15rem; margin-top: 0; }
+    body.skel-menu_forward .hours-block { background: color-mix(in srgb, var(--accent) 12%, var(--bg)); padding: 2rem 0; }
+    body.skel-menu_forward .hours-list { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+    body.skel-menu_forward .story-block { padding-top: 2rem; }
+    
+    /* layout: split skeleton: menu_forward */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19163332978" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=3620%20N%20Freeway%20Blvd%2C%20Sacramento%2C%20CA%2095834">
+<body class="skel-menu_forward" data-biz-phone="tel:+19163332978" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=3620%20N%20Freeway%20Blvd%2C%20Sacramento%2C%20CA%2095834">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Changs Thai Cuisine</div>
@@ -105,22 +117,23 @@
         <a class="btn btn-primary" href="tel:+19163332978">Call (916) 333-2978</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=3620%20N%20Freeway%20Blvd%2C%20Sacramento%2C%20CA%2095834">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Halal chicken and beef</div><div class="hl">Pickup and delivery</div><div class="hl">Order online</div></div>
+      <div class="highlights"><div class="hl">Halal certified chicken and beef</div><div class="hl">Afternoon special Tuesday - Friday</div><div class="hl">Order online for pickup or delivery</div><div class="hl">Open Tuesday - Sunday</div></div>
       <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+      
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>Chang&#x27;s Thai Cuisine serves Thai dishes from 3620 N Freeway Blvd, Suite 310, in Sacramento, with a focus on consistent, well-prepared food.</p><p>The restaurant is Halal certified for its chicken and beef dishes.</p><p>Pickup and delivery are available, and the restaurant&#x27;s website offers online ordering.</p></div>
+        <div class="story-copy"><p>Chang&#x27;s Thai Cuisine serves Thai dishes from 3620 N Freeway Blvd, Suite 310, in Sacramento. Its website says the key to its success is quality, consistent food that tastes great every time, and that the restaurant is Halal certified for its chicken and beef dishes.</p><p>The restaurant offers online ordering for pickup and delivery, and its site says ordering direct saves money. An afternoon special runs Tuesday through Friday from 4:30 to 6:00 PM: buy two entrees and get free potstickers or a fried roll and a free Thai tea or soda.</p><p>Hours are listed on the website for Tuesday through Sunday, with a midafternoon break Tuesday through Friday. Call (916) 333-2978 or order online.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 3620 N Freeway Blvd #310, Sacramento, CA 95834</p><p><strong>Phone:</strong> (916) 333-2978</p><p><strong>Halal:</strong> certified for chicken and beef dishes</p></div>
       </div>
     </section>
     <section class="menu-block reveal" id="menu">
       <div class="wrap">
-        <h2>Menu</h2>
-        <p class="menu-note">Order online or call (916) 333-2978 for the full menu.</p>
-        <div class="menu-grid"><article class="menu-card reveal"><h3>Afternoon Special (Tue - Fri, 4:30 - 6:00 PM)</h3><ul><li>Buy two entrees and get free potstickers or a fried roll</li><li>Plus a free Thai tea or soda</li></ul></article></div>
+        <h2>Lunch &amp; dinner menu</h2>
+        <p class="menu-note">Dish names come from the restaurant&#x27;s online ordering menus; the website menu page is image-based. Order online or call (916) 333-2978.</p>
+        <div class="menu-grid"><article class="menu-card reveal"><h3>Appetizers</h3><ul><li>Chicken satay</li><li>Fried rolls</li><li>Curry puffs</li><li>Coconut shrimp</li><li>Thai fish cakes</li><li>Fried calamari</li><li>Potstickers</li><li>Fried or steamed tofu</li></ul></article><article class="menu-card reveal"><h3>Curries</h3><ul><li>Yellow curry with potatoes, carrots, onions and bell pepper</li><li>Green curry with eggplant, bamboo shoots and sweet basil</li><li>Red curry</li><li>Panang curry</li></ul></article><article class="menu-card reveal"><h3>Noodles &amp; rice</h3><ul><li>Pad Thai with rice noodles, tofu, bean sprouts, egg and crushed peanuts</li><li>Fried rice</li><li>Choice of protein, including Halal chicken and beef</li><li>Afternoon special (Tue - Fri, 4:30 - 6:00 PM): buy two entrees, get free potstickers or fried roll and free Thai tea or soda</li></ul></article></div>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">

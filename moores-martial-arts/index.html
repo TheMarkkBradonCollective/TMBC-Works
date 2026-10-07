@@ -85,11 +85,24 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: cardhero */
+    
+    body.skel-studio_booking .hero { min-height: 48vh; }
+    body.skel-studio_booking .gallery-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; max-width: 1100px; margin: -2.5rem auto 0; padding: 0 1.25rem; position: relative; z-index: 3; }
+    body.skel-studio_booking .gallery-row div { aspect-ratio: 4/5; border-radius: var(--radius); background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 30%, #111), var(--surface)); border: 1px solid color-mix(in srgb, var(--muted) 30%, transparent); display: flex; align-items: flex-end; padding: .75rem; font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+    @media(max-width:640px) { body.skel-studio_booking .gallery-row { grid-template-columns: 1fr; } body.skel-studio_booking .gallery-row div { aspect-ratio: 16/9; } }
+    body.skel-studio_booking .booking-panel { background: var(--surface); margin: 2rem 1.25rem; max-width: 1060px; margin-left: auto; margin-right: auto; padding: 2rem; border-radius: calc(var(--radius) * 1.5); display: grid; gap: 1rem; text-align: center; box-shadow: 0 16px 48px rgba(0,0,0,.1); }
+    @media(min-width:768px) { body.skel-studio_booking .booking-panel { grid-template-columns: 1fr auto auto; align-items: center; text-align: left; } }
+    body.skel-studio_booking .chip-row { display: flex; flex-wrap: wrap; gap: .5rem; justify-content: center; }
+    body.skel-studio_booking .chip { padding: .45rem .85rem; border-radius: 999px; background: color-mix(in srgb, var(--accent) 15%, transparent); font-size: .82rem; font-weight: 600; }
+    body.skel-studio_booking .services-block { padding-top: 1rem; }
+    body.skel-studio_booking .svc-list { columns: 1; display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; padding: 0; }
+    body.skel-studio_booking .svc-list li { background: var(--surface); padding: .5rem .9rem; border-radius: 999px; border: 1px solid color-mix(in srgb, var(--muted) 25%, transparent); }
+    
+    /* layout: cardhero skeleton: studio_booking */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19166136994" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=5708%20Broadway%2C%20Sacramento%2C%20CA%2095820">
+<body class="skel-studio_booking" data-biz-phone="tel:+19166136994" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=5708%20Broadway%2C%20Sacramento%2C%20CA%2095820">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Moore&#x27;s Martial Arts of Sacramento</div>
@@ -105,28 +118,38 @@
         <a class="btn btn-primary" href="tel:+19166136994">Call (916) 613-6994</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=5708%20Broadway%2C%20Sacramento%2C%20CA%2095820">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Kids, teens, and adults</div><div class="hl">Women&#x27;s self-defense</div><div class="hl">One-day camps in May and September</div></div>
+      <div class="highlights"><div class="hl">Little Dragons ages 4 - 6 and Elementary ages 7 - 12</div><div class="hl">Teen and adult classes, morning and evening</div><div class="hl">Women&#x27;s self-defense</div><div class="hl">Private and group lessons</div><div class="hl">One-day camps in May and September</div></div>
       <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+      
     </div>
   </section>
   
-    <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
-        <div class="story-copy"><p>Moore&#x27;s Martial Arts of Sacramento teaches martial arts to kids, teens, and adults from 5708 Broadway in Sacramento, focusing on fitness, confidence, and self-defense.</p><p>Its website lists adult and teen classes, kids&#x27; classes, women&#x27;s self-defense, private classes, customized lessons for large groups, and one-day training camps held in May and September.</p></div>
-        <div class="story-aside"><p><strong>Address:</strong> 5708 Broadway, Sacramento, CA 95820</p><p><strong>Phone:</strong> (916) 613-6994</p><p>Payment accepted: cash or personal check (per website).</p></div>
+    <div class="gallery-row reveal" aria-hidden="true"><div>Little Dragons</div><div>Elementary class</div><div>Teens and adults</div></div>
+    <div class="booking-panel reveal">
+      <div>
+        <h2 style="margin:0 0 .5rem;font-size:1.25rem">Book your visit</h2>
+        <p style="margin:0;color:var(--muted);font-size:.92rem">Call (916) 613-6994 to schedule your first class or ask about private lessons and group sessions.</p>
       </div>
-    </section>
+      <a class="btn btn-primary" href="tel:+19166136994">Call (916) 613-6994</a>
+      <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=5708%20Broadway%2C%20Sacramento%2C%20CA%2095820">Directions</a>
+    </div>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Classes</h2>
-        <ul class="svc-list"><li>Adult and teen classes</li><li>Kids&#x27; classes</li><li>Women&#x27;s self-defense</li><li>Private classes</li><li>Group lessons</li><li>One-day training camps</li></ul>
+        <div class="chip-row"><span class="chip">Adult and teen classes</span><span class="chip">Kids&#x27; classes (Shou Shu)</span><span class="chip">Women&#x27;s self-defense</span><span class="chip">Private classes</span><span class="chip">Customized group lessons</span><span class="chip">One-day training camps</span></div>
+      </div>
+    </section>
+    <section class="story-block reveal" id="story">
+      <div class="wrap story-grid">
+        <div class="story-copy"><p>Moore&#x27;s Martial Arts of Sacramento teaches martial arts to kids, teens and adults from 5708 Broadway in Sacramento. Its website says it focuses on fitness, confidence and self-defense and invites new students to call to schedule a first class.</p><p>The posted weekday schedule lists Little Dragons (ages 4 to 6) from 4:30 to 5:00 PM, Elementary (ages 7 to 12) from 5:00 to 6:00 PM, adult-only classes Monday and Wednesday through Friday from 10:00 to 11:00 AM, and teen and adult classes Monday through Friday from 6:30 to 7:30 PM. Kids&#x27; classes use Shou Shu.</p><p>Private lessons, customized lessons for large groups, and one-day training camps in May and September are also listed. A Yelp photo caption mentions a women&#x27;s yoga and self-defense class on Tuesday and Thursday evenings.</p></div>
+        <div class="story-aside"><p><strong>Address:</strong> 5708 Broadway, Sacramento, CA 95820</p><p><strong>Phone:</strong> (916) 613-6994</p><p>Payment accepted: cash or personal check (per website).</p></div>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
-        
-        <p>Class schedule is on the school&#x27;s website. Call for current hours.</p>
+        <ul class="hours-list"><li>Little Dragons (ages 4 - 6), Monday - Friday: 4:30 PM - 5:00 PM</li><li>Elementary (ages 7 - 12), Monday - Friday: 5:00 PM - 6:00 PM</li><li>Adults only, Monday and Wednesday - Friday: 10:00 AM - 11:00 AM</li><li>Teens and adults, Monday - Friday: 6:30 PM - 7:30 PM</li></ul>
+        <p>Class times are from the school&#x27;s contact page and may change; Yelp shows studio hours of 12 PM - 10 PM weekdays. Call (916) 613-6994 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

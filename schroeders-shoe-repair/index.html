@@ -85,11 +85,18 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: editorial */
+    
+    body.skel-craft_workshop .hero { min-height: 50vh; }
+    body.skel-craft_workshop .process-split { display: grid; gap: 2rem; padding: 3rem 0; }
+    @media(min-width:768px) { body.skel-craft_workshop .process-split { grid-template-columns: 1fr 1fr; align-items: start; } }
+    body.skel-craft_workshop .process-step { background: var(--surface); padding: 1.25rem; border-radius: var(--radius); margin-bottom: .75rem; border-left: 4px solid var(--accent2); }
+    body.skel-craft_workshop .services-block { background: var(--surface); }
+    
+    /* layout: editorial skeleton: craft_workshop */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19164411912" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=2022%2010th%20St%2C%20Sacramento%2C%20CA%2095818">
+<body class="skel-craft_workshop" data-biz-phone="tel:+19164411912" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=2022%2010th%20St%2C%20Sacramento%2C%20CA%2095818">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Schroeder&#x27;s Shoe Repair</div>
@@ -105,28 +112,29 @@
         <a class="btn btn-primary" href="tel:+19164411912">Call (916) 441-1912</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=2022%2010th%20St%2C%20Sacramento%2C%20CA%2095818">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Long-running shop</div><div class="hl">2022 10th St</div><div class="hl">Call (916) 441-1912</div></div>
+      <div class="highlights"><div class="hl">Complete shoe and boot repair</div><div class="hl">One-day service available per listing</div><div class="hl">Belt, heel, toe tip and lace work</div><div class="hl">Cash or check only</div><div class="hl">2022 10th St, Sacramento</div></div>
+      
       
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
-        <div class="story-copy"><p>Schroeder&#x27;s Shoe Repair is a long-running shoe repair shop at 2022 10th St in Sacramento.</p><p>Call (916) 441-1912 to ask about repairs and current hours.</p></div>
-        <div class="story-aside"><p><strong>Address:</strong> 2022 10th St, Sacramento, CA 95818</p><p><strong>Phone:</strong> (916) 441-1912</p></div>
+      <div class="wrap process-split">
+        <div class="story-copy"><p>Schroeder&#x27;s Shoe Repair is a long-running shoe and boot repair shop at 2022 10th St in Sacramento. Its Yahoo Local listing describes complete shoe and boot repair with one-day service available.</p><p>CBS Sacramento&#x27;s roundup of local cobblers noted that the shop can shorten a belt or add new holes, replace heel and toe tips, clean and refresh footwear, and sell laces for almost any type of shoe. Directory listings also mention repairs on boots, hiking boots, designer shoes and bags, including zipper and sole work.</p><p>The shop takes cash or check only, per CBS Sacramento and recent listings. Call (916) 441-1912 before you come in with a repair you are unsure about.</p><p><strong>Address:</strong> 2022 10th St, Sacramento, CA 95818</p><p><strong>Phone:</strong> (916) 441-1912</p></div>
+        <div><div class="process-step reveal"><p style="margin:0">Bring in your shoes, boots or belt, or call (916) 441-1912 first</p></div><div class="process-step reveal"><p style="margin:0">Talk through the repair and ask about turnaround, including one-day service</p></div><div class="process-step reveal"><p style="margin:0">Pay by cash or check</p></div><div class="process-step reveal"><p style="margin:0">Pick up the finished repair</p></div></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Repairs</h2>
-        <ul class="svc-list"><li>Shoe repair</li><li>Heel and sole repair</li><li>Leather repair</li><li>Call to ask about other repairs</li></ul>
+        <ul class="svc-list"><li>Sole and heel repair</li><li>Heel and toe tip replacement</li><li>Zipper repair</li><li>Cleaning and refreshing footwear</li><li>Belt shortening and new belt holes</li><li>Laces for most footwear</li><li>Boot and designer shoe repair</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         
-        <p>Call for current hours.</p>
+        <p>Listings conflict slightly: weekday hours are shown as 7:30 AM - 6 PM on some listings and 8 AM - 6 PM on others, Friday as late as 4 PM on one, and Saturday as 8 AM - 12 PM or 8 AM - 2 PM. Closed Sunday. Call (916) 441-1912 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

@@ -85,11 +85,23 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: editorial */
+    
+    body.skel-menu_forward .hero { min-height: 52vh; align-items: center; text-align: center; }
+    body.skel-menu_forward .hero-inner { max-width: 720px; margin: 0 auto; }
+    body.skel-menu_forward .hero h1 { max-width: none; }
+    body.skel-menu_forward .menu-block { background: var(--surface); padding: 3.5rem 0; margin-top: -2rem; position: relative; z-index: 2; border-radius: calc(var(--radius) * 2) calc(var(--radius) * 2) 0 0; box-shadow: 0 -20px 50px rgba(0,0,0,.08); }
+    body.skel-menu_forward .menu-grid { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; }
+    body.skel-menu_forward .menu-card { padding: 1.35rem 1.5rem; border-left: 4px solid var(--accent); box-shadow: 0 8px 24px rgba(0,0,0,.06); }
+    body.skel-menu_forward .menu-card h3 { font-size: 1.15rem; margin-top: 0; }
+    body.skel-menu_forward .hours-block { background: color-mix(in srgb, var(--accent) 12%, var(--bg)); padding: 2rem 0; }
+    body.skel-menu_forward .hours-list { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+    body.skel-menu_forward .story-block { padding-top: 2rem; }
+    
+    /* layout: editorial skeleton: menu_forward */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19164445245" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=2950%20Freeport%20Blvd%2C%20Sacramento%2C%20CA%2095818">
+<body class="skel-menu_forward" data-biz-phone="tel:+19164445245" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=2950%20Freeport%20Blvd%2C%20Sacramento%2C%20CA%2095818">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Marie&#x27;s Donuts</div>
@@ -105,29 +117,30 @@
         <a class="btn btn-primary" href="tel:+19164445245">Call (916) 444-5245</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=2950%20Freeport%20Blvd%2C%20Sacramento%2C%20CA%2095818">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">2950 Freeport Blvd</div><div class="hl">Late-night local favorite</div><div class="hl">Call (916) 444-5245</div></div>
+      <div class="highlights"><div class="hl">Land Park donut shop on Freeport Blvd</div><div class="hl">Family-run for decades (about 70 years per listings)</div><div class="hl">Overnight hours on Apple Maps</div><div class="hl">Seamless pickup 5:30 AM - 12:00 PM</div><div class="hl">Apple Pay and credit cards</div></div>
+      
       
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>Marie&#x27;s Donuts is a local donut shop at 2950 Freeport Blvd in Sacramento, popular with late-night and early-morning customers.</p><p>Published hours vary by source, and delivery platforms list a morning pickup window, so please call (916) 444-5245 to confirm when the shop is open.</p></div>
+        <div class="story-copy"><p>Marie&#x27;s Donuts is a walk-up donut shop at 2950 Freeport Blvd in Sacramento&#x27;s Land Park neighborhood. Listings describe it as family-run for about 70 years, making the same simple fried dough since the 1950s.</p><p>It is known for running overnight: Apple Maps lists two daily windows, 10:00 PM to 12:00 AM and 12:00 AM to 4:00 PM, which reads as opening at 10 PM and staying open until 4 PM the next day. Seamless lists a pickup window of 5:30 AM to 12:00 PM and delivery from 6:00 AM to 12:00 PM.</p><p>Menu highlights from listings include apple fritters, maple bars, blueberry cake donuts, sugar donuts, raised and glazed donuts, custard-filled Bismarks, old-fashioned crullers and hot coffee.</p><p>Apple Maps lists Apple Pay, contactless payments and credit cards. Because hours differ by source, call (916) 444-5245 before a special trip.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 2950 Freeport Blvd, Sacramento, CA 95818</p><p><strong>Phone:</strong> (916) 444-5245</p></div>
       </div>
     </section>
     <section class="menu-block reveal" id="menu">
       <div class="wrap">
-        <h2>Donuts &amp; more</h2>
-        <p class="menu-note">Call the shop for today&#x27;s selection.</p>
-        <div class="menu-grid"><article class="menu-card reveal"><h3>At the shop</h3><ul><li>Fresh donuts</li><li>Coffee</li></ul></article></div>
+        <h2>Donuts &amp; coffee</h2>
+        <p class="menu-note">Menu items below come from public listings and delivery menus. Selection changes through the day, so call (916) 444-5245 to ask what is fresh.</p>
+        <div class="menu-grid"><article class="menu-card reveal"><h3>Raised, glazed &amp; cake donuts</h3><ul><li>Raised and glazed donuts</li><li>Sugar donuts</li><li>Cake donuts</li><li>Blueberry cake donut</li><li>Old-fashioned crullers with maple icing</li></ul></article><article class="menu-card reveal"><h3>Fritters, bars &amp; filled</h3><ul><li>Apple fritters</li><li>Maple bars</li><li>Bar and twist donuts</li><li>Custard-filled Bismarks</li></ul></article><article class="menu-card reveal"><h3>Coffee &amp; ways to order</h3><ul><li>Hot coffee</li><li>Walk-up counter service</li><li>Pickup on Seamless (5:30 AM - 12:00 PM)</li><li>Delivery on Seamless (6:00 AM - 12:00 PM)</li></ul></article></div>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
-        
-        <p>Hours listed online conflict by source, and delivery platforms list a morning pickup window. Call for current hours.</p>
+        <ul class="hours-list"><li>Every day (Apple Maps): 10:00 PM - 12:00 AM</li><li>Every day (Apple Maps): 12:00 AM - 4:00 PM</li></ul>
+        <p>Apple Maps lists two windows every day (10 PM - 12 AM and 12 AM - 4 PM), which reads as an overnight schedule that runs into the afternoon. Other listings vary, including 11 AM - 4 PM and some days closed. Seamless pickup is 5:30 AM - 12:00 PM and delivery 6:00 AM - 12:00 PM. Call (916) 444-5245 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

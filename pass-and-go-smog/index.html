@@ -85,11 +85,21 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: cardhero */
+    
+    body.skel-service_trust .hero { min-height: 62vh; }
+    body.skel-service_trust .trust-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; max-width: 1100px; margin: -2rem auto 0; padding: 0 1.25rem; position: relative; z-index: 2; }
+    body.skel-service_trust .trust-bar article { background: var(--surface); padding: 1.1rem; border-radius: var(--radius); box-shadow: 0 10px 30px rgba(0,0,0,.08); border-top: 3px solid var(--accent); font-size: .88rem; }
+    body.skel-service_trust .trust-bar strong { display: block; font-size: 1rem; margin-bottom: .25rem; }
+    body.skel-service_trust .services-block { background: linear-gradient(180deg, var(--bg), var(--surface)); }
+    body.skel-service_trust .svc-list { columns: 1; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .65rem; list-style: none; padding: 0; }
+    body.skel-service_trust .svc-list li { background: var(--surface); padding: .85rem 1rem; border-radius: 8px; border: 1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
+    body.skel-service_trust .svc-list li::before { content: "✓ "; color: var(--accent); font-weight: 700; }
+    
+    /* layout: cardhero skeleton: service_trust */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19166925400" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=3927%20Marysville%20Blvd%2C%20Sacramento%2C%20CA%2095838">
+<body class="skel-service_trust" data-biz-phone="tel:+19166925400" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=3927%20Marysville%20Blvd%2C%20Sacramento%2C%20CA%2095838">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Pass and Go Smog</div>
@@ -105,28 +115,29 @@
         <a class="btn btn-primary" href="tel:+19166925400">Call (916) 692-5400</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=3927%20Marysville%20Blvd%2C%20Sacramento%2C%20CA%2095838">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">3927 Marysville Blvd</div><div class="hl">Smog check station</div><div class="hl">Call (916) 692-5400</div></div>
+      <div class="highlights"><div class="hl">Smog checks at 3927 Marysville Blvd</div><div class="hl">Quick service per the business&#x27;s Yelp description</div><div class="hl">Credit cards accepted</div><div class="hl">Call (916) 692-5400</div></div>
       
+      <div class="trust-bar reveal"><article class='reveal'><strong>Smog checks at 3927 Marysville Blvd</strong></article><article class='reveal'><strong>Quick service per the business&#x27;s Yelp description</strong></article><article class='reveal'><strong>Credit cards accepted</strong></article><article class='reveal'><strong>Call (916) 692-5400</strong></article></div>
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>Pass and Go Smog is a smog check station at 3927 Marysville Blvd in Sacramento.</p><p>Call (916) 692-5400 to ask about what to bring, vehicle eligibility, and current hours.</p></div>
+        <div class="story-copy"><p>Pass and Go Smog is a smog check station at 3927 Marysville Blvd in Sacramento&#x27;s Del Paso Heights area. On Yelp the business describes quick and fast service from a team that has been in the industry for many years.</p><p>The station invites customers to call (916) 692-5400 with questions about their smog check before coming in.</p><p>Listings show credit cards accepted and free Wi-Fi. Published hours differ between listings, so call to confirm before you drive over.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 3927 Marysville Blvd, Sacramento, CA 95838</p><p><strong>Phone:</strong> (916) 692-5400</p></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Smog services</h2>
-        <ul class="svc-list"><li>Smog checks</li><li>Questions about vehicle eligibility</li><li>Guidance on what to bring</li><li>Call ahead with questions</li></ul>
+        <ul class="svc-list"><li>Smog check inspections</li><li>Emissions testing for state-required certification</li><li>Phone answers about your smog check</li><li>Credit card payments</li><li>Free Wi-Fi</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         
-        <p>Call for current hours.</p>
+        <p>Listings conflict: Yelp shows Monday 12 PM - 5 PM, Tuesday - Thursday 9 AM - 5 PM and Friday 9 AM - 1 PM; Exa shows Monday - Friday 9 AM - 5 PM; another directory shows 8 AM - 6 PM. Call (916) 692-5400 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

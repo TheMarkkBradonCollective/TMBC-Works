@@ -85,11 +85,18 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: split */
+    
+    body.skel-craft_workshop .hero { min-height: 50vh; }
+    body.skel-craft_workshop .process-split { display: grid; gap: 2rem; padding: 3rem 0; }
+    @media(min-width:768px) { body.skel-craft_workshop .process-split { grid-template-columns: 1fr 1fr; align-items: start; } }
+    body.skel-craft_workshop .process-step { background: var(--surface); padding: 1.25rem; border-radius: var(--radius); margin-bottom: .75rem; border-left: 4px solid var(--accent2); }
+    body.skel-craft_workshop .services-block { background: var(--surface); }
+    
+    /* layout: split skeleton: craft_workshop */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19164443553" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=3000%20Freeport%20Blvd%20%232%2C%20Sacramento%2C%20CA%2095818">
+<body class="skel-craft_workshop" data-biz-phone="tel:+19164443553" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=3000%20Freeport%20Blvd%20%232%2C%20Sacramento%2C%20CA%2095818">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Linda Lee Alterations</div>
@@ -105,28 +112,29 @@
         <a class="btn btn-primary" href="tel:+19164443553">Call (916) 444-3553</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=3000%20Freeport%20Blvd%20%232%2C%20Sacramento%2C%20CA%2095818">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Clothing alterations</div><div class="hl">3000 Freeport Blvd #2</div><div class="hl">Call (916) 444-3553</div></div>
+      <div class="highlights"><div class="hl">Clothing alterations and mending</div><div class="hl">Wedding dress and attire alterations</div><div class="hl">Fitting with shoes and undergarments</div><div class="hl">Redo offered if not satisfied per profile</div><div class="hl">Credit cards accepted</div></div>
+      
       
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
-        <div class="story-copy"><p>Linda Lee Alterations offers clothing alterations at 3000 Freeport Blvd, #2, in Sacramento.</p><p>Call (916) 444-3553 to ask about your garment and current hours.</p></div>
-        <div class="story-aside"><p><strong>Address:</strong> 3000 Freeport Blvd #2, Sacramento, CA 95818</p><p><strong>Phone:</strong> (916) 444-3553</p></div>
+      <div class="wrap process-split">
+        <div class="story-copy"><p>Linda Lee Alterations is a clothing alteration shop at 3000 Freeport Blvd, Suite 2, in the Land Park and Curtis Park area of Sacramento. Its Yelp page lists clothing mending and repair as a business-verified service, and its WeddingWire vendor profile also lists wedding dress and attire alterations.</p><p>The WeddingWire profile asks customers to come in with the right shoes and undergarments so items can be pinned and evaluated by a trained seamstress, and says the shop will redo an alteration if a customer is not satisfied.</p><p>Listings show credit cards accepted. Published hours vary by listing and the shop is closed Monday and Sunday, so call (916) 444-3553 before visiting.</p><p><strong>Address:</strong> 3000 Freeport Blvd #2, Sacramento, CA 95818</p><p><strong>Phone:</strong> (916) 444-3553</p></div>
+        <div><div class="process-step reveal"><p style="margin:0">Bring the garment, along with the shoes and undergarments you will wear for fittings</p></div><div class="process-step reveal"><p style="margin:0">Have it pinned and evaluated</p></div><div class="process-step reveal"><p style="margin:0">Confirm the work and turnaround</p></div><div class="process-step reveal"><p style="margin:0">Pick up and try on the finished piece</p></div></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Alterations</h2>
-        <ul class="svc-list"><li>Hemming</li><li>Clothing alterations</li><li>Garment repairs</li><li>Call to ask about other work</li></ul>
+        <ul class="svc-list"><li>Clothing alterations</li><li>Mending and repair</li><li>Wedding dress alterations</li><li>Formal attire alterations</li><li>Hemming and fit adjustments</li><li>Pinned fittings</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         
-        <p>Call for current hours.</p>
+        <p>Listings conflict: Exa and Loc8NearMe show Tuesday 12 - 4, Wednesday 12 - 6, Thursday 10 - 4, Friday 12 - 6 and Saturday 10 - 2, while Yelp shows Thursday 10 - 6 and Superpages shows Monday - Friday 10 AM - 6:30 PM. Closed Sunday. Call (916) 444-3553 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

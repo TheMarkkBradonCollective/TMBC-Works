@@ -85,11 +85,18 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: editorial */
+    
+    body.skel-craft_workshop .hero { min-height: 50vh; }
+    body.skel-craft_workshop .process-split { display: grid; gap: 2rem; padding: 3rem 0; }
+    @media(min-width:768px) { body.skel-craft_workshop .process-split { grid-template-columns: 1fr 1fr; align-items: start; } }
+    body.skel-craft_workshop .process-step { background: var(--surface); padding: 1.25rem; border-radius: var(--radius); margin-bottom: .75rem; border-left: 4px solid var(--accent2); }
+    body.skel-craft_workshop .services-block { background: var(--surface); }
+    
+    /* layout: editorial skeleton: craft_workshop */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+12797865422" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=7941%20Amador%20Ave%20suite%203%2C%20Sacramento%2C%20CA%2095826">
+<body class="skel-craft_workshop" data-biz-phone="tel:+12797865422" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=7941%20Amador%20Ave%20suite%203%2C%20Sacramento%2C%20CA%2095826">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Xpert Upholstery Works</div>
@@ -105,28 +112,29 @@
         <a class="btn btn-primary" href="tel:+12797865422">Call (279) 786-5422</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=7941%20Amador%20Ave%20suite%203%2C%20Sacramento%2C%20CA%2095826">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Auto, marine, residential, commercial</div><div class="hl">Custom embroidery</div><div class="hl">Mon - Fri</div></div>
+      <div class="highlights"><div class="hl">Auto, marine, residential and commercial upholstery</div><div class="hl">Custom embroidery</div><div class="hl">Heat-transfer decals and screen-printed apparel</div><div class="hl">Monday - Friday 8:00 AM - 6:30 PM</div></div>
       <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+      
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
-        <div class="story-copy"><p>Xpert Upholstery Works handles custom upholstery and embroidery from 7941 Amador Ave, Suite 3, in Sacramento.</p><p>Its website lists auto, marine, residential, and commercial upholstery, plus embroidered or screen-printed apparel and heat-transfer decals.</p></div>
-        <div class="story-aside"><p><strong>Address:</strong> 7941 Amador Ave suite 3, Sacramento, CA 95826</p><p><strong>Phone:</strong> (279) 786-5422</p><p>Website lists email: info@xpertupholsteryworks.net.</p></div>
+      <div class="wrap process-split">
+        <div class="story-copy"><p>Xpert Upholstery Works is an upholstery and embroidery business at 7941 Amador Ave, Suite 3, in Sacramento. Its website&#x27;s banner lists auto, marine, residential and commercial work.</p><p>The home page says its mission is to deliver the highest quality upholstery, embroidery and apparel products, and lists embroidery, heat-transfer decals, and embroidered or screen-printed apparel alongside upholstery.</p><p>The website lists weekday hours from 8:00 AM to 6:30 PM. The site&#x27;s phone number (1-619-586-4296) differs from the listing phone, (279) 786-5422, so check which to call.</p><p><strong>Address:</strong> 7941 Amador Ave suite 3, Sacramento, CA 95826</p><p><strong>Phone:</strong> (279) 786-5422</p><p>Website lists email: info@xpertupholsteryworks.net.</p></div>
+        <div><div class="process-step reveal"><p style="margin:0">Call or email info@xpertupholsteryworks.net with your project</p></div><div class="process-step reveal"><p style="margin:0">Describe the item and the fabric or design</p></div><div class="process-step reveal"><p style="margin:0">Confirm the timeline</p></div><div class="process-step reveal"><p style="margin:0">Pick up the finished upholstery or embroidery</p></div></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Upholstery and embroidery</h2>
-        <ul class="svc-list"><li>Auto upholstery</li><li>Marine upholstery</li><li>Residential and commercial upholstery</li><li>Custom embroidery</li><li>Embroidered or screen-printed apparel</li><li>Heat-transfer decals</li></ul>
+        <ul class="svc-list"><li>Custom upholstery</li><li>Auto upholstery</li><li>Marine upholstery</li><li>Residential and commercial upholstery</li><li>Custom embroidery</li><li>Heat-transfer decals</li><li>Embroidered and screen-printed apparel</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         <ul class="hours-list"><li>Monday - Friday: 8:00 AM - 6:30 PM</li></ul>
-        <p>Per the business&#x27;s website; call to confirm.</p>
+        <p>Per the website. The site lists 1-619-586-4296 while directories list (279) 786-5422; call to confirm hours.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

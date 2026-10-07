@@ -85,11 +85,21 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: split */
+    
+    body.skel-service_trust .hero { min-height: 62vh; }
+    body.skel-service_trust .trust-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; max-width: 1100px; margin: -2rem auto 0; padding: 0 1.25rem; position: relative; z-index: 2; }
+    body.skel-service_trust .trust-bar article { background: var(--surface); padding: 1.1rem; border-radius: var(--radius); box-shadow: 0 10px 30px rgba(0,0,0,.08); border-top: 3px solid var(--accent); font-size: .88rem; }
+    body.skel-service_trust .trust-bar strong { display: block; font-size: 1rem; margin-bottom: .25rem; }
+    body.skel-service_trust .services-block { background: linear-gradient(180deg, var(--bg), var(--surface)); }
+    body.skel-service_trust .svc-list { columns: 1; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .65rem; list-style: none; padding: 0; }
+    body.skel-service_trust .svc-list li { background: var(--surface); padding: .85rem 1rem; border-radius: 8px; border: 1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
+    body.skel-service_trust .svc-list li::before { content: "✓ "; color: var(--accent); font-weight: 700; }
+    
+    /* layout: split skeleton: service_trust */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19164003531" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=2790%20Fruitridge%20Rd%2C%20Sacramento%2C%20CA%2095820">
+<body class="skel-service_trust" data-biz-phone="tel:+19164003531" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=2790%20Fruitridge%20Rd%2C%20Sacramento%2C%20CA%2095820">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">5 STAR SMOG (Star Station)</div>
@@ -105,28 +115,29 @@
         <a class="btn btn-primary" href="tel:+19164003531">Call (916) 400-3531</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=2790%20Fruitridge%20Rd%2C%20Sacramento%2C%20CA%2095820">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">STAR station</div><div class="hl">2790 Fruitridge Rd</div><div class="hl">Call (916) 400-3531</div></div>
+      <div class="highlights"><div class="hl">STAR smog check station</div><div class="hl">Diesels, hybrids and out-of-state vehicles listed</div><div class="hl">1999 and older vehicles listed</div><div class="hl">Waiting area and parking for 10+ vehicles</div><div class="hl">Credit cards accepted</div></div>
       
+      <div class="trust-bar reveal"><article class='reveal'><strong>STAR smog check station</strong></article><article class='reveal'><strong>Diesels, hybrids and out-of-state vehicles listed</strong></article><article class='reveal'><strong>1999 and older vehicles listed</strong></article><article class='reveal'><strong>Waiting area and parking for 10+ vehicles</strong></article></div>
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>5 Star Smog is a smog check station at 2790 Fruitridge Rd in Sacramento, listed as a STAR station.</p><p>Call (916) 400-3531 (or the alternate listed number, (530) 821-9363) to ask about eligibility and current hours.</p></div>
+        <div class="story-copy"><p>5 STAR SMOG is a STAR smog check station at 2790 Fruitridge Rd in Sacramento, near the corner of Fruitridge Rd and 28th St. Public listings agree on its hours: open Monday and Wednesday through Saturday, shorter hours on Sunday, and closed Tuesday.</p><p>Its Yahoo Local description says it does smog check test only, and checks diesels, out-of-state vehicles, hybrids and 1999 and older vehicles. The last smog check is taken 30 minutes before closing.</p><p>The shop notes an office waiting area with air conditioning and parking for 10 or more vehicles. Listings show credit cards accepted, and call (916) 400-3531 for a quote.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 2790 Fruitridge Rd, Sacramento, CA 95820</p><p><strong>Phone:</strong> (916) 400-3531</p><p>Alternate phone: (530) 821-9363.</p></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Smog services</h2>
-        <ul class="svc-list"><li>Smog checks</li><li>STAR smog check program</li><li>Questions about vehicle eligibility</li><li>Guidance on what to bring</li></ul>
+        <ul class="svc-list"><li>Smog check (test only)</li><li>STAR station inspections</li><li>Diesel vehicles</li><li>Hybrids and out-of-state vehicles</li><li>1999 and older vehicles</li><li>Waiting area with air conditioning</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
-        
-        <p>Call for current hours.</p>
+        <ul class="hours-list"><li>Monday, Wednesday - Saturday: 9:00 AM - 5:00 PM</li><li>Sunday: 10:00 AM - 2:00 PM</li><li>Tuesday: Closed</li></ul>
+        <p>Hours match Exa, Loc8NearMe, Waze and Yahoo Local. The last smog check is listed as 30 minutes before closing. Call (916) 400-3531 (alternate listed: (530) 821-9363) to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

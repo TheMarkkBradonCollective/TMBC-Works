@@ -85,11 +85,21 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: editorial */
+    
+    body.skel-service_trust .hero { min-height: 62vh; }
+    body.skel-service_trust .trust-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; max-width: 1100px; margin: -2rem auto 0; padding: 0 1.25rem; position: relative; z-index: 2; }
+    body.skel-service_trust .trust-bar article { background: var(--surface); padding: 1.1rem; border-radius: var(--radius); box-shadow: 0 10px 30px rgba(0,0,0,.08); border-top: 3px solid var(--accent); font-size: .88rem; }
+    body.skel-service_trust .trust-bar strong { display: block; font-size: 1rem; margin-bottom: .25rem; }
+    body.skel-service_trust .services-block { background: linear-gradient(180deg, var(--bg), var(--surface)); }
+    body.skel-service_trust .svc-list { columns: 1; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .65rem; list-style: none; padding: 0; }
+    body.skel-service_trust .svc-list li { background: var(--surface); padding: .85rem 1rem; border-radius: 8px; border: 1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
+    body.skel-service_trust .svc-list li::before { content: "✓ "; color: var(--accent); font-weight: 700; }
+    
+    /* layout: editorial skeleton: service_trust */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19163064810" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=121%20Otto%20Cir%20%23%20B%2C%20Sacramento%2C%20CA%2095822">
+<body class="skel-service_trust" data-biz-phone="tel:+19163064810" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=121%20Otto%20Cir%20%23%20B%2C%20Sacramento%2C%20CA%2095822">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Smog Xperts</div>
@@ -105,28 +115,29 @@
         <a class="btn btn-primary" href="tel:+19163064810">Call (916) 306-4810</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=121%20Otto%20Cir%20%23%20B%2C%20Sacramento%2C%20CA%2095822">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Veteran-owned</div><div class="hl">121 Otto Cir #B</div><div class="hl">Call (916) 306-4810</div></div>
+      <div class="highlights"><div class="hl">Veteran-owned smog check station</div><div class="hl">STAR station listing</div><div class="hl">Walk-ins welcome, no appointment needed</div><div class="hl">About 20 minutes per smog check</div><div class="hl">Credit cards accepted</div></div>
       
+      <div class="trust-bar reveal"><article class='reveal'><strong>Veteran-owned smog check station</strong></article><article class='reveal'><strong>STAR station listing</strong></article><article class='reveal'><strong>Walk-ins welcome, no appointment needed</strong></article><article class='reveal'><strong>About 20 minutes per smog check</strong></article></div>
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>Smog Xperts is a veteran-owned smog check station at 121 Otto Cir, Suite B, in Sacramento.</p><p>Call (916) 306-4810 to ask about eligibility, what to bring, and current hours.</p></div>
+        <div class="story-copy"><p>Smog Xperts LLC is a veteran-owned, licensed smog check station at 121 Otto Cir, Unit B, in South Sacramento. The business describes its technicians as ready to identify excess emissions so vehicles can be properly repaired or retired.</p><p>Listings say no appointment is needed: walk-ins are welcome during business hours, and drivers should plan to arrive before 2 PM because smog checks are typically not performed after that time. A smog check is described as taking about 20 minutes.</p><p>The station is listed as a STAR station and accepts credit cards. Published hours differ slightly, so call (916) 306-4810 before you go.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 121 Otto Cir # B, Sacramento, CA 95822</p><p><strong>Phone:</strong> (916) 306-4810</p><p>Veteran-owned business.</p></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Smog services</h2>
-        <ul class="svc-list"><li>Smog checks</li><li>Questions about vehicle eligibility</li><li>Guidance on what to bring</li><li>Call ahead with questions</li></ul>
+        <ul class="svc-list"><li>State-required biennial smog checks</li><li>Cars, trucks and SUVs</li><li>Newer-than-2000 vehicles listed on offers</li><li>STAR station inspections</li><li>Walk-in service</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         
-        <p>Call for current hours.</p>
+        <p>Listings conflict: the business&#x27;s Groupon page shows Monday - Friday 9:30 AM - 5:00 PM and Saturday 9 AM - 2 PM, while Yelp shows Monday - Friday 9 AM - 5:30 PM and Saturday - Sunday 9 AM - 3 PM. Smog checks are typically not performed after 2 PM. Call (916) 306-4810 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

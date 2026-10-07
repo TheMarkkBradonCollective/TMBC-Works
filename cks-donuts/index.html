@@ -85,11 +85,23 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: editorial */
+    
+    body.skel-menu_forward .hero { min-height: 52vh; align-items: center; text-align: center; }
+    body.skel-menu_forward .hero-inner { max-width: 720px; margin: 0 auto; }
+    body.skel-menu_forward .hero h1 { max-width: none; }
+    body.skel-menu_forward .menu-block { background: var(--surface); padding: 3.5rem 0; margin-top: -2rem; position: relative; z-index: 2; border-radius: calc(var(--radius) * 2) calc(var(--radius) * 2) 0 0; box-shadow: 0 -20px 50px rgba(0,0,0,.08); }
+    body.skel-menu_forward .menu-grid { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; }
+    body.skel-menu_forward .menu-card { padding: 1.35rem 1.5rem; border-left: 4px solid var(--accent); box-shadow: 0 8px 24px rgba(0,0,0,.06); }
+    body.skel-menu_forward .menu-card h3 { font-size: 1.15rem; margin-top: 0; }
+    body.skel-menu_forward .hours-block { background: color-mix(in srgb, var(--accent) 12%, var(--bg)); padding: 2rem 0; }
+    body.skel-menu_forward .hours-list { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+    body.skel-menu_forward .story-block { padding-top: 2rem; }
+    
+    /* layout: editorial skeleton: menu_forward */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19163813818" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=8333%20Folsom%20Blvd%2C%20Sacramento%2C%20CA%2095826">
+<body class="skel-menu_forward" data-biz-phone="tel:+19163813818" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=8333%20Folsom%20Blvd%2C%20Sacramento%2C%20CA%2095826">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">CK&#x27;s Donuts</div>
@@ -105,29 +117,30 @@
         <a class="btn btn-primary" href="tel:+19163813818">Call (916) 381-3818</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=8333%20Folsom%20Blvd%2C%20Sacramento%2C%20CA%2095826">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">8333 Folsom Blvd</div><div class="hl">Fresh donuts</div><div class="hl">Call (916) 381-3818</div></div>
+      <div class="highlights"><div class="hl">Open daily, 5 AM - 3 PM Monday - Saturday</div><div class="hl">Apple fritters, cronuts and cinnamon rolls</div><div class="hl">Breakfast bagel and croissant sandwiches</div><div class="hl">Apple Pay and credit cards</div></div>
+      
       
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>CK&#x27;s Donuts is a donut shop at 8333 Folsom Blvd in Sacramento.</p><p>Call (916) 381-3818 to ask about today&#x27;s selection and current hours.</p></div>
+        <div class="story-copy"><p>CK&#x27;s Donuts is a donut shop at 8333 Folsom Blvd in Sacramento. Apple Maps, Waze and other listings agree on hours: Monday through Saturday 5 AM to 3 PM, and Sunday 6 AM to 2 PM.</p><p>Menu listings include apple fritters, cronuts, cinnamon rolls, whipped cream bars, French crullers, danishes, donut holes and bagel and croissant sandwiches. Iced coffee drinks and smoothies are also listed.</p><p>Apple Maps lists Apple Pay, contactless payments and credit cards, plus street and lot parking. Call (916) 381-3818 to ask about large orders.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 8333 Folsom Blvd, Sacramento, CA 95826</p><p><strong>Phone:</strong> (916) 381-3818</p></div>
       </div>
     </section>
     <section class="menu-block reveal" id="menu">
       <div class="wrap">
-        <h2>Donuts &amp; more</h2>
-        <p class="menu-note">Call the shop for today&#x27;s selection.</p>
-        <div class="menu-grid"><article class="menu-card reveal"><h3>At the shop</h3><ul><li>Fresh donuts</li><li>Coffee</li></ul></article></div>
+        <h2>Donuts &amp; breakfast</h2>
+        <p class="menu-note">Menu items come from public listings. Call (916) 381-3818 for today&#x27;s selection and large orders.</p>
+        <div class="menu-grid"><article class="menu-card reveal"><h3>Donuts &amp; pastries</h3><ul><li>Apple fritter (crumb, chocolate or glaze)</li><li>Cronut</li><li>Cinnamon roll</li><li>Whipped cream bar</li><li>French cruller</li><li>Danishes</li><li>Dozen donut holes</li></ul></article><article class="menu-card reveal"><h3>Breakfast sandwiches</h3><ul><li>Egg bagel</li><li>Ham, cheese and egg bagel</li><li>Turkey and cheese bagel</li><li>Cheese and egg croissant</li><li>Ham and cheese croissant</li><li>Turkey and cheese croissant</li></ul></article><article class="menu-card reveal"><h3>Coffee &amp; smoothies</h3><ul><li>Coffee</li><li>Iced coffee drinks</li><li>Blended iced caramel latte</li><li>Smoothies</li></ul></article></div>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
-        
-        <p>Call for current hours.</p>
+        <ul class="hours-list"><li>Monday - Saturday: 5:00 AM - 3:00 PM</li><li>Sunday: 6:00 AM - 2:00 PM</li></ul>
+        <p>Hours are consistent across Apple Maps, Waze and BusinessYab listings. Call (916) 381-3818 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

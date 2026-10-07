@@ -85,11 +85,24 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: editorial */
+    
+    body.skel-studio_booking .hero { min-height: 48vh; }
+    body.skel-studio_booking .gallery-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; max-width: 1100px; margin: -2.5rem auto 0; padding: 0 1.25rem; position: relative; z-index: 3; }
+    body.skel-studio_booking .gallery-row div { aspect-ratio: 4/5; border-radius: var(--radius); background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 30%, #111), var(--surface)); border: 1px solid color-mix(in srgb, var(--muted) 30%, transparent); display: flex; align-items: flex-end; padding: .75rem; font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+    @media(max-width:640px) { body.skel-studio_booking .gallery-row { grid-template-columns: 1fr; } body.skel-studio_booking .gallery-row div { aspect-ratio: 16/9; } }
+    body.skel-studio_booking .booking-panel { background: var(--surface); margin: 2rem 1.25rem; max-width: 1060px; margin-left: auto; margin-right: auto; padding: 2rem; border-radius: calc(var(--radius) * 1.5); display: grid; gap: 1rem; text-align: center; box-shadow: 0 16px 48px rgba(0,0,0,.1); }
+    @media(min-width:768px) { body.skel-studio_booking .booking-panel { grid-template-columns: 1fr auto auto; align-items: center; text-align: left; } }
+    body.skel-studio_booking .chip-row { display: flex; flex-wrap: wrap; gap: .5rem; justify-content: center; }
+    body.skel-studio_booking .chip { padding: .45rem .85rem; border-radius: 999px; background: color-mix(in srgb, var(--accent) 15%, transparent); font-size: .82rem; font-weight: 600; }
+    body.skel-studio_booking .services-block { padding-top: 1rem; }
+    body.skel-studio_booking .svc-list { columns: 1; display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; padding: 0; }
+    body.skel-studio_booking .svc-list li { background: var(--surface); padding: .5rem .9rem; border-radius: 999px; border: 1px solid color-mix(in srgb, var(--muted) 25%, transparent); }
+    
+    /* layout: editorial skeleton: studio_booking */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19168090338" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=2917%2059th%20St%2C%20Sacramento%2C%20CA%2095817">
+<body class="skel-studio_booking" data-biz-phone="tel:+19168090338" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=2917%2059th%20St%2C%20Sacramento%2C%20CA%2095817">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">59th Street Barbershop</div>
@@ -105,28 +118,38 @@
         <a class="btn btn-primary" href="tel:+19168090338">Call (916) 809-0338</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=2917%2059th%20St%2C%20Sacramento%2C%20CA%2095817">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">2917 59th St</div><div class="hl">Call to book</div><div class="hl">(916) 809-0338</div></div>
+      <div class="highlights"><div class="hl">Licensed barbershop establishment</div><div class="hl">Bald fades, flat tops and military cuts</div><div class="hl">Open Sundays</div><div class="hl">Vacuum used for client comfort</div><div class="hl">Call (916) 809-0338</div></div>
       <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+      
     </div>
   </section>
   
-    <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
-        <div class="story-copy"><p>59th Street Barbershop is located at 2917 59th St in Sacramento.</p><p>The shop&#x27;s previously listed website is currently offline, so the best way to reach the barbers is by phone at (916) 809-0338.</p></div>
-        <div class="story-aside"><p><strong>Address:</strong> 2917 59th St, Sacramento, CA 95817</p><p><strong>Phone:</strong> (916) 809-0338</p></div>
+    <div class="gallery-row reveal" aria-hidden="true"><div>Bald fades</div><div>Flat tops</div><div>Military cuts</div></div>
+    <div class="booking-panel reveal">
+      <div>
+        <h2 style="margin:0 0 .5rem;font-size:1.25rem">Book your visit</h2>
+        <p style="margin:0;color:var(--muted);font-size:.92rem">Call (916) 809-0338 to book or ask about availability. Open Sundays.</p>
       </div>
-    </section>
+      <a class="btn btn-primary" href="tel:+19168090338">Call (916) 809-0338</a>
+      <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=2917%2059th%20St%2C%20Sacramento%2C%20CA%2095817">Directions</a>
+    </div>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Barbering</h2>
-        <ul class="svc-list"><li>Men&#x27;s haircuts</li><li>Beard trims</li><li>Line-ups and edge-ups</li><li>Call to ask about other services</li></ul>
+        <div class="chip-row"><span class="chip">Men&#x27;s haircuts</span><span class="chip">Bald fades</span><span class="chip">Flat tops</span><span class="chip">Military cuts</span><span class="chip">Shampoo add-on</span><span class="chip">Beard and line-up work</span></div>
+      </div>
+    </section>
+    <section class="story-block reveal" id="story">
+      <div class="wrap story-grid">
+        <div class="story-copy"><p>59th Street Barbershop is at 2917 59th St in Sacramento. California&#x27;s Board of Barbering and Cosmetology lists 59th Street Barbershop LLC as a current licensed barbershop establishment at this address.</p><p>The shop&#x27;s own listing text calls it a clean, faster-paced barbershop that offers all types of services, including bald fades, flat tops, military cuts and shampoos, and says most haircuts are done with a vacuum for client comfort. It also notes the shop is open Sundays.</p><p>The previously listed website, 59thstreetbarbershop.com, is no longer reachable, so call (916) 809-0338 to reach the barbers.</p></div>
+        <div class="story-aside"><p><strong>Address:</strong> 2917 59th St, Sacramento, CA 95817</p><p><strong>Phone:</strong> (916) 809-0338</p></div>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
-        
-        <p>Call for current hours.</p>
+        <ul class="hours-list"><li>Tuesday - Friday: 10:30 AM - 5:00 PM</li><li>Saturday: 9:30 AM - 3:30 PM</li><li>Sunday: 11:00 AM - 4:00 PM</li><li>Monday: Closed</li></ul>
+        <p>Hours are consistent across Yahoo Local, Exa and Waze. Call (916) 809-0338 to confirm holiday hours.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

@@ -85,11 +85,23 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: cardhero */
+    
+    body.skel-menu_forward .hero { min-height: 52vh; align-items: center; text-align: center; }
+    body.skel-menu_forward .hero-inner { max-width: 720px; margin: 0 auto; }
+    body.skel-menu_forward .hero h1 { max-width: none; }
+    body.skel-menu_forward .menu-block { background: var(--surface); padding: 3.5rem 0; margin-top: -2rem; position: relative; z-index: 2; border-radius: calc(var(--radius) * 2) calc(var(--radius) * 2) 0 0; box-shadow: 0 -20px 50px rgba(0,0,0,.08); }
+    body.skel-menu_forward .menu-grid { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; }
+    body.skel-menu_forward .menu-card { padding: 1.35rem 1.5rem; border-left: 4px solid var(--accent); box-shadow: 0 8px 24px rgba(0,0,0,.06); }
+    body.skel-menu_forward .menu-card h3 { font-size: 1.15rem; margin-top: 0; }
+    body.skel-menu_forward .hours-block { background: color-mix(in srgb, var(--accent) 12%, var(--bg)); padding: 2rem 0; }
+    body.skel-menu_forward .hours-list { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+    body.skel-menu_forward .story-block { padding-top: 2rem; }
+    
+    /* layout: cardhero skeleton: menu_forward */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19163929227" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=6413%20Riverside%20Blvd%2C%20Sacramento%2C%20CA%2095831">
+<body class="skel-menu_forward" data-biz-phone="tel:+19163929227" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=6413%20Riverside%20Blvd%2C%20Sacramento%2C%20CA%2095831">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Le Croissant Factory</div>
@@ -105,29 +117,30 @@
         <a class="btn btn-primary" href="tel:+19163929227">Call (916) 392-9227</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=6413%20Riverside%20Blvd%2C%20Sacramento%2C%20CA%2095831">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">6413 Riverside Blvd</div><div class="hl">Bakery</div><div class="hl">Call (916) 392-9227</div></div>
+      <div class="highlights"><div class="hl">Croissants in many flavors</div><div class="hl">Coffee crunch cake and fruit basket cake</div><div class="hl">Pre-order cakes ahead</div><div class="hl">Breakfast and lunch sandwiches</div><div class="hl">Parking lot at Riverside Plaza II</div></div>
+      
       
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>Le Croissant Factory is a bakery at 6413 Riverside Blvd in Sacramento.</p><p>Call (916) 392-9227 to ask about today&#x27;s baked goods and current hours.</p></div>
+        <div class="story-copy"><p>Le Croissant Factory is a neighborhood bakery at 6413 Riverside Blvd in the Riverside Plaza II shopping center in Sacramento&#x27;s Greenhaven area. Listings describe croissants in many flavors, along with cinnamon rolls, muffins, macarons and cakes.</p><p>Almond, chocolate and Nutella croissants are called out in listings, along with savory ham and cheese and turkey and Swiss croissants. Cakes include coffee crunch cake and a made-to-order fruit basket cake, and listings recommend pre-ordering cakes about 48 hours ahead.</p><p>A lunch menu lists grilled and cold sandwiches and egg breakfast sandwiches, and the bakery serves coffee drinks. Listings note there is no indoor dining and there is a parking lot.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 6413 Riverside Blvd, Sacramento, CA 95831</p><p><strong>Phone:</strong> (916) 392-9227</p></div>
       </div>
     </section>
     <section class="menu-block reveal" id="menu">
       <div class="wrap">
-        <h2>From the oven</h2>
-        <p class="menu-note">Call the bakery for today&#x27;s selection.</p>
-        <div class="menu-grid"><article class="menu-card reveal"><h3>At the bakery</h3><ul><li>Croissants</li><li>Pastries</li><li>Coffee</li></ul></article></div>
+        <h2>Croissants, cakes &amp; sandwiches</h2>
+        <p class="menu-note">Menu items come from public listings. Call (916) 392-9227 to pre-order cakes or ask what is out of the oven.</p>
+        <div class="menu-grid"><article class="menu-card reveal"><h3>Croissants</h3><ul><li>Almond croissant</li><li>Chocolate croissant</li><li>Nutella croissant</li><li>Cinnamon croissant</li><li>Ham and cheese croissant</li><li>Turkey and Swiss croissant</li></ul></article><article class="menu-card reveal"><h3>Pastries &amp; cakes</h3><ul><li>Cinnamon rolls</li><li>Muffins including honey bran</li><li>Macarons</li><li>Coffee crunch cake</li><li>Fruit basket cake (made to order)</li><li>Custom cakes with pre-order</li></ul></article><article class="menu-card reveal"><h3>Sandwiches &amp; coffee</h3><ul><li>Egg, bacon and cheese breakfast sandwich</li><li>Grilled turkey sandwich</li><li>Grilled BLT sandwich</li><li>Grilled campagnolo sandwich</li><li>Coffee drinks</li></ul></article></div>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         
-        <p>Call for current hours.</p>
+        <p>Listings conflict: Yahoo Local and Restaurantji show 6 AM - 1 PM daily, while MenuPix and Nextdoor show Sunday opening at 7 AM and Nextdoor shows weekday hours to 5 PM. Fresh items are reported to sell out, so call (916) 392-9227 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

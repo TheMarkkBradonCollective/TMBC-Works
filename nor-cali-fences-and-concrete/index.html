@@ -85,11 +85,18 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: cardhero */
+    
+    body.skel-craft_workshop .hero { min-height: 50vh; }
+    body.skel-craft_workshop .process-split { display: grid; gap: 2rem; padding: 3rem 0; }
+    @media(min-width:768px) { body.skel-craft_workshop .process-split { grid-template-columns: 1fr 1fr; align-items: start; } }
+    body.skel-craft_workshop .process-step { background: var(--surface); padding: 1.25rem; border-radius: var(--radius); margin-bottom: .75rem; border-left: 4px solid var(--accent2); }
+    body.skel-craft_workshop .services-block { background: var(--surface); }
+    
+    /* layout: cardhero skeleton: craft_workshop */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19253032664" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=2186%20Ferran%20Ave%2C%20Sacramento%2C%20CA%2095832">
+<body class="skel-craft_workshop" data-biz-phone="tel:+19253032664" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=2186%20Ferran%20Ave%2C%20Sacramento%2C%20CA%2095832">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Nor Cali Fences And Concrete</div>
@@ -105,28 +112,29 @@
         <a class="btn btn-primary" href="tel:+19253032664">Call (925) 303-2664</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=2186%20Ferran%20Ave%2C%20Sacramento%2C%20CA%2095832">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Bonded and insured</div><div class="hl">Wood fence installation</div><div class="hl">Fences and concrete</div></div>
+      <div class="highlights"><div class="hl">Over 20 years of experience per the website</div><div class="hl">Bonded and insured</div><div class="hl">C-8 and C-13 contractor licenses</div><div class="hl">Wood fences, gates and concrete</div><div class="hl">Free estimate appointments</div></div>
       <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+      
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
-        <div class="story-copy"><p>Nor Cali Fences And Concrete is a fence and concrete contractor based in Sacramento and Antioch, specializing in wood fence installation.</p><p>Its website lists fence installation and maintenance, gate installation, and concrete work including driveways, patios, and sidewalks.</p><p>The company says it is bonded and insured and holds C-8 and C-13 contractor licenses.</p></div>
-        <div class="story-aside"><p><strong>Address:</strong> 2186 Ferran Ave, Sacramento, CA 95832</p><p><strong>Phone:</strong> (925) 303-2664</p><p>Bonded and insured. C-8 &amp; C-13 License #1097337 (per website).</p></div>
+      <div class="wrap process-split">
+        <div class="story-copy"><p>Nor Cali Fences And Concrete is a fence and concrete contractor based in Sacramento and Antioch. Its website says the company has over 20 years of experience, is bonded and insured, and holds C-8 and C-13 contractor licenses (license number listed on the site).</p><p>The services page lists fence installation, fence maintenance and repair, gate installation, hand-picked pickets, oil-based exterior stain and sealer, and concrete for front and back yards, including driveways, patios, sidewalks, and concrete with river-rock decor.</p><p>The site offers free estimate appointments. Call (925) 303-2664 to set one up.</p><p><strong>Address:</strong> 2186 Ferran Ave, Sacramento, CA 95832</p><p><strong>Phone:</strong> (925) 303-2664</p><p>Bonded and insured. C-8 &amp; C-13 License #1097337 (per website).</p></div>
+        <div><div class="process-step reveal"><p style="margin:0">Call (925) 303-2664 to book a free estimate appointment</p></div><div class="process-step reveal"><p style="margin:0">Review the fence, gate or concrete plan on site</p></div><div class="process-step reveal"><p style="margin:0">Installation of the fence or concrete work</p></div><div class="process-step reveal"><p style="margin:0">Optional stain and sealer to finish the wood</p></div></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Fences and concrete</h2>
-        <ul class="svc-list"><li>Wood fence installation</li><li>Fence maintenance</li><li>Gate installation</li><li>Driveways</li><li>Patios and sidewalks</li></ul>
+        <ul class="svc-list"><li>Wood fence installation</li><li>Fence maintenance and repair</li><li>Gate installation</li><li>Oil-based stain and sealer</li><li>Driveways</li><li>Patios and sidewalks</li><li>Concrete with river-rock decor</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         
-        <p>Free estimate appointments are listed on the website. Call for current hours.</p>
+        <p>No shop hours are listed. The website offers free estimate appointments. Call (925) 303-2664 to schedule.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

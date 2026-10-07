@@ -85,11 +85,24 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: editorial */
+    
+    body.skel-studio_booking .hero { min-height: 48vh; }
+    body.skel-studio_booking .gallery-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; max-width: 1100px; margin: -2.5rem auto 0; padding: 0 1.25rem; position: relative; z-index: 3; }
+    body.skel-studio_booking .gallery-row div { aspect-ratio: 4/5; border-radius: var(--radius); background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 30%, #111), var(--surface)); border: 1px solid color-mix(in srgb, var(--muted) 30%, transparent); display: flex; align-items: flex-end; padding: .75rem; font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+    @media(max-width:640px) { body.skel-studio_booking .gallery-row { grid-template-columns: 1fr; } body.skel-studio_booking .gallery-row div { aspect-ratio: 16/9; } }
+    body.skel-studio_booking .booking-panel { background: var(--surface); margin: 2rem 1.25rem; max-width: 1060px; margin-left: auto; margin-right: auto; padding: 2rem; border-radius: calc(var(--radius) * 1.5); display: grid; gap: 1rem; text-align: center; box-shadow: 0 16px 48px rgba(0,0,0,.1); }
+    @media(min-width:768px) { body.skel-studio_booking .booking-panel { grid-template-columns: 1fr auto auto; align-items: center; text-align: left; } }
+    body.skel-studio_booking .chip-row { display: flex; flex-wrap: wrap; gap: .5rem; justify-content: center; }
+    body.skel-studio_booking .chip { padding: .45rem .85rem; border-radius: 999px; background: color-mix(in srgb, var(--accent) 15%, transparent); font-size: .82rem; font-weight: 600; }
+    body.skel-studio_booking .services-block { padding-top: 1rem; }
+    body.skel-studio_booking .svc-list { columns: 1; display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; padding: 0; }
+    body.skel-studio_booking .svc-list li { background: var(--surface); padding: .5rem .9rem; border-radius: 999px; border: 1px solid color-mix(in srgb, var(--muted) 25%, transparent); }
+    
+    /* layout: editorial skeleton: studio_booking */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19167542165" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=7837%20Stockton%20Blvd%20Ste%20600%2C%20Sacramento%2C%20CA%2095823">
+<body class="skel-studio_booking" data-biz-phone="tel:+19167542165" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=7837%20Stockton%20Blvd%20Ste%20600%2C%20Sacramento%2C%20CA%2095823">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Aarin’s Barbershop</div>
@@ -105,28 +118,38 @@
         <a class="btn btn-primary" href="tel:+19167542165">Call (916) 754-2165</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=7837%20Stockton%20Blvd%20Ste%20600%2C%20Sacramento%2C%20CA%2095823">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">7837 Stockton Blvd Ste 600</div><div class="hl">Booksy booking listed</div><div class="hl">Call (916) 754-2165</div></div>
+      <div class="highlights"><div class="hl">Fades and line-ups at 7837 Stockton Blvd</div><div class="hl">Online booking on Booksy</div><div class="hl">Apple Pay and contactless accepted</div><div class="hl">Haircut with beard and head shave options</div></div>
+      
       
     </div>
   </section>
   
-    <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
-        <div class="story-copy"><p>Aarin’s Barbershop is located at 7837 Stockton Blvd, Suite 600, in Sacramento.</p><p>The shop takes appointments through an online booking platform (Booksy lists it) and by phone at (916) 754-2165.</p></div>
-        <div class="story-aside"><p><strong>Address:</strong> 7837 Stockton Blvd Ste 600, Sacramento, CA 95823</p><p><strong>Phone:</strong> (916) 754-2165</p><p>Booking: listed on Booksy.</p></div>
+    <div class="gallery-row reveal" aria-hidden="true"><div>Fades</div><div>Line-ups</div><div>Haircut with beard</div></div>
+    <div class="booking-panel reveal">
+      <div>
+        <h2 style="margin:0 0 .5rem;font-size:1.25rem">Book your visit</h2>
+        <p style="margin:0;color:var(--muted);font-size:.92rem">Book on Booksy or call (916) 754-2165. Check the booking page for open times since listed hours vary.</p>
       </div>
-    </section>
+      <a class="btn btn-primary" href="tel:+19167542165">Call (916) 754-2165</a>
+      <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=7837%20Stockton%20Blvd%20Ste%20600%2C%20Sacramento%2C%20CA%2095823">Directions</a>
+    </div>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Barbering</h2>
-        <ul class="svc-list"><li>Men&#x27;s haircuts</li><li>Beard trims</li><li>Line-ups and edge-ups</li><li>Call to ask about other services</li></ul>
+        <div class="chip-row"><span class="chip">Basic haircut</span><span class="chip">Haircut with shears</span><span class="chip">Haircut with beard</span><span class="chip">Head shave with beard</span><span class="chip">Fades and line-ups</span><span class="chip">Online booking on Booksy</span></div>
+      </div>
+    </section>
+    <section class="story-block reveal" id="story">
+      <div class="wrap story-grid">
+        <div class="story-copy"><p>Aarin&#x27;s Barbershop is at 7837 Stockton Blvd, Suite 600, in Sacramento&#x27;s Florin area. On Apple Maps the shop describes itself this way: walk in, get sharp, and get on with your day, with clean fades, tight lines and service built around keeping you moving.</p><p>The shop is listed on Booksy, where the services include a basic haircut, a haircut with shears, a haircut with beard and a head shave with beard. You can also call (916) 754-2165.</p><p>Apple Maps lists Apple Pay and contactless payments. Hours differ between listings, so check the Booksy page or call before heading over.</p></div>
+        <div class="story-aside"><p><strong>Address:</strong> 7837 Stockton Blvd Ste 600, Sacramento, CA 95823</p><p><strong>Phone:</strong> (916) 754-2165</p><p>Booking: listed on Booksy.</p></div>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         
-        <p>Call for current hours.</p>
+        <p>Public listings conflict: Booksy shows 10 AM - 5 PM, Apple Maps shows 9 AM - 7 PM daily, and another directory shows 9 AM - 8 PM daily. Call (916) 754-2165 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

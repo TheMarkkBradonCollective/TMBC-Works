@@ -85,11 +85,26 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: split */
+    
+    body.skel-service_emergency .hero { min-height: 58vh; background: var(--surface); align-items: stretch; }
+    body.skel-service_emergency .hero-bg { opacity: .35; }
+    body.skel-service_emergency .hero-inner { display: grid; gap: 1.5rem; align-items: center; }
+    @media(min-width:768px) { body.skel-service_emergency .hero-inner { grid-template-columns: 1fr auto; text-align: left; } }
+    body.skel-service_emergency .emergency-cta { background: var(--accent); color: #fff; padding: 1.5rem 2rem; border-radius: var(--radius); text-align: center; box-shadow: 0 12px 40px color-mix(in srgb, var(--accent) 45%, transparent); }
+    body.skel-service_emergency .emergency-cta a { color: #fff !important; font-size: 1.75rem; font-weight: 800; text-decoration: none; display: block; }
+    body.skel-service_emergency .emergency-cta span { display: block; font-size: .85rem; opacity: .9; margin-top: .35rem; font-weight: 500; }
+    body.skel-service_emergency .trust-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: .75rem; margin: 2rem 0 0; }
+    body.skel-service_emergency .trust-strip div { background: var(--surface); padding: .75rem; border-radius: 8px; font-size: .82rem; text-align: center; border: 1px solid color-mix(in srgb, var(--muted) 25%, transparent); }
+    body.skel-service_emergency .services-block { background: #0f172a; color: #f8fafc; }
+    body.skel-service_emergency .services-block h2 { color: #f8fafc; }
+    body.skel-service_emergency .svc-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; list-style: none; padding: 0; margin: 0; }
+    body.skel-service_emergency .svc-cards li { background: #1e293b; padding: 1rem 1.1rem; border-radius: 10px; border-left: 3px solid var(--accent2); }
+    
+    /* layout: split skeleton: service_emergency */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+16577567519" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=3031%20E%20St%2C%20Sacramento%2C%20CA%2095816">
+<body class="skel-service_emergency" data-biz-phone="tel:+16577567519" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=3031%20E%20St%2C%20Sacramento%2C%20CA%2095816">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Sac City Plumbing</div>
@@ -105,28 +120,33 @@
         <a class="btn btn-primary" href="tel:+16577567519">Call (657) 756-7519</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=3031%20E%20St%2C%20Sacramento%2C%20CA%2095816">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Plumbing service</div><div class="hl">3031 E St</div><div class="hl">Call (657) 756-7519</div></div>
+      <div class="highlights"><div class="hl">Residential and commercial plumbing</div><div class="hl">Emergency plumbing help listed</div><div class="hl">Listed as open 24 hours</div><div class="hl">Drain cleaning and water heaters</div><div class="hl">3031 E St, East Sacramento</div></div>
       <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+      
+    <div class="emergency-cta reveal">
+      <a href="tel:+16577567519">(657) 756-7519</a>
+      <span>Burst pipe or backed-up drain? Call (657) 756-7519 or (916) 837-2211 and ask about emergency service.</span>
+    </div><div class="trust-strip"><div>Residential and commercial</div><div>Emergency service listed</div><div>24-hour hours listed in directories</div><div>East Sacramento address</div></div>
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>Sac City Plumbing is a plumbing business at 3031 E St in Sacramento.</p><p>Call (657) 756-7519 to describe your plumbing issue and ask about scheduling.</p></div>
+        <div class="story-copy"><p>Sac City Plumbing is a plumbing company at 3031 E St in East Sacramento. Directory descriptions say it provides residential and commercial plumbing, including repairs, installations, fixture upgrades and replacements, water heater service, and sewer and drain services.</p><p>Listings show the company as open 24 hours a day, seven days a week, and say it also helps with emergency plumbing problems. Drain cleaning and slow drains are among the services described.</p><p>Phone numbers differ between listings: (657) 756-7519 appears on the company&#x27;s website listing and (916) 837-2211 on several directories, so call either number and confirm hours before relying on after-hours service.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 3031 E St, Sacramento, CA 95816</p><p><strong>Phone:</strong> (657) 756-7519</p></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Plumbing</h2>
-        <ul class="svc-list"><li>Plumbing repair</li><li>Leak diagnosis</li><li>Fixture installation</li><li>Call to ask about other work</li></ul>
+        <ul class="svc-cards"><li>Plumbing repairs</li><li>Drain cleaning</li><li>Sewer and drain services</li><li>Water heater service</li><li>Fixture upgrades and replacements</li><li>Plumbing installations</li><li>Emergency plumbing</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         
-        <p>Call for current hours.</p>
+        <p>Directory listings show open 24 hours every day, but the business&#x27;s own website could not be checked. Two phone numbers appear: (657) 756-7519 and (916) 837-2211. Call to confirm availability.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

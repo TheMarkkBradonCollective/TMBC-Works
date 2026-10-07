@@ -85,11 +85,21 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: cardhero */
+    
+    body.skel-service_trust .hero { min-height: 62vh; }
+    body.skel-service_trust .trust-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; max-width: 1100px; margin: -2rem auto 0; padding: 0 1.25rem; position: relative; z-index: 2; }
+    body.skel-service_trust .trust-bar article { background: var(--surface); padding: 1.1rem; border-radius: var(--radius); box-shadow: 0 10px 30px rgba(0,0,0,.08); border-top: 3px solid var(--accent); font-size: .88rem; }
+    body.skel-service_trust .trust-bar strong { display: block; font-size: 1rem; margin-bottom: .25rem; }
+    body.skel-service_trust .services-block { background: linear-gradient(180deg, var(--bg), var(--surface)); }
+    body.skel-service_trust .svc-list { columns: 1; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .65rem; list-style: none; padding: 0; }
+    body.skel-service_trust .svc-list li { background: var(--surface); padding: .85rem 1rem; border-radius: 8px; border: 1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
+    body.skel-service_trust .svc-list li::before { content: "✓ "; color: var(--accent); font-weight: 700; }
+    
+    /* layout: cardhero skeleton: service_trust */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19169222976" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=4381%20Gateway%20Park%20Blvd%20%23500%2C%20Sacramento%2C%20CA%2095834">
+<body class="skel-service_trust" data-biz-phone="tel:+19169222976" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=4381%20Gateway%20Park%20Blvd%20%23500%2C%20Sacramento%2C%20CA%2095834">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">SK Auto Repair</div>
@@ -105,28 +115,29 @@
         <a class="btn btn-primary" href="tel:+19169222976">Call (916) 922-2976</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=4381%20Gateway%20Park%20Blvd%20%23500%2C%20Sacramento%2C%20CA%2095834">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Smog special: $10 off 2000+ vehicles</div><div class="hl">Mon - Fri 8:30 to 5:30</div><div class="hl">Gateway Park Blvd</div></div>
+      <div class="highlights"><div class="hl">Auto repair and smog checks</div><div class="hl">Same-day service for most repairs</div><div class="hl">Cars, medium-sized trucks and SUVs</div><div class="hl">Monday - Friday 8:30 AM - 5:30 PM</div></div>
       <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+      <div class="trust-bar reveal"><article class='reveal'><strong>Auto repair and smog checks</strong></article><article class='reveal'><strong>Same-day service for most repairs</strong></article><article class='reveal'><strong>Cars, medium-sized trucks and SUVs</strong></article><article class='reveal'><strong>Monday - Friday 8:30 AM - 5:30 PM</strong></article></div>
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>SK Auto Repair serves Sacramento from 4381 Gateway Park Blvd, Suite 500, in Natomas, offering a full range of garage services for passenger cars, SUVs, and medium-sized trucks.</p><p>Per its website, the shop&#x27;s goal is dealership-level quality in a more personal, friendly setting.</p><p>Its website lists a limited smog special: $10 off for 2000 and newer vehicles.</p></div>
+        <div class="story-copy"><p>SK Auto Repair is an auto repair and smog shop at 4381 Gateway Park Blvd, Suite 500, in Sacramento&#x27;s Natomas area. Its website says it offers a full range of garage services for passenger cars, medium-sized trucks and SUVs.</p><p>The site lists engine diagnostics, lube, oil and filters, belts and hoses, air conditioning, brake repair and smog checks. It also says the shop offers same-day service for most repairs and maintenance, and promises dealership-level quality with a more personal atmosphere.</p><p>The site lists weekday hours from 8:30 AM to 5:30 PM. Call (916) 922-2976 to ask about your vehicle.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 4381 Gateway Park Blvd #500, Sacramento, CA 95834</p><p><strong>Phone:</strong> (916) 922-2976</p><p>Smog special (per website): $10 off for 2000 or newer vehicles.</p></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Services</h2>
-        <ul class="svc-list"><li>Engine diagnostics</li><li>Lube, oil, and filters</li><li>Belts and hoses</li><li>Air conditioning</li><li>Brake repair</li><li>Smog check</li></ul>
+        <ul class="svc-list"><li>Engine diagnostics</li><li>Lube, oil and filters</li><li>Belts and hoses</li><li>Air conditioning</li><li>Brake repair</li><li>Smog check</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
         <ul class="hours-list"><li>Monday - Friday: 8:30 AM - 5:30 PM</li></ul>
-        <p>Weekend hours are not listed; call to confirm. Smog special is as listed on the shop&#x27;s website and may change.</p>
+        <p>Per the shop&#x27;s website; call (916) 922-2976 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">

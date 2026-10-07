@@ -85,11 +85,21 @@
     .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
-    /* layout: cardhero */
+    
+    body.skel-service_trust .hero { min-height: 62vh; }
+    body.skel-service_trust .trust-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; max-width: 1100px; margin: -2rem auto 0; padding: 0 1.25rem; position: relative; z-index: 2; }
+    body.skel-service_trust .trust-bar article { background: var(--surface); padding: 1.1rem; border-radius: var(--radius); box-shadow: 0 10px 30px rgba(0,0,0,.08); border-top: 3px solid var(--accent); font-size: .88rem; }
+    body.skel-service_trust .trust-bar strong { display: block; font-size: 1rem; margin-bottom: .25rem; }
+    body.skel-service_trust .services-block { background: linear-gradient(180deg, var(--bg), var(--surface)); }
+    body.skel-service_trust .svc-list { columns: 1; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .65rem; list-style: none; padding: 0; }
+    body.skel-service_trust .svc-list li { background: var(--surface); padding: .85rem 1rem; border-radius: 8px; border: 1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
+    body.skel-service_trust .svc-list li::before { content: "✓ "; color: var(--accent); font-weight: 700; }
+    
+    /* layout: cardhero skeleton: service_trust */
     </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body data-biz-phone="tel:+19166012535" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=8500%20Fruitridge%20Rd%20Unit11%2C%20Sacramento%2C%20CA%2095826">
+<body class="skel-service_trust" data-biz-phone="tel:+19166012535" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=8500%20Fruitridge%20Rd%20Unit11%2C%20Sacramento%2C%20CA%2095826">
   <div class="tmbc-banner">Website preview designed by TMBC Works</div>
   <header class="site-header">
     <div class="logo">Fix Car&#x27;s - Automotive Diagnostic &amp; Repair Shop</div>
@@ -105,28 +115,29 @@
         <a class="btn btn-primary" href="tel:+19166012535">Call (916) 601-2535</a>
         <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=8500%20Fruitridge%20Rd%20Unit11%2C%20Sacramento%2C%20CA%2095826">Directions</a>
       </div>
-      <div class="highlights"><div class="hl">Diagnostics and repair</div><div class="hl">8500 Fruitridge Rd Unit 11</div><div class="hl">Call (916) 601-2535</div></div>
+      <div class="highlights"><div class="hl">Diagnostics and repair</div><div class="hl">Domestic and European vehicles</div><div class="hl">Open Monday - Saturday</div><div class="hl">Russian spoken per listing</div><div class="hl">8500 Fruitridge Rd, Unit 11</div></div>
       
+      <div class="trust-bar reveal"><article class='reveal'><strong>Diagnostics and repair</strong></article><article class='reveal'><strong>Domestic and European vehicles</strong></article><article class='reveal'><strong>Open Monday - Saturday</strong></article><article class='reveal'><strong>Russian spoken per listing</strong></article></div>
     </div>
   </section>
   
     <section class="story-block reveal" id="story">
       <div class="wrap story-grid">
-        <div class="story-copy"><p>Fix Car&#x27;s is an automotive diagnostic and repair shop at 8500 Fruitridge Rd, Unit 11, in Sacramento.</p><p>Call (916) 601-2535 to describe your vehicle&#x27;s issue and ask about availability.</p></div>
+        <div class="story-copy"><p>Fix Car&#x27;s - Automotive Diagnostic &amp; Repair Shop is at 8500 Fruitridge Rd, Unit 11, in Sacramento. Exa and Mapdoor list the same Monday through Saturday schedule, with Sunday closed.</p><p>Mapdoor lists services including diagnostics, brakes, engine repair and overhaul, transmission service, radiator service, emission repair, air conditioning and heating, and scheduled maintenance, for domestic and European vehicles. Russian is listed as a language spoken.</p><p>Call (916) 601-2535 to describe the problem and ask about scheduling.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 8500 Fruitridge Rd Unit11, Sacramento, CA 95826</p><p><strong>Phone:</strong> (916) 601-2535</p></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">
       <div class="wrap">
         <h2>Auto services</h2>
-        <ul class="svc-list"><li>Automotive diagnostics</li><li>Auto repair</li><li>Maintenance</li><li>Call to ask about specific repairs</li></ul>
+        <ul class="svc-list"><li>Diagnostics</li><li>Brakes</li><li>Engine repair and overhaul</li><li>Transmission service</li><li>Radiator service</li><li>Emission repair</li><li>A/C and heating</li><li>Scheduled maintenance</li></ul>
       </div>
     </section>
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
-        
-        <p>Call for current hours.</p>
+        <ul class="hours-list"><li>Monday - Saturday: 9:30 AM - 7:00 PM</li><li>Sunday: Closed</li></ul>
+        <p>Hours match Exa and Mapdoor listings. Mapdoor also lists holiday closures. Call (916) 601-2535 to confirm.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">
