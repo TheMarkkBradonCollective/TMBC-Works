@@ -131,10 +131,14 @@ def profile_for(slug: str, row: dict) -> dict:
 
     head = data["font_head"]
     body = data["font_body"]
-    image_key = data.get("image_key", "auto")
-    hero_image = data.get("hero_image") or IMAGES.get(image_key) or IMAGES["auto"]
-
     category = row.get("category", "")
+    image_key = data.get("image_key", "auto")
+    if category == "Towing" and image_key == "auto":
+        image_key = "tow"
+    hero_image = data.get("hero_image") or IMAGES.get(image_key) or IMAGES.get("food") or IMAGES["auto"]
+    sk = data.get("skeleton") or CATEGORY_SKELETON.get(category, "service_trust")
+    if sk in ("menu_forward", "studio_booking", "service_trust", "service_emergency") and not hero_image:
+        hero_image = IMAGES.get(image_key, IMAGES["auto"])
     p = {
         **data,
         "colors": pal,

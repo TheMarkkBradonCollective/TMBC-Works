@@ -10,7 +10,7 @@
   <meta property="og:title" content="John&#x27;s Towing">
   <meta property="og:description" content="John&#x27;s Towing, 8540 Elder Creek Rd Ste D, Sacramento. Towing service. Call (916) 712-1578.">
   <meta property="og:url" content="https://themarkkbradoncollective.github.io/TMBC-Works/johns-towing/">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1487754180451-c456f581a583?w=1600&amp;q=80">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1544622351-20a7f5172b20?w=1600&amp;q=80">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,19 +39,74 @@
     .site-nav a { color:var(--muted); text-decoration:none; margin-left:1rem; font-size:.9rem; }
     .site-nav a:hover { color:var(--accent); }
     .hero { position:relative; min-height:72vh; display:flex; align-items:flex-end; overflow:hidden; }
-    .hero-bg { position:absolute; inset:0; background:url('https://images.unsplash.com/photo-1487754180451-c456f581a583?w=1600&q=80') center/cover no-repeat; transform:scale(1.02); }
-    .hero-bg::after { content:''; position:absolute; inset:0; background:linear-gradient(to top, var(--hero-overlay), transparent 55%); }
-    .hero-inner { position:relative; z-index:1; padding:3rem 1.25rem 2.5rem; max-width:1100px; margin:0 auto; width:100%; }
+    .hero-bg { position:absolute; inset:0; background:url('https://images.unsplash.com/photo-1544622351-20a7f5172b20?w=1600&q=80') center/cover no-repeat; transform:scale(1.02); }
+    .hero-bg::after {
+      content:''; position:absolute; inset:0;
+      background:
+        linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.25) 40%, rgba(0,0,0,.55) 100%),
+        linear-gradient(to top, var(--hero-overlay), transparent 55%);
+    }
+    .hero-inner { position:relative; z-index:1; padding:2.5rem 1.25rem 2.5rem; max-width:1100px; margin:0 auto; width:100%; box-sizing:border-box; }
+    .hero-content-panel {
+      background: rgba(15, 23, 42, 0.88);
+      color: #f8fafc;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 1.75rem 1.5rem;
+      border-radius: max(var(--radius), 8px);
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow: 0 20px 50px rgba(0,0,0,.25);
+      max-width: 42rem;
+    }
+    .hero-content-panel .hero-kicker { color: #fde68a; }
+    .hero-content-panel .hero-lead { color: #e2e8f0; }
+    .hero-content-panel .btn-ghost {
+      border-color: #f8fafc;
+      color: #f8fafc !important;
+      background: rgba(255,255,255,.08);
+    }
+    .hero-content-panel .hl {
+      background: rgba(255,255,255,.1);
+      border-color: rgba(255,255,255,.18);
+      color: #f1f5f9;
+    }
+    .layout-split .hero-content-panel {
+      background: var(--surface);
+      color: var(--text);
+      border-color: color-mix(in srgb, var(--muted) 25%, transparent);
+      box-shadow: none;
+      max-width: none;
+    }
+    .layout-split .hero-content-panel .hero-lead { color: var(--muted); }
+    .layout-split .hero-content-panel .hero-kicker { color: var(--accent2); }
+    .layout-split .hero-content-panel .btn-ghost {
+      border-color: var(--accent);
+      color: var(--accent) !important;
+      background: transparent;
+    }
+    .layout-split .hero-content-panel .hl {
+      background: color-mix(in srgb, var(--accent) 10%, transparent);
+      color: var(--text);
+      border-color: color-mix(in srgb, var(--muted) 25%, transparent);
+    }
     .hero-kicker { text-transform:uppercase; letter-spacing:.14em; font-size:.72rem; color:var(--accent2); font-weight:700; }
-    .hero h1 { font-size:clamp(2rem,6vw,3.4rem); margin:.35rem 0 .75rem; max-width:14ch; }
+    .hero h1 { font-size:clamp(2rem,6vw,3.4rem); margin:.35rem 0 .75rem; max-width:14ch; color: inherit; }
     .hero-lead { font-size:1.12rem; max-width:40rem; color:var(--muted); margin:0 0 1.25rem; }
     .btn-row { display:flex; flex-wrap:wrap; gap:.75rem; }
     .btn { display:inline-block; padding:.7rem 1.2rem; border-radius:var(--radius); font-weight:700; text-decoration:none; font-size:.92rem; transition: transform .2s ease, box-shadow .2s ease; }
     .btn:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.15); }
     .btn-primary { background:var(--accent); color:#fff !important; }
     .btn-ghost { border:2px solid var(--accent); color:var(--accent) !important; background:transparent; }
-    .highlights { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:1rem; margin-top:1.5rem; }
-    .hl { background:rgba(255,255,255,.08); backdrop-filter:blur(6px); border:1px solid rgba(255,255,255,.12); padding:.85rem; border-radius:var(--radius); font-size:.85rem; }
+    .highlights {
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap:.75rem;
+      margin-top:1.25rem;
+      max-width: 28rem;
+    }
+    .highlights.hl-count-1 { grid-template-columns: 1fr; max-width: 14rem; }
+    .highlights.hl-count-3 .hl:last-child { grid-column: 1 / -1; max-width: 14rem; justify-self: center; }
+    .hl { background:rgba(255,255,255,.08); backdrop-filter:blur(6px); border:1px solid rgba(255,255,255,.12); padding:.75rem .85rem; border-radius:max(var(--radius), 6px); font-size:.82rem; line-height:1.35; }
     .layout-split .hero { display:grid; grid-template-columns:1fr; min-height:auto; }
     @media(min-width:900px) {
       .layout-split .hero { grid-template-columns:1.05fr .95fr; align-items:stretch; min-height:70vh; }
@@ -86,14 +141,27 @@
     .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
     
     
-    body.skel-service_emergency .hero { min-height: 58vh; background: var(--surface); align-items: stretch; }
-    body.skel-service_emergency .hero-bg { opacity: .35; }
-    body.skel-service_emergency .hero-inner { display: grid; gap: 1.5rem; align-items: center; }
-    @media(min-width:768px) { body.skel-service_emergency .hero-inner { grid-template-columns: 1fr auto; text-align: left; } }
+    body.skel-service_emergency .hero { min-height: 58vh; align-items: center; }
+    body.skel-service_emergency .hero-bg { opacity: 1; }
+    body.skel-service_emergency .hero-inner--emergency {
+      display: grid; gap: 1.25rem; align-items: center; width: 100%;
+    }
+    body.skel-service_emergency .hero-text-col { text-align: left; width: 100%; }
+    body.skel-service_emergency .hero-content-panel { max-width: none; text-align: left; }
+    body.skel-service_emergency .hero-content-panel .hero-kicker,
+    body.skel-service_emergency .hero-content-panel h1,
+    body.skel-service_emergency .hero-content-panel .hero-lead,
+    body.skel-service_emergency .hero-content-panel .btn-row { text-align: left; justify-content: flex-start; }
+    body.skel-service_emergency .hero h1 { max-width: none; margin-left: 0; margin-right: auto; }
+    @media(min-width:768px) {
+      body.skel-service_emergency .hero-inner--emergency { grid-template-columns: 1.15fr minmax(220px, 0.85fr); align-items: center; }
+    }
+    body.skel-service_emergency .hero-side-col { display: flex; flex-direction: column; gap: 1rem; width: 100%; }
     body.skel-service_emergency .emergency-cta { background: var(--accent); color: #fff; padding: 1.5rem 2rem; border-radius: var(--radius); text-align: center; box-shadow: 0 12px 40px color-mix(in srgb, var(--accent) 45%, transparent); }
     body.skel-service_emergency .emergency-cta a { color: #fff !important; font-size: 1.75rem; font-weight: 800; text-decoration: none; display: block; }
     body.skel-service_emergency .emergency-cta span { display: block; font-size: .85rem; opacity: .9; margin-top: .35rem; font-weight: 500; }
-    body.skel-service_emergency .trust-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: .75rem; margin: 2rem 0 0; }
+    body.skel-service_emergency .trust-strip { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; margin: 0; }
+    body.skel-service_emergency .trust-strip div:last-child:nth-child(3) { grid-column: 1 / -1; max-width: 50%; justify-self: center; }
     body.skel-service_emergency .trust-strip div { background: var(--surface); padding: .75rem; border-radius: 8px; font-size: .82rem; text-align: center; border: 1px solid color-mix(in srgb, var(--muted) 25%, transparent); }
     body.skel-service_emergency .services-block { background: #0f172a; color: #f8fafc; }
     body.skel-service_emergency .services-block h2 { color: #f8fafc; }
@@ -112,21 +180,25 @@
   </header>
   <section class="hero layout-editorial" aria-label="Welcome">
     <div class="hero-bg" role="img" aria-label="Decorative photograph"></div>
-    <div class="hero-inner">
-      <p class="hero-kicker">Towing</p>
-      <h1>John&#x27;s Towing</h1>
-      <p class="hero-lead">Towing service on Elder Creek Rd, Sacramento.</p>
-      <div class="btn-row">
-        <a class="btn btn-primary" href="tel:+19167121578">Call (916) 712-1578</a>
-        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=8540%20Elder%20Creek%20Rd%20Ste%20D%2C%20Sacramento%2C%20CA%2095828">Directions</a>
+    <div class="hero-inner hero-inner--emergency">
+      <div class="hero-text-col">
+        <div class="hero-content-panel">
+          <p class="hero-kicker">Towing</p>
+          <h1>John&#x27;s Towing</h1>
+          <p class="hero-lead">Towing service on Elder Creek Rd, Sacramento.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="tel:+19167121578">Call (916) 712-1578</a>
+            <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=8540%20Elder%20Creek%20Rd%20Ste%20D%2C%20Sacramento%2C%20CA%2095828">Directions</a>
+          </div>
+          <div class="highlights hl-count-3"><div class="hl">Towing in Sacramento and Elk Grove</div><div class="hl">Jump-starts, lockouts and flat tires</div><div class="hl">Winching and vehicle recovery</div></div>
+          <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+        </div>
       </div>
-      <div class="highlights"><div class="hl">Towing in Sacramento and Elk Grove</div><div class="hl">Jump-starts, lockouts and flat tires</div><div class="hl">Winching and vehicle recovery</div><div class="hl">Fuel delivery and accident recovery</div><div class="hl">Call (916) 712-1578</div></div>
-      <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
-      
+      <div class="hero-side-col">
     <div class="emergency-cta reveal">
       <a href="tel:+19167121578">(916) 712-1578</a>
       <span>Need a tow? Call (916) 712-1578 and confirm availability in your area.</span>
-    </div><div class="trust-strip"><div>Sacramento and Elk Grove service area</div><div>Winching and recovery equipment</div><div>Credit cards by phone per listing</div><div>Elder Creek Rd location</div></div>
+    </div><div class="trust-strip"><div>Sacramento and Elk Grove service area</div><div>Winching and recovery equipment</div><div>Credit cards by phone per listing</div></div></div>
     </div>
   </section>
   

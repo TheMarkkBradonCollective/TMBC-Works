@@ -4,6 +4,7 @@ from __future__ import annotations
 import html
 import json
 import os
+import re
 import urllib.parse
 
 from tmbc_constants import TMBC_FEEDBACK_EMAIL
@@ -18,6 +19,35 @@ def phone_href(phone: str) -> str:
     if len(digits) == 10:
         return f"tel:+1{digits}"
     return f"tel:{digits}"
+
+
+def _phone_digits(phone: str) -> str:
+    import re
+
+    return re.sub(r"\D", "", phone)
+
+
+def filter_hero_chips(items: list[str], phone: str, limit: int = 3) -> list[str]:
+    """Non-redundant hero chips — drop phone repeats and near-duplicates."""
+    pd = _phone_digits(phone)
+    out: list[str] = []
+    seen: set[str] = set()
+    for raw in items:
+        t = (raw or "").strip()
+        if not t:
+            continue
+        low = t.lower()
+        if pd and pd in re.sub(r"\D", "", t):
+            continue
+        if low.startswith("call ") and pd and pd[-4:] in t:
+            continue
+        if low in seen:
+            continue
+        seen.add(low)
+        out.append(t)
+        if len(out) >= limit:
+            break
+    return out
 
 
 def feedback_mailto(business_name: str, has_website: bool) -> str:
@@ -182,18 +212,73 @@ def layout_css(profile: dict) -> str:
     .site-nav a:hover {{ color:var(--accent); }}
     .hero {{ position:relative; min-height:{profile.get('hero_min', '72vh')}; display:flex; align-items:flex-end; overflow:hidden; }}
     .hero-bg {{ position:absolute; inset:0; background:url('{profile['hero_image']}') center/cover no-repeat; transform:scale(1.02); }}
-    .hero-bg::after {{ content:''; position:absolute; inset:0; background:linear-gradient({hero_grad}); }}
-    .hero-inner {{ position:relative; z-index:1; padding:3rem 1.25rem 2.5rem; max-width:1100px; margin:0 auto; width:100%; }}
+    .hero-bg::after {{
+      content:''; position:absolute; inset:0;
+      background:
+        linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.25) 40%, rgba(0,0,0,.55) 100%),
+        linear-gradient({hero_grad});
+    }}
+    .hero-inner {{ position:relative; z-index:1; padding:2.5rem 1.25rem 2.5rem; max-width:1100px; margin:0 auto; width:100%; box-sizing:border-box; }}
+    .hero-content-panel {{
+      background: rgba(15, 23, 42, 0.88);
+      color: #f8fafc;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 1.75rem 1.5rem;
+      border-radius: max(var(--radius), 8px);
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow: 0 20px 50px rgba(0,0,0,.25);
+      max-width: 42rem;
+    }}
+    .hero-content-panel .hero-kicker {{ color: #fde68a; }}
+    .hero-content-panel .hero-lead {{ color: #e2e8f0; }}
+    .hero-content-panel .btn-ghost {{
+      border-color: #f8fafc;
+      color: #f8fafc !important;
+      background: rgba(255,255,255,.08);
+    }}
+    .hero-content-panel .hl {{
+      background: rgba(255,255,255,.1);
+      border-color: rgba(255,255,255,.18);
+      color: #f1f5f9;
+    }}
+    .layout-split .hero-content-panel {{
+      background: var(--surface);
+      color: var(--text);
+      border-color: color-mix(in srgb, var(--muted) 25%, transparent);
+      box-shadow: none;
+      max-width: none;
+    }}
+    .layout-split .hero-content-panel .hero-lead {{ color: var(--muted); }}
+    .layout-split .hero-content-panel .hero-kicker {{ color: var(--accent2); }}
+    .layout-split .hero-content-panel .btn-ghost {{
+      border-color: var(--accent);
+      color: var(--accent) !important;
+      background: transparent;
+    }}
+    .layout-split .hero-content-panel .hl {{
+      background: color-mix(in srgb, var(--accent) 10%, transparent);
+      color: var(--text);
+      border-color: color-mix(in srgb, var(--muted) 25%, transparent);
+    }}
     .hero-kicker {{ text-transform:uppercase; letter-spacing:.14em; font-size:.72rem; color:var(--accent2); font-weight:700; }}
-    .hero h1 {{ font-size:clamp(2rem,6vw,3.4rem); margin:.35rem 0 .75rem; max-width:14ch; }}
+    .hero h1 {{ font-size:clamp(2rem,6vw,3.4rem); margin:.35rem 0 .75rem; max-width:14ch; color: inherit; }}
     .hero-lead {{ font-size:1.12rem; max-width:40rem; color:var(--muted); margin:0 0 1.25rem; }}
     .btn-row {{ display:flex; flex-wrap:wrap; gap:.75rem; }}
     .btn {{ display:inline-block; padding:.7rem 1.2rem; border-radius:var(--radius); font-weight:700; text-decoration:none; font-size:.92rem; transition: transform .2s ease, box-shadow .2s ease; }}
     .btn:hover {{ transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.15); }}
     .btn-primary {{ background:var(--accent); color:#fff !important; }}
     .btn-ghost {{ border:2px solid var(--accent); color:var(--accent) !important; background:transparent; }}
-    .highlights {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:1rem; margin-top:1.5rem; }}
-    .hl {{ background:rgba(255,255,255,.08); backdrop-filter:blur(6px); border:1px solid rgba(255,255,255,.12); padding:.85rem; border-radius:var(--radius); font-size:.85rem; }}
+    .highlights {{
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap:.75rem;
+      margin-top:1.25rem;
+      max-width: 28rem;
+    }}
+    .highlights.hl-count-1 {{ grid-template-columns: 1fr; max-width: 14rem; }}
+    .highlights.hl-count-3 .hl:last-child {{ grid-column: 1 / -1; max-width: 14rem; justify-self: center; }}
+    .hl {{ background:rgba(255,255,255,.08); backdrop-filter:blur(6px); border:1px solid rgba(255,255,255,.12); padding:.75rem .85rem; border-radius:max(var(--radius), 6px); font-size:.82rem; line-height:1.35; }}
     .layout-split .hero {{ display:grid; grid-template-columns:1fr; min-height:auto; }}
     @media(min-width:900px) {{
       .layout-split .hero {{ grid-template-columns:1.05fr .95fr; align-items:stretch; min-height:70vh; }}
@@ -249,14 +334,22 @@ def render_index(row: dict, profile: dict, slug: str, base_url: str) -> str:
         "nav",
         '<a href="#story">About</a><a href="#services">Services</a><a href="#visit">Visit</a><a href="#contact">Contact</a>',
     )
-    highlights = profile.get("highlights") or []
-    hl_html = "".join(f'<div class="hl">{html.escape(h)}</div>' for h in highlights)
+    chips = filter_hero_chips(profile.get("highlights") or [], phone, limit=3)
+    hl_class = f"highlights hl-count-{len(chips)}" if chips else ""
+    hl_html = "".join(f'<div class="hl">{html.escape(h)}</div>' for h in chips)
     hero_class = f"hero layout-{profile['layout']}"
     compare_link = ""
     if has_web:
         compare_link = f'<p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>'
 
-    hero_extra = render_hero_extras(skeleton, profile, phone, highlights)
+    hero_extra = render_hero_extras(skeleton, profile, phone, chips)
+    hero_inner_cls = "hero-inner hero-inner--emergency" if skeleton == "service_emergency" else "hero-inner"
+    if skeleton == "service_emergency" and hero_extra:
+        hero_tail = f'<div class="hero-side-col">{hero_extra}</div>'
+    elif skeleton == "service_trust" and hero_extra:
+        hero_tail = hero_extra
+    else:
+        hero_tail = ""
     sec_html = build_sections(skeleton, profile, row, name, address, lat, lon, phone, map_url)
 
     og_img = profile["hero_image"]
@@ -298,17 +391,21 @@ def render_index(row: dict, profile: dict, slug: str, base_url: str) -> str:
   </header>
   <section class="{hero_class}" aria-label="Welcome">
     <div class="hero-bg" role="img" aria-label="Decorative photograph"></div>
-    <div class="hero-inner">
-      <p class="hero-kicker">{html.escape(row['category'])}</p>
-      <h1>{html.escape(profile.get('headline', name))}</h1>
-      <p class="hero-lead">{html.escape(profile.get('subhead', ''))}</p>
-      <div class="btn-row">
-        <a class="btn btn-primary" href="{ph}">Call {html.escape(phone)}</a>
-        <a class="btn btn-ghost" href="{html.escape(map_url)}">Directions</a>
+    <div class="{hero_inner_cls}">
+      <div class="hero-text-col">
+        <div class="hero-content-panel">
+          <p class="hero-kicker">{html.escape(row['category'])}</p>
+          <h1>{html.escape(profile.get('headline', name))}</h1>
+          <p class="hero-lead">{html.escape(profile.get('subhead', ''))}</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="{ph}">Call {html.escape(phone)}</a>
+            <a class="btn btn-ghost" href="{html.escape(map_url)}">Directions</a>
+          </div>
+          {f'<div class="{hl_class}">{hl_html}</div>' if hl_html else ''}
+          {compare_link}
+        </div>
       </div>
-      {f'<div class="highlights">{hl_html}</div>' if hl_html else ''}
-      {compare_link}
-      {hero_extra}
+      {hero_tail}
     </div>
   </section>
   {sec_html}

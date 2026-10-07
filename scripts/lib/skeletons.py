@@ -13,9 +13,17 @@ def _sections():
 def skeleton_css(skeleton: str) -> str:
     if skeleton == "menu_forward":
         return """
-    body.skel-menu_forward .hero { min-height: 52vh; align-items: center; text-align: center; }
-    body.skel-menu_forward .hero-inner { max-width: 720px; margin: 0 auto; }
+    body.skel-menu_forward .hero { min-height: 56vh; align-items: center; justify-content: center; }
+    body.skel-menu_forward .hero-bg::after {
+      background:
+        linear-gradient(180deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,.15) 45%, rgba(0,0,0,.5) 100%),
+        linear-gradient(to top, var(--hero-overlay), transparent 55%);
+    }
+    body.skel-menu_forward .hero-inner { display: flex; flex-direction: column; align-items: center; }
+    body.skel-menu_forward .hero-content-panel { text-align: center; margin: 0 auto; max-width: 40rem; }
     body.skel-menu_forward .hero h1 { max-width: none; }
+    body.skel-menu_forward .hero-bg { opacity: 1; }
+    body.skel-menu_forward .highlights { margin-left: auto; margin-right: auto; }
     body.skel-menu_forward .menu-block { background: var(--surface); padding: 3.5rem 0; margin-top: -2rem; position: relative; z-index: 2; border-radius: calc(var(--radius) * 2) calc(var(--radius) * 2) 0 0; box-shadow: 0 -20px 50px rgba(0,0,0,.08); }
     body.skel-menu_forward .menu-grid { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; }
     body.skel-menu_forward .menu-card { padding: 1.35rem 1.5rem; border-left: 4px solid var(--accent); box-shadow: 0 8px 24px rgba(0,0,0,.06); }
@@ -26,14 +34,27 @@ def skeleton_css(skeleton: str) -> str:
     """
     if skeleton == "service_emergency":
         return """
-    body.skel-service_emergency .hero { min-height: 58vh; background: var(--surface); align-items: stretch; }
-    body.skel-service_emergency .hero-bg { opacity: .35; }
-    body.skel-service_emergency .hero-inner { display: grid; gap: 1.5rem; align-items: center; }
-    @media(min-width:768px) { body.skel-service_emergency .hero-inner { grid-template-columns: 1fr auto; text-align: left; } }
+    body.skel-service_emergency .hero { min-height: 58vh; align-items: center; }
+    body.skel-service_emergency .hero-bg { opacity: 1; }
+    body.skel-service_emergency .hero-inner--emergency {
+      display: grid; gap: 1.25rem; align-items: center; width: 100%;
+    }
+    body.skel-service_emergency .hero-text-col { text-align: left; width: 100%; }
+    body.skel-service_emergency .hero-content-panel { max-width: none; text-align: left; }
+    body.skel-service_emergency .hero-content-panel .hero-kicker,
+    body.skel-service_emergency .hero-content-panel h1,
+    body.skel-service_emergency .hero-content-panel .hero-lead,
+    body.skel-service_emergency .hero-content-panel .btn-row { text-align: left; justify-content: flex-start; }
+    body.skel-service_emergency .hero h1 { max-width: none; margin-left: 0; margin-right: auto; }
+    @media(min-width:768px) {
+      body.skel-service_emergency .hero-inner--emergency { grid-template-columns: 1.15fr minmax(220px, 0.85fr); align-items: center; }
+    }
+    body.skel-service_emergency .hero-side-col { display: flex; flex-direction: column; gap: 1rem; width: 100%; }
     body.skel-service_emergency .emergency-cta { background: var(--accent); color: #fff; padding: 1.5rem 2rem; border-radius: var(--radius); text-align: center; box-shadow: 0 12px 40px color-mix(in srgb, var(--accent) 45%, transparent); }
     body.skel-service_emergency .emergency-cta a { color: #fff !important; font-size: 1.75rem; font-weight: 800; text-decoration: none; display: block; }
     body.skel-service_emergency .emergency-cta span { display: block; font-size: .85rem; opacity: .9; margin-top: .35rem; font-weight: 500; }
-    body.skel-service_emergency .trust-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: .75rem; margin: 2rem 0 0; }
+    body.skel-service_emergency .trust-strip { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; margin: 0; }
+    body.skel-service_emergency .trust-strip div:last-child:nth-child(3) { grid-column: 1 / -1; max-width: 50%; justify-self: center; }
     body.skel-service_emergency .trust-strip div { background: var(--surface); padding: .75rem; border-radius: 8px; font-size: .82rem; text-align: center; border: 1px solid color-mix(in srgb, var(--muted) 25%, transparent); }
     body.skel-service_emergency .services-block { background: #0f172a; color: #f8fafc; }
     body.skel-service_emergency .services-block h2 { color: #f8fafc; }
@@ -48,7 +69,9 @@ def skeleton_css(skeleton: str) -> str:
     @media(max-width:640px) { body.skel-studio_booking .gallery-row { grid-template-columns: 1fr; } body.skel-studio_booking .gallery-row div { aspect-ratio: 16/9; } }
     body.skel-studio_booking .booking-panel { background: var(--surface); margin: 2rem 1.25rem; max-width: 1060px; margin-left: auto; margin-right: auto; padding: 2rem; border-radius: calc(var(--radius) * 1.5); display: grid; gap: 1rem; text-align: center; box-shadow: 0 16px 48px rgba(0,0,0,.1); }
     @media(min-width:768px) { body.skel-studio_booking .booking-panel { grid-template-columns: 1fr auto auto; align-items: center; text-align: left; } }
-    body.skel-studio_booking .chip-row { display: flex; flex-wrap: wrap; gap: .5rem; justify-content: center; }
+    body.skel-studio_booking .chip-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; max-width: 28rem; margin: 0 auto; }
+    body.skel-studio_booking .chip-row .chip:last-child:nth-child(3) { grid-column: 1 / -1; max-width: 14rem; justify-self: center; }
+    body.skel-studio_booking .hero-bg { opacity: 1; }
     body.skel-studio_booking .chip { padding: .45rem .85rem; border-radius: 999px; background: color-mix(in srgb, var(--accent) 15%, transparent); font-size: .82rem; font-weight: 600; }
     body.skel-studio_booking .services-block { padding-top: 1rem; }
     body.skel-studio_booking .svc-list { columns: 1; display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; padding: 0; }
@@ -98,8 +121,10 @@ def section_gallery_booking(profile: dict, phone: str, map_url: str) -> str:
     ph = _sections().phone_href(phone)
     labels = profile.get("gallery_labels") or ["Our space", "The work", "Details"]
     gal = "".join(f"<div>{html.escape(lb)}</div>" for lb in labels[:3])
-    chips = profile.get("services") or []
-    chip_html = "".join(f'<span class="chip">{html.escape(c)}</span>' for c in chips[:8])
+    from lib.render_site import filter_hero_chips
+
+    chips = filter_hero_chips(profile.get("services") or [], phone, limit=4)
+    chip_html = "".join(f'<span class="chip">{html.escape(c)}</span>' for c in chips)
     return f"""
     <div class="gallery-row reveal" aria-hidden="true">{gal}</div>
     <div class="booking-panel reveal">
@@ -232,9 +257,11 @@ def build_sections(
 def render_hero_extras(
     skeleton: str, profile: dict, phone: str, highlights: list[str]
 ) -> str:
+    from lib.render_site import filter_hero_chips
+
     if skeleton == "service_emergency":
         label = profile.get("emergency_label") or "Available for urgent service — call now"
-        trust = profile.get("trust_strip") or highlights[:4]
+        trust = filter_hero_chips(profile.get("trust_strip") or highlights, phone, limit=3)
         strip = "".join(f"<div>{html.escape(t)}</div>" for t in trust)
         return section_emergency_cta(phone, label) + f'<div class="trust-strip">{strip}</div>'
     if skeleton == "service_trust":
