@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Star Motors — Import auto repair</title>
+  <meta name="description" content="Star Motors Service Center, 2680 Florin Rd #103a, Sacramento. Mercedes, BMW, Lexus, Sprinter service. Call (916) 421-4007.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Star Motors">
+  <meta property="og:description" content="Star Motors Service Center, 2680 Florin Rd #103a, Sacramento. Mercedes, BMW, Lexus, Sprinter service. Call (916) 421-4007.">
+  <meta property="og:url" content="https://themarkkbradoncollective.github.io/TMBC-Works/star-motors/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=1600&amp;q=80">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../_shared/tmbc.css">
+  <style>
+    :root {
+      --bg: #f0f9ff;
+      --surface: #fff;
+      --text: #0c4a6e;
+      --muted: #0369a1;
+      --accent: #0284c7;
+      --accent2: #38bdf8;
+      --hero-overlay: rgba(12,74,110,.5);
+      --radius: 12px;
+    }
+    body { margin:0; background:var(--bg); color:var(--text); font-family:'Inter', system-ui, sans-serif; line-height:1.65; }
+    h1,h2,h3 { font-family:'Barlow Condensed', Georgia, serif; line-height:1.15; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 0 1.25rem; }
+    a { color: var(--accent); }
+    .site-header {
+      display:flex; align-items:center; justify-content:space-between; gap:1rem;
+      padding:1rem 1.25rem; max-width:1100px; margin:0 auto;
+    }
+    .logo { font-family:'Barlow Condensed', serif; font-weight:700; font-size:1.15rem; letter-spacing:.02em; }
+    .site-nav a { color:var(--muted); text-decoration:none; margin-left:1rem; font-size:.9rem; }
+    .site-nav a:hover { color:var(--accent); }
+    .hero { position:relative; min-height:72vh; display:flex; align-items:flex-end; overflow:hidden; }
+    .hero-bg { position:absolute; inset:0; background:url('https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=1600&q=80') center/cover no-repeat; transform:scale(1.02); }
+    .hero-bg::after {
+      content:''; position:absolute; inset:0;
+      background:
+        linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.25) 40%, rgba(0,0,0,.55) 100%),
+        linear-gradient(to top, var(--hero-overlay), transparent 55%);
+    }
+    .hero-inner { position:relative; z-index:1; padding:2.5rem 1.25rem 2.5rem; max-width:1100px; margin:0 auto; width:100%; box-sizing:border-box; }
+    .hero-content-panel {
+      background: rgba(15, 23, 42, 0.88);
+      color: #f8fafc;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 1.75rem 1.5rem;
+      border-radius: max(var(--radius), 8px);
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow: 0 20px 50px rgba(0,0,0,.25);
+      max-width: 42rem;
+    }
+    .hero-content-panel .hero-kicker { color: #fde68a; }
+    .hero-content-panel .hero-lead { color: #e2e8f0; }
+    .hero-content-panel .btn-ghost {
+      border-color: #f8fafc;
+      color: #f8fafc !important;
+      background: rgba(255,255,255,.08);
+    }
+    .hero-content-panel .hl {
+      background: rgba(255,255,255,.1);
+      border-color: rgba(255,255,255,.18);
+      color: #f1f5f9;
+    }
+    .layout-split .hero-content-panel {
+      background: var(--surface);
+      color: var(--text);
+      border-color: color-mix(in srgb, var(--muted) 25%, transparent);
+      box-shadow: none;
+      max-width: none;
+    }
+    .layout-split .hero-content-panel .hero-lead { color: var(--muted); }
+    .layout-split .hero-content-panel .hero-kicker { color: var(--accent2); }
+    .layout-split .hero-content-panel .btn-ghost {
+      border-color: var(--accent);
+      color: var(--accent) !important;
+      background: transparent;
+    }
+    .layout-split .hero-content-panel .hl {
+      background: color-mix(in srgb, var(--accent) 10%, transparent);
+      color: var(--text);
+      border-color: color-mix(in srgb, var(--muted) 25%, transparent);
+    }
+    .hero-kicker { text-transform:uppercase; letter-spacing:.14em; font-size:.72rem; color:var(--accent2); font-weight:700; }
+    .hero h1 { font-size:clamp(2rem,6vw,3.4rem); margin:.35rem 0 .75rem; max-width:14ch; color: inherit; }
+    .hero-lead { font-size:1.12rem; max-width:40rem; color:var(--muted); margin:0 0 1.25rem; }
+    .btn-row { display:flex; flex-wrap:wrap; gap:.75rem; }
+    .btn { display:inline-block; padding:.7rem 1.2rem; border-radius:var(--radius); font-weight:700; text-decoration:none; font-size:.92rem; transition: transform .2s ease, box-shadow .2s ease; }
+    .btn:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.15); }
+    .btn-primary { background:var(--accent); color:#fff !important; }
+    .btn-ghost { border:2px solid var(--accent); color:var(--accent) !important; background:transparent; }
+    .highlights {
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap:.75rem;
+      margin-top:1.25rem;
+      max-width: 28rem;
+    }
+    .highlights.hl-count-1 { grid-template-columns: 1fr; max-width: 14rem; }
+    .highlights.hl-count-3 .hl:last-child { grid-column: 1 / -1; max-width: 14rem; justify-self: center; }
+    .hl { background:rgba(255,255,255,.08); backdrop-filter:blur(6px); border:1px solid rgba(255,255,255,.12); padding:.75rem .85rem; border-radius:max(var(--radius), 6px); font-size:.82rem; line-height:1.35; }
+    .layout-split .hero { display:grid; grid-template-columns:1fr; min-height:auto; }
+    @media(min-width:900px) {
+      .layout-split .hero { grid-template-columns:1.05fr .95fr; align-items:stretch; min-height:70vh; }
+      .layout-split .hero-bg { position:relative; min-height:360px; }
+      .layout-split .hero-inner { display:flex; flex-direction:column; justify-content:center; background:var(--surface); color:var(--text); }
+      .layout-split .hero-bg::after { background:linear-gradient(90deg, var(--surface) 0%, transparent 40%), var(--hero-overlay); }
+    }
+    .layout-editorial .hero h1 { max-width:none; font-size:clamp(2.4rem,7vw,4rem); }
+    .layout-editorial .hero-inner { padding-top:4rem; }
+    .layout-cardhero .hero { min-height:auto; padding:2rem 0 0; align-items:stretch; }
+    .layout-cardhero .hero-card { margin:0 1.25rem; border-radius:calc(var(--radius) * 1.5); overflow:hidden; box-shadow:0 24px 60px rgba(0,0,0,.18); }
+    .story-grid { display:grid; gap:2rem; padding:3rem 0; }
+    @media(min-width:768px) { .story-grid { grid-template-columns:1.2fr .8fr; } }
+    .story-aside { background:var(--surface); padding:1.25rem; border-radius:var(--radius); border:1px solid color-mix(in srgb, var(--muted) 25%, transparent); font-size:.92rem; }
+    .services-block, .menu-block, .hours-block, .location-block, .contact-block { padding:2.75rem 0; }
+    .services-block { background:var(--surface); }
+    .svc-list { columns:2; gap:2rem; padding-left:1.1rem; margin:0; }
+    @media(max-width:640px) { .svc-list { columns:1; } }
+    .menu-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1rem; }
+    .menu-card { background:var(--surface); padding:1.1rem 1.25rem; border-radius:var(--radius); border:1px solid color-mix(in srgb, var(--muted) 22%, transparent); }
+    .menu-note { color:var(--muted); font-size:.9rem; max-width:40rem; }
+    .hours-list { list-style:none; padding:0; margin:0; display:grid; gap:.35rem; }
+    .hours-list li { padding:.55rem .75rem; background:var(--surface); border-radius:8px; border:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
+    .loc-grid { display:grid; gap:1.25rem; }
+    @media(min-width:768px) { .loc-grid { grid-template-columns: .9fr 1.1fr; align-items:start; } }
+    .map-frame { border-radius:var(--radius); overflow:hidden; border:1px solid color-mix(in srgb, var(--muted) 25%, transparent); min-height:260px; background:#e2e8f0; }
+    .map-frame iframe { width:100%; height:280px; border:0; display:block; }
+    .contact-inner { text-align:center; background:var(--surface); padding:2rem; border-radius:var(--radius); }
+    .phone-big { font-size:1.6rem; font-weight:800; margin:.5rem 0; }
+    .phone-big a { text-decoration:none; color:var(--text); }
+    .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
+    .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
+    
+    
+    body.skel-service_trust .hero { min-height: 62vh; }
+    body.skel-service_trust .trust-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; max-width: 1100px; margin: -2rem auto 0; padding: 0 1.25rem; position: relative; z-index: 2; }
+    body.skel-service_trust .trust-bar article { background: var(--surface); padding: 1.1rem; border-radius: var(--radius); box-shadow: 0 10px 30px rgba(0,0,0,.08); border-top: 3px solid var(--accent); font-size: .88rem; }
+    body.skel-service_trust .trust-bar strong { display: block; font-size: 1rem; margin-bottom: .25rem; }
+    body.skel-service_trust .services-block { background: linear-gradient(180deg, var(--bg), var(--surface)); }
+    body.skel-service_trust .svc-list { columns: 1; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .65rem; list-style: none; padding: 0; }
+    body.skel-service_trust .svc-list li { background: var(--surface); padding: .85rem 1rem; border-radius: 8px; border: 1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
+    body.skel-service_trust .svc-list li::before { content: "✓ "; color: var(--accent); font-weight: 700; }
+    
+    /* layout: editorial skeleton: service_trust */
+    </style>
+  <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
+</head>
+<body class="skel-service_trust" data-biz-phone="tel:+19164214007" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=2680%20Florin%20Rd%20%23103a%2C%20Sacramento%2C%20CA%2095822">
+  <div class="tmbc-banner">Website preview designed by TMBC Works</div>
+  <header class="site-header">
+    <div class="logo">Star Motors</div>
+    <nav class="site-nav" aria-label="Primary"><a href="#story">About</a><a href="#services">Services</a><a href="#hours">Hours</a><a href="#visit">Find us</a><a href="#contact">Contact</a></nav>
+  </header>
+  <section class="hero layout-editorial" aria-label="Welcome">
+    <div class="hero-bg" role="img" aria-label="Decorative photograph"></div>
+    <div class="hero-inner">
+      <div class="hero-text-col">
+        <div class="hero-content-panel">
+          <p class="hero-kicker">Import auto repair</p>
+          <h1>Star Motors Service Center</h1>
+          <p class="hero-lead">Import and high-end auto repair off Florin Road.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="tel:+19164214007">Call (916) 421-4007</a>
+            <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=2680%20Florin%20Rd%20%23103a%2C%20Sacramento%2C%20CA%2095822">Directions</a>
+          </div>
+          <div class="highlights hl-count-3"><div class="hl">Mercedes, BMW, Lexus and Sprinter service</div><div class="hl">Factory-trained technicians per the website</div><div class="hl">Pre-purchase inspections</div></div>
+          <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+        </div>
+      </div>
+      <div class="trust-bar reveal"><article class='reveal'><strong>Mercedes, BMW, Lexus and Sprinter service</strong></article><article class='reveal'><strong>Factory-trained technicians per the website</strong></article><article class='reveal'><strong>Pre-purchase inspections</strong></article></div>
+    </div>
+  </section>
+  
+    <section class="story-block reveal" id="story">
+      <div class="wrap story-grid">
+        <div class="story-copy"><p>Star Motors Service Center is a locally owned independent import repair and maintenance shop at 2680 Florin Rd, #103A, in Sacramento, just off Florin Road. Its website describes Mercedes, BMW, Lexus and Sprinter repair and maintenance for cars, SUVs and diesels.</p><p>The services list includes Mercedes-Benz A and B service, BMW service, A/C, electrical diagnosis, fuel systems, oil changes, brakes, suspension, diesel, drivability diagnosis, pre-purchase inspections, timing belt replacement, transmission service and 30/60/90k maintenance.</p><p>The shop says it has factory-trained technicians, a service advisor on staff, and uses a factory diagnostic scanning tool. The website says the shop holds an A+ rating with the Better Business Bureau. Hours are weekdays 8 AM to 6 PM.</p></div>
+        <div class="story-aside"><p><strong>Address:</strong> 2680 Florin Rd #103a, Sacramento, CA 95822</p><p><strong>Phone:</strong> (916) 421-4007</p></div>
+      </div>
+    </section>
+    <section class="services-block reveal" id="services">
+      <div class="wrap">
+        <h2>Services</h2>
+        <ul class="svc-list"><li>Mercedes-Benz A and B service</li><li>BMW service</li><li>A/C service</li><li>Electrical diagnosis and service</li><li>Brakes and suspension</li><li>Diesel and drivability diagnosis</li><li>Pre-purchase inspections</li><li>Timing belt and transmission service</li></ul>
+      </div>
+    </section>
+    <section class="hours-block reveal" id="hours">
+      <div class="wrap">
+        <h2>Hours</h2>
+        <ul class="hours-list"><li>Monday - Friday: 8:00 AM - 6:00 PM</li><li>Saturday and Sunday: Closed</li></ul>
+        <p>Per the shop&#x27;s website; call (916) 421-4007 to confirm.</p>
+      </div>
+    </section>
+    <section class="location-block reveal" id="visit">
+      <div class="wrap loc-grid">
+        <div>
+          <h2>Find us</h2>
+          <p class="addr">2680 Florin Rd #103a, Sacramento, CA 95822</p>
+          <p><a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=2680%20Florin%20Rd%20%23103a%2C%20Sacramento%2C%20CA%2095822">Open in Google Maps</a></p>
+        </div>
+        <div class="map-frame">
+          <iframe title="Map to Star Motors" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.openstreetmap.org/export/embed.html?bbox=-121.5064%2C38.5696%2C-121.4824%2C38.5936&amp;layer=mapnik&amp;marker=38.5816%2C-121.4944"></iframe>
+          <noscript><img src="https://staticmap.openstreetmap.de/staticmap.php?center=38.5816,-121.4944&amp;zoom=15&amp;size=800x360&amp;markers=38.5816,-121.4944,red-pushpin" alt="Map location" width="800" height="360" loading="lazy"></noscript>
+        </div>
+      </div>
+    </section>
+    <section class="contact-block reveal" id="contact">
+      <div class="wrap contact-inner">
+        <h2>Contact</h2>
+        <p class="phone-big"><a href="tel:+19164214007">(916) 421-4007</a></p>
+        <p>Email: <a href="mailto:starmotors@att.net">starmotors@att.net</a></p>
+      </div>
+    </section>
+  <div class="wrap">
+    <aside class="tmbc-feedback reveal" aria-label="Preview feedback for TMBC Works">
+      <h2>Help TMBC Works refine this preview</h2>
+      <p>This section is for the business owner — not part of the live site design.</p>
+      <span class="tmbc-q">What would you change about your current website?</span>
+      <span class="tmbc-q">What would you change about this redesigned version?</span>
+      <a class="tmbc-mail" href="mailto:themarkkbrandoncollective@gmail.com?subject=Website%20feedback%3A%20Star%20Motors&amp;body=Business%3A%20Star%20Motors%0A%0AWhat%20would%20you%20change%20about%20your%20current%20website%3F%0A%0A%5BYour%20answer%20here%5D%0A%0AWhat%20would%20you%20change%20about%20this%20redesigned%20version%3F%0A%0A%5BYour%20answer%20here%5D%0A%0A%E2%80%94%20Sent%20via%20TMBC%20Works%20preview%20feedback">Send feedback</a>
+    </aside>
+  </div>
+  <footer class="biz-footer">
+    <p>Star Motors · 2680 Florin Rd #103a, Sacramento, CA 95822</p>
+    <p class="img-credit">Stock photography via Unsplash (see HTML comment). Hours and offerings may change — please confirm with the business.</p>
+  </footer>
+  <div class="tmbc-sticky-bar" aria-label="Quick actions">
+    <a class="tmbc-sticky-call" href="tel:+19164214007">Call</a>
+    <a class="tmbc-sticky-map" href="https://www.google.com/maps/search/?api=1&amp;query=2680%20Florin%20Rd%20%23103a%2C%20Sacramento%2C%20CA%2095822">Directions</a>
+  </div>
+  <script src="../_shared/tmbc-config.js" defer></script>
+  <script src="../_shared/tmbc.js" defer></script>
+</body>
+</html>

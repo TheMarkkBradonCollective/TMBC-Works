@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>El Novillero Restaurant — Mexican restaurant</title>
+  <meta name="description" content="El Novillero, 4216 Franklin Blvd at 18th Ave, Sacramento. Family-run Mexican restaurant since 1970. Open Tue-Sun 11:30-7. Call (916) 456-4287.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="El Novillero Restaurant">
+  <meta property="og:description" content="El Novillero, 4216 Franklin Blvd at 18th Ave, Sacramento. Family-run Mexican restaurant since 1970. Open Tue-Sun 11:30-7. Call (916) 456-4287.">
+  <meta property="og:url" content="https://themarkkbradoncollective.github.io/TMBC-Works/el-novillero/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=1600&amp;q=80">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One:wght@400;600;700&family=Karla:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../_shared/tmbc.css">
+  <style>
+    :root {
+      --bg: #fdf2f8;
+      --surface: #fff;
+      --text: #500724;
+      --muted: #9d174d;
+      --accent: #db2777;
+      --accent2: #f472b6;
+      --hero-overlay: rgba(80,7,36,.5);
+      --radius: 20px;
+    }
+    body { margin:0; background:var(--bg); color:var(--text); font-family:'Karla', system-ui, sans-serif; line-height:1.65; }
+    h1,h2,h3 { font-family:'Alfa Slab One', Georgia, serif; line-height:1.15; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 0 1.25rem; }
+    a { color: var(--accent); }
+    .site-header {
+      display:flex; align-items:center; justify-content:space-between; gap:1rem;
+      padding:1rem 1.25rem; max-width:1100px; margin:0 auto;
+    }
+    .logo { font-family:'Alfa Slab One', serif; font-weight:700; font-size:1.15rem; letter-spacing:.02em; }
+    .site-nav a { color:var(--muted); text-decoration:none; margin-left:1rem; font-size:.9rem; }
+    .site-nav a:hover { color:var(--accent); }
+    .hero { position:relative; min-height:72vh; display:flex; align-items:flex-end; overflow:hidden; }
+    .hero-bg { position:absolute; inset:0; background:url('https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=1600&q=80') center/cover no-repeat; transform:scale(1.02); }
+    .hero-bg::after {
+      content:''; position:absolute; inset:0;
+      background:
+        linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.25) 40%, rgba(0,0,0,.55) 100%),
+        linear-gradient(to top, var(--hero-overlay), transparent 55%);
+    }
+    .hero-inner { position:relative; z-index:1; padding:2.5rem 1.25rem 2.5rem; max-width:1100px; margin:0 auto; width:100%; box-sizing:border-box; }
+    .hero-content-panel {
+      background: rgba(15, 23, 42, 0.88);
+      color: #f8fafc;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 1.75rem 1.5rem;
+      border-radius: max(var(--radius), 8px);
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow: 0 20px 50px rgba(0,0,0,.25);
+      max-width: 42rem;
+    }
+    .hero-content-panel .hero-kicker { color: #fde68a; }
+    .hero-content-panel .hero-lead { color: #e2e8f0; }
+    .hero-content-panel .btn-ghost {
+      border-color: #f8fafc;
+      color: #f8fafc !important;
+      background: rgba(255,255,255,.08);
+    }
+    .hero-content-panel .hl {
+      background: rgba(255,255,255,.1);
+      border-color: rgba(255,255,255,.18);
+      color: #f1f5f9;
+    }
+    .layout-split .hero-content-panel {
+      background: var(--surface);
+      color: var(--text);
+      border-color: color-mix(in srgb, var(--muted) 25%, transparent);
+      box-shadow: none;
+      max-width: none;
+    }
+    .layout-split .hero-content-panel .hero-lead { color: var(--muted); }
+    .layout-split .hero-content-panel .hero-kicker { color: var(--accent2); }
+    .layout-split .hero-content-panel .btn-ghost {
+      border-color: var(--accent);
+      color: var(--accent) !important;
+      background: transparent;
+    }
+    .layout-split .hero-content-panel .hl {
+      background: color-mix(in srgb, var(--accent) 10%, transparent);
+      color: var(--text);
+      border-color: color-mix(in srgb, var(--muted) 25%, transparent);
+    }
+    .hero-kicker { text-transform:uppercase; letter-spacing:.14em; font-size:.72rem; color:var(--accent2); font-weight:700; }
+    .hero h1 { font-size:clamp(2rem,6vw,3.4rem); margin:.35rem 0 .75rem; max-width:14ch; color: inherit; }
+    .hero-lead { font-size:1.12rem; max-width:40rem; color:var(--muted); margin:0 0 1.25rem; }
+    .btn-row { display:flex; flex-wrap:wrap; gap:.75rem; }
+    .btn { display:inline-block; padding:.7rem 1.2rem; border-radius:var(--radius); font-weight:700; text-decoration:none; font-size:.92rem; transition: transform .2s ease, box-shadow .2s ease; }
+    .btn:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.15); }
+    .btn-primary { background:var(--accent); color:#fff !important; }
+    .btn-ghost { border:2px solid var(--accent); color:var(--accent) !important; background:transparent; }
+    .highlights {
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap:.75rem;
+      margin-top:1.25rem;
+      max-width: 28rem;
+    }
+    .highlights.hl-count-1 { grid-template-columns: 1fr; max-width: 14rem; }
+    .highlights.hl-count-3 .hl:last-child { grid-column: 1 / -1; max-width: 14rem; justify-self: center; }
+    .hl { background:rgba(255,255,255,.08); backdrop-filter:blur(6px); border:1px solid rgba(255,255,255,.12); padding:.75rem .85rem; border-radius:max(var(--radius), 6px); font-size:.82rem; line-height:1.35; }
+    .layout-split .hero { display:grid; grid-template-columns:1fr; min-height:auto; }
+    @media(min-width:900px) {
+      .layout-split .hero { grid-template-columns:1.05fr .95fr; align-items:stretch; min-height:70vh; }
+      .layout-split .hero-bg { position:relative; min-height:360px; }
+      .layout-split .hero-inner { display:flex; flex-direction:column; justify-content:center; background:var(--surface); color:var(--text); }
+      .layout-split .hero-bg::after { background:linear-gradient(90deg, var(--surface) 0%, transparent 40%), var(--hero-overlay); }
+    }
+    .layout-editorial .hero h1 { max-width:none; font-size:clamp(2.4rem,7vw,4rem); }
+    .layout-editorial .hero-inner { padding-top:4rem; }
+    .layout-cardhero .hero { min-height:auto; padding:2rem 0 0; align-items:stretch; }
+    .layout-cardhero .hero-card { margin:0 1.25rem; border-radius:calc(var(--radius) * 1.5); overflow:hidden; box-shadow:0 24px 60px rgba(0,0,0,.18); }
+    .story-grid { display:grid; gap:2rem; padding:3rem 0; }
+    @media(min-width:768px) { .story-grid { grid-template-columns:1.2fr .8fr; } }
+    .story-aside { background:var(--surface); padding:1.25rem; border-radius:var(--radius); border:1px solid color-mix(in srgb, var(--muted) 25%, transparent); font-size:.92rem; }
+    .services-block, .menu-block, .hours-block, .location-block, .contact-block { padding:2.75rem 0; }
+    .services-block { background:var(--surface); }
+    .svc-list { columns:2; gap:2rem; padding-left:1.1rem; margin:0; }
+    @media(max-width:640px) { .svc-list { columns:1; } }
+    .menu-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1rem; }
+    .menu-card { background:var(--surface); padding:1.1rem 1.25rem; border-radius:var(--radius); border:1px solid color-mix(in srgb, var(--muted) 22%, transparent); }
+    .menu-note { color:var(--muted); font-size:.9rem; max-width:40rem; }
+    .hours-list { list-style:none; padding:0; margin:0; display:grid; gap:.35rem; }
+    .hours-list li { padding:.55rem .75rem; background:var(--surface); border-radius:8px; border:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
+    .loc-grid { display:grid; gap:1.25rem; }
+    @media(min-width:768px) { .loc-grid { grid-template-columns: .9fr 1.1fr; align-items:start; } }
+    .map-frame { border-radius:var(--radius); overflow:hidden; border:1px solid color-mix(in srgb, var(--muted) 25%, transparent); min-height:260px; background:#e2e8f0; }
+    .map-frame iframe { width:100%; height:280px; border:0; display:block; }
+    .contact-inner { text-align:center; background:var(--surface); padding:2rem; border-radius:var(--radius); }
+    .phone-big { font-size:1.6rem; font-weight:800; margin:.5rem 0; }
+    .phone-big a { text-decoration:none; color:var(--text); }
+    .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
+    .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
+    
+    
+    body.skel-menu_forward .hero { min-height: 56vh; align-items: center; justify-content: center; }
+    body.skel-menu_forward .hero-bg::after {
+      background:
+        linear-gradient(180deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,.15) 45%, rgba(0,0,0,.5) 100%),
+        linear-gradient(to top, var(--hero-overlay), transparent 55%);
+    }
+    body.skel-menu_forward .hero-inner { display: flex; flex-direction: column; align-items: center; }
+    body.skel-menu_forward .hero-content-panel { text-align: center; margin: 0 auto; max-width: 40rem; }
+    body.skel-menu_forward .hero h1 { max-width: none; }
+    body.skel-menu_forward .hero-bg { opacity: 1; }
+    body.skel-menu_forward .highlights { margin-left: auto; margin-right: auto; }
+    body.skel-menu_forward .menu-block { background: var(--surface); padding: 3.5rem 0; margin-top: -2rem; position: relative; z-index: 2; border-radius: calc(var(--radius) * 2) calc(var(--radius) * 2) 0 0; box-shadow: 0 -20px 50px rgba(0,0,0,.08); }
+    body.skel-menu_forward .menu-grid { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; }
+    body.skel-menu_forward .menu-card { padding: 1.35rem 1.5rem; border-left: 4px solid var(--accent); box-shadow: 0 8px 24px rgba(0,0,0,.06); }
+    body.skel-menu_forward .menu-card h3 { font-size: 1.15rem; margin-top: 0; }
+    body.skel-menu_forward .hours-block { background: color-mix(in srgb, var(--accent) 12%, var(--bg)); padding: 2rem 0; }
+    body.skel-menu_forward .hours-list { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+    body.skel-menu_forward .story-block { padding-top: 2rem; }
+    
+    /* layout: editorial skeleton: menu_forward */
+    </style>
+  <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
+</head>
+<body class="skel-menu_forward" data-biz-phone="tel:+19164564287" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=4216%20Franklin%20Blvd%2C%20Sacramento%2C%20CA%2095820">
+  <div class="tmbc-banner">Website preview designed by TMBC Works</div>
+  <header class="site-header">
+    <div class="logo">El Novillero Restaurant</div>
+    <nav class="site-nav" aria-label="Primary"><a href="#story">About</a><a href="#menu">Menu</a><a href="#hours">Hours</a><a href="#visit">Find us</a><a href="#contact">Contact</a></nav>
+  </header>
+  <section class="hero layout-editorial" aria-label="Welcome">
+    <div class="hero-bg" role="img" aria-label="Decorative photograph"></div>
+    <div class="hero-inner">
+      <div class="hero-text-col">
+        <div class="hero-content-panel">
+          <p class="hero-kicker">Mexican restaurant</p>
+          <h1>El Novillero Restaurant</h1>
+          <p class="hero-lead">Family-run Mexican food in Sacramento since 1970.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="tel:+19164564287">Call (916) 456-4287</a>
+            <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=4216%20Franklin%20Blvd%2C%20Sacramento%2C%20CA%2095820">Directions</a>
+          </div>
+          <div class="highlights hl-count-3"><div class="hl">Family-run since 1970</div><div class="hl">Carnitas de puerco is the listed specialty</div><div class="hl">Sauces and chips made fresh daily</div></div>
+          <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  
+    <section class="story-block reveal" id="story">
+      <div class="wrap story-grid">
+        <div class="story-copy"><p>El Novillero opened in 1970 at 4216 Franklin Blvd, on the corner of 18th Avenue, as a 28-seat restaurant. The Davalos family says it has grown into one of Sacramento&#x27;s best-known Mexican restaurants, now seating 180. The name means The Apprentice Bullfighter.</p><p>The restaurant&#x27;s menu notes say the family&#x27;s patriarch opened several Mexican restaurants in downtown Sacramento before El Novillero, serving huevos rancheros, chile verde and carnitas, and that carnitas became his specialty. Carnitas de puerco, roasted pork served several ways, is listed on the menu as the house specialty.</p><p>The kitchen makes everything fresh daily, from the sauces to the corn chips. The menu notes that lard is used to prepare dishes, and a vegetarian information section lists which items are meat-free and which sauces contain pork, peanuts or gluten.</p><p>The restaurant has its own 127-space lot, does not take reservations, and accepts Visa, Mastercard, American Express and Discover. Alcohol is served only with food.</p></div>
+        <div class="story-aside"><p><strong>Address:</strong> 4216 Franklin Blvd, corner of 18th Avenue, Sacramento</p><p><strong>Phone:</strong> (916) 456-4287</p><p><strong>Cards accepted:</strong> Visa, Mastercard, American Express, Discover</p><p><strong>Reservations:</strong> not accepted</p><p><strong>Parking:</strong> 127-space lot</p></div>
+      </div>
+    </section>
+    <section class="menu-block reveal" id="menu">
+      <div class="wrap">
+        <h2>From the kitchen</h2>
+        <p class="menu-note">Dishes below are listed on the restaurant&#x27;s printed menu. Prices are on the menu and subject to change; call (916) 456-4287 for the current menu.</p>
+        <div class="menu-grid"><article class="menu-card reveal"><h3>Carnitas specialty</h3><ul><li>Carnitas dinner platter with rice, beans, avocado slices and pico de gallo</li><li>Carnitas de puerco served several ways</li><li>Flautas de maiz with carnitas or house chicken</li><li>Carnitas in burritos, enchiladas, tacos and quesadillas</li></ul></article><article class="menu-card reveal"><h3>House favorites</h3><ul><li>Super burrito</li><li>La parrillada (grilled flap steak, peppers, onions, bacon, mushrooms)</li><li>La bandera mexicana (beef, chicken and chile verde enchiladas)</li><li>Gallina en mole</li><li>Gallina a la tampiquena</li><li>Chimichanga grande</li><li>Huevos rancheros and chorizo con huevos</li><li>Enchiladas rancheras</li></ul></article><article class="menu-card reveal"><h3>Combos &amp; create your own</h3><ul><li>Two cheese enchiladas</li><li>Two chicken or ground beef tacos</li><li>Two chile rellenos</li><li>Two bean burritos</li><li>Create your own: burrito, enchilada, tostada, taco, flauta, sope, quesadilla or tamale</li></ul></article><article class="menu-card reveal"><h3>Drinks</h3><ul><li>Soft drinks, iced tea and pink lemonade</li><li>Coffee or hot tea</li><li>Juices and milk</li><li>Virgin strawberry margarita or daiquiri</li><li>Mexican and domestic beers (with food)</li><li>Wine by the glass or bottle (with food)</li></ul></article></div>
+      </div>
+    </section>
+    <section class="hours-block reveal" id="hours">
+      <div class="wrap">
+        <h2>Hours</h2>
+        <ul class="hours-list"><li>Monday: Closed</li><li>Tuesday - Sunday: 11:30 AM - 7:00 PM</li></ul>
+        <p>Per the restaurant&#x27;s website, these hours are in effect until further notice, with some closed dates. No reservations. Call (916) 456-4287 to confirm.</p>
+      </div>
+    </section>
+    <section class="location-block reveal" id="visit">
+      <div class="wrap loc-grid">
+        <div>
+          <h2>Find us</h2>
+          <p class="addr">4216 Franklin Blvd, Sacramento, CA 95820</p>
+          <p><a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=4216%20Franklin%20Blvd%2C%20Sacramento%2C%20CA%2095820">Open in Google Maps</a></p>
+        </div>
+        <div class="map-frame">
+          <iframe title="Map to El Novillero Restaurant" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.openstreetmap.org/export/embed.html?bbox=-121.486879%2C38.5244403%2C-121.462879%2C38.5484403&amp;layer=mapnik&amp;marker=38.5364403%2C-121.474879"></iframe>
+          <noscript><img src="https://staticmap.openstreetmap.de/staticmap.php?center=38.5364403,-121.474879&amp;zoom=15&amp;size=800x360&amp;markers=38.5364403,-121.474879,red-pushpin" alt="Map location" width="800" height="360" loading="lazy"></noscript>
+        </div>
+      </div>
+    </section>
+    <section class="contact-block reveal" id="contact">
+      <div class="wrap contact-inner">
+        <h2>Contact</h2>
+        <p class="phone-big"><a href="tel:+19164564287">(916) 456-4287</a></p>
+        <p>Email: call for the best contact address.</p>
+      </div>
+    </section>
+  <div class="wrap">
+    <aside class="tmbc-feedback reveal" aria-label="Preview feedback for TMBC Works">
+      <h2>Help TMBC Works refine this preview</h2>
+      <p>This section is for the business owner — not part of the live site design.</p>
+      <span class="tmbc-q">What would you change about your current website?</span>
+      <span class="tmbc-q">What would you change about this redesigned version?</span>
+      <a class="tmbc-mail" href="mailto:themarkkbrandoncollective@gmail.com?subject=Website%20feedback%3A%20El%20Novillero%20Restaurant&amp;body=Business%3A%20El%20Novillero%20Restaurant%0A%0AWhat%20would%20you%20change%20about%20your%20current%20website%3F%0A%0A%5BYour%20answer%20here%5D%0A%0AWhat%20would%20you%20change%20about%20this%20redesigned%20version%3F%0A%0A%5BYour%20answer%20here%5D%0A%0A%E2%80%94%20Sent%20via%20TMBC%20Works%20preview%20feedback">Send feedback</a>
+    </aside>
+  </div>
+  <footer class="biz-footer">
+    <p>El Novillero Restaurant · 4216 Franklin Blvd, Sacramento, CA 95820</p>
+    <p class="img-credit">Stock photography via Unsplash (see HTML comment). Hours and offerings may change — please confirm with the business.</p>
+  </footer>
+  <div class="tmbc-sticky-bar" aria-label="Quick actions">
+    <a class="tmbc-sticky-call" href="tel:+19164564287">Call</a>
+    <a class="tmbc-sticky-map" href="https://www.google.com/maps/search/?api=1&amp;query=4216%20Franklin%20Blvd%2C%20Sacramento%2C%20CA%2095820">Directions</a>
+  </div>
+  <script src="../_shared/tmbc-config.js" defer></script>
+  <script src="../_shared/tmbc.js" defer></script>
+</body>
+</html>
