@@ -1,54 +1,45 @@
 # TMBC Works — Sacramento preview sites
 
-Static preview websites for local business outreach. Each folder is a self-contained site served as plain HTML/CSS (no build step).
+Static, premium-style preview websites for local business outreach. **No build step** — plain HTML/CSS/JS served from GitHub Pages.
 
 ## Structure
 
 | Path | Purpose |
 |------|---------|
-| `index.html` | Private index linking to all 50 previews (`noindex`) |
-| `previews.csv` | Lead number, business name, slug, GitHub Pages URL, email, phone |
-| `.nojekyll` | Tells GitHub Pages not to run Jekyll |
-| `<slug>/index.html` | One preview site per lead (kebab-case slug from business name) |
-| `leads.csv` | Source lead data (reference) |
-| `scripts/generate_previews.py` | Generator used to build/regenerate previews |
+| `index.html` | Private index of all 50 previews (`noindex`) |
+| `previews.csv` | lead_number, business_name, slug, preview_url, **compare_url**, email, phone |
+| `_shared/tmbc.css`, `_shared/tmbc.js` | TMBC overlay (banner, feedback, sticky call/directions bar) |
+| `_shared/tmbc-config.js` | Feedback mailto target only (not shown on pages) |
+| `scripts/tmbc_constants.py` | Same feedback email for the generator |
+| `<slug>/index.html` | Redesigned preview |
+| `<slug>/compare.html` | Before/after (outdated-site leads only) |
+| `<slug>/assets/legacy-site.png` | Screenshot of previous site (when capture succeeds) |
+| `data/lead_enrichment.json` | Verified copy + visual assignments |
+| `scripts/generate_previews.py` | Build/regenerate all sites |
 
-Live URLs follow:
+Live URL pattern: `https://themarkkbradoncollective.github.io/TMBC-Works/<slug>/`
 
-`https://themarkkbradoncollective.github.io/TMBC-Works/<slug>/`
+## GitHub Pages
 
-## GitHub Pages setup
+**Settings → Pages → Deploy from branch `main` / (root)**. Ensure `.nojekyll` is present.
 
-1. Open the repo on GitHub: **Settings → Pages**
-2. **Build and deployment → Source:** Deploy from a branch
-3. **Branch:** `main` · **Folder:** `/ (root)`
-4. Save. The site may take a few minutes to publish.
-
-The root index lists every preview. Each preview includes a small TMBC Works banner and `<meta name="robots" content="noindex">`.
-
-## Local testing
-
-Serve the repo under the same subpath GitHub Pages uses:
+## Regenerate everything
 
 ```bash
-cd /path/to/TMBC-Works
-python3 -m http.server 8765
+cd scripts
+python3 build_enrichment.py    # refresh data/lead_enrichment.json from leads + research
+python3 capture_legacy.py      # optional: screenshots for compare.html
+python3 generate_previews.py
+python3 verify_previews.py     # with local server under /TMBC-Works/
 ```
 
-Then open `http://localhost:8765/TMBC-Works/` — or symlink/copy the repo into a parent folder named `TMBC-Works` and serve the parent directory.
-
-## Regenerating previews
+Local test:
 
 ```bash
-python3 scripts/generate_previews.py
+ln -sfn "$(pwd)" /tmp/ghpages/TMBC-Works
+cd /tmp/ghpages && python3 -m http.server 8765
 ```
 
-Edit `scripts/generate_previews.py` (themes, copy templates, slugs) before regenerating. Preview pages use only facts from `leads.csv` and generic category copy elsewhere.
+## TMBC on-page policy
 
-## TMBC Works contact
-
-TMBC contact lives in `scripts/tmbc_constants.py` (mirrored to `_shared/tmbc-config.js`). Regenerate after edits:
-
-```bash
-python3 scripts/generate_previews.py
-```
+Preview pages show **only** the banner text “Website preview designed by TMBC Works” — no TMBC email or phone on the page. Owners submit feedback via the **Send feedback** button (mailto to the address in `tmbc_constants.py`).

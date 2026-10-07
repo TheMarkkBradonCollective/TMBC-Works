@@ -1,0 +1,92 @@
+/* TMBC Works overlay — shared across all previews */
+.tmbc-banner {
+  background: linear-gradient(90deg, #0f172a, #1e293b);
+  color: #e2e8f0;
+  font-size: 0.72rem;
+  text-align: center;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #334155;
+  line-height: 1.4;
+  font-family: system-ui, sans-serif;
+}
+.tmbc-banner a { color: #93c5fd; text-decoration: none; }
+.tmbc-banner a:hover { text-decoration: underline; }
+.tmbc-banner:empty { display: none; }
+
+.tmbc-feedback {
+  margin: 3rem auto 2rem;
+  max-width: 720px;
+  padding: 1.25rem 1.5rem;
+  border-radius: 12px;
+  border: 2px dashed #64748b;
+  background: rgba(15, 23, 42, 0.04);
+  font-family: system-ui, sans-serif;
+  font-size: 0.9rem;
+}
+.tmbc-feedback h2 {
+  font-size: 1rem;
+  margin: 0 0 0.75rem;
+  color: #334155;
+}
+.tmbc-feedback p { margin: 0 0 0.75rem; color: #475569; }
+.tmbc-feedback .tmbc-q {
+  display: block;
+  margin: 0.35rem 0 0.75rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+.tmbc-feedback a.tmbc-mail {
+  display: inline-block;
+  padding: 0.55rem 1rem;
+  background: #1e293b;
+  color: #f8fafc !important;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+.tmbc-feedback a.tmbc-mail:hover { background: #334155; }
+
+.tmbc-sticky-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  display: none;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.18);
+  font-family: system-ui, sans-serif;
+}
+.tmbc-sticky-bar a {
+  text-align: center;
+  padding: 0.85rem 0.5rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.tmbc-sticky-call {
+  background: var(--accent, #2563eb);
+  color: #fff !important;
+}
+.tmbc-sticky-map {
+  background: #0f172a;
+  color: #f8fafc !important;
+}
+@media (max-width: 768px) {
+  .tmbc-sticky-bar { display: grid; }
+  body.tmbc-has-sticky { padding-bottom: 3.25rem; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .reveal {
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity 0.55s ease, transform 0.55s ease;
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+}
