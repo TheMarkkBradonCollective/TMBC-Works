@@ -145,5 +145,25 @@
   "Nisei Barber Shop": {
     "lat": 38.576704,
     "lon": -121.5037832
+  },
+  "Same Day Alterations & Fashion Design": {
+    "lat": 38.6286238,
+    "lon": -121.3842554
+  },
+  "Goodyear Cobbler & Cleaners": {
+    "lat": 38.5734049,
+    "lon": -121.4963464
+  },
+  "Yummy Choice": {
+    "lat": 38.573529,
+    "lon": -121.496293
+  },
+  "ATS Automotive Service": {
+    "lat": 38.5483426,
+    "lon": -121.4895044
+  },
+  "Sham Sweets": {
+    "lat": 38.5925734,
+    "lon": -121.4015514
   }
 }

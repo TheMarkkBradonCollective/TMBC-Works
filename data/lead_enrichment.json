@@ -4910,5 +4910,693 @@
     ],
     "skeleton": "craft_workshop",
     "hand_built": true
+  },
+  "same-day-alterations": {
+    "layout": "split",
+    "font_head": "Cormorant Garamond",
+    "font_body": "Jost",
+    "image_key": "fabric",
+    "skeleton": "craft_workshop",
+    "headline": "Same Day Alterations & Fashion Design",
+    "subhead": "Fast alterations in Arden-Arcade, right behind AutoZone on Whitney Ave.",
+    "meta_description": "Same Day Alterations & Fashion Design, 3432 Whitney Ave, Sacramento. Alterations and tailoring. Call (916) 840-9257.",
+    "paragraphs": [
+      "Same Day Alterations & Fashion Design is an alterations and tailoring shop at 3432 Whitney Ave, behind the AutoZone near Whitney and Watt in Sacramento.",
+      "As the name says, the shop is known for quick turnaround. Reviewers describe wedding dress, prom dress, suit, pants and uniform alterations, including same-day and next-day jobs, and say the shop asks customers to try on the finished piece.",
+      "Call (916) 840-9257 to check whether your item can be done on your timeline."
+    ],
+    "highlights": [
+      "Same-day and rush alterations",
+      "Wedding and prom dresses",
+      "Suits, pants and hems",
+      "Behind AutoZone on Whitney Ave"
+    ],
+    "services": [
+      "Hemming (pants, jeans, dresses)",
+      "Taking in and letting out",
+      "Wedding dress alterations",
+      "Prom and formal dresses",
+      "Suit alterations",
+      "Uniform alterations"
+    ],
+    "hours": [
+      "Monday - Friday: 9:00 AM - 6:30 PM",
+      "Saturday: 10:00 AM - 4:30 PM",
+      "Sunday: Closed"
+    ],
+    "services_heading": "Alterations",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours from BestProsInTown. Yahoo/Yelp lists Mon-Fri 8:30 AM - 6:30 PM and Sat 9:30 AM - 5 PM; another listing shows a 6 PM weekday close. Call (916) 840-9257 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "menu",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Rush request",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "S",
+    "aside_html": "<p><strong>Address:</strong> 3432 Whitney Ave, Sacramento, CA 95821 (behind AutoZone)</p><p><strong>Phone:</strong> (916) 840-9257</p>",
+    "verification": "BestProsInTown, Yahoo Local/Yelp (4.5/83), Exa, MapQuest. Service types summarized from listings and review themes; no quotes.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Rush / same-day request form with due date (DEMO)",
+        "Text when your alterations are ready (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Before and after gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Request a rush alteration",
+        "select_label": "What needs altering?",
+        "options": [
+          "Hem",
+          "Take in / let out",
+          "Wedding dress",
+          "Prom / formal dress",
+          "Suit",
+          "Uniform",
+          "Other"
+        ],
+        "date": true,
+        "photo": true,
+        "button": "Send rush request"
+      },
+      "sms": "Text me when my alterations are ready",
+      "sample_prices": [
+        [
+          "Pant hem",
+          "$XX"
+        ],
+        [
+          "Dress hem",
+          "$XX"
+        ],
+        [
+          "Take in / let out",
+          "$XX"
+        ],
+        [
+          "Wedding dress alterations",
+          "From $XX"
+        ],
+        [
+          "Same-day rush",
+          "$XX"
+        ]
+      ],
+      "rating": 4.5,
+      "review_count": 83,
+      "rating_source": "Yelp",
+      "gallery_title": "Before and after",
+      "gallery": [
+        "Wedding dress fitting",
+        "Prom dress hem",
+        "Suit pants shortened",
+        "Uniform alteration",
+        "Shop on Whitney Ave"
+      ]
+    },
+    "hand_built": true
+  },
+  "goodyear-cobbler": {
+    "layout": "cardhero",
+    "font_head": "Libre Baskerville",
+    "font_body": "Work Sans",
+    "image_key": "shoe",
+    "skeleton": "craft_workshop",
+    "headline": "Goodyear Cobbler & Cleaners",
+    "subhead": "Shoe repair, dry cleaning and alterations on 10th Street, downtown Sacramento.",
+    "meta_description": "Goodyear Cobbler & Cleaners, 1623 10th St, Sacramento. Shoe repair, dry cleaning and alterations. Call (916) 447-8830.",
+    "paragraphs": [
+      "Goodyear Cobbler & Cleaners is a cobbler and dry cleaner at 1623 10th St in downtown Sacramento, between P and Q streets.",
+      "The business's own listing description mentions wedding gown preservation, leather and suede jackets, tapestries, area rugs, drapes and comforters, and a cobbler who specializes in cowboy boots. Reviewers also mention purse, boot and clothing repairs and jacket tailoring.",
+      "Listings show credit cards accepted and free Wi-Fi. Call (916) 447-8830 about your item."
+    ],
+    "highlights": [
+      "Cobbler and cleaners in one stop",
+      "Cowboy boot specialist",
+      "Wedding gown preservation",
+      "Downtown, 10th St between P and Q"
+    ],
+    "services": [
+      "Shoe and boot repair",
+      "Cowboy boot repair",
+      "Dry cleaning",
+      "Wedding gown preservation",
+      "Leather and suede jacket cleaning",
+      "Drapes, comforters, tapestries and area rugs",
+      "Clothing alterations and repairs"
+    ],
+    "hours": [
+      "Monday - Friday: 8:30 AM - 4:00 PM",
+      "Saturday - Sunday: Closed"
+    ],
+    "services_heading": "Repair & cleaning",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours from Exa, BestProsInTown and Loc8NearMe. Other listings show an 8 AM opening, and one shows Saturday 9 AM - 1 PM. Call (916) 447-8830 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "menu",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Repair quote",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "G",
+    "aside_html": "<p><strong>Address:</strong> 1623 10th St, Sacramento, CA 95814</p><p><strong>Phone:</strong> (916) 447-8830</p>",
+    "verification": "Yahoo Local (business description, Yelp 3.5/30), Exa, BestProsInTown, Loc8NearMe (credit cards, Wi-Fi), LaCartes. No review quotes.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Repair and cleaning quote request with photo upload (DEMO)",
+        "Text when your order is ready (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Before and after gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Request a repair or cleaning quote",
+        "select_label": "Service",
+        "options": [
+          "Shoe repair",
+          "Boot repair",
+          "Dry cleaning",
+          "Wedding gown preservation",
+          "Leather / suede",
+          "Alterations",
+          "Other"
+        ],
+        "photo": true,
+        "button": "Request quote"
+      },
+      "sms": "Text me when my order is ready for pickup",
+      "sample_prices": [
+        [
+          "Heel replacement",
+          "$XX"
+        ],
+        [
+          "Boot resole",
+          "$XX"
+        ],
+        [
+          "Dry clean shirt",
+          "$XX"
+        ],
+        [
+          "Suit dry cleaning",
+          "$XX"
+        ],
+        [
+          "Wedding gown preservation",
+          "From $XX"
+        ]
+      ],
+      "rating": 3.5,
+      "review_count": 30,
+      "rating_source": "Yelp",
+      "gallery_title": "Before and after",
+      "gallery": [
+        "Cowboy boot restoration",
+        "Moc toe boot resole",
+        "Leather jacket",
+        "Wedding gown preservation",
+        "10th St storefront"
+      ]
+    },
+    "hand_built": true
+  },
+  "yummy-choice": {
+    "layout": "editorial",
+    "font_head": "Alfa Slab One",
+    "font_body": "Karla",
+    "image_key": "food",
+    "skeleton": "menu_forward",
+    "headline": "Yummy Choice",
+    "subhead": "Family-run weekday lunch spot on 10th St: banh mi, spring rolls, teriyaki and more.",
+    "meta_description": "Yummy Choice, 1601 10th St, Sacramento. Vietnamese, Chinese and American lunch, Mon-Fri 10 AM - 2 PM. Call (916) 341-0298.",
+    "paragraphs": [
+      "Yummy Choice is a small, family-run lunch counter at 1601 10th St in downtown Sacramento, near 10th and P and the state office buildings.",
+      "The menu mixes Vietnamese, Chinese and American dishes: banh mi, shrimp spring rolls, teriyaki chicken, fried rice, Vietnamese beef stew, wonton soup, potstickers, burgers and fries. Listings mention counter service, an upstairs dining area and an outdoor patio.",
+      "It is open weekdays for lunch only, and reviewers say the line moves quickly. Call (916) 341-0298."
+    ],
+    "highlights": [
+      "Weekday lunch, 10 AM - 2 PM",
+      "Banh mi and spring rolls",
+      "Dine-in and takeout",
+      "Patio seating"
+    ],
+    "services": [
+      "Counter service",
+      "Dine-in (upstairs and patio)",
+      "Takeout"
+    ],
+    "menu_categories": [
+      {
+        "title": "Vietnamese",
+        "items": [
+          "Pork banh mi",
+          "Vietnamese grilled pork sandwich",
+          "Shrimp spring rolls",
+          "Vietnamese beef stew",
+          "Lemongrass beef"
+        ]
+      },
+      {
+        "title": "Chinese",
+        "items": [
+          "Teriyaki chicken",
+          "Fried rice",
+          "Chow mein",
+          "Potstickers",
+          "Egg rolls",
+          "Wonton soup"
+        ]
+      },
+      {
+        "title": "American",
+        "items": [
+          "Burgers",
+          "Fries"
+        ]
+      }
+    ],
+    "menu_heading": "On the menu",
+    "menu_note": "Dish names from public listings and reviews; no prices shown. Call (916) 341-0298 for today's menu.",
+    "hours": [
+      "Monday - Friday: 10:00 AM - 2:00 PM",
+      "Saturday - Sunday: Closed"
+    ],
+    "services_heading": "How to order",
+    "hours_note": "Hours agree across Exa, Yahoo/Yelp, Restaurantji and Google-based listings.",
+    "sections": [
+      "story",
+      "menu",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Order ahead",
+        "href": "#book"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "Y",
+    "aside_html": "<p><strong>Address:</strong> 1601 10th St, Sacramento, CA 95814</p><p><strong>Phone:</strong> (916) 341-0298</p>",
+    "verification": "Exa (Google 4.1/71, hours, menu from review), Yahoo/Yelp, Restaurantji (favorites, patio, upstairs), MenuXP (item categories). No prices used.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Full menu on the site",
+        "Order ahead for pickup to skip the lunch line (DEMO)",
+        "Text when your order is ready (DEMO)",
+        "Rating and reviews link",
+        "Food photo gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Order ahead for pickup",
+        "select_label": "Main dish",
+        "options": [
+          "Pork banh mi",
+          "Grilled pork sandwich",
+          "Shrimp spring rolls",
+          "Teriyaki chicken",
+          "Fried rice",
+          "Beef stew",
+          "Wonton soup",
+          "Burger"
+        ],
+        "date": true,
+        "button": "Place pickup order"
+      },
+      "sms": "Text me when my order is ready",
+      "rating": 4.1,
+      "review_count": 71,
+      "rating_source": "Google",
+      "gallery_title": "From the kitchen",
+      "gallery": [
+        "Pork banh mi",
+        "Shrimp spring rolls",
+        "Teriyaki chicken plate",
+        "Vietnamese beef stew",
+        "Patio seating"
+      ]
+    },
+    "hand_built": true
+  },
+  "ats-automotive": {
+    "layout": "split",
+    "font_head": "Teko",
+    "font_body": "Roboto",
+    "image_key": "auto",
+    "skeleton": "service_trust",
+    "headline": "ATS Automotive Service",
+    "subhead": "Full-service auto repair on Freeport Blvd, across from McClatchy High School.",
+    "meta_description": "ATS Automotive Service, 3073 Freeport Blvd, Sacramento. Engine, transmission, electrical, suspension, tires and smog-related repair. Call (916) 231-9414.",
+    "paragraphs": [
+      "ATS Automotive Service is an auto repair shop at 3073 Freeport Blvd in Sacramento, across from McClatchy High School, in the location long known as Wes Yee's auto service.",
+      "Listings describe engine and transmission repair, electrical work, suspension, alignments, tires and general maintenance, along with tune-ups, smog-related repairs and catalytic converter replacement. Directory listings say customers can coordinate appointments by text and that work comes with a nationwide warranty.",
+      "Open weekdays. Call (916) 231-9414 to book or describe your car's problem."
+    ],
+    "highlights": [
+      "Engine, transmission and electrical",
+      "Tires, alignment and suspension",
+      "Nationwide warranty per listing",
+      "Mon - Fri 8 AM - 5 PM"
+    ],
+    "services": [
+      "Engine repair",
+      "Transmission repair",
+      "Electrical diagnosis and repair",
+      "Suspension and alignment",
+      "Tires and balancing",
+      "Tune-ups and maintenance",
+      "Smog-related repairs",
+      "Catalytic converter replacement"
+    ],
+    "hours": [
+      "Monday - Friday: 8:00 AM - 5:00 PM",
+      "Saturday - Sunday: Closed"
+    ],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours agree across Waze, Exa and BestProsInTown. Call (916) 231-9414 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "menu",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Book",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "A",
+    "trust_strip": [
+      "Nationwide warranty per listing",
+      "Text-friendly scheduling",
+      "Freeport Blvd",
+      "Mon - Fri"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 3073 Freeport Blvd, Sacramento, CA 95818</p><p><strong>Phone:</strong> (916) 231-9414</p>",
+    "verification": "BestProsInTown (services, warranty, text scheduling), Waze, Exa (Google 4.5/16; old business.site link), MapQuest (Wes Yee location). No review quotes.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online appointment requests (DEMO)",
+        "Text appointment reminders and repair updates (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Shop gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Book a service appointment",
+        "select_label": "Service",
+        "options": [
+          "Diagnosis / check engine light",
+          "Engine",
+          "Transmission",
+          "Electrical",
+          "Suspension / alignment",
+          "Tires",
+          "Tune-up / maintenance",
+          "Smog-related repair",
+          "Catalytic converter"
+        ],
+        "date": true,
+        "button": "Request appointment"
+      },
+      "sms": "Text me appointment reminders and repair updates",
+      "sample_prices": [
+        [
+          "Diagnostic inspection",
+          "$XX"
+        ],
+        [
+          "Oil change",
+          "$XX"
+        ],
+        [
+          "Wheel alignment",
+          "$XX"
+        ],
+        [
+          "Tune-up",
+          "From $XX"
+        ],
+        [
+          "Catalytic converter replacement",
+          "Quote"
+        ]
+      ],
+      "rating": 4.5,
+      "review_count": 16,
+      "rating_source": "Google",
+      "gallery_title": "In the shop",
+      "gallery": [
+        "Service bays",
+        "Diagnostics",
+        "Tires and alignment",
+        "Freeport Blvd shop"
+      ]
+    },
+    "hand_built": true
+  },
+  "sham-sweets": {
+    "layout": "editorial",
+    "font_head": "Playfair Display",
+    "font_body": "Lato",
+    "image_key": "bakery",
+    "skeleton": "menu_forward",
+    "headline": "Sham Sweets",
+    "subhead": "Syrian sweets and stretchy booza, the rare Arabic ice cream, on Fulton Ave.",
+    "meta_description": "Sham Sweets, 1327 Fulton Ave, Sacramento. Syrian pastry shop: booza (Arabic ice cream), baklava, kunafeh, Turkish delight. Call (916) 664-3138.",
+    "paragraphs": [
+      "Sham Sweets is a Syrian sweets shop at 1327 Fulton Ave in Sacramento, run by owner Ayman Alkabani.",
+      "Its specialty is booza, the Arabic word for ice cream: a stretchy, chewy frozen dessert made with sahlep, a flour ground from orchid root. Edible Sacramento called Sham Sweets one of only five places in America offering authentic booza. Ayman makes it in rolls coated with bright green Turkish pistachios. The usual flavor is traditional ashta (sweet cream with rose water), and sometimes chocolate.",
+      "The counter is lined with trays of baklava, kunafeh, Turkish delight and cookies. Sweets and booza are sold by weight."
+    ],
+    "highlights": [
+      "Authentic Syrian booza",
+      "Pistachio-coated booza rolls",
+      "Baklava and kunafeh by weight",
+      "Owner Ayman Alkabani"
+    ],
+    "services": [
+      "Booza by weight",
+      "Pastries by the piece or tray",
+      "Takeout",
+      "Trays for gatherings (call ahead)"
+    ],
+    "menu_categories": [
+      {
+        "title": "Booza (Arabic ice cream)",
+        "items": [
+          "Arabic ice cream, half pound: $9.99 (MenuPix)",
+          "Ashta (sweet cream with rose water), pistachio-coated",
+          "Chocolate (sometimes available)"
+        ]
+      },
+      {
+        "title": "Kunafeh",
+        "items": [
+          "Kunafeh Nabulsia plate, 24 oz: $10.99 (MenuPix)",
+          "Kunafeh Nabulsia tray, 13 x 9.5 in: $49.99 (MenuPix)"
+        ]
+      },
+      {
+        "title": "Baklava & pastries",
+        "items": [
+          "Warbat / baklava with cream, 1 piece: $4.99 (MenuPix)",
+          "Baklava roll, half sheet: $79.99 (MenuPix)",
+          "Turkish delight",
+          "Cookies"
+        ]
+      }
+    ],
+    "menu_heading": "Menu",
+    "menu_note": "Prices are as listed on MenuPix and may have changed. Items without prices are from Edible Sacramento's feature. Call (916) 664-3138 to confirm.",
+    "hours": [],
+    "services_heading": "How to buy",
+    "hours_note": "Listings conflict: MenuPix shows Mon-Fri 12 - 7:30 PM, Sat from 7:30 AM and Sun 12 - 7 PM; Yelp shows Monday closed, Tue-Sat 11 AM - 8:30 PM and Sun 11 AM - 7 PM. Call (916) 664-3138 before visiting.",
+    "sections": [
+      "story",
+      "menu",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Booza",
+        "href": "#story"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Pre-order",
+        "href": "#book"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "S",
+    "aside_html": "<p><strong>Address:</strong> 1327 Fulton Ave, Sacramento, CA 95825</p><p><strong>Phone:</strong> (916) 664-3138</p><p>Owner: Ayman Alkabani</p>",
+    "verification": "MenuPix (5 menu items with prices, credit cards, parking lot), Edible Sacramento Spring 2023 (booza, sahlep, ashta, owner), Yelp (owner Ayman, hours). Only MenuPix-listed prices used and labelled.",
+    "upgrade": {
+      "features": [
+        "The booza story up front",
+        "Menu with listed prices (MenuPix)",
+        "Pre-order booza and pastry trays for pickup (DEMO)",
+        "Text when your order is ready (DEMO)",
+        "Tap-to-call from any phone",
+        "Photo gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Pre-order booza or a tray",
+        "select_label": "Item",
+        "options": [
+          "Booza (by the pound)",
+          "Kunafeh plate",
+          "Kunafeh tray",
+          "Baklava roll half sheet",
+          "Mixed baklava",
+          "Other"
+        ],
+        "date": true,
+        "button": "Send pre-order"
+      },
+      "sms": "Text me when my order is ready",
+      "gallery_title": "From the counter",
+      "gallery": [
+        "Booza roll in pistachios",
+        "Booza rose in a cup",
+        "Kunafeh Nabulsia",
+        "Trays of baklava",
+        "Turkish delight"
+      ]
+    },
+    "hand_built": true
   }
 }
