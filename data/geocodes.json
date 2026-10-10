@@ -3,7 +3,7 @@
     "lat": 38.6178139,
     "lon": -121.440087
   },
-  "Aarin\u2019s Barbershop": null,
+  "Aarin’s Barbershop": null,
   "Norm's Barber Shop": {
     "lat": 38.5519981,
     "lon": -121.4771519
@@ -100,7 +100,7 @@
     "lat": 38.5786324,
     "lon": -121.4967187
   },
-  "Chita's Taquer\u00eda": {
+  "Chita's Taquería": {
     "lat": 38.5689439,
     "lon": -121.4828815
   },
@@ -261,5 +261,17 @@
   "Absolute Alterations": {
     "lat": 38.670595,
     "lon": -121.159807
+  },
+  "Taqueria Espinoza": {
+    "lat": 38.5413132,
+    "lon": -121.4755153
+  },
+  "Short Stuff Cafe": {
+    "lat": 38.751676,
+    "lon": -121.250408
+  },
+  "Power Inn Auto": {
+    "lat": 38.4977895,
+    "lon": -121.4090659
   }
 }

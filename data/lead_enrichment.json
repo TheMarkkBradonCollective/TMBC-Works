@@ -9906,5 +9906,501 @@
       "5.0 on Google"
     ],
     "hand_built": true
+  },
+  "taqueria-espinoza": {
+    "layout": "editorial",
+    "font_head": "Alfa Slab One",
+    "font_body": "Karla",
+    "image_key": "mex",
+    "skeleton": "menu_forward",
+    "headline": "Taqueria Espinoza",
+    "subhead": "Authentic street tacos, sopes and homemade soups on Franklin Blvd. Open 7 days.",
+    "meta_description": "Taqueria Espinoza, 3671 Franklin Blvd, Sacramento. Street tacos, burritos, tortas, sopes, menudo, birria and pozole. Open 7 days. Call (916) 370-2511.",
+    "paragraphs": [
+      "Taqueria Espinoza is a family Mexican restaurant at 3671 Franklin Blvd in Sacramento.",
+      "The kitchen is known for street tacos with al pastor, carnitas, carne asada, suadero, tripas and buche, plus crispy sopes, tortas, taquitos and burritos. Soups are a draw too: menudo, birria, pozole and caldo de pollo or de res.",
+      "Reviewers call it one of their favorite taco spots in Sacramento, with friendly service, a clean dining room and good value. Takeout available and credit cards accepted. Call (916) 370-2511."
+    ],
+    "highlights": [
+      "Open 7 days",
+      "Street tacos",
+      "Homemade soups",
+      "Takeout"
+    ],
+    "services": [
+      "Dine-in",
+      "Takeout",
+      "Credit cards accepted"
+    ],
+    "hours": [
+      "Monday: 10:00 AM - 3:00 PM (two listings say 10:30 AM)",
+      "Tuesday - Thursday: 10:00 AM - 9:00 PM",
+      "Friday - Sunday: 10:00 AM - 10:00 PM"
+    ],
+    "services_heading": "Dine in or take out",
+    "menu_heading": "Menu",
+    "menu_note": "Dishes named in listings and reviews. Sample prices are DEMO placeholders; ask what's on today.",
+    "hours_note": "Tuesday to Sunday hours agree across Google, Restaurantji, Waze and Businessyab. Monday opening time differs by listing. Call (916) 370-2511 to confirm.",
+    "sections": [
+      "story",
+      "menu",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Order",
+        "href": "#book"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "T",
+    "aside_html": "<p><strong>Address:</strong> 3671 Franklin Blvd, Sacramento, CA 95818</p><p><strong>Phone:</strong> (916) 370-2511</p>",
+    "verification": "Exa (Google 4.2/504, hours, review quotes naming meats and sopes), Restaurantji (4.1/84, hours, soups, favorites), Waze (hours, lists 916370251.xyz, which does not resolve), NetWaiter (auto-generated directory page: takeout, credit cards), Businessyab (hours). Older reviews mention $1 tacos; no prices shown.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Full menu with sample prices (DEMO)",
+        "Order ahead for pickup (DEMO)",
+        "Text when your order is ready (DEMO)",
+        "Soup of the day board (DEMO)",
+        "Rating and reviews link",
+        "Food photo gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Order ahead for pickup",
+        "select_label": "Order type",
+        "options": [
+          "Street tacos",
+          "Burrito",
+          "Torta",
+          "Sopes",
+          "Soup (menudo, birria, pozole, caldo)",
+          "Family order",
+          "Other"
+        ],
+        "date": true,
+        "button": "Send order request"
+      },
+      "sms": "Text me when my order is ready",
+      "sample_prices": [
+        [
+          "Street taco",
+          "$XX"
+        ],
+        [
+          "Burrito",
+          "$XX"
+        ],
+        [
+          "Sope",
+          "$XX"
+        ],
+        [
+          "Torta",
+          "$XX"
+        ],
+        [
+          "Menudo or birria (bowl)",
+          "$XX"
+        ]
+      ],
+      "gallery_title": "From the kitchen",
+      "gallery": [
+        "Al pastor tacos",
+        "Carnitas",
+        "Sopes",
+        "Birria",
+        "Menudo",
+        "The taqueria"
+      ],
+      "rating": 4.2,
+      "review_count": 504,
+      "rating_source": "Google"
+    },
+    "menu_categories": [
+      {
+        "title": "Street tacos",
+        "items": [
+          "Al pastor",
+          "Carnitas",
+          "Carne asada",
+          "Suadero",
+          "Tripas",
+          "Buche",
+          "Sesos"
+        ]
+      },
+      {
+        "title": "Plates and more",
+        "items": [
+          "Sopes",
+          "Tortas",
+          "Burritos",
+          "Taquitos",
+          "Aguachile"
+        ]
+      },
+      {
+        "title": "Soups",
+        "items": [
+          "Menudo",
+          "Birria",
+          "Pozole",
+          "Caldo de pollo",
+          "Caldo de res"
+        ]
+      }
+    ],
+    "trust_strip": [
+      "Open 7 days",
+      "Street tacos",
+      "Homemade soups"
+    ],
+    "booking_blurb": "Call (916) 370-2511 to order. The pickup form below is a DEMO.",
+    "gallery_labels": [
+      "Tacos",
+      "Sopes",
+      "Soups",
+      "Franklin Blvd"
+    ],
+    "hand_built": true
+  },
+  "short-stuff-cafe": {
+    "layout": "cardhero",
+    "font_head": "Bebas Neue",
+    "font_body": "Karla",
+    "image_key": "bakery",
+    "skeleton": "menu_forward",
+    "headline": "Short Stuff Cafe",
+    "subhead": "Legendary made-to-order breakfast burritos inside the Chevron on Eureka Rd.",
+    "meta_description": "Short Stuff Cafe, inside the Chevron at 1505 Eureka Rd, Roseville. Made-to-order breakfast burritos, wraps, sandwiches and burgers. Call (916) 786-3935.",
+    "paragraphs": [
+      "Short Stuff Cafe is a small, cook-to-order kitchen inside the Chevron gas station at 1505 Eureka Rd in Roseville.",
+      "It is best known for breakfast burritos, including Dan's, David's and the Meat Lover's, plus breakfast wraps, bagel and croissant sandwiches, burgers and grilled cheese. Reviewers mention a hot sauce bar, generous portions and a few outdoor tables.",
+      "Regulars say they drive across town for it. Everything is cooked fresh, so expect a short wait. Credit cards accepted. Call (916) 786-3935."
+    ],
+    "highlights": [
+      "Made to order",
+      "Breakfast burritos",
+      "Hot sauce bar",
+      "Grab and go"
+    ],
+    "services": [
+      "Breakfast burritos",
+      "Breakfast wraps",
+      "Breakfast sandwiches",
+      "Burgers",
+      "Grilled cheese",
+      "Grab-and-go orders"
+    ],
+    "hours": [
+      "Tuesday - Friday: 6:00 AM - 1:00 PM",
+      "Saturday: 6:00 AM - 11:00 AM",
+      "Sunday - Monday: Closed"
+    ],
+    "services_heading": "How it works",
+    "menu_heading": "Menu",
+    "menu_note": "Items named in listings and reviews. Sample prices are DEMO placeholders.",
+    "hours_note": "Hours agree across Google, Restaurantji and Roadtrippers. An older Yelp page shows Monday to Friday until 2:00 PM. Call (916) 786-3935 to confirm.",
+    "sections": [
+      "story",
+      "menu",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Order ahead",
+        "href": "#book"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "S",
+    "aside_html": "<p><strong>Address:</strong> 1505 Eureka Rd (inside the Chevron), Roseville, CA 95661</p><p><strong>Phone:</strong> (916) 786-3935</p>",
+    "verification": "Exa (Google 4.6/188, hours, review quotes: hot sauce bar, made to order), Restaurantji (4.3/100, hours, favorites, outdoor seating), Roadtrippers (hours, amenities, review quotes naming burritos; lists short-stuff-cafe.wa-cafe.com, which does not load), Yelp (4.3/190, popular dishes; older hours). Old menu-site prices not shown.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Call-ahead / order-ahead burritos to skip the wait (DEMO)",
+        "Text when your order is ready (DEMO)",
+        "Menu with sample prices (DEMO)",
+        "Burrito photo gallery (DEMO)",
+        "Rating and reviews link"
+      ],
+      "booking": {
+        "title": "Order ahead",
+        "select_label": "What are you craving?",
+        "options": [
+          "Breakfast burrito",
+          "Breakfast wrap",
+          "Breakfast sandwich",
+          "Burger",
+          "Grilled cheese",
+          "Other"
+        ],
+        "date": true,
+        "button": "Send order request"
+      },
+      "sms": "Text me when my burrito is ready",
+      "sample_prices": [
+        [
+          "Breakfast burrito (small)",
+          "$XX"
+        ],
+        [
+          "Breakfast burrito (large)",
+          "$XX"
+        ],
+        [
+          "Breakfast wrap",
+          "$XX"
+        ],
+        [
+          "Cheeseburger",
+          "$XX"
+        ]
+      ],
+      "gallery_title": "Fresh off the grill",
+      "gallery": [
+        "Dan's burrito",
+        "Breakfast wraps",
+        "Bacon bagel sandwich",
+        "Burgers",
+        "Hot sauce bar"
+      ],
+      "rating": 4.6,
+      "review_count": 188,
+      "rating_source": "Google"
+    },
+    "menu_categories": [
+      {
+        "title": "Breakfast burritos",
+        "items": [
+          "Dan's burrito",
+          "David's breakfast burrito",
+          "Meat Lover's breakfast burrito",
+          "Chorizo burrito"
+        ]
+      },
+      {
+        "title": "Wraps and sandwiches",
+        "items": [
+          "Chicken wrap",
+          "Hot link wrap",
+          "Veggie wrap",
+          "Bacon bagel sandwich",
+          "Breakfast croissant"
+        ]
+      },
+      {
+        "title": "Lunch",
+        "items": [
+          "Cheeseburger",
+          "Double bacon cheeseburger",
+          "Grilled cheese"
+        ]
+      }
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=1600&q=80",
+    "trust_strip": [
+      "Made to order",
+      "Inside the Chevron",
+      "4.6 on Google"
+    ],
+    "booking_blurb": "Call (916) 786-3935 ahead. The order form below is a DEMO.",
+    "gallery_labels": [
+      "Burritos",
+      "Wraps",
+      "Burgers",
+      "Eureka Rd"
+    ],
+    "hand_built": true
+  },
+  "power-inn-auto": {
+    "layout": "split",
+    "font_head": "Teko",
+    "font_body": "Roboto",
+    "image_key": "auto",
+    "skeleton": "service_trust",
+    "headline": "Power Inn Auto",
+    "subhead": "Honest, family-feel auto repair on Power Inn Rd, 4.9 stars on Google.",
+    "meta_description": "Power Inn Auto, 7117 Power Inn Rd, Sacramento. Auto repair, diagnostics, suspension, engine replacement and routine maintenance. Call (916) 386-1964.",
+    "paragraphs": [
+      "Power Inn Auto is an independent auto repair shop at 7117 Power Inn Rd in Sacramento.",
+      "It handles diagnostics, routine maintenance, suspension work and engine replacement, including installing engines customers supply. Reviewers name Ben, the mechanic, and say he shows you the parts he replaces.",
+      "Customers say they have been coming for 15 years or more, praising fair prices, quick diagnosis and no unnecessary repairs. Parking lot on site. Call (916) 386-1964."
+    ],
+    "highlights": [
+      "4.9 stars on Google",
+      "No unnecessary repairs",
+      "Shows you old parts",
+      "Open 6 days"
+    ],
+    "services": [
+      "Diagnostics",
+      "Routine maintenance",
+      "Suspension repair",
+      "Engine replacement",
+      "General auto repair"
+    ],
+    "hours": [
+      "Monday - Wednesday: 9:00 AM - 4:00 PM",
+      "Thursday: 9:00 AM - 3:00 PM",
+      "Friday: 9:00 AM - 4:00 PM",
+      "Saturday: 9:00 AM - 12:00 PM",
+      "Sunday: Closed"
+    ],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours agree across Google, Loc8NearMe and Businessyab. Call (916) 386-1964 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Book",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "P",
+    "aside_html": "<p><strong>Address:</strong> 7117 Power Inn Rd, Sacramento, CA 95828</p><p><strong>Phone:</strong> (916) 386-1964</p>",
+    "verification": "Exa (Google 4.9/24, hours, review quotes), Loc8NearMe (hours, parking), Businessyab (hours, reviews), LocalityBiz (reviews), Yelp (routine maintenance), Sacramento County fictitious business name record (2006). Not the AAA Sacramento Power Inn Auto Repair Center, a different business.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online appointment requests (DEMO)",
+        "Text repair updates with photos of old parts (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Shop gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Request an appointment",
+        "select_label": "Service",
+        "options": [
+          "Check engine light / diagnostics",
+          "Routine maintenance",
+          "Suspension noise",
+          "Engine replacement",
+          "Other repair"
+        ],
+        "date": true,
+        "photo": true,
+        "button": "Request appointment"
+      },
+      "sms": "Text me repair updates and when my car is ready",
+      "sample_prices": [
+        [
+          "Diagnostic inspection",
+          "$XX"
+        ],
+        [
+          "Routine maintenance",
+          "From $XX"
+        ],
+        [
+          "Suspension inspection",
+          "$XX"
+        ],
+        [
+          "Shop labor (per hour)",
+          "$XX"
+        ]
+      ],
+      "gallery_title": "In the shop",
+      "gallery": [
+        "Service bays",
+        "Diagnostics",
+        "Suspension work",
+        "The shop"
+      ],
+      "rating": 4.9,
+      "review_count": 24,
+      "rating_source": "Google"
+    },
+    "trust_strip": [
+      "4.9 on Google",
+      "Honest repairs",
+      "Open 6 days"
+    ],
+    "booking_blurb": "Call (916) 386-1964 or try the DEMO request form below.",
+    "gallery_labels": [
+      "Diagnostics",
+      "Suspension",
+      "Engines",
+      "Power Inn Rd"
+    ],
+    "hand_built": true
   }
 }
