@@ -4537,82 +4537,6 @@
     ],
     "hand_built": true
   },
-  "sergios-shoe-repair-and-alterations": {
-    "layout": "cardhero",
-    "font_head": "Libre Baskerville",
-    "font_body": "Work Sans",
-    "image_key": "shoe",
-    "headline": "Sergio's Shoe Repair and Alterations",
-    "subhead": "Shoe repair downtown at 500 Capitol Mall.",
-    "meta_description": "Sergio's Shoe Repair and Alterations, 500 Capitol Mall #134, Sacramento. Shoe and bag repair. Call (916) 448-7463.",
-    "paragraphs": [
-      "Sergio's Shoe Repair and Alterations is a shoe repair shop at 500 Capitol Mall, Suite 134, in downtown Sacramento.",
-      "Listings describe work such as replacing soles and toe caps, installing new leather straps, polishing and buffing shoes, and repairing zippers on leather bags.",
-      "The shop is open weekdays and listings show credit cards accepted. Call (916) 448-7463 to ask about your repair or alteration."
-    ],
-    "highlights": [
-      "Shoe and leather repair",
-      "Bag zipper repair",
-      "Open Monday - Friday",
-      "Credit cards accepted",
-      "500 Capitol Mall, downtown"
-    ],
-    "services": [
-      "Sole replacement",
-      "Toe cap replacement",
-      "Leather strap installation",
-      "Polishing and buffing",
-      "Bag and zipper repair",
-      "Alterations"
-    ],
-    "hours": [
-      "Monday - Friday: 9:00 AM - 3:00 PM",
-      "Saturday - Sunday: Closed"
-    ],
-    "menu_heading": "",
-    "menu_note": "",
-    "services_heading": "Repairs",
-    "hours_note": "Hours agree across Chamber of Commerce, Loc8NearMe, Waze and BestProsInTown. Call (916) 448-7463 to confirm.",
-    "sections": [
-      "story",
-      "services",
-      "hours",
-      "location",
-      "contact"
-    ],
-    "aside_html": "<p><strong>Address:</strong> 500 Capitol Mall #134, Sacramento, CA 95814</p><p><strong>Phone:</strong> (916) 448-7463</p>",
-    "nav": [
-      {
-        "label": "About",
-        "href": "#story"
-      },
-      {
-        "label": "Services",
-        "href": "#services"
-      },
-      {
-        "label": "Hours",
-        "href": "#hours"
-      },
-      {
-        "label": "Find us",
-        "href": "#location"
-      },
-      {
-        "label": "Contact",
-        "href": "#contact"
-      }
-    ],
-    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
-    "favicon_initial": "S",
-    "verification": "Chamber of Commerce, Loc8NearMe (services summary, credit cards), Waze, Wheree and BestProsInTown listings. No prices or review quotes used.",
-    "sources": [
-      "https://www.chamberofcommerce.com/business-directory/california/sacramento/shoe-repair-shop/24402217-sergios-shoe-repair",
-      "https://www.loc8nearme.com/california/sacramento/erin-hayes-shoe-repair/3159273/"
-    ],
-    "skeleton": "craft_workshop",
-    "hand_built": true
-  },
   "elegant-designs": {
     "layout": "split",
     "font_head": "Cormorant Garamond",
@@ -4910,5 +4834,80 @@
   "bt-upholstery": {
     "hand_built": true,
     "verification": "Page hand-built by another TMBC agent; content lives in its HTML file."
+  },
+  "sergios-shoe-repair": {
+    "layout": "cardhero",
+    "font_head": "Libre Baskerville",
+    "font_body": "Work Sans",
+    "image_key": "shoe",
+    "headline": "Sergio's Shoe Repair",
+    "subhead": "Shoe repair downtown at 500 Capitol Mall.",
+    "meta_description": "Sergio's Shoe Repair, 500 Capitol Mall #134, Sacramento. Shoe and bag repair. Call (916) 448-7463.",
+    "paragraphs": [
+      "Sergio's Shoe Repair is a shoe repair shop at 500 Capitol Mall, Suite 134, in downtown Sacramento.",
+      "Listings describe work such as replacing soles and toe caps, installing new leather straps, polishing and buffing shoes, and repairing zippers on leather bags.",
+      "The shop is open weekdays and listings show credit cards accepted. Call (916) 448-7463 to ask about your repair."
+    ],
+    "highlights": [
+      "Shoe and leather repair",
+      "Bag zipper repair",
+      "Open Monday - Friday",
+      "Credit cards accepted",
+      "500 Capitol Mall, downtown"
+    ],
+    "services": [
+      "Sole replacement",
+      "Toe cap replacement",
+      "Leather strap installation",
+      "Polishing and buffing",
+      "Bag and zipper repair"
+    ],
+    "hours": [
+      "Monday - Friday: 9:00 AM - 3:00 PM",
+      "Saturday - Sunday: Closed"
+    ],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Repairs",
+    "hours_note": "Hours agree across Chamber of Commerce, Loc8NearMe, Waze and BestProsInTown. Call (916) 448-7463 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 500 Capitol Mall #134, Sacramento, CA 95814</p><p><strong>Phone:</strong> (916) 448-7463</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "S",
+    "verification": "Chamber of Commerce, Loc8NearMe (services summary, credit cards), Waze, Wheree and BestProsInTown listings. No prices or review quotes used.",
+    "sources": [
+      "https://www.chamberofcommerce.com/business-directory/california/sacramento/shoe-repair-shop/24402217-sergios-shoe-repair",
+      "https://www.loc8nearme.com/california/sacramento/erin-hayes-shoe-repair/3159273/"
+    ],
+    "skeleton": "craft_workshop",
+    "hand_built": true
   }
 }
