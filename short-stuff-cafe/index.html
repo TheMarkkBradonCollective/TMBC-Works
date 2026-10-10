@@ -4,13 +4,108 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
-  <title>Short Stuff Cafe — Breakfast cafe</title>
-  <meta name="description" content="Short Stuff Cafe, inside the Chevron at 1505 Eureka Rd, Roseville. Made-to-order breakfast burritos, wraps, sandwiches and burgers. Call (916) 786-3935.">
+  <title>Short Stuff Cafe | Made-to-Order Breakfast Burritos on Eureka Rd, Roseville</title>
+  <meta name="description" content="Short Stuff Cafe, 1505 Eureka Rd, Roseville (inside the Chevron): made-to-order breakfast burritos, wraps, sandwiches, burgers and a hot sauce bar. Call (916) 786-3935.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Short Stuff Cafe">
-  <meta property="og:description" content="Short Stuff Cafe, inside the Chevron at 1505 Eureka Rd, Roseville. Made-to-order breakfast burritos, wraps, sandwiches and burgers. Call (916) 786-3935.">
+  <meta property="og:title" content="Short Stuff Cafe | Made-to-Order Breakfast Burritos on Eureka Rd, Roseville">
+  <meta property="og:description" content="Short Stuff Cafe, 1505 Eureka Rd, Roseville (inside the Chevron): made-to-order breakfast burritos, wraps, sandwiches, burgers and a hot sauce bar. Call (916) 786-3935.">
   <meta property="og:url" content="https://themarkkbradoncollective.github.io/TMBC-Works/short-stuff-cafe/">
   <meta property="og:image" content="https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=1600&amp;q=80">
+  <meta property="og:site_name" content="Short Stuff Cafe">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image:alt" content="Stock photo (illustrative, not the business)">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Short Stuff Cafe | Made-to-Order Breakfast Burritos on Eureka Rd, Roseville">
+  <meta name="twitter:description" content="Short Stuff Cafe, 1505 Eureka Rd, Roseville (inside the Chevron): made-to-order breakfast burritos, wraps, sandwiches, burgers and a hot sauce bar. Call (916) 786-3935.">
+  <link rel="canonical" href="https://themarkkbradoncollective.github.io/TMBC-Works/short-stuff-cafe/">
+  <meta name="theme-color" content="#0f172a">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Short Stuff Cafe",
+  "url": "https://themarkkbradoncollective.github.io/TMBC-Works/short-stuff-cafe/",
+  "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=1600&q=80",
+  "telephone": "+19167863935",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1505 Eureka Rd",
+    "addressLocality": "Roseville",
+    "addressRegion": "CA",
+    "postalCode": "95661",
+    "addressCountry": "US"
+  },
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=1505%20Eureka%20Rd%2C%20Roseville%2C%20CA%2095661",
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Breakfast burritos"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Breakfast wraps"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Breakfast sandwiches"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Burgers"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Grilled cheese"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Grab-and-go orders"
+      }
+    }
+  ],
+  "servesCuisine": [
+    "Breakfast"
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "06:00",
+      "closes": "13:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Saturday"
+      ],
+      "opens": "06:00",
+      "closes": "11:00"
+    }
+  ]
+}
+  </script>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -183,17 +278,37 @@
 .up-feats { display:flex; flex-wrap:wrap; gap:.5rem; padding:0; list-style:none; }
 .up-feats li { background:color-mix(in srgb,var(--accent) 12%,transparent); border-radius:999px; padding:.35rem .8rem; font-size:.85rem; }
 .up-toast { margin-top:.5rem; font-weight:600; color:var(--accent); }
-</style>
+
+/* TMBC Enhancement: mobile + CTA polish */
+html,body{overflow-x:hidden}img,iframe{max-width:100%}
+.logo a{color:inherit;text-decoration:none}
+.btn{min-height:44px;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box}
+.site-nav a{display:inline-block;padding:.6rem .25rem}
+.contact-inner .btn-row{justify-content:center;margin-top:1rem}
+.quote-form input,.quote-form select,.quote-form textarea{font-size:16px;min-height:44px;box-sizing:border-box;width:100%}
+.demo-block{padding:2.75rem 0}
+.demo-grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
+.demo-card{background:var(--surface);border-radius:var(--radius);padding:1.25rem;border:1px dashed color-mix(in srgb,var(--muted) 45%,transparent)}
+.demo-card .demo-tag{margin-left:0}
+.demo-card h3{margin:.4rem 0 .5rem;font-size:1.4rem}
+.demo-card label{display:block;font-size:.88rem;margin:.6rem 0 .2rem;font-weight:600}
+.demo-card input,.demo-card select{width:100%;box-sizing:border-box;padding:.65rem;font:inherit;font-size:16px;border-radius:8px;border:1px solid #cbd5e1;min-height:44px}
+.demo-card button{margin-top:.85rem;width:100%;border:0;cursor:not-allowed;opacity:.85}
+.sample-list{list-style:none;padding:0;margin:0}.sample-list li{display:flex;justify-content:space-between;gap:1rem;padding:.5rem 0;border-bottom:1px solid color-mix(in srgb,var(--muted) 18%,transparent)}
+@media(max-width:640px){.site-header{flex-direction:column;align-items:flex-start;gap:.25rem;padding:.75rem 1rem}.site-nav{display:flex;flex-wrap:wrap;gap:0 .9rem}.site-nav a{margin-left:0}.btn-row .btn{flex:1 1 100%}.highlights{max-width:none;grid-template-columns:1fr 1fr}.hero h1{max-width:none}.hero-content-panel{padding:1.25rem 1.1rem}.contact-inner{padding:1.5rem 1rem}body{padding-bottom:3.75rem}}
+
+  </style>
   <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
 </head>
-<body class="skel-menu_forward" data-biz-phone="tel:+19167863935" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=1505%20Eureka%20Rd%2C%20Roseville%2C%20CA%2095661">
+<body id="top" class="skel-menu_forward" data-biz-phone="tel:+19167863935" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=1505%20Eureka%20Rd%2C%20Roseville%2C%20CA%2095661">
   <div class="tmbc-banner tmbc-disclaimer" role="note" style="display:flex;align-items:center;justify-content:center;gap:.5rem;position:relative;padding-right:2.75rem"><span>Unofficial concept preview created by TMBC Works for Short Stuff Cafe. Not affiliated with or endorsed by Short Stuff Cafe. Features marked DEMO are not live. Please confirm all details with the business: call <a href="tel:+19167863935">(916) 786-3935</a>.</span><button type="button" aria-label="Dismiss notice" onclick="this.parentNode.remove()" style="position:absolute;right:.25rem;top:50%;transform:translateY(-50%);min-width:44px;min-height:44px;background:none;border:0;color:inherit;font-size:1.2rem;cursor:pointer">×</button></div>
   <header class="site-header">
-    <div class="logo">Short Stuff Cafe</div>
+    <div class="logo"><a href="#top">Short Stuff Cafe</a></div>
     <nav class="site-nav" aria-label="Primary"><a href="compare.html">Before &amp; after</a><a href="#story">About</a><a href="#menu">Menu</a><a href="#book">Order ahead</a><a href="#reviews">Reviews</a><a href="#hours">Hours</a><a href="#visit">Find us</a></nav>
   </header>
+  <main id="main">
   <section class="hero layout-cardhero" aria-label="Welcome">
-    <div class="hero-bg" role="img" aria-label="Decorative photograph"></div>
+    <div class="hero-bg" aria-hidden="true"></div>
     <div class="hero-inner">
       <div class="hero-text-col">
         <div class="hero-content-panel">
@@ -202,7 +317,7 @@
           <p class="hero-lead">Legendary made-to-order breakfast burritos inside the Chevron on Eureka Rd.</p>
           <div class="btn-row">
             <a class="btn btn-primary" href="tel:+19167863935">Call (916) 786-3935</a>
-            <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=1505%20Eureka%20Rd%2C%20Roseville%2C%20CA%2095661">Directions</a>
+            <a class="btn btn-ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=1505%20Eureka%20Rd%2C%20Roseville%2C%20CA%2095661">Directions</a>
           </div>
           <div class="highlights hl-count-3"><div class="hl">Made to order</div><div class="hl">Breakfast burritos</div><div class="hl">Hot sauce bar</div></div>
           
@@ -214,7 +329,7 @@
   
     <section class="up-block reveal" id="whats-new"><div class="wrap">
       <h2>What this website adds</h2>
-      <ul class="up-feats"><li>Tap-to-call from any phone</li><li>Call-ahead / order-ahead burritos to skip the wait (DEMO)</li><li>Text when your order is ready (DEMO)</li><li>Menu with sample prices (DEMO)</li><li>Burrito photo gallery (DEMO)</li><li>Rating and reviews link</li></ul>
+      <ul class="up-feats"><li>Tap-to-call from any phone</li><li>Call-ahead / order-ahead burritos to skip the wait (DEMO)</li><li>Text when your order is ready (DEMO)</li><li>Menu with sample prices (DEMO)</li><li>Burrito photo gallery (DEMO)</li><li>Google reviews link</li></ul>
       <p class="demo-note">Items marked <span class="demo-tag">DEMO</span> are previews of features that need setup before launch.</p>
     </div></section>
     <section class="up-block reveal" id="book"><div class="wrap">
@@ -227,7 +342,7 @@
         <label>Preferred day and time<input type="datetime-local" name="when"></label>
         <label>Notes<textarea name="notes" rows="3"></textarea></label>
         <label class="chk"><input type="checkbox" checked> <span>Text me when my burrito is ready <span class="demo-tag">DEMO</span></span></label>
-        <button type="submit">Send order request</button>
+        <button aria-disabled="true" disabled type="submit">Send order request</button>
         <div class="up-toast" role="status"></div>
       </form>
     </div></section>
@@ -239,9 +354,8 @@
     <section class="up-block reveal" id="reviews"><div class="wrap">
       <h2>What customers say</h2>
       <div class="up-grid">
-        <div class="up-card"><div class="rating-big">4.6</div><div class="stars" aria-label="4.6 out of 5">★★★★★</div>
-          <p>188 reviews on Google</p></div>
-        <div class="up-card"><p>Rating and review count from public listings. Read the full reviews in the customers' own words:</p><p><a class="up-btn" href="https://www.google.com/maps/search/?api=1&query=Short+Stuff+Cafe+1505+Eureka+Rd%2C+Roseville%2C+CA+95661">Read reviews on Google</a></p>
+        <div class="up-card"><p><a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&amp;query=Short%20Stuff%20Cafe%201505%20Eureka%20Rd%2C%20Roseville%2C%20CA%2095661" target="_blank" rel="noopener">Read our reviews on Google</a></p></div>
+        <div class="up-card"><p>Read the full reviews on Google.</p><p></p>
           <p class="demo-note"><span class="demo-tag">DEMO</span> A live, auto-updating Google reviews feed can be embedded here once connected to the business's Google profile. No review text is shown on this preview.</p></div>
       </div>
     </div></section>
@@ -250,8 +364,8 @@
       <p class="demo-note">Placeholders only. The business's own photos would go here.</p>
       <div class="up-grid"><div class="gal-ph">Photo placeholder:<br>Dan&#x27;s burrito</div><div class="gal-ph">Photo placeholder:<br>Breakfast wraps</div><div class="gal-ph">Photo placeholder:<br>Bacon bagel sandwich</div><div class="gal-ph">Photo placeholder:<br>Burgers</div><div class="gal-ph">Photo placeholder:<br>Hot sauce bar</div></div>
     </div></section>
-    <section class="story-block reveal" id="story">
-      <div class="wrap story-grid">
+    <section class="story-block reveal" id="story" aria-labelledby="about-h">
+      <div class="wrap story-grid"><h2 id="about-h">About Short Stuff Cafe</h2>
         <div class="story-copy"><p>Short Stuff Cafe is a small, cook-to-order kitchen inside the Chevron gas station at 1505 Eureka Rd in Roseville.</p><p>It is best known for breakfast burritos, including Dan&#x27;s, David&#x27;s and the Meat Lover&#x27;s, plus breakfast wraps, bagel and croissant sandwiches, burgers and grilled cheese. Reviewers mention a hot sauce bar, generous portions and a few outdoor tables.</p><p>Regulars say they drive across town for it. Everything is cooked fresh, so expect a short wait. Credit cards accepted. Call (916) 786-3935.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 1505 Eureka Rd (inside the Chevron), Roseville, CA 95661</p><p><strong>Phone:</strong> (916) 786-3935</p></div>
       </div>
@@ -272,20 +386,19 @@
     <section class="hours-block reveal" id="hours">
       <div class="wrap">
         <h2>Hours</h2>
-        <ul class="hours-list"><li>Tuesday - Friday: 6:00 AM - 1:00 PM</li><li>Saturday: 6:00 AM - 11:00 AM</li><li>Sunday - Monday: Closed</li></ul>
-        <p>Hours agree across Google, Restaurantji and Roadtrippers. An older Yelp page shows Monday to Friday until 2:00 PM. Call (916) 786-3935 to confirm.</p>
+        <ul class="hours-list"><li>Tuesday - Friday: 6:00 AM - 1:00 PM</li><li>Saturday: 6:00 AM - 11:00 AM</li><li>Sunday: Closed</li><li>Monday: call <a href="tel:+19167863935">(916) 786-3935</a> to confirm</li></ul>
+        <p>Hours agree across Google, Restaurantji and Roadtrippers. An older Yelp page shows Monday to Friday until 2:00 PM, so call (916) 786-3935 to confirm Monday.</p>
       </div>
     </section>
     <section class="location-block reveal" id="visit">
       <div class="wrap loc-grid">
         <div>
           <h2>Find us</h2>
-          <p class="addr">1505 Eureka Rd, Roseville, CA 95661</p>
+          <address class="addr" style="font-style:normal">1505 Eureka Rd, Roseville, CA 95661</address>
           <p><a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=1505%20Eureka%20Rd%2C%20Roseville%2C%20CA%2095661">Open in Google Maps</a></p>
         </div>
         <div class="map-frame">
-          <iframe title="Map to Short Stuff Cafe" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.openstreetmap.org/export/embed.html?bbox=-121.262408%2C38.739676%2C-121.23840799999999%2C38.763676000000004&amp;layer=mapnik&amp;marker=38.751676%2C-121.250408"></iframe>
-          <noscript><img src="https://staticmap.openstreetmap.de/staticmap.php?center=38.751676,-121.250408&amp;zoom=15&amp;size=800x360&amp;markers=38.751676,-121.250408,red-pushpin" alt="Map location" width="800" height="360" loading="lazy"></noscript>
+          <iframe title="Map to Short Stuff Cafe" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=1505%20Eureka%20Rd%2C%20Roseville%2C%20CA%2095661&amp;z=16&amp;output=embed"></iframe>
         </div>
       </div>
     </section>
@@ -294,8 +407,11 @@
         <h2>Contact</h2>
         <p class="phone-big"><a href="tel:+19167863935">(916) 786-3935</a></p>
         <p>Email: call for the best contact address.</p>
-      </div>
+      
+    <div class="btn-row"><a class="btn btn-primary" href="tel:+19167863935">Call (916) 786-3935</a><a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=1505%20Eureka%20Rd%2C%20Roseville%2C%20CA%2095661" target="_blank" rel="noopener">Get directions</a></div>
+</div>
     </section>
+  </main>
   <div class="wrap">
     <aside class="tmbc-feedback reveal" aria-label="Preview feedback for TMBC Works">
       <h2>Help TMBC Works refine this preview</h2>
@@ -310,8 +426,8 @@
     <p class="img-credit">Stock photography via Unsplash (see HTML comment). Hours and offerings may change — please confirm with the business.</p>
   </footer>
   <div class="tmbc-sticky-bar" aria-label="Quick actions">
-    <a class="tmbc-sticky-call" href="tel:+19167863935">Call</a>
-    <a class="tmbc-sticky-map" href="https://www.google.com/maps/search/?api=1&amp;query=1505%20Eureka%20Rd%2C%20Roseville%2C%20CA%2095661">Directions</a>
+    <a class="tmbc-sticky-call" aria-label="Call Short Stuff Cafe at (916) 786-3935" href="tel:+19167863935">Call</a>
+    <a class="tmbc-sticky-map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=1505%20Eureka%20Rd%2C%20Roseville%2C%20CA%2095661">Directions</a>
   </div>
   <script src="../_shared/tmbc-config.js" defer></script>
   <script src="../_shared/tmbc.js" defer></script><script>
