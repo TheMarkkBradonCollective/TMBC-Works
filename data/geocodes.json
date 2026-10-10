@@ -181,5 +181,33 @@
   "Ad Smog": {
     "lat": 38.566408,
     "lon": -121.4900426
+  },
+  "Yoshimura Auto Service": {
+    "lat": 38.5288149,
+    "lon": -121.4955041
+  },
+  "K&T Auto Repair": {
+    "lat": 38.6127551,
+    "lon": -121.4438785
+  },
+  "T.O.M Brother Mechanical": {
+    "lat": 38.6081157,
+    "lon": -121.4642435
+  },
+  "Dane's Bakery": {
+    "lat": 38.5467729,
+    "lon": -121.4281161
+  },
+  "Angel's Barber Shop": {
+    "lat": 38.4959553,
+    "lon": -121.4048836
+  },
+  "Ron's Barber Shop": {
+    "lat": 38.6206003,
+    "lon": -121.4209846
+  },
+  "Del Paso Heights Barbershop": {
+    "lat": 38.6335677,
+    "lon": -121.4305502
   }
 }

@@ -15,7 +15,7 @@ lead_number,business_name,slug,preview_url,compare_url,email,phone
 14,Golden State Upholstery,golden-state-upholstery,https://themarkkbradoncollective.github.io/TMBC-Works/golden-state-upholstery/,,goldenstateupholstery@gmail.com,(916) 969-5720
 15,Upholstery Unlimited,upholstery-unlimited,https://themarkkbradoncollective.github.io/TMBC-Works/upholstery-unlimited/,,,(916) 454-3277
 16,Pass and Go Smog,pass-and-go-smog,https://themarkkbradoncollective.github.io/TMBC-Works/pass-and-go-smog/,,her9fong6@yahoo.com,(916) 692-5400
-17,5 STAR SMOG (Star Station),5-star-smog,https://themarkkbradoncollective.github.io/TMBC-Works/5-star-smog/,,,(916) 400-3531
+17,5 STAR SMOG (Star Station),5-star-smog,https://themarkkbradoncollective.github.io/TMBC-Works/5-star-smog/,https://themarkkbradoncollective.github.io/TMBC-Works/5-star-smog/compare.html,,(916) 400-3531
 18,Smog Xperts,smog-xperts,https://themarkkbradoncollective.github.io/TMBC-Works/smog-xperts/,,,(916) 306-4810
 19,J & T Auto Repair,j-t-auto-repair,https://themarkkbradoncollective.github.io/TMBC-Works/j-t-auto-repair/,,,(916) 332-7560
 20,Fix Car's - Automotive Diagnostic & Repair Shop,fix-cars-auto-repair,https://themarkkbradoncollective.github.io/TMBC-Works/fix-cars-auto-repair/,,bigsofbests@gmail.com,(916) 601-2535
@@ -70,3 +70,10 @@ lead_number,business_name,slug,preview_url,compare_url,email,phone
 69,Golden State Jewelers,golden-state-jewelers,https://themarkkbradoncollective.github.io/TMBC-Works/golden-state-jewelers/,https://themarkkbradoncollective.github.io/TMBC-Works/golden-state-jewelers/compare.html,goldenstatejewelers@gmail.com,(916) 421-5284
 70,Sara's Alterations,saras-alterations,https://themarkkbradoncollective.github.io/TMBC-Works/saras-alterations/,https://themarkkbradoncollective.github.io/TMBC-Works/saras-alterations/compare.html,,(916) 480-2959
 71,Express Watch Repair,express-watch-repair,https://themarkkbradoncollective.github.io/TMBC-Works/express-watch-repair/,https://themarkkbradoncollective.github.io/TMBC-Works/express-watch-repair/compare.html,,(916) 827-8186
+72,Yoshimura Auto Service,yoshimura-auto-service,https://themarkkbradoncollective.github.io/TMBC-Works/yoshimura-auto-service/,https://themarkkbradoncollective.github.io/TMBC-Works/yoshimura-auto-service/compare.html,,(916) 454-5082
+73,K&T Auto Repair,kt-auto-repair,https://themarkkbradoncollective.github.io/TMBC-Works/kt-auto-repair/,https://themarkkbradoncollective.github.io/TMBC-Works/kt-auto-repair/compare.html,,(916) 776-3137
+74,T.O.M Brother Mechanical,tom-brother-mechanical,https://themarkkbradoncollective.github.io/TMBC-Works/tom-brother-mechanical/,https://themarkkbradoncollective.github.io/TMBC-Works/tom-brother-mechanical/compare.html,,(916) 695-6677
+75,Dane's Bakery,danes-bakery,https://themarkkbradoncollective.github.io/TMBC-Works/danes-bakery/,https://themarkkbradoncollective.github.io/TMBC-Works/danes-bakery/compare.html,,(916) 736-1896
+76,Angel's Barber Shop,angels-barber-shop,https://themarkkbradoncollective.github.io/TMBC-Works/angels-barber-shop/,https://themarkkbradoncollective.github.io/TMBC-Works/angels-barber-shop/compare.html,,(916) 383-2700
+77,Ron's Barber Shop,rons-barber-shop,https://themarkkbradoncollective.github.io/TMBC-Works/rons-barber-shop/,https://themarkkbradoncollective.github.io/TMBC-Works/rons-barber-shop/compare.html,,(916) 927-7711
+78,Del Paso Heights Barbershop,del-paso-heights-barbershop,https://themarkkbradoncollective.github.io/TMBC-Works/del-paso-heights-barbershop/,https://themarkkbradoncollective.github.io/TMBC-Works/del-paso-heights-barbershop/compare.html,,(916) 514-1020

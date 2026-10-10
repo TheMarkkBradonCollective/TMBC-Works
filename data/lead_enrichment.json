@@ -1652,8 +1652,16 @@
         "href": "#story"
       },
       {
-        "label": "Services",
-        "href": "#services"
+        "label": "Check-in",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
       },
       {
         "label": "Hours",
@@ -1662,10 +1670,6 @@
       {
         "label": "Find us",
         "href": "#location"
-      },
-      {
-        "label": "Contact",
-        "href": "#contact"
       }
     ],
     "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
@@ -1682,7 +1686,51 @@
       "https://local.yahoo.com/info-190055624-5-star-smog-sacramento/",
       "https://exa.ai/library/place/mnk43m44vkt",
       "https://www.loc8nearme.com/california/sacramento/5-star-smog/7595727/"
-    ]
+    ],
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online check-in / reserve a time (DEMO)",
+        "Text reminder when your registration smog is due (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link"
+      ],
+      "booking": {
+        "title": "Check in online",
+        "select_label": "Vehicle type",
+        "options": [
+          "Gas car / truck",
+          "Hybrid",
+          "Diesel",
+          "Out-of-state vehicle",
+          "1999 or older"
+        ],
+        "date": true,
+        "button": "Reserve a time"
+      },
+      "sms": "Text me next year when my smog check is due",
+      "sample_prices": [
+        [
+          "Smog check (most cars)",
+          "$XX"
+        ],
+        [
+          "Diesel",
+          "$XX"
+        ],
+        [
+          "1999 and older",
+          "$XX"
+        ],
+        [
+          "DMV certificate",
+          "$XX"
+        ]
+      ],
+      "rating": 4.7,
+      "review_count": 261
+    },
+    "hand_built": true
   },
   "smog-xperts": {
     "layout": "editorial",
@@ -6934,6 +6982,890 @@
         "Engraved ID bracelet",
         "Inside ring engraving",
         "Country Club Plaza shop"
+      ]
+    },
+    "hand_built": true
+  },
+  "yoshimura-auto-service": {
+    "layout": "split",
+    "font_head": "Teko",
+    "font_body": "Roboto",
+    "image_key": "auto",
+    "skeleton": "service_trust",
+    "headline": "Yoshimura Auto Service",
+    "subhead": "Neighborhood auto repair on Freeport Blvd, serving Sacramento since 1994.",
+    "meta_description": "Yoshimura Auto Service, 4971 Freeport Blvd, Sacramento. Auto repair and maintenance since 1994. Call (916) 454-5082.",
+    "paragraphs": [
+      "Yoshimura Auto Service is an auto repair shop at 4971 Freeport Blvd in Sacramento. Its Better Business Bureau profile lists a founding date of 1994.",
+      "The shop is listed as a NAPA AutoCare Center and offers general auto repair and maintenance. Recent reviewers name Roy as the mechanic.",
+      "Call (916) 454-5082 to describe your car's problem or book a visit."
+    ],
+    "highlights": [
+      "Serving Sacramento since 1994 (BBB)",
+      "NAPA AutoCare Center",
+      "Repair and maintenance",
+      "Mon - Fri"
+    ],
+    "services": [
+      "General auto repair",
+      "Scheduled maintenance",
+      "Diagnosis",
+      "Brakes",
+      "Catalytic converter replacement"
+    ],
+    "hours": [
+      "Monday - Friday: 9:00 AM - 6:00 PM",
+      "Saturday - Sunday: Closed"
+    ],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours from Google-based listings (Exa); MapQuest shows a 9 AM opening. Call (916) 454-5082 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Book",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "Y",
+    "trust_strip": [
+      "Since 1994 (BBB)",
+      "NAPA AutoCare Center",
+      "Freeport Blvd",
+      "Mon - Fri"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 4971 Freeport Blvd, Sacramento, CA 95822</p><p><strong>Phone:</strong> (916) 454-5082</p>",
+    "verification": "BBB (founded 1994), NAPA AutoCare app landing page (shop #405377), Exa (Google 4.8/36, hours, Facebook), MapQuest. Payment unclear (one review says cash/check only; MapQuest lists credit). Ownership change suggested by reviews; no owner named on page.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online appointment requests (DEMO)",
+        "Text appointment reminders and repair updates (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Shop gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Book a service appointment",
+        "select_label": "Service",
+        "options": [
+          "Diagnosis",
+          "Brakes",
+          "Maintenance / oil change",
+          "Catalytic converter",
+          "Other repair"
+        ],
+        "date": true,
+        "button": "Request appointment"
+      },
+      "sms": "Text me appointment reminders and repair updates",
+      "sample_prices": [
+        [
+          "Diagnostic inspection",
+          "$XX"
+        ],
+        [
+          "Oil change",
+          "$XX"
+        ],
+        [
+          "Brake pads (per axle)",
+          "$XX"
+        ],
+        [
+          "Catalytic converter",
+          "Quote"
+        ]
+      ],
+      "gallery_title": "In the shop",
+      "gallery": [
+        "Service bays",
+        "Diagnostics",
+        "Brake work",
+        "The shop"
+      ],
+      "rating": 4.8,
+      "review_count": 36,
+      "rating_source": "Google",
+      "facebook": "https://facebook.com/169251869752204"
+    },
+    "hand_built": true
+  },
+  "kt-auto-repair": {
+    "layout": "cardhero",
+    "font_head": "Teko",
+    "font_body": "Roboto",
+    "image_key": "auto",
+    "skeleton": "service_trust",
+    "headline": "K&T Auto Repair",
+    "subhead": "Auto repair on Evergreen St in Old North Sacramento.",
+    "meta_description": "K&T Auto Repair, 1010 B Evergreen St, Sacramento. Auto repair. Call (916) 776-3137.",
+    "paragraphs": [
+      "K&T Auto Repair is an auto repair shop at 1010 B Evergreen St in Old North Sacramento.",
+      "Reviewers describe brake pad installation, head gasket and heater work, and routine maintenance, and mention honest assessments and fair pricing.",
+      "Call (916) 776-3137 before coming in to confirm someone is available."
+    ],
+    "highlights": [
+      "Brakes and engine work",
+      "Maintenance",
+      "Old North Sacramento",
+      "Call ahead"
+    ],
+    "services": [
+      "Brake pads and brake service",
+      "Engine repair (including head gaskets)",
+      "Heater repair",
+      "Oil changes and maintenance",
+      "Diagnosis"
+    ],
+    "hours": [],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Google-based listings show Mon-Sat 10:30 AM - 10 PM, but a February 2026 review says the shop was closed during posted hours. Call (916) 776-3137 first.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Book",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "K",
+    "trust_strip": [
+      "Brakes",
+      "Engine work",
+      "Maintenance",
+      "Call ahead"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 1010 B Evergreen St, Sacramento, CA 95815</p><p><strong>Phone:</strong> (916) 776-3137</p>",
+    "verification": "Exa (Google 4.7/28, hours, review themes). Not the Rancho Cordova K&T Truck & Auto (different business, has its own site). No quotes.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online appointment requests (DEMO)",
+        "Text appointment reminders and repair updates (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Shop gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Book a service appointment",
+        "select_label": "Service",
+        "options": [
+          "Brakes",
+          "Engine",
+          "Heater / AC",
+          "Oil change / maintenance",
+          "Diagnosis",
+          "Other"
+        ],
+        "date": true,
+        "button": "Request appointment"
+      },
+      "sms": "Text me appointment reminders and repair updates",
+      "sample_prices": [
+        [
+          "Brake pads (per axle)",
+          "$XX"
+        ],
+        [
+          "Oil change",
+          "$XX"
+        ],
+        [
+          "Diagnosis",
+          "$XX"
+        ],
+        [
+          "Head gasket",
+          "Quote"
+        ]
+      ],
+      "gallery_title": "In the shop",
+      "gallery": [
+        "Service bays",
+        "Diagnostics",
+        "Brake work",
+        "The shop"
+      ],
+      "rating": 4.7,
+      "review_count": 28,
+      "rating_source": "Google"
+    },
+    "hand_built": true
+  },
+  "tom-brother-mechanical": {
+    "layout": "split",
+    "font_head": "Teko",
+    "font_body": "Roboto",
+    "image_key": "auto",
+    "skeleton": "service_trust",
+    "headline": "T.O.M Brother Mechanical",
+    "subhead": "Auto repair shop on Colfax St in North Sacramento.",
+    "meta_description": "T.O.M Brother Mechanical, 2282 Colfax St, Sacramento. Auto repair. Call (916) 695-6677.",
+    "paragraphs": [
+      "T.O.M Brother Mechanical is an auto repair shop at 2282 Colfax St in North Sacramento's Noralto area.",
+      "Public listings for the business are limited. Call (916) 695-6677 to ask about services and availability."
+    ],
+    "highlights": [
+      "Auto repair",
+      "North Sacramento",
+      "Call for availability"
+    ],
+    "services": [
+      "General auto repair (call to confirm specific services)"
+    ],
+    "hours": [],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "No reliable hours were found. Call (916) 695-6677.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Book",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "T",
+    "trust_strip": [
+      "Auto repair",
+      "Colfax St",
+      "Call first"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 2282 Colfax St, Sacramento, CA 95815</p><p><strong>Phone:</strong> (916) 695-6677</p>",
+    "verification": "Exa and Wanderboat listings only (address, phone, category). Same address is also listed as T&X Complete Auto Repair; nothing from that listing used.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online appointment requests (DEMO)",
+        "Text appointment reminders and repair updates (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Shop gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Book a service appointment",
+        "select_label": "Service",
+        "options": [
+          "Diagnosis",
+          "Brakes",
+          "Maintenance",
+          "Other repair"
+        ],
+        "date": true,
+        "button": "Request appointment"
+      },
+      "sms": "Text me appointment reminders and repair updates",
+      "sample_prices": [
+        [
+          "Diagnostic inspection",
+          "$XX"
+        ],
+        [
+          "Oil change",
+          "$XX"
+        ],
+        [
+          "Brake pads (per axle)",
+          "$XX"
+        ]
+      ],
+      "gallery_title": "In the shop",
+      "gallery": [
+        "Service bays",
+        "Diagnostics",
+        "Brake work",
+        "The shop"
+      ]
+    },
+    "hand_built": true
+  },
+  "danes-bakery": {
+    "layout": "editorial",
+    "font_head": "Alfa Slab One",
+    "font_body": "Karla",
+    "image_key": "bakery",
+    "skeleton": "menu_forward",
+    "headline": "Dane's Bakery",
+    "subhead": "Traditional Mexican panaderia on Broadway: conchas, pan dulce, flan and more.",
+    "meta_description": "Dane's Bakery, 6494 Broadway, Sacramento. Mexican bakery: conchas, pan dulce, flan, tres leches, cortadillo. Call (916) 736-1896.",
+    "paragraphs": [
+      "Dane's Bakery is a Mexican panaderia at 6494 Broadway in Sacramento.",
+      "Listings and reviews describe traditional, homemade sweet breads with an emphasis on items found in Jalisco: conchas (including mini conchas), pan de elote, polvorones de nuez, pink cortadillo cake, cheesecake, flan, chocoflan, tres leches cake, gelatinas and custards. Snack items such as mangonadas, elote and chicharron preparado are also pictured.",
+      "Listings show credit cards and contactless payments accepted, wheelchair access and a parking lot."
+    ],
+    "highlights": [
+      "Pan dulce and conchas",
+      "Flan, chocoflan, tres leches",
+      "Jalisco-style breads",
+      "Parking lot"
+    ],
+    "services": [
+      "Walk-in counter",
+      "Takeout",
+      "Cakes (call to ask about orders)",
+      "Credit cards and contactless pay"
+    ],
+    "menu_categories": [
+      {
+        "title": "Pan dulce",
+        "items": [
+          "Conchas",
+          "Mini conchas",
+          "Pan de elote",
+          "Polvorones de nuez",
+          "Muffins",
+          "Cookies"
+        ]
+      },
+      {
+        "title": "Cakes & desserts",
+        "items": [
+          "Cortadillo (pink cake)",
+          "Tres leches cake",
+          "Chocoflan",
+          "Flan",
+          "Cheesecake",
+          "Gelatinas and custards"
+        ]
+      },
+      {
+        "title": "Snacks",
+        "items": [
+          "Mangonada",
+          "Elote",
+          "Chicharron preparado"
+        ]
+      }
+    ],
+    "menu_heading": "From the case",
+    "menu_note": "Item names from Restaurantji, Yelp photo captions and reviews; no prices shown. Call (916) 736-1896 for today's selection.",
+    "hours": [
+      "Monday - Friday: 8:00 AM - 8:00 PM",
+      "Saturday: 8:00 AM - 4:00 PM",
+      "Sunday: Closed"
+    ],
+    "services_heading": "How to buy",
+    "hours_note": "Hours agree across Restaurantji and Roadtrippers. Call (916) 736-1896 to confirm.",
+    "sections": [
+      "story",
+      "menu",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Pre-order",
+        "href": "#book"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "D",
+    "aside_html": "<p><strong>Address:</strong> 6494 Broadway, Sacramento, CA 95820</p><p><strong>Phone:</strong> (916) 736-1896</p>",
+    "verification": "Restaurantji (description, items, hours, 4.5/63), Apple Maps (Yelp 4.3/52, amenities), MapQuest (photo captions), Exa (Facebook). No prices or quotes.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Menu of breads and desserts",
+        "Pre-order pan dulce trays and cakes for pickup (DEMO)",
+        "Text when your order is ready (DEMO)",
+        "Rating and reviews link",
+        "Bakery case gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Pre-order for pickup",
+        "select_label": "Item",
+        "options": [
+          "Pan dulce tray",
+          "Conchas (dozen)",
+          "Tres leches cake",
+          "Chocoflan",
+          "Flan",
+          "Other"
+        ],
+        "date": true,
+        "button": "Send pre-order"
+      },
+      "sms": "Text me when my order is ready",
+      "rating": 4.3,
+      "review_count": 52,
+      "rating_source": "Yelp",
+      "facebook": "https://facebook.com/111739408862666",
+      "gallery_title": "From the case",
+      "gallery": [
+        "Conchas",
+        "Tres leches",
+        "Chocoflan",
+        "Pan de elote",
+        "Bakery case"
+      ]
+    },
+    "hand_built": true
+  },
+  "angels-barber-shop": {
+    "layout": "cardhero",
+    "font_head": "Playfair Display",
+    "font_body": "Lato",
+    "image_key": "barber",
+    "skeleton": "studio_booking",
+    "headline": "Angel's Barber Shop",
+    "subhead": "Family-owned, old-school barbershop on Florin Rd with 30+ years of experience.",
+    "meta_description": "Angel's Barber Shop, 8182 Florin Rd, Sacramento. Family-owned old-school barbershop, fades and cuts for men and boys. Call (916) 383-2700.",
+    "paragraphs": [
+      "Angel's Barber Shop is a small, family-owned, old-school barbershop at 8182 Florin Rd in Sacramento.",
+      "Listings describe more than 30 years of experience, quality haircuts for men and boys, and fades. Walk-ins are welcome.",
+      "Call (916) 383-2700."
+    ],
+    "highlights": [
+      "Family-owned",
+      "30+ years of experience",
+      "Fades",
+      "Walk-ins welcome"
+    ],
+    "services": [
+      "Men's haircuts",
+      "Boys' haircuts",
+      "Fades",
+      "Line-ups"
+    ],
+    "hours": [
+      "Tuesday - Saturday: 9:00 AM - 5:00 PM",
+      "Sunday - Monday: Closed"
+    ],
+    "services_heading": "Barbering",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours from Yahoo/Yelp. Some listings give the address as 8184 Florin Rd. Call (916) 383-2700 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Book",
+        "href": "#book"
+      },
+      {
+        "label": "Prices",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "A",
+    "booking_blurb": "Walk-ins welcome. Call (916) 383-2700, or try the DEMO booking below.",
+    "gallery_labels": [
+      "Fades",
+      "Kids' cuts",
+      "Line-ups",
+      "Florin Rd shop"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 8182 Florin Rd, Sacramento, CA 95828</p><p><strong>Phone:</strong> (916) 383-2700</p>",
+    "verification": "BestProsInTown and Atly (family-owned, 30+ years, men and boys, walk-ins), Yahoo/Yelp (hours, phone), Exa (Google 5.0/8, Facebook). No quotes or prices.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online appointment requests (DEMO)",
+        "Text appointment reminders (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Cuts gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Book a cut",
+        "select_label": "Service",
+        "options": [
+          "Men's haircut",
+          "Boys' haircut",
+          "Fade",
+          "Line-up"
+        ],
+        "date": true,
+        "button": "Request appointment"
+      },
+      "sms": "Text me a reminder the day before my appointment",
+      "sample_prices": [
+        [
+          "Men's haircut",
+          "$XX"
+        ],
+        [
+          "Boys' haircut",
+          "$XX"
+        ],
+        [
+          "Fade",
+          "$XX"
+        ],
+        [
+          "Line-up",
+          "$XX"
+        ]
+      ],
+      "gallery_title": "Fresh cuts",
+      "gallery": [
+        "Fade",
+        "Kids' cut",
+        "Line-up",
+        "Beard trim",
+        "The shop"
+      ],
+      "rating": 5.0,
+      "review_count": 8,
+      "rating_source": "Google",
+      "facebook": "https://facebook.com/157004540995155"
+    },
+    "hand_built": true
+  },
+  "rons-barber-shop": {
+    "layout": "split",
+    "font_head": "Playfair Display",
+    "font_body": "Lato",
+    "image_key": "barber",
+    "skeleton": "studio_booking",
+    "headline": "Ron's Barber Shop",
+    "subhead": "Old-school neighborhood barbershop on Marconi Ave, cutting for families and kids.",
+    "meta_description": "Ron's Barber Shop, 1942 Marconi Ave, Sacramento. Old-school barbershop, walk-ins welcome. Call (916) 927-7711.",
+    "paragraphs": [
+      "Ron's Barber Shop is a neighborhood barbershop at 1942 Marconi Ave in Sacramento, run by Ron.",
+      "Listings describe an old-school, friendly atmosphere popular with families, including kids, and below-average prices. Walk-ins are welcome, and reviewers say early mornings and lunchtime are the least busy.",
+      "There is private lot parking. Call (916) 927-7711."
+    ],
+    "highlights": [
+      "Old-school barbershop",
+      "Family and kids' cuts",
+      "Walk-ins welcome",
+      "Private lot parking"
+    ],
+    "services": [
+      "Men's haircuts",
+      "Kids' haircuts",
+      "Walk-in service"
+    ],
+    "hours": [
+      "Wednesday - Friday: 9:00 AM - 5:00 PM",
+      "Saturday: 9:00 AM - 3:00 PM",
+      "Sunday - Tuesday: Closed"
+    ],
+    "services_heading": "Barbering",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours agree across BestProsInTown and edan.io listings. Arrive well before closing.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Book",
+        "href": "#book"
+      },
+      {
+        "label": "Prices",
+        "href": "#pricing"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "R",
+    "booking_blurb": "Walk-ins welcome; early mornings and lunchtime are least busy. Online booking below is a DEMO.",
+    "gallery_labels": [
+      "Classic cuts",
+      "Kids' cuts",
+      "Marconi Ave shop",
+      "Old-school chair"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 1942 Marconi Ave, Sacramento, CA 95815</p><p><strong>Phone:</strong> (916) 927-7711</p>",
+    "verification": "BestProsInTown (description, hours, walk-ins, parking, price range, best times), edan.io directory (hours, phone). No rating shown (no reliable count found).",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online appointment requests (DEMO)",
+        "Text appointment reminders (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Cuts gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Book a cut",
+        "select_label": "Service",
+        "options": [
+          "Men's haircut",
+          "Kids' haircut",
+          "Senior cut"
+        ],
+        "date": true,
+        "button": "Request appointment"
+      },
+      "sms": "Text me a reminder the day before my appointment",
+      "sample_prices": [
+        [
+          "Men's haircut",
+          "$XX"
+        ],
+        [
+          "Kids' haircut",
+          "$XX"
+        ],
+        [
+          "Senior cut",
+          "$XX"
+        ]
+      ],
+      "gallery_title": "Fresh cuts",
+      "gallery": [
+        "Fade",
+        "Kids' cut",
+        "Line-up",
+        "Beard trim",
+        "The shop"
+      ]
+    },
+    "hand_built": true
+  },
+  "del-paso-heights-barbershop": {
+    "layout": "editorial",
+    "font_head": "Playfair Display",
+    "font_body": "Lato",
+    "image_key": "barber",
+    "skeleton": "studio_booking",
+    "headline": "Del Paso Heights Barbershop",
+    "subhead": "Haircuts and beard trims on Marysville Blvd, open 7 days.",
+    "meta_description": "Del Paso Heights Barbershop, 3707½ Marysville Blvd, Sacramento. Men's haircuts and beard trims. Call (916) 514-1020.",
+    "paragraphs": [
+      "Del Paso Heights Barbershop is a barbershop at 3707½ Marysville Blvd in Del Paso Heights, Sacramento.",
+      "Its booking listing offers men's haircuts and beard trims, and lists the shop open 8 AM to 8 PM every day.",
+      "Call (916) 514-1020."
+    ],
+    "highlights": [
+      "Men's haircuts",
+      "Beard trims",
+      "Open 7 days",
+      "Del Paso Heights"
+    ],
+    "services": [
+      "Men's haircuts",
+      "Beard trims"
+    ],
+    "hours": [
+      "Every day: 8:00 AM - 8:00 PM"
+    ],
+    "services_heading": "Barbering",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours from the shop's Fresha booking listing. Call (916) 514-1020 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Book",
+        "href": "#book"
+      },
+      {
+        "label": "Prices",
+        "href": "#pricing"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "D",
+    "booking_blurb": "The shop has a Fresha listing; the booking form below is a DEMO of an on-site version.",
+    "gallery_labels": [
+      "Haircuts",
+      "Beard trims",
+      "Marysville Blvd shop",
+      "Fades"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 3707½ Marysville Blvd, Sacramento, CA 95838</p><p><strong>Phone:</strong> (916) 514-1020</p>",
+    "verification": "Fresha listing (services, hours), NxCut. No rating shown (no reliable count found).",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online appointment requests (DEMO)",
+        "Text appointment reminders (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Cuts gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Book a cut",
+        "select_label": "Service",
+        "options": [
+          "Men's haircut",
+          "Beard trim",
+          "Haircut and beard"
+        ],
+        "date": true,
+        "button": "Request appointment"
+      },
+      "sms": "Text me a reminder the day before my appointment",
+      "sample_prices": [
+        [
+          "Men's haircut",
+          "$XX"
+        ],
+        [
+          "Beard trim",
+          "$XX"
+        ],
+        [
+          "Haircut and beard",
+          "$XX"
+        ]
+      ],
+      "gallery_title": "Fresh cuts",
+      "gallery": [
+        "Fade",
+        "Kids' cut",
+        "Line-up",
+        "Beard trim",
+        "The shop"
       ]
     },
     "hand_built": true
