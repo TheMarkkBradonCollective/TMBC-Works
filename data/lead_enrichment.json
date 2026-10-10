@@ -4677,7 +4677,8 @@
         "Mending detail",
         "Fair Oaks Blvd studio"
       ]
-    }
+    },
+    "hand_built": true
   },
   "nisei-barber-shop": {
     "layout": "editorial",
