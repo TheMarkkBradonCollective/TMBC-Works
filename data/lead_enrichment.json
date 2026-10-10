@@ -4321,5 +4321,226 @@
       "Installation of the fence or concrete work",
       "Optional stain and sealer to finish the wood"
     ]
+  },
+  "love-auto-repair": {
+    "layout": "split",
+    "font_head": "Teko",
+    "font_body": "Roboto",
+    "image_key": "auto",
+    "headline": "Love Auto Repair",
+    "subhead": "Friendly, fair-priced auto repair in South Sacramento.",
+    "meta_description": "Love Auto Repair, 3523 Kiessig Ave Ste J, Sacramento. Auto repair and routine maintenance. Call (916) 391-4095.",
+    "paragraphs": [
+      "Love Auto Repair is an auto repair shop at 3523 Kiessig Ave, Suite J, in South Sacramento. Owner Tony has been in South Sac for more than 30 years and took over the shop in 2004, according to the business's Yelp profile.",
+      "The shop's Yelp listing lists routine automotive maintenance, and its directory listings describe general automotive repair. Tony describes the business as a small shop offering friendly service and fair prices.",
+      "Listings show cash and credit cards accepted. The shop is open Tuesday through Saturday with a midday break. Call (916) 391-4095 to describe your car's issue or book a visit."
+    ],
+    "highlights": [
+      "Owner-operated since 2004",
+      "Routine maintenance and general repair",
+      "Open Tuesday - Saturday",
+      "Cash and credit cards accepted",
+      "Kiessig Ave, South Sacramento"
+    ],
+    "services": [
+      "General auto repair",
+      "Routine automotive maintenance",
+      "Diagnosis of car problems"
+    ],
+    "hours": [
+      "Tuesday - Saturday: 8:30 AM - 12:00 PM, 1:00 PM - 5:00 PM",
+      "Sunday - Monday: Closed"
+    ],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Services",
+    "hours_note": "Hours are from the business's claimed Yelp page. Some directories show only morning hours or different times, so call (916) 391-4095 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 3523 Kiessig Ave Ste J, Sacramento, CA 95823</p><p><strong>Phone:</strong> (916) 391-4095</p><p>Owner: Tony</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "L",
+    "verification": "Claimed Yelp page (owner bio, services, hours, payment), Exa and DirectionUs listings. No prices or review quotes used.",
+    "sources": [
+      "https://www.yelp.com/biz/love-auto-repair-sacramento",
+      "https://exa.ai/library/place/gkgv0p6r6kj"
+    ],
+    "skeleton": "service_trust",
+    "trust_strip": [
+      "Owner-operated since 2004",
+      "South Sacramento",
+      "Cash and credit cards",
+      "Tue - Sat"
+    ]
+  },
+  "sergios-shoe-repair-and-alterations": {
+    "layout": "cardhero",
+    "font_head": "Libre Baskerville",
+    "font_body": "Work Sans",
+    "image_key": "shoe",
+    "headline": "Sergio's Shoe Repair and Alterations",
+    "subhead": "Shoe repair downtown at 500 Capitol Mall.",
+    "meta_description": "Sergio's Shoe Repair and Alterations, 500 Capitol Mall #134, Sacramento. Shoe and bag repair. Call (916) 448-7463.",
+    "paragraphs": [
+      "Sergio's Shoe Repair and Alterations is a shoe repair shop at 500 Capitol Mall, Suite 134, in downtown Sacramento.",
+      "Listings describe work such as replacing soles and toe caps, installing new leather straps, polishing and buffing shoes, and repairing zippers on leather bags.",
+      "The shop is open weekdays and listings show credit cards accepted. Call (916) 448-7463 to ask about your repair or alteration."
+    ],
+    "highlights": [
+      "Shoe and leather repair",
+      "Bag zipper repair",
+      "Open Monday - Friday",
+      "Credit cards accepted",
+      "500 Capitol Mall, downtown"
+    ],
+    "services": [
+      "Sole replacement",
+      "Toe cap replacement",
+      "Leather strap installation",
+      "Polishing and buffing",
+      "Bag and zipper repair",
+      "Alterations"
+    ],
+    "hours": [
+      "Monday - Friday: 9:00 AM - 3:00 PM",
+      "Saturday - Sunday: Closed"
+    ],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Repairs",
+    "hours_note": "Hours agree across Chamber of Commerce, Loc8NearMe, Waze and BestProsInTown. Call (916) 448-7463 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 500 Capitol Mall #134, Sacramento, CA 95814</p><p><strong>Phone:</strong> (916) 448-7463</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "S",
+    "verification": "Chamber of Commerce, Loc8NearMe (services summary, credit cards), Waze, Wheree and BestProsInTown listings. No prices or review quotes used.",
+    "sources": [
+      "https://www.chamberofcommerce.com/business-directory/california/sacramento/shoe-repair-shop/24402217-sergios-shoe-repair",
+      "https://www.loc8nearme.com/california/sacramento/erin-hayes-shoe-repair/3159273/"
+    ],
+    "skeleton": "craft_workshop"
+  },
+  "pescados-mexican-restaurant": {
+    "layout": "editorial",
+    "font_head": "Alfa Slab One",
+    "font_body": "Karla",
+    "image_key": "mex",
+    "headline": "Pescado's Mexican Restaurant",
+    "subhead": "Mexican restaurant on Fair Oaks Blvd, Sacramento.",
+    "meta_description": "Pescado's Mexican Restaurant, 2610 Fair Oaks Blvd, Sacramento. Mexican restaurant. Call (916) 483-3474.",
+    "paragraphs": [
+      "Pescado's Mexican Restaurant is a Mexican restaurant at 2610 Fair Oaks Blvd, near Fair Oaks Blvd and Munroe St in Sacramento.",
+      "Listings describe a casual spot serving traditional Mexican dishes.",
+      "Call (916) 483-3474 for the current menu, hours and to place an order."
+    ],
+    "highlights": [
+      "Mexican restaurant",
+      "Casual dining",
+      "Fair Oaks Blvd, Sacramento",
+      "Call for the current menu"
+    ],
+    "services": [
+      "Dine in",
+      "Call ahead to order"
+    ],
+    "hours": [],
+    "menu_heading": "",
+    "menu_note": "Call (916) 483-3474 for the current menu.",
+    "services_heading": "How to order",
+    "hours_note": "Published hours are inconsistent across listings. Call (916) 483-3474 to confirm before visiting.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 2610 Fair Oaks Blvd, Sacramento, CA 95864</p><p><strong>Phone:</strong> (916) 483-3474</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "P",
+    "verification": "MapQuest and Unilocal listings confirm address and phone. Hours unverified (one directory lists a different phone). No menu items, prices or review quotes used.",
+    "sources": [
+      "https://www.mapquest.com/us/california/pescados-mexican-restaurant-434291827"
+    ],
+    "skeleton": "menu_forward",
+    "menu_categories": [],
+    "payment_methods": []
   }
 }
