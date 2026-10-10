@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Expert Custom Upholstery — Custom upholstery</title>
+  <meta name="description" content="Expert Custom Upholstery, 4447 Auburn Blvd B, Sacramento. Custom upholstery for furniture, autos, boats and restaurant booths.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Expert Custom Upholstery">
+  <meta property="og:description" content="Expert Custom Upholstery, 4447 Auburn Blvd B, Sacramento. Custom upholstery for furniture, autos, boats and restaurant booths.">
+  <meta property="og:url" content="https://themarkkbradoncollective.github.io/TMBC-Works/custom-upholstery/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1600&q=80">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../_shared/tmbc.css">
+  <style>
+    :root {
+      --bg: #fefce8;
+      --surface: #fff;
+      --text: #422006;
+      --muted: #854d0e;
+      --accent: #b45309;
+      --accent2: #eab308;
+      --hero-overlay: rgba(66,32,6,.5);
+      --radius: 22px;
+    }
+    body { margin:0; background:var(--bg); color:var(--text); font-family:'Montserrat', system-ui, sans-serif; line-height:1.65; }
+    h1,h2,h3 { font-family:'Cormorant Garamond', Georgia, serif; line-height:1.15; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 0 1.25rem; }
+    a { color: var(--accent); }
+    .site-header {
+      display:flex; align-items:center; justify-content:space-between; gap:1rem;
+      padding:1rem 1.25rem; max-width:1100px; margin:0 auto;
+    }
+    .logo { font-family:'Cormorant Garamond', serif; font-weight:700; font-size:1.15rem; letter-spacing:.02em; }
+    .site-nav a { color:var(--muted); text-decoration:none; margin-left:1rem; font-size:.9rem; }
+    .site-nav a:hover { color:var(--accent); }
+    .hero { position:relative; min-height:72vh; display:flex; align-items:flex-end; overflow:hidden; }
+    .hero-bg { position:absolute; inset:0; background:url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1600&q=80') center/cover no-repeat; transform:scale(1.02); }
+    .hero-bg::after {
+      content:''; position:absolute; inset:0;
+      background:
+        linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.25) 40%, rgba(0,0,0,.55) 100%),
+        linear-gradient(to top, var(--hero-overlay), transparent 55%);
+    }
+    .hero-inner { position:relative; z-index:1; padding:2.5rem 1.25rem 2.5rem; max-width:1100px; margin:0 auto; width:100%; box-sizing:border-box; }
+    .hero-content-panel {
+      background: rgba(15, 23, 42, 0.88);
+      color: #f8fafc;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 1.75rem 1.5rem;
+      border-radius: max(var(--radius), 8px);
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow: 0 20px 50px rgba(0,0,0,.25);
+      max-width: 42rem;
+    }
+    .hero-content-panel .hero-kicker { color: #fde68a; }
+    .hero-content-panel .hero-lead { color: #e2e8f0; }
+    .hero-content-panel .btn-ghost {
+      border-color: #f8fafc;
+      color: #f8fafc !important;
+      background: rgba(255,255,255,.08);
+    }
+    .hero-content-panel .hl {
+      background: rgba(255,255,255,.1);
+      border-color: rgba(255,255,255,.18);
+      color: #f1f5f9;
+    }
+    .layout-split .hero-content-panel {
+      background: var(--surface);
+      color: var(--text);
+      border-color: color-mix(in srgb, var(--muted) 25%, transparent);
+      box-shadow: none;
+      max-width: none;
+    }
+    .layout-split .hero-content-panel .hero-lead { color: var(--muted); }
+    .layout-split .hero-content-panel .hero-kicker { color: var(--accent2); }
+    .layout-split .hero-content-panel .btn-ghost {
+      border-color: var(--accent);
+      color: var(--accent) !important;
+      background: transparent;
+    }
+    .layout-split .hero-content-panel .hl {
+      background: color-mix(in srgb, var(--accent) 10%, transparent);
+      color: var(--text);
+      border-color: color-mix(in srgb, var(--muted) 25%, transparent);
+    }
+    .hero-kicker { text-transform:uppercase; letter-spacing:.14em; font-size:.72rem; color:var(--accent2); font-weight:700; }
+    .hero h1 { font-size:clamp(2rem,6vw,3.4rem); margin:.35rem 0 .75rem; max-width:14ch; color: inherit; }
+    .hero-lead { font-size:1.12rem; max-width:40rem; color:var(--muted); margin:0 0 1.25rem; }
+    .btn-row { display:flex; flex-wrap:wrap; gap:.75rem; }
+    .btn { display:inline-block; padding:.7rem 1.2rem; border-radius:var(--radius); font-weight:700; text-decoration:none; font-size:.92rem; transition: transform .2s ease, box-shadow .2s ease; }
+    .btn:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.15); }
+    .btn-primary { background:var(--accent); color:#fff !important; }
+    .btn-ghost { border:2px solid var(--accent); color:var(--accent) !important; background:transparent; }
+    .highlights {
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap:.75rem;
+      margin-top:1.25rem;
+      max-width: 28rem;
+    }
+    .highlights.hl-count-1 { grid-template-columns: 1fr; max-width: 14rem; }
+    .highlights.hl-count-3 .hl:last-child { grid-column: 1 / -1; max-width: 14rem; justify-self: center; }
+    .hl { background:rgba(255,255,255,.08); backdrop-filter:blur(6px); border:1px solid rgba(255,255,255,.12); padding:.75rem .85rem; border-radius:max(var(--radius), 6px); font-size:.82rem; line-height:1.35; }
+    .layout-split .hero { display:grid; grid-template-columns:1fr; min-height:auto; }
+    @media(min-width:900px) {
+      .layout-split .hero { grid-template-columns:1.05fr .95fr; align-items:stretch; min-height:70vh; }
+      .layout-split .hero-bg { position:relative; min-height:360px; }
+      .layout-split .hero-inner { display:flex; flex-direction:column; justify-content:center; background:var(--surface); color:var(--text); }
+      .layout-split .hero-bg::after { background:linear-gradient(90deg, var(--surface) 0%, transparent 40%), var(--hero-overlay); }
+    }
+    .layout-editorial .hero h1 { max-width:none; font-size:clamp(2.4rem,7vw,4rem); }
+    .layout-editorial .hero-inner { padding-top:4rem; }
+    .layout-cardhero .hero { min-height:auto; padding:2rem 0 0; align-items:stretch; }
+    .layout-cardhero .hero-card { margin:0 1.25rem; border-radius:calc(var(--radius) * 1.5); overflow:hidden; box-shadow:0 24px 60px rgba(0,0,0,.18); }
+    .story-grid { display:grid; gap:2rem; padding:3rem 0; }
+    @media(min-width:768px) { .story-grid { grid-template-columns:1.2fr .8fr; } }
+    .story-aside { background:var(--surface); padding:1.25rem; border-radius:var(--radius); border:1px solid color-mix(in srgb, var(--muted) 25%, transparent); font-size:.92rem; }
+    .services-block, .menu-block, .hours-block, .location-block, .contact-block { padding:2.75rem 0; }
+    .services-block { background:var(--surface); }
+    .svc-list { columns:2; gap:2rem; padding-left:1.1rem; margin:0; }
+    @media(max-width:640px) { .svc-list { columns:1; } }
+    .menu-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1rem; }
+    .menu-card { background:var(--surface); padding:1.1rem 1.25rem; border-radius:var(--radius); border:1px solid color-mix(in srgb, var(--muted) 22%, transparent); }
+    .menu-note { color:var(--muted); font-size:.9rem; max-width:40rem; }
+    .hours-list { list-style:none; padding:0; margin:0; display:grid; gap:.35rem; }
+    .hours-list li { padding:.55rem .75rem; background:var(--surface); border-radius:8px; border:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
+    .loc-grid { display:grid; gap:1.25rem; }
+    @media(min-width:768px) { .loc-grid { grid-template-columns: .9fr 1.1fr; align-items:start; } }
+    .map-frame { border-radius:var(--radius); overflow:hidden; border:1px solid color-mix(in srgb, var(--muted) 25%, transparent); min-height:260px; background:#e2e8f0; }
+    .map-frame iframe { width:100%; height:280px; border:0; display:block; }
+    .contact-inner { text-align:center; background:var(--surface); padding:2rem; border-radius:var(--radius); }
+    .phone-big { font-size:1.6rem; font-weight:800; margin:.5rem 0; }
+    .phone-big a { text-decoration:none; color:var(--text); }
+    .biz-footer { text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:.85rem; border-top:1px solid color-mix(in srgb, var(--muted) 20%, transparent); }
+    .img-credit { font-size:.65rem; color:var(--muted); margin-top:.5rem; }
+    
+    
+    body.skel-craft_workshop .hero { min-height: 50vh; }
+    body.skel-craft_workshop .process-split { display: grid; gap: 2rem; padding: 3rem 0; }
+    @media(min-width:768px) { body.skel-craft_workshop .process-split { grid-template-columns: 1fr 1fr; align-items: start; } }
+    body.skel-craft_workshop .process-step { background: var(--surface); padding: 1.25rem; border-radius: var(--radius); margin-bottom: .75rem; border-left: 4px solid var(--accent2); }
+    body.skel-craft_workshop .services-block { background: var(--surface); }
+    
+    /* layout: editorial skeleton: craft_workshop */
+    
+.demo-tag{display:inline-block;background:#dc2626;color:#fff;font-size:.7rem;font-weight:700;letter-spacing:.08em;padding:.2rem .5rem;border-radius:4px;vertical-align:middle;margin-left:.5rem}
+.demo-note{font-size:.85rem;color:var(--muted);border-left:3px solid #dc2626;padding-left:.75rem}
+.quote-block,.gallery-block,.reviews-block{padding:2.75rem 0}
+.quote-form{display:grid;gap:.85rem;max-width:640px}
+.quote-form label{display:grid;gap:.3rem;font-weight:600;font-size:.9rem}
+.quote-form input,.quote-form select,.quote-form textarea{font:inherit;padding:.65rem;border:1px solid #cbd5e1;border-radius:10px;background:#fff}
+.gal{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem}
+.gal figure{margin:0;background:var(--surface);border-radius:var(--radius);overflow:hidden;border:1px solid color-mix(in srgb,var(--muted) 25%,transparent)}
+.gal .ph{aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background:color-mix(in srgb,var(--accent) 15%,#fff);font-size:2.2rem}
+.gal figcaption{padding:.6rem .8rem;font-size:.88rem}
+.rating{font-size:2.4rem;font-weight:700;color:var(--accent)}
+.review-ph{border:2px dashed #dc2626;border-radius:var(--radius);padding:1.25rem;background:var(--surface);max-width:640px}
+.map-frame iframe{width:100%;height:340px;border:0;border-radius:var(--radius)}
+.loc-grid{display:grid;gap:1.5rem}@media(min-width:800px){.loc-grid{grid-template-columns:1fr 1.3fr}}
+.hours-list{list-style:none;padding:0}
+
+  </style>
+  <!-- Hero image: Stock photo via Unsplash (illustrative; not the business) -->
+</head>
+<body class="skel-craft_workshop" data-biz-phone="tel:+19162843204" data-biz-map="https://www.google.com/maps/search/?api=1&amp;query=4447%20Auburn%20Blvd%20B%2C%20Sacramento%2C%20CA%2095841">
+  <div class="tmbc-banner">Website preview designed by TMBC Works</div>
+  <header class="site-header">
+    <div class="logo">Expert Custom Upholstery</div>
+    <nav class="site-nav" aria-label="Primary"><a href="#story">About</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#quote">Free quote</a><a href="#reviews">Reviews</a><a href="#visit">Find us</a></nav>
+  </header>
+  <section class="hero layout-editorial" aria-label="Welcome">
+    <div class="hero-bg" role="img" aria-label="Decorative photograph"></div>
+    <div class="hero-inner"><div class="hero-text-col"><div class="hero-content-panel">
+      <p class="hero-kicker">Custom upholstery</p>
+      <h1>Expert Custom Upholstery</h1>
+      <p class="hero-lead">Custom upholstery for boats, cars, restaurant booths, couches and chairs, made to your exact specifications.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="tel:+19162843204">Call (916) 284-3204</a>
+        <a class="btn btn-ghost" href="#quote">Request a quote</a>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=4447%20Auburn%20Blvd%20B%2C%20Sacramento%2C%20CA%2095841">Directions</a>
+      </div>
+      <div class="highlights hl-count-4"><div class="hl">Auto, boat and RV interiors</div><div class="hl">Indoor and outdoor furniture</div><div class="hl">Restaurant booths and barstools</div><div class="hl">Leather to velvet</div></div>
+      <p class="compare-link"><a href="compare.html">See before &amp; after →</a></p>
+    </div></div></div>
+  </section>
+  <section class="story-block reveal" id="story"><div class="wrap"><p>Expert Custom Upholstery is a Sacramento upholstery shop on Auburn Blvd. From boats and cars to restaurant booths, couches, and chairs, the shop creates custom upholstery made to your exact specifications, whether you need a simple furniture repair or a truly unique piece.</p><p>Materials range from genuine and bonded leather to velvet, and the shop works with you personally to settle on the style and functionality you want.</p><p>The easiest way to start: email a picture and a brief summary of the work, with your name, number, and location, and the shop will contact you shortly after.</p>
+    <p><strong>Address:</strong> 4447 Auburn Blvd B, Sacramento, CA 95841<br><strong>Phone:</strong> <a href="tel:+19162843204">(916) 284-3204</a><br><strong>Email:</strong> <a href="mailto:expertcustomupholstery@yahoo.com">expertcustomupholstery@yahoo.com</a></p></div></section>
+  <section class="services-block reveal" id="services"><div class="wrap"><h2>What we upholster</h2><ul class="svc-list"><li>Restaurant booths, chairs, tables, barstools (refinish, restain)</li><li>Auto: bench and bucket seats, headliners, door panels, carpets</li><li>Convertible tops, vinyl tops, motorcycle seats, RV furniture</li><li>Boats and jet skis: bench, bucket and captain seats, open bow cushions, sun decks, carpets, headliners, boat covers</li><li>Indoor furniture: sofas, love seats, sectionals, recliners, chairs, club chairs, curtains, pillows</li><li>Outdoor furniture: slings, patio furniture, cushion chairs</li><li>Re-upholstery: sewing, stitching, color coating, seat cover installations</li></ul></div></section>
+  <section class="gallery-block reveal" id="gallery"><div class="wrap">
+    <h2>Project gallery <span class="demo-tag">DEMO</span></h2>
+    <p class="demo-note">DEMO layout: these tiles are placeholders. They get swapped for the shop's own project photos at setup. No photos shown here are the business's work.</p>
+    <div class="gal"><figure><div class="ph" aria-hidden="true">🛋️</div><figcaption>Sofas &amp; sectionals</figcaption></figure><figure><div class="ph" aria-hidden="true">🚗</div><figcaption>Auto interiors</figcaption></figure><figure><div class="ph" aria-hidden="true">🚤</div><figcaption>Boat seating</figcaption></figure><figure><div class="ph" aria-hidden="true">🍽️</div><figcaption>Restaurant booths</figcaption></figure><figure><div class="ph" aria-hidden="true">🏍️</div><figcaption>Motorcycle seats</figcaption></figure><figure><div class="ph" aria-hidden="true">🌞</div><figcaption>Patio furniture</figcaption></figure></div></div></section>
+  <section class="quote-block reveal" id="quote"><div class="wrap">
+    <h2>Request a free quote <span class="demo-tag">DEMO</span></h2>
+    <p class="demo-note">DEMO form: this does not send anything yet; it needs a form backend at setup. For now, email <a href="mailto:expertcustomupholstery@yahoo.com">expertcustomupholstery@yahoo.com</a> or call <a href="tel:+19162843204">(916) 284-3204</a>.</p>
+    <form class="quote-form" onsubmit="event.preventDefault();alert('DEMO form, nothing was sent. Please call (916) 284-3204 or email expertcustomupholstery@yahoo.com.');">
+      <label>Name<input name="name" required></label>
+      <label>Phone<input name="phone" type="tel" required></label>
+      <label>Email<input name="email" type="email"></label>
+      <label>City / location<input name="location"></label>
+      <label>Project type<select name="type"><option>Furniture</option><option>Auto / motorcycle / RV</option><option>Boat / jet ski</option><option>Restaurant booths / commercial</option><option>Outdoor furniture</option><option>Other</option></select></label>
+      <label>Describe the work<textarea name="details" rows="4"></textarea></label>
+      <label>Upload photos<input name="photos" type="file" accept="image/*" multiple></label>
+      <button class="btn btn-primary" type="submit">Send request (demo)</button>
+    </form></div></section>
+  <section class="reviews-block reveal" id="reviews"><div class="wrap">
+    <h2>Google reviews</h2>
+    <p class="demo-note">Google rating and review count will display here once the live feed is connected (not provided for this preview).</p>
+    <div class="review-ph"><span class="demo-tag">DEMO</span><p><strong>Live Google reviews feed goes here.</strong> At setup this panel pulls the business's real Google reviews. No review text is shown in this preview.</p></div>
+  </div></section>
+  <section class="hours-block reveal" id="hours"><div class="wrap"><h2>Hours</h2><p>Hours are not listed on the current website. Please call <a href="tel:+19162843204">(916) 284-3204</a> to confirm.</p></div></section>
+  <section class="location-block reveal" id="visit"><div class="wrap loc-grid">
+    <div><h2>Find us</h2><p class="addr">4447 Auburn Blvd B, Sacramento, CA 95841</p><p><a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=4447%20Auburn%20Blvd%20B%2C%20Sacramento%2C%20CA%2095841">Open in Google Maps</a></p><p><a class="btn btn-primary" href="tel:+19162843204">Call (916) 284-3204</a></p></div>
+    <div class="map-frame"><iframe title="Map to Expert Custom Upholstery" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=4447%20Auburn%20Blvd%20B%2C%20Sacramento%2C%20CA%2095841&amp;output=embed"></iframe></div>
+  </div></section>
+  <section class="contact-block reveal" id="contact"><div class="wrap contact-inner"><h2>Contact</h2>
+    <p class="phone-big"><a href="tel:+19162843204">(916) 284-3204</a></p><p>Email: <a href="mailto:expertcustomupholstery@yahoo.com">expertcustomupholstery@yahoo.com</a></p></div></section>
+  <div class="wrap">
+    <aside class="tmbc-feedback reveal" aria-label="Preview feedback for TMBC Works">
+      <h2>Help TMBC Works refine this preview</h2>
+      <p>This section is for the business owner — not part of the live site design.</p>
+      <span class="tmbc-q">What would you change about your current website?</span>
+      <span class="tmbc-q">What would you change about this redesigned version?</span>
+      <a class="tmbc-mail" href="mailto:themarkkbrandoncollective@gmail.com?subject=Website%20feedback%3A%20Expert%20Custom%20Upholstery&amp;body=Business%3A%20Expert%20Custom%20Upholstery%0A%0AWhat%20would%20you%20change%20about%20your%20current%20website%3F%0A%0A%5BYour%20answer%20here%5D%0A%0AWhat%20would%20you%20change%20about%20this%20redesigned%20version%3F%0A%0A%5BYour%20answer%20here%5D%0A%0A%E2%80%94%20Sent%20via%20TMBC%20Works%20preview%20feedback">Send feedback</a>
+    </aside>
+  </div>
+  <footer class="biz-footer">
+    <p>Expert Custom Upholstery · 4447 Auburn Blvd B, Sacramento, CA 95841</p>
+    <p class="img-credit">Stock photography via Unsplash (see HTML comment). Items marked DEMO need setup. Hours and offerings may change — please confirm with the business.</p>
+  </footer>
+  <div class="tmbc-sticky-bar" aria-label="Quick actions">
+    <a class="tmbc-sticky-call" href="tel:+19162843204">Call</a>
+    <a class="tmbc-sticky-map" href="https://www.google.com/maps/search/?api=1&amp;query=4447%20Auburn%20Blvd%20B%2C%20Sacramento%2C%20CA%2095841">Directions</a>
+  </div>
+  <script src="../_shared/tmbc-config.js" defer></script>
+  <script src="../_shared/tmbc.js" defer></script>
+</body>
+</html>
