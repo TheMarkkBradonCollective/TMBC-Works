@@ -7869,5 +7869,933 @@
       ]
     },
     "hand_built": true
+  },
+  "barber-city-cuts-and-shaves": {
+    "layout": "split",
+    "font_head": "Playfair Display",
+    "font_body": "Lato",
+    "image_key": "barber",
+    "skeleton": "studio_booking",
+    "headline": "Barber City Cuts and Shaves",
+    "subhead": "Cuts, beard work and hot towel shaves on Fulton Ave.",
+    "meta_description": "Barber City Cuts and Shaves, 3114 Fulton Ave, Sacramento. Haircuts, fades, beard trims, hot towel and straight razor shaves. Call to confirm the phone number.",
+    "paragraphs": [
+      "Barber City Cuts and Shaves is a barbershop at 3114 Fulton Ave in Sacramento, near Town and Country Village.",
+      "Its booking listings offer haircuts, skin fades, buzz cuts, line-ups and designs, beard trims and shaping, head shaves, hot towel and straight razor shaves, kids' haircuts, hair washes and facials.",
+      "Phone listings for the shop disagree. Please call to confirm the number: (916) 806-9775 is the most widely listed, and (916) 204-4909 also appears."
+    ],
+    "highlights": [
+      "Hot towel and straight razor shaves",
+      "Skin fades and designs",
+      "Beard work",
+      "Kids' cuts"
+    ],
+    "services": [
+      "Haircuts and skin fades",
+      "Buzz cuts, line-ups and designs",
+      "Beard trims, shaping and shaves",
+      "Hot towel and straight razor shaves",
+      "Head shaves",
+      "Kids' haircuts",
+      "Hair wash and facials"
+    ],
+    "hours": [
+      "Tuesday - Friday: 10:00 AM - 6:00 PM",
+      "Saturday: 8:00 AM - 3:30 PM",
+      "Sunday - Monday: Closed"
+    ],
+    "services_heading": "Barbering",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours from mylocalbarber.com and NxCut. PHONE UNCONFIRMED: listings show (916) 806-9775 and (916) 204-4909. Call to confirm before visiting.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Book",
+        "href": "#book"
+      },
+      {
+        "label": "Prices",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "B",
+    "aside_html": "<p><strong>Address:</strong> 3114 Fulton Ave, Sacramento, CA 95821</p><p><strong>Phone:</strong> (916) 806-9775 (unconfirmed, call to confirm; also listed: (916) 204-4909)</p>",
+    "verification": "Booksy (service list), Fresha, mylocalbarber.com and NxCut (hours, phone), Exa (Google 4.5/93). Booksy shows real prices; page uses $XX DEMO sample prices instead.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online appointment requests (DEMO)",
+        "Text appointment reminders (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Cuts gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Book a cut",
+        "select_label": "Service",
+        "options": [
+          "Haircut",
+          "Skin fade",
+          "Haircut and beard",
+          "Hot towel shave",
+          "Straight razor shave",
+          "Kid's haircut"
+        ],
+        "date": true,
+        "button": "Request appointment"
+      },
+      "sms": "Text me a reminder the day before my appointment",
+      "sample_prices": [
+        [
+          "Haircut",
+          "$XX"
+        ],
+        [
+          "Skin fade",
+          "$XX"
+        ],
+        [
+          "Haircut and beard",
+          "$XX"
+        ],
+        [
+          "Hot towel shave",
+          "$XX"
+        ],
+        [
+          "Straight razor shave",
+          "$XX"
+        ],
+        [
+          "Kid's haircut",
+          "$XX"
+        ]
+      ],
+      "gallery_title": "Fresh cuts",
+      "gallery": [
+        "Fade",
+        "Kids' cut",
+        "Line-up",
+        "Beard trim",
+        "The shop"
+      ],
+      "rating": 4.5,
+      "review_count": 93,
+      "rating_source": "Google"
+    },
+    "booking_blurb": "Phone number unconfirmed; please call to confirm. Online booking below is a DEMO.",
+    "gallery_labels": [
+      "Fades",
+      "Hot towel shave",
+      "Beard work",
+      "Fulton Ave shop"
+    ],
+    "hand_built": true
+  },
+  "3-bs-barber-shop": {
+    "layout": "cardhero",
+    "font_head": "Playfair Display",
+    "font_body": "Lato",
+    "image_key": "barber",
+    "skeleton": "studio_booking",
+    "headline": "3 B's Barber Shop",
+    "subhead": "Neighborhood barbershop on Grand Ave in Del Paso Heights.",
+    "meta_description": "3 B's Barber Shop, 1228 Grand Ave, Sacramento. Haircuts, fades and beard trims. Call (916) 922-0584.",
+    "paragraphs": [
+      "3 B's Barber Shop is a barbershop at 1228 Grand Ave in Del Paso Heights, Sacramento.",
+      "Its booking listing offers barbering and hair styling, including haircuts, fades and beard trims, for all ages.",
+      "Call (916) 922-0584."
+    ],
+    "highlights": [
+      "Haircuts and fades",
+      "Beard trims",
+      "All ages",
+      "Del Paso Heights"
+    ],
+    "services": [
+      "Haircuts",
+      "Fades",
+      "Beard trims",
+      "Styling"
+    ],
+    "hours": [
+      "Tuesday - Friday: 9:00 AM - 5:00 PM",
+      "Saturday: 8:00 AM - 5:00 PM",
+      "Sunday - Monday: Closed"
+    ],
+    "services_heading": "Barbering",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours from mylocalbarber.com. Call (916) 922-0584 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Book",
+        "href": "#book"
+      },
+      {
+        "label": "Prices",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "3",
+    "aside_html": "<p><strong>Address:</strong> 1228 Grand Ave, Sacramento, CA 95838</p><p><strong>Phone:</strong> (916) 922-0584</p>",
+    "verification": "Exa (Google 4.4/38, Facebook), Fresha, MapQuest, mylocalbarber.com (hours).",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online appointment requests (DEMO)",
+        "Text appointment reminders (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Cuts gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Book a cut",
+        "select_label": "Service",
+        "options": [
+          "Haircut",
+          "Fade",
+          "Beard trim",
+          "Kids' cut"
+        ],
+        "date": true,
+        "button": "Request appointment"
+      },
+      "sms": "Text me a reminder the day before my appointment",
+      "sample_prices": [
+        [
+          "Haircut",
+          "$XX"
+        ],
+        [
+          "Fade",
+          "$XX"
+        ],
+        [
+          "Beard trim",
+          "$XX"
+        ],
+        [
+          "Kids' cut",
+          "$XX"
+        ]
+      ],
+      "gallery_title": "Fresh cuts",
+      "gallery": [
+        "Fade",
+        "Kids' cut",
+        "Line-up",
+        "Beard trim",
+        "The shop"
+      ],
+      "rating": 4.4,
+      "review_count": 38,
+      "rating_source": "Google",
+      "facebook": "https://facebook.com/132255013596085"
+    },
+    "booking_blurb": "Call (916) 922-0584 or try the DEMO booking below.",
+    "gallery_labels": [
+      "Fades",
+      "Beard trims",
+      "Kids' cuts",
+      "Grand Ave shop"
+    ],
+    "hand_built": true
+  },
+  "capital-tires": {
+    "layout": "split",
+    "font_head": "Teko",
+    "font_body": "Roboto",
+    "image_key": "auto",
+    "skeleton": "service_trust",
+    "headline": "Capital Tires",
+    "subhead": "New and used tires, wheels and repairs on Rio Linda Blvd. Open 7 days.",
+    "meta_description": "Capital Tires, 2810 Rio Linda Blvd, Sacramento. Tire sales, installation and repair; Atturo dealer. Call (916) 927-2044.",
+    "paragraphs": [
+      "Capital Tires is a tire shop at 2810 Rio Linda Blvd in North Sacramento. It is listed as an authorized Atturo tire dealer under the name Capital Auto Tires.",
+      "Listings describe tire sales, installation and repair, plus wheel and rim work. Reviewers mention good prices and quick help, even for just adding air. Credit cards accepted.",
+      "Call (916) 927-2044."
+    ],
+    "highlights": [
+      "Open 7 days",
+      "Authorized Atturo dealer",
+      "Tire sales and repair",
+      "Credit cards accepted"
+    ],
+    "services": [
+      "New and used tires",
+      "Tire installation",
+      "Flat repair",
+      "Wheel and rim work",
+      "Air checks"
+    ],
+    "hours": [
+      "Monday - Saturday: 8:30 AM - 6:00 PM",
+      "Sunday: 9:00 AM - 3:00 PM"
+    ],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours from Loc8NearMe. Call (916) 927-2044 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Quote",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "C",
+    "aside_html": "<p><strong>Address:</strong> 2810 Rio Linda Blvd, Sacramento, CA 95815</p><p><strong>Phone:</strong> (916) 927-2044</p>",
+    "verification": "Atturo dealer locator, MapQuest (phone, Yelp 6 reviews), Loc8NearMe (hours, review themes). Not Capital Tires Inc. of West Sacramento. No rating shown.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Tire size finder and quote request (DEMO)",
+        "Book an install time (DEMO)",
+        "Text when your car is ready (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Tire and wheel gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Get a tire quote",
+        "select_label": "What do you need?",
+        "options": [
+          "New tires",
+          "Used tires",
+          "Wheels / rims",
+          "Flat repair",
+          "Mount and balance",
+          "Other"
+        ],
+        "date": true,
+        "photo": true,
+        "button": "Request quote"
+      },
+      "sms": "Text me when my car is ready",
+      "sample_prices": [
+        [
+          "Flat repair",
+          "$XX"
+        ],
+        [
+          "Used tire (installed)",
+          "From $XX"
+        ],
+        [
+          "New tire (installed)",
+          "From $XX"
+        ],
+        [
+          "Mount and balance",
+          "$XX"
+        ]
+      ],
+      "gallery_title": "In stock",
+      "gallery": [
+        "New tires",
+        "Used tires",
+        "Rims",
+        "Install bay",
+        "The shop"
+      ]
+    },
+    "trust_strip": [
+      "Open 7 days",
+      "Atturo dealer",
+      "Rio Linda Blvd"
+    ],
+    "hand_built": true
+  },
+  "unique-tires-and-wheels": {
+    "layout": "cardhero",
+    "font_head": "Teko",
+    "font_body": "Roboto",
+    "image_key": "auto",
+    "skeleton": "service_trust",
+    "headline": "Unique Tires & Wheels",
+    "subhead": "Locally owned tire and rim shop on Del Paso Blvd since 2005.",
+    "meta_description": "Unique Tires & Wheels, 2565 Del Paso Blvd, Sacramento. New and used tires and rims since 2005. Call (916) 692-8086.",
+    "paragraphs": [
+      "Unique Tires & Wheels is a locally owned tire and wheel shop at 2565 Del Paso Blvd, near Evergreen St, and has been at this location since 2005.",
+      "It sells new and used tires and a wide variety of rims. Its listing photos note that if it doesn't carry what you need, it will order and finance it for you. Reviewers mention fast tire exchanges and good prices.",
+      "Credit cards accepted. Call (916) 692-8086."
+    ],
+    "highlights": [
+      "At this spot since 2005",
+      "Locally owned",
+      "Tires and rims",
+      "Ordering and financing"
+    ],
+    "services": [
+      "New tires",
+      "Used tires",
+      "Rims and wheels",
+      "Special orders",
+      "Financing available",
+      "Tire exchanges"
+    ],
+    "hours": [
+      "Monday - Saturday: 8:30 AM - 6:00 PM",
+      "Sunday: 10:00 AM - 4:00 PM"
+    ],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours agree across Yahoo/Yelp and Loc8NearMe. Call (916) 692-8086 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Quote",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "U",
+    "aside_html": "<p><strong>Address:</strong> 2565 Del Paso Blvd, Sacramento, CA 95815</p><p><strong>Phone:</strong> (916) 692-8086</p>",
+    "verification": "Yahoo/Yelp (4.5/11, hours, cross streets), Loc8NearMe (since 2005, locally owned), MapQuest photo captions (order and finance, rims). Listed domains do not load.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Tire size finder and quote request (DEMO)",
+        "Book an install time (DEMO)",
+        "Text when your car is ready (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Tire and wheel gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Get a tire quote",
+        "select_label": "What do you need?",
+        "options": [
+          "New tires",
+          "Used tires",
+          "Wheels / rims",
+          "Flat repair",
+          "Mount and balance",
+          "Other"
+        ],
+        "date": true,
+        "photo": true,
+        "button": "Request quote"
+      },
+      "sms": "Text me when my car is ready",
+      "sample_prices": [
+        [
+          "Flat repair",
+          "$XX"
+        ],
+        [
+          "Used tire (installed)",
+          "From $XX"
+        ],
+        [
+          "New tire (installed)",
+          "From $XX"
+        ],
+        [
+          "Mount and balance",
+          "$XX"
+        ]
+      ],
+      "gallery_title": "In stock",
+      "gallery": [
+        "New tires",
+        "Used tires",
+        "Rims",
+        "Install bay",
+        "The shop"
+      ],
+      "rating": 4.5,
+      "review_count": 11,
+      "rating_source": "Yelp"
+    },
+    "trust_strip": [
+      "Since 2005",
+      "Locally owned",
+      "Tires & rims",
+      "Financing"
+    ],
+    "hand_built": true
+  },
+  "a1-tire-outlet": {
+    "layout": "split",
+    "font_head": "Teko",
+    "font_body": "Roboto",
+    "image_key": "auto",
+    "skeleton": "service_trust",
+    "headline": "A1 Tire Outlet",
+    "subhead": "New and used tires from small trucks to semis, plus wheels and brakes, on Florin Rd.",
+    "meta_description": "A1 Tire Outlet, 3812 Florin Rd Ste 104, Sacramento. New and used tires, wheels, brakes, alignment. Call (916) 706-3570.",
+    "paragraphs": [
+      "A1 Tire Outlet is a tire shop at 3812 Florin Rd, Suite 104, in Sacramento.",
+      "It sells new and used tires for everything from smaller trucks to semi trucks and trailers, plus wheels, brakes, rotors and shocks, and offers wheel alignment. Credit cards accepted; free Wi-Fi.",
+      "Call (916) 706-3570."
+    ],
+    "highlights": [
+      "Small trucks to semis",
+      "Wheels and brakes",
+      "Alignment",
+      "Open 7 days"
+    ],
+    "services": [
+      "New and used tires",
+      "Semi truck and trailer tires",
+      "Wheels",
+      "Brakes and rotors",
+      "Shocks",
+      "Wheel alignment"
+    ],
+    "hours": [
+      "Monday - Saturday: 9:00 AM - 6:30 PM",
+      "Sunday: 9:00 AM - 4:00 PM"
+    ],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours agree across Yelp, Birdeye and the shop's site. Call (916) 706-3570 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Quote",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "A",
+    "aside_html": "<p><strong>Address:</strong> 3812 Florin Rd Ste 104, Sacramento, CA 95823</p><p><strong>Phone:</strong> (916) 706-3570</p>",
+    "verification": "Birdeye (Google 4.6/69, description), Yelp (4.2/22, hours, amenities), BBB, a1tireoutlet.com, Exa (Facebook).",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Tire size finder and quote request (DEMO)",
+        "Book an install time (DEMO)",
+        "Text when your car is ready (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Tire and wheel gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Get a tire quote",
+        "select_label": "What do you need?",
+        "options": [
+          "New tires",
+          "Used tires",
+          "Wheels / rims",
+          "Flat repair",
+          "Mount and balance",
+          "Other"
+        ],
+        "date": true,
+        "photo": true,
+        "button": "Request quote"
+      },
+      "sms": "Text me when my car is ready",
+      "sample_prices": [
+        [
+          "Flat repair",
+          "$XX"
+        ],
+        [
+          "Used tire (installed)",
+          "From $XX"
+        ],
+        [
+          "New tire (installed)",
+          "From $XX"
+        ],
+        [
+          "Mount and balance",
+          "$XX"
+        ]
+      ],
+      "gallery_title": "In stock",
+      "gallery": [
+        "New tires",
+        "Used tires",
+        "Rims",
+        "Install bay",
+        "The shop"
+      ],
+      "rating": 4.6,
+      "review_count": 69,
+      "rating_source": "Google",
+      "facebook": "https://facebook.com/417840065673563"
+    },
+    "trust_strip": [
+      "Trucks to semis",
+      "Alignment",
+      "Open 7 days"
+    ],
+    "hand_built": true
+  },
+  "fly-cuts-and-styles": {
+    "layout": "editorial",
+    "font_head": "Playfair Display",
+    "font_body": "Lato",
+    "image_key": "barber",
+    "skeleton": "studio_booking",
+    "headline": "Fly Cuts & Styles",
+    "subhead": "A clean, high-energy barbershop on Stockton Blvd, where barbers mentor the youth too.",
+    "meta_description": "Fly Cuts & Styles, 6955 Stockton Blvd #D, Sacramento. Barbershop, walk-ins welcome. Call (916) 399-8165.",
+    "paragraphs": [
+      "Fly Cuts & Styles is a barbershop at 6955 Stockton Blvd, Suite D, in South Sacramento.",
+      "Listings describe a clean shop with lively energy and good music, fair prices and efficient, high-quality cuts, with barbers seen as mentors to the youth. Reviewers name Toriono (Tori) and Hop.",
+      "Walk-ins welcome. Wheelchair accessible, free Wi-Fi, street and private lot parking. Cash, cards, Apple Pay, Android Pay, Zelle and Cash App accepted."
+    ],
+    "highlights": [
+      "Walk-ins welcome",
+      "Mentors to the youth",
+      "Free Wi-Fi",
+      "Many ways to pay"
+    ],
+    "services": [
+      "Men's haircuts",
+      "Kids' haircuts",
+      "Fades",
+      "Line-ups"
+    ],
+    "hours": [
+      "Tuesday - Saturday: 9:00 AM - 6:30 PM",
+      "Sunday - Monday: Closed"
+    ],
+    "services_heading": "Barbering",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours agree across BestProsInTown and MapQuest. Call (916) 399-8165 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Book",
+        "href": "#book"
+      },
+      {
+        "label": "Prices",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "F",
+    "aside_html": "<p><strong>Address:</strong> 6955 Stockton Blvd #D, Sacramento, CA 95823</p><p><strong>Phone:</strong> (916) 399-8165</p>",
+    "verification": "BestProsInTown (description, hours, amenities, payment, barber names from reviews), Exa (Google 4.4/148), MapQuest. No quotes.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online appointment requests (DEMO)",
+        "Text appointment reminders (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Cuts gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Book a cut",
+        "select_label": "Service",
+        "options": [
+          "Haircut",
+          "Kids' cut",
+          "Fade",
+          "Line-up"
+        ],
+        "date": true,
+        "button": "Request appointment"
+      },
+      "sms": "Text me a reminder the day before my appointment",
+      "sample_prices": [
+        [
+          "Haircut",
+          "$XX"
+        ],
+        [
+          "Kids' cut",
+          "$XX"
+        ],
+        [
+          "Fade",
+          "$XX"
+        ],
+        [
+          "Line-up",
+          "$XX"
+        ]
+      ],
+      "gallery_title": "Fresh cuts",
+      "gallery": [
+        "Fade",
+        "Kids' cut",
+        "Line-up",
+        "Beard trim",
+        "The shop"
+      ],
+      "rating": 4.4,
+      "review_count": 148,
+      "rating_source": "Google"
+    },
+    "booking_blurb": "Walk-ins welcome. Call (916) 399-8165 or try the DEMO booking below.",
+    "gallery_labels": [
+      "Fades",
+      "Kids' cuts",
+      "Line-ups",
+      "Stockton Blvd shop"
+    ],
+    "hand_built": true
+  },
+  "usa-smog": {
+    "layout": "split",
+    "font_head": "Teko",
+    "font_body": "Roboto",
+    "image_key": "auto",
+    "skeleton": "service_trust",
+    "headline": "USA Smog",
+    "subhead": "STAR certified, test-only smog checks on Stockton Blvd. Open 7 days.",
+    "meta_description": "USA Smog, 5921 Stockton Blvd, Sacramento. STAR certified test-only smog check station. Call (916) 706-2131.",
+    "paragraphs": [
+      "USA Smog is a test-only smog check station at 5921 Stockton Blvd in Sacramento, licensed by the California Bureau of Automotive Repair (license 301680) and listed as STAR certified.",
+      "Reviewers describe quick checks, often 10 to 15 minutes, with results sent directly to the DMV. There is a waiting room, and credit cards are accepted.",
+      "Open seven days. Call (916) 706-2131."
+    ],
+    "highlights": [
+      "STAR certified",
+      "Test-only station",
+      "Results sent to DMV",
+      "Open 7 days"
+    ],
+    "services": [
+      "Smog check (test only)",
+      "STAR station inspections",
+      "Electronic certificate to DMV",
+      "Waiting room"
+    ],
+    "hours": [
+      "Monday - Friday: 8:00 AM - 5:30 PM",
+      "Saturday: 9:00 AM - 3:00 PM",
+      "Sunday: 10:00 AM - 3:00 PM"
+    ],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours from Loc8NearMe. Call (916) 706-2131 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Check-in",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "U",
+    "aside_html": "<p><strong>Address:</strong> 5921 Stockton Blvd, Sacramento, CA 95824</p><p><strong>Phone:</strong> (916) 706-2131</p>",
+    "verification": "BAR license 301680 via OpenGovUS (test-only, active to Feb 28, 2027), Loc8NearMe (STAR, hours, review themes), MapQuest. STAR status not checked on the BAR STAR lookup itself. No price shown (one listing says about $40; not used).",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online check-in / reserve a time (DEMO)",
+        "Text reminder when your registration smog is due (DEMO)",
+        "Upfront sample price list (DEMO)"
+      ],
+      "booking": {
+        "title": "Check in online",
+        "select_label": "Vehicle type",
+        "options": [
+          "Gas car / truck",
+          "Hybrid",
+          "Diesel",
+          "Out-of-state vehicle",
+          "Older vehicle"
+        ],
+        "date": true,
+        "button": "Reserve a time"
+      },
+      "sms": "Text me next year when my smog check is due",
+      "sample_prices": [
+        [
+          "Smog check (most cars)",
+          "$XX"
+        ],
+        [
+          "Older vehicles",
+          "$XX"
+        ],
+        [
+          "DMV certificate",
+          "$XX"
+        ]
+      ]
+    },
+    "trust_strip": [
+      "STAR certified",
+      "Test only",
+      "Open 7 days"
+    ],
+    "hand_built": true
   }
 }

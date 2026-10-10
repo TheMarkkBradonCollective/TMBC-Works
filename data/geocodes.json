@@ -209,5 +209,25 @@
   "Del Paso Heights Barbershop": {
     "lat": 38.6335677,
     "lon": -121.4305502
+  },
+  "Barber City Cuts and Shaves": {
+    "lat": 38.6221694,
+    "lon": -121.4012951
+  },
+  "3 B's Barber Shop": {
+    "lat": 38.6365124,
+    "lon": -121.4393144
+  },
+  "Capital Tires": {
+    "lat": 38.6186584,
+    "lon": -121.4460548
+  },
+  "Unique Tires & Wheels": {
+    "lat": 38.6133848,
+    "lon": -121.4457532
+  },
+  "USA Smog": {
+    "lat": 38.518731,
+    "lon": -121.439604
   }
 }
