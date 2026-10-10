@@ -5598,5 +5598,568 @@
       ]
     },
     "hand_built": true
+  },
+  "taste-of-angkor": {
+    "layout": "editorial",
+    "font_head": "Playfair Display",
+    "font_body": "Lato",
+    "image_key": "thai",
+    "skeleton": "menu_forward",
+    "headline": "Taste of Angkor",
+    "subhead": "Cambodian cooking on Mack Rd: amok, lok lak, papaya salad and noodle soups.",
+    "meta_description": "Taste of Angkor, 4566 Mack Rd, Sacramento. Cambodian restaurant: fish amok, beef lok lak, papaya salad, noodle soups. Call (916) 917-5630.",
+    "paragraphs": [
+      "Taste of Angkor is a Cambodian restaurant at 4566 Mack Rd in South Sacramento. In its own words on Yelp, it is proud to be the first Cambodian restaurant in Sacramento to serve primarily Cambodian cuisine, along with other Asian dishes and noodle soups.",
+      "The restaurant describes Cambodian food as built on fresh vegetables, herbs and grilling, eaten as several dishes at once so the table gets sweet, sour, salty and spicy flavors, with chili left for each diner to add.",
+      "Popular dishes listed on Yelp include papaya salad, stuffed chicken wings, beef skewers, Cambodian beef sausages, beef laab, Cambodian pho and sour beef soup."
+    ],
+    "highlights": [
+      "Cambodian cuisine",
+      "Fish amok and beef lok lak",
+      "Noodle soups",
+      "Takeout"
+    ],
+    "services": [
+      "Dine-in",
+      "Takeout"
+    ],
+    "menu_categories": [
+      {
+        "title": "Cambodian classics",
+        "items": [
+          "Fish amok",
+          "Beef lok lak",
+          "Papaya salad",
+          "Beef laab",
+          "Raw beef salad",
+          "Ox tail"
+        ]
+      },
+      {
+        "title": "Grill & small plates",
+        "items": [
+          "Beef skewers",
+          "Cambodian beef sausages",
+          "Stuffed chicken",
+          "Stuffed wings",
+          "Quail eggs",
+          "Spicy pork"
+        ]
+      },
+      {
+        "title": "Noodles & soups",
+        "items": [
+          "Cambodian pho",
+          "Noodle soups",
+          "Sour beef soup",
+          "Drunken noodles"
+        ]
+      }
+    ],
+    "menu_heading": "On the menu",
+    "menu_note": "Dish names from Yelp's popular dishes and Zmenu; no prices shown. Call (916) 917-5630 for the current menu.",
+    "hours": [],
+    "services_heading": "How to order",
+    "hours_note": "Listings conflict: Yelp (updated Sept 2026) shows Mon and Thu-Sun 11 AM - 6:30 PM, closed Tue-Wed; Google-based listings show only Fri-Sun 11 AM - 6:30 PM. Call (916) 917-5630 before visiting.",
+    "sections": [
+      "story",
+      "menu",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Order ahead",
+        "href": "#book"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "T",
+    "aside_html": "<p><strong>Address:</strong> 4566 Mack Rd, Sacramento, CA 95823</p><p><strong>Phone:</strong> (916) 917-5630</p>",
+    "verification": "Yelp (business's own description, popular dishes, 454 reviews, hours), Exa (Google 4.3/241, hours), Zmenu (amok, lok lak). Photos: Yelp/Facebook photos not used (not downloadable without login / mostly customer-uploaded); DEMO placeholders instead.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Menu on the site",
+        "Order ahead for pickup (DEMO)",
+        "Text when your order is ready (DEMO)",
+        "Rating and reviews link",
+        "Food photo gallery (DEMO placeholders until the restaurant supplies its own photos)"
+      ],
+      "booking": {
+        "title": "Order ahead for pickup",
+        "select_label": "Dish",
+        "options": [
+          "Fish amok",
+          "Beef lok lak",
+          "Papaya salad",
+          "Beef skewers",
+          "Cambodian beef sausages",
+          "Cambodian pho",
+          "Sour beef soup",
+          "Other"
+        ],
+        "date": true,
+        "button": "Place pickup order"
+      },
+      "sms": "Text me when my order is ready",
+      "rating": 4.3,
+      "review_count": 241,
+      "rating_source": "Google",
+      "gallery_title": "From the kitchen",
+      "gallery": [
+        "Fish amok",
+        "Beef lok lak",
+        "Papaya salad",
+        "Beef skewers",
+        "Cambodian pho",
+        "Mack Rd dining room"
+      ]
+    },
+    "hand_built": true
+  },
+  "rafas-mexican-food": {
+    "layout": "split",
+    "font_head": "Alfa Slab One",
+    "font_body": "Karla",
+    "image_key": "mex",
+    "skeleton": "menu_forward",
+    "headline": "Rafa's Mexican Food",
+    "subhead": "Big breakfast burritos, carne asada fries and tacos from a Natomas food truck.",
+    "meta_description": "Rafa's Mexican Food, Mexican food truck in Sacramento. Breakfast burritos, carne asada fries, tacos. Call (916) 613-8145.",
+    "paragraphs": [
+      "Rafa's Mexican Food is a Mexican food truck that has served Natomas for years from a gas station lot at 2221 Del Paso Rd. Recent customer reports say the truck has moved, so call (916) 613-8145 to confirm where it is parked today.",
+      "Customer favorites listed on Yelp and Restaurantji include the breakfast burrito, carne asada fries, carnitas burrito, super burrito, chimichanga, chili verde burrito, street tacos, crispy and mini tacos, fish and shrimp tacos, quesadillas, taco salad and nachos.",
+      "Listings show takeout, catering and credit cards accepted."
+    ],
+    "highlights": [
+      "Food truck",
+      "Breakfast burritos",
+      "Carne asada fries",
+      "Catering per listing"
+    ],
+    "services": [
+      "Walk-up takeout",
+      "Catering (per NetWaiter listing)",
+      "Credit cards accepted"
+    ],
+    "menu_categories": [
+      {
+        "title": "Burritos",
+        "items": [
+          "Breakfast burrito",
+          "Super breakfast",
+          "Carne asada burrito",
+          "Carnitas burrito",
+          "Super burrito",
+          "Chili verde burrito",
+          "Shredded beef monster burrito",
+          "Chimichanga"
+        ]
+      },
+      {
+        "title": "Tacos",
+        "items": [
+          "Street tacos",
+          "Crispy chicken tacos",
+          "Hard shell chicken taco",
+          "Mini tacos",
+          "Fish taco plate",
+          "Shrimp tacos"
+        ]
+      },
+      {
+        "title": "More",
+        "items": [
+          "Carne asada fries",
+          "Quesadilla",
+          "Taco salad",
+          "Carnitas nachos"
+        ]
+      }
+    ],
+    "menu_heading": "Menu favorites",
+    "menu_note": "Item names from Yelp and Restaurantji; no prices shown. Call for today's menu.",
+    "hours": [],
+    "services_heading": "How to order",
+    "hours_note": "Last listed hours at Del Paso Rd: Mon-Sat 7 AM - 9 PM, Sun 8 AM - 4 PM (Yelp, Restaurantji). August 2026 reviews say the truck has moved, with conflicting reports of the new spot. Call (916) 613-8145 to confirm location and hours.",
+    "sections": [
+      "story",
+      "menu",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Truck tracker",
+        "href": "#book"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "R",
+    "aside_html": "<p><strong>Last listed location:</strong> 2221 Del Paso Rd, Sacramento, CA 95835 (truck reported moved; call first)</p><p><strong>Phone:</strong> (916) 613-8145</p>",
+    "verification": "Yelp (menu items, hours, 4.0/198, phone 613-8145, remodel Q&A), Restaurantji (food truck in gas station lot, favorites, Aug 2026 moved reports), NetWaiter (phone 928-5601, catering, credit cards).",
+    "upgrade": {
+      "features": [
+        "Live 'where's the truck today' location banner (DEMO)",
+        "Tap-to-call from any phone",
+        "Order ahead for pickup (DEMO)",
+        "Text alerts when the truck moves or your order is ready (DEMO)",
+        "Catering request form (DEMO)",
+        "Rating and reviews link",
+        "Food photo gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Order ahead or request catering",
+        "select_label": "Order type",
+        "options": [
+          "Pickup order",
+          "Catering request"
+        ],
+        "date": true,
+        "button": "Send request"
+      },
+      "sms": "Text me where the truck is parked and when my order is ready",
+      "rating": 4.0,
+      "review_count": 198,
+      "rating_source": "Yelp",
+      "gallery_title": "From the truck",
+      "gallery": [
+        "Breakfast burrito",
+        "Carne asada fries",
+        "Street tacos",
+        "Fish taco plate",
+        "The truck"
+      ]
+    },
+    "hand_built": true
+  },
+  "pho-king-2": {
+    "layout": "cardhero",
+    "font_head": "Playfair Display",
+    "font_body": "Lato",
+    "image_key": "food",
+    "skeleton": "menu_forward",
+    "headline": "Pho King 2",
+    "subhead": "Vietnamese noodle soups and rice plates in Little Vietnam Plaza on Stockton Blvd.",
+    "meta_description": "Pho King 2, 6830 Stockton Blvd #180, Sacramento. Vietnamese restaurant: pho, bun bo hue, rice plates, vermicelli. Open daily. Call (916) 395-9244.",
+    "paragraphs": [
+      "Pho King 2 is a Vietnamese restaurant at 6830 Stockton Blvd, Suite 180, in Little Vietnam Plaza, South Sacramento.",
+      "The menu centers on beef noodle soups, including a combination bowl with steak, brisket, flank, tendon, tripe and meatballs, plus chicken noodle soup, bun bo hue, banh beo, rice plates and vermicelli, with vegan noodle and entree options, smoothies and desserts.",
+      "Listings show dine-in, takeout, coffee, a parking lot and contactless payments. Open daily."
+    ],
+    "highlights": [
+      "Open every day",
+      "Pho and bun bo hue",
+      "Vegan options",
+      "Little Vietnam Plaza"
+    ],
+    "services": [
+      "Dine-in",
+      "Takeout",
+      "Contactless payments",
+      "Parking lot"
+    ],
+    "menu_categories": [
+      {
+        "title": "Noodle soups",
+        "items": [
+          "Combination beef noodle soup",
+          "Beef noodle soup",
+          "Chicken noodle soup",
+          "Bun bo hue"
+        ]
+      },
+      {
+        "title": "Rice & vermicelli",
+        "items": [
+          "Rice plates",
+          "Vermicelli bowls",
+          "Deep-fried tofu over vermicelli",
+          "Pineapple fried rice"
+        ]
+      },
+      {
+        "title": "More",
+        "items": [
+          "Banh beo",
+          "Appetizers",
+          "Vegan noodles and entrees",
+          "Sauteed dishes",
+          "Smoothies",
+          "Desserts",
+          "Coffee"
+        ]
+      }
+    ],
+    "menu_heading": "On the menu",
+    "menu_note": "From Uber Eats (store menu, now closed on Uber Eats) and Apple Maps reviews; no prices shown. Call (916) 395-9244 for the current menu.",
+    "hours": [
+      "Every day: 8:00 AM - 6:00 PM"
+    ],
+    "services_heading": "How to order",
+    "hours_note": "Hours agree across Apple Maps, Exa and Zmenu. Uber Eats previously listed 10 AM - 9 PM. Call (916) 395-9244 to confirm.",
+    "sections": [
+      "story",
+      "menu",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Order ahead",
+        "href": "#book"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "P",
+    "aside_html": "<p><strong>Address:</strong> 6830 Stockton Blvd #180, Sacramento, CA 95823</p><p><strong>Phone:</strong> (916) 395-9244</p>",
+    "verification": "Apple Maps (Little Vietnam Plaza, Yelp 3.7/331, amenities, hours), Exa (Google 4.1/187, Facebook), Zmenu, Uber Eats (menu sections). No prices or review quotes.",
+    "upgrade": {
+      "features": [
+        "Official menu page (replacing the third-party menu site)",
+        "Tap-to-call from any phone",
+        "Order ahead for pickup (DEMO)",
+        "Text when your order is ready (DEMO)",
+        "Rating and reviews link",
+        "Food photo gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Order ahead for pickup",
+        "select_label": "Dish",
+        "options": [
+          "Combination beef pho",
+          "Beef pho",
+          "Chicken pho",
+          "Bun bo hue",
+          "Rice plate",
+          "Vermicelli bowl",
+          "Vegan noodles",
+          "Other"
+        ],
+        "date": true,
+        "button": "Place pickup order"
+      },
+      "sms": "Text me when my order is ready",
+      "rating": 4.1,
+      "review_count": 187,
+      "rating_source": "Google",
+      "facebook": "https://facebook.com/107196862697906",
+      "gallery_title": "From the kitchen",
+      "gallery": [
+        "Combination pho",
+        "Bun bo hue",
+        "Banh beo",
+        "Rice plate",
+        "Dining room"
+      ]
+    },
+    "hand_built": true
+  },
+  "ricardos-auto-repair": {
+    "layout": "split",
+    "font_head": "Teko",
+    "font_body": "Roboto",
+    "image_key": "auto",
+    "skeleton": "service_trust",
+    "headline": "Ricardo's Auto Repair",
+    "subhead": "Full-service auto repair on Power Inn Rd, run by owner Ricardo Flores.",
+    "meta_description": "Ricardo's Auto Repair, 4273 Power Inn Rd, Sacramento. Brakes, AC, cooling, suspension, transmission, smog and maintenance. Call (916) 456-7343.",
+    "paragraphs": [
+      "Ricardo's Auto Repair is an auto repair shop at 4273 Power Inn Rd in Sacramento, owned by Ricardo Flores.",
+      "Directory listings describe brake service, cooling systems, air conditioning and heating, steering and suspension, transmission and drivetrain work, ignition and electrical systems, scheduled maintenance and tune-ups, and state inspections and smog.",
+      "Listings show financing available and Visa, Mastercard, Amex and Discover accepted. Open weekdays; call (916) 456-7343."
+    ],
+    "highlights": [
+      "Owner Ricardo Flores",
+      "Brakes, AC and suspension",
+      "Financing available per listing",
+      "Mon - Fri 8 AM - 6:30 PM"
+    ],
+    "services": [
+      "Brake service",
+      "Cooling systems",
+      "Air conditioning and heating",
+      "Steering and suspension",
+      "Transmission and drivetrain",
+      "Ignition and electrical",
+      "Scheduled maintenance and tune-ups",
+      "State inspections and smog"
+    ],
+    "hours": [
+      "Monday - Friday: 8:00 AM - 6:30 PM",
+      "Saturday - Sunday: Closed"
+    ],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours agree across Exa, Yellow Pages, Birdeye and AutoFixList. Call (916) 456-7343 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Book",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "R",
+    "trust_strip": [
+      "Owner-operated",
+      "Financing available",
+      "Major cards accepted",
+      "Power Inn Rd"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 4273 Power Inn Rd, Sacramento, CA 95826</p><p><strong>Phone:</strong> (916) 456-7343</p><p>Owner: Ricardo Flores</p>",
+    "verification": "Exa (Google 4.4/32, hours), Yellow Pages (payment, financing), TimeToOpen (service list), Birdeye (hours, 33 reviews). No review quotes.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online appointment requests (DEMO)",
+        "Text appointment reminders and repair updates (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Financing info up front",
+        "Rating and reviews link",
+        "Shop gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Book a service appointment",
+        "select_label": "Service",
+        "options": [
+          "Brakes",
+          "AC / heating",
+          "Cooling system",
+          "Steering / suspension",
+          "Transmission",
+          "Electrical",
+          "Maintenance / tune-up",
+          "Smog / state inspection",
+          "Other"
+        ],
+        "date": true,
+        "button": "Request appointment"
+      },
+      "sms": "Text me appointment reminders and repair updates",
+      "sample_prices": [
+        [
+          "Brake inspection",
+          "$XX"
+        ],
+        [
+          "Oil change",
+          "$XX"
+        ],
+        [
+          "AC check",
+          "$XX"
+        ],
+        [
+          "Tune-up",
+          "From $XX"
+        ],
+        [
+          "Smog inspection",
+          "$XX"
+        ]
+      ],
+      "rating": 4.4,
+      "review_count": 32,
+      "rating_source": "Google",
+      "gallery_title": "In the shop",
+      "gallery": [
+        "Service bays",
+        "Brake work",
+        "AC service",
+        "Power Inn Rd shop"
+      ]
+    },
+    "hand_built": true
   }
 }

@@ -165,5 +165,17 @@
   "Sham Sweets": {
     "lat": 38.5925734,
     "lon": -121.4015514
+  },
+  "Taste of Angkor": {
+    "lat": 38.4742063,
+    "lon": -121.4490207
+  },
+  "Rafa's Mexican Food": {
+    "lat": 38.6564753,
+    "lon": -121.5089165
+  },
+  "Ricardo's Auto Repair": {
+    "lat": 38.5361652,
+    "lon": -121.4090485
   }
 }
