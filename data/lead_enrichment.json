@@ -305,7 +305,8 @@
         "Line-up",
         "Inside the 4th Ave shop"
       ]
-    }
+    },
+    "hand_built": true
   },
   "antonios-barber-shop": {
     "layout": "split",
@@ -2033,7 +2034,8 @@
         "Cleaned and polished leather",
         "Shop counter on 10th St"
       ]
-    }
+    },
+    "hand_built": true
   },
   "ks-complete-shoe-repair": {
     "layout": "cardhero",
@@ -2117,7 +2119,8 @@
       "https://exa.ai/library/place/gj0k6m453bt",
       "https://www.loc8nearme.com/california/sacramento/k-s-complete-shoe-repair/5294009/",
       "https://www.mapquest.com/us/california/k-s-complete-shoe-repair-12189247"
-    ]
+    ],
+    "hand_built": true
   },
   "linda-lee-alterations": {
     "layout": "split",
@@ -4531,7 +4534,8 @@
       "South Sacramento",
       "Cash and credit cards",
       "Tue - Sat"
-    ]
+    ],
+    "hand_built": true
   },
   "sergios-shoe-repair-and-alterations": {
     "layout": "cardhero",
@@ -4606,7 +4610,8 @@
       "https://www.chamberofcommerce.com/business-directory/california/sacramento/shoe-repair-shop/24402217-sergios-shoe-repair",
       "https://www.loc8nearme.com/california/sacramento/erin-hayes-shoe-repair/3159273/"
     ],
-    "skeleton": "craft_workshop"
+    "skeleton": "craft_workshop",
+    "hand_built": true
   },
   "elegant-designs": {
     "layout": "split",
@@ -4891,6 +4896,19 @@
         "Fresh fade",
         "Hot towel shave"
       ]
-    }
+    },
+    "hand_built": true
+  },
+  "custom-upholstery": {
+    "hand_built": true,
+    "verification": "Page hand-built by another TMBC agent; content lives in its HTML file."
+  },
+  "glass-by-mickey": {
+    "hand_built": true,
+    "verification": "Page hand-built by another TMBC agent; content lives in its HTML file."
+  },
+  "bt-upholstery": {
+    "hand_built": true,
+    "verification": "Page hand-built by another TMBC agent; content lives in its HTML file."
   }
 }

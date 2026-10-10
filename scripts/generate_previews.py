@@ -61,6 +61,8 @@ def main():
             "Missing data/lead_enrichment.json — add curated enrichment before generating."
         )
 
+    with open(enrich, encoding="utf-8") as f:
+        enrich_data = json.load(f)
     write_shared_config()
     rows = []
     with open(CSV_PATH, newline="", encoding="utf-8") as f:
@@ -69,10 +71,27 @@ def main():
     previews = []
     for row in rows:
         lead_num = int(row["#"])
-        slug = slugify(row["business_name"])
-        profile = profile_for(slug, row)
+        slug = (row.get("slug") or "").strip() or slugify(row["business_name"])
         out_dir = os.path.join(ROOT, slug)
         os.makedirs(out_dir, exist_ok=True)
+
+        if enrich_data.get(slug, {}).get("hand_built"):
+            # Page is maintained by hand in the repo; list it but never overwrite it.
+            has_cmp = os.path.isfile(os.path.join(out_dir, "compare.html"))
+            previews.append(
+                {
+                    "lead_number": lead_num,
+                    "business_name": row["business_name"],
+                    "slug": slug,
+                    "preview_url": f"{BASE_URL}/{slug}/",
+                    "compare_url": f"{BASE_URL}/{slug}/compare.html" if has_cmp else "",
+                    "email": row.get("email") or "",
+                    "phone": row["phone"],
+                }
+            )
+            continue
+
+        profile = profile_for(slug, row)
 
         page = render_index(row, profile, slug, BASE_URL)
         with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
