@@ -1171,8 +1171,16 @@
         "href": "#story"
       },
       {
-        "label": "Services",
-        "href": "#services"
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Order ahead",
+        "href": "#book"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
       },
       {
         "label": "Hours",
@@ -1181,10 +1189,6 @@
       {
         "label": "Find us",
         "href": "#location"
-      },
-      {
-        "label": "Contact",
-        "href": "#contact"
       }
     ],
     "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
@@ -1231,7 +1235,45 @@
       "https://maps.apple.com/place?place-id=IAA45FE7BACE0DCBD",
       "https://www.restaurantji.com/ca/sacramento/taqueria-sanchez-/",
       "https://www.menupix.com/sacramento/restaurants/31229961/Taqueria-Sanchez-Sacramento-CA"
-    ]
+    ],
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Menu on the site",
+        "Order ahead for pickup (DEMO)",
+        "Text when your order is ready (DEMO)",
+        "Weekly specials board (DEMO)",
+        "Rating and reviews link",
+        "Food photo gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Order ahead for pickup",
+        "select_label": "Item",
+        "options": [
+          "Tacos",
+          "Super burrito",
+          "Machete",
+          "Gorditas",
+          "Quesadilla",
+          "Nachos",
+          "Other"
+        ],
+        "date": true,
+        "button": "Place pickup order"
+      },
+      "sms": "Text me when my order is ready",
+      "rating": 4.4,
+      "review_count": 140,
+      "gallery_title": "From the kitchen",
+      "gallery": [
+        "Al pastor tacos",
+        "Machete",
+        "Super burrito",
+        "Gorditas",
+        "Outdoor seating"
+      ]
+    },
+    "hand_built": true
   },
   "e-z-tires": {
     "layout": "split",
@@ -4001,8 +4043,16 @@
         "href": "#story"
       },
       {
-        "label": "Barbering",
-        "href": "#services"
+        "label": "Book",
+        "href": "#book"
+      },
+      {
+        "label": "Prices",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
       },
       {
         "label": "Hours",
@@ -4011,10 +4061,6 @@
       {
         "label": "Find us",
         "href": "#location"
-      },
-      {
-        "label": "Contact",
-        "href": "#contact"
       }
     ],
     "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
@@ -4032,7 +4078,63 @@
       "https://local.yahoo.com/info-222889467-59th-street-barbershop-sacramento/",
       "https://opengovus.com/california-license/1007A-373191",
       "https://www.waze.com/live-map/directions/us/ca/sacramento/59th-street-barber-shop?to=place.ChIJ5_wQDe_bmoARFyf7f2yJKaE"
-    ]
+    ],
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online appointment requests (DEMO)",
+        "Text appointment reminders (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Cuts gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Book a cut",
+        "select_label": "Service",
+        "options": [
+          "Men's haircuts",
+          "Bald fades",
+          "Flat tops",
+          "Military cuts",
+          "Shampoo add-on",
+          "Beard and line-up work"
+        ],
+        "date": true,
+        "button": "Request appointment"
+      },
+      "sms": "Text me a reminder the day before my appointment",
+      "sample_prices": [
+        [
+          "Men's haircut",
+          "$XX"
+        ],
+        [
+          "Bald fade",
+          "$XX"
+        ],
+        [
+          "Flat top",
+          "$XX"
+        ],
+        [
+          "Shampoo add-on",
+          "$XX"
+        ],
+        [
+          "Beard / line-up",
+          "$XX"
+        ]
+      ],
+      "gallery_title": "Fresh cuts",
+      "gallery": [
+        "Bald fade",
+        "Flat top",
+        "Military cut",
+        "Line-up",
+        "59th St shop"
+      ]
+    },
+    "hand_built": true
   },
   "sacramento-rug-works": {
     "layout": "cardhero",
@@ -6158,6 +6260,680 @@
         "Brake work",
         "AC service",
         "Power Inn Rd shop"
+      ]
+    },
+    "hand_built": true
+  },
+  "ad-smog": {
+    "layout": "split",
+    "font_head": "Teko",
+    "font_body": "Roboto",
+    "image_key": "smog",
+    "skeleton": "service_trust",
+    "headline": "Ad Smog",
+    "subhead": "STAR-certified smog checks in Midtown, open 7 days. Walk-ins welcome.",
+    "meta_description": "Ad Smog, 2017 16th St, Sacramento. STAR certified smog check station, open 7 days, walk-ins welcome. Call (916) 498-0988.",
+    "paragraphs": [
+      "Ad Smog is a STAR-certified smog check station at 2017 16th St in Sacramento, near 16th and T streets.",
+      "In the business's own description, it is open seven days a week, fast and convenient, with a clean facility and friendly service. Walk-ins are welcome, no appointment is needed, and one free retest is included if needed.",
+      "Listings show credit cards accepted. Call (916) 498-0988."
+    ],
+    "highlights": [
+      "STAR certified",
+      "Open 7 days",
+      "Walk-ins, no appointment",
+      "One free retest if needed"
+    ],
+    "services": [
+      "STAR smog check",
+      "Smog check for DMV registration",
+      "One free retest if needed (per business)",
+      "Walk-in service"
+    ],
+    "hours": [
+      "Monday - Saturday: 8:00 AM - 5:00 PM",
+      "Sunday: 9:30 AM - 3:30 PM"
+    ],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours agree across Yelp (claimed), Chamber of Commerce, Exa and Loc8NearMe.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Check-in",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "A",
+    "trust_strip": [
+      "STAR certified",
+      "Open 7 days",
+      "Walk-ins welcome",
+      "Free retest if needed"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 2017 16th St, Sacramento, CA 95818</p><p><strong>Phone:</strong> (916) 498-0988</p>",
+    "verification": "Yelp claimed page (business description, 4.3/153, credit cards, hours), Chamber of Commerce, Exa, Loc8NearMe. ATS relationship NOT stated (only a single review claims it). No prices or quotes.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online check-in / reserve a time to skip the wait (DEMO)",
+        "Text reminder when your registration smog is due (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Coupon section (DEMO)",
+        "Rating and reviews link"
+      ],
+      "booking": {
+        "title": "Check in online",
+        "select_label": "Vehicle type",
+        "options": [
+          "Gas car / truck",
+          "Hybrid",
+          "Diesel",
+          "Other"
+        ],
+        "date": true,
+        "button": "Reserve a time"
+      },
+      "sms": "Text me next year when my smog check is due",
+      "sample_prices": [
+        [
+          "Smog check (most cars)",
+          "$XX"
+        ],
+        [
+          "DMV certificate",
+          "$XX"
+        ],
+        [
+          "Retest (if needed)",
+          "Free per business"
+        ],
+        [
+          "Online coupon",
+          "-$X"
+        ]
+      ],
+      "rating": 4.3,
+      "review_count": 153,
+      "rating_source": "Yelp"
+    },
+    "hand_built": true
+  },
+  "lotus-hair-nails": {
+    "layout": "split",
+    "font_head": "Cormorant Garamond",
+    "font_body": "Jost",
+    "image_key": "spa",
+    "skeleton": "studio_booking",
+    "headline": "Lotus Hair & Nails",
+    "subhead": "Nails, hair, facials and head spa therapy on H Street in East Sacramento.",
+    "meta_description": "Lotus Hair & Nails, 5600 H St #140, Sacramento. Nails, pedicures, haircuts, color, facials, waxing, lash and brow, head spa. Call (916) 451-1510.",
+    "paragraphs": [
+      "Lotus Hair & Nails is a hair and nail salon at 5600 H St, Suite 140, in East Sacramento.",
+      "Its former website described a comfortable, clean and quiet space offering nail care, hairstyling and facial services, including head spa therapy, a Lotus signature pedicure, haircut, color and perm, waxing, lash and brow treatments, and add-on enhancements. Booking listings add acrylic, dip powder, gel and nail art services, plus men's manicures and pedicures.",
+      "Call (916) 451-1510 to book."
+    ],
+    "highlights": [
+      "Nails and pedicures",
+      "Hair cut, color and perm",
+      "Head spa therapy",
+      "Facials, waxing, lash and brow"
+    ],
+    "services": [
+      "Manicures and pedicures",
+      "Lotus signature pedicure",
+      "Acrylic, dip powder and gel nails",
+      "Nail art",
+      "Men's manicure and pedicure",
+      "Haircut, color and perm",
+      "Head spa therapy",
+      "Facials",
+      "Waxing",
+      "Lash and brow treatments"
+    ],
+    "hours": [],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Listings conflict: the salon's former website showed Mon-Fri 10 AM - 6 PM, Saturday by appointment, Sunday closed; Google-based listings show Tue-Fri 10 - 6, Sat 10 - 5, Mon and Sun closed. Call (916) 451-1510 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Book",
+        "href": "#book"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "L",
+    "booking_blurb": "Call (916) 451-1510 to book. Online booking below is a DEMO.",
+    "gallery_labels": [
+      "Nails",
+      "Pedicure",
+      "Hair color",
+      "Head spa"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 5600 H St #140, Sacramento, CA 95819</p><p><strong>Phone:</strong> (916) 451-1510</p>",
+    "verification": "Former lotushairnails.com content (search index; domain now serves spam), Exa (Google 4.8/43, hours), Fresha (nail service list). No prices or quotes.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online booking by service (DEMO)",
+        "Text appointment reminders (DEMO)",
+        "Upfront sample price menu (DEMO)",
+        "Rating and reviews link",
+        "Nail art and hair gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Book an appointment",
+        "select_label": "Service",
+        "options": [
+          "Manicure",
+          "Pedicure",
+          "Lotus signature pedicure",
+          "Gel / dip / acrylic",
+          "Haircut",
+          "Color",
+          "Head spa therapy",
+          "Facial",
+          "Waxing",
+          "Lash & brow"
+        ],
+        "date": true,
+        "button": "Request appointment"
+      },
+      "sms": "Text me a reminder the day before my appointment",
+      "sample_prices": [
+        [
+          "Manicure",
+          "$XX"
+        ],
+        [
+          "Pedicure",
+          "$XX"
+        ],
+        [
+          "Lotus signature pedicure",
+          "$XX"
+        ],
+        [
+          "Haircut",
+          "$XX"
+        ],
+        [
+          "Head spa therapy",
+          "$XX"
+        ],
+        [
+          "Facial",
+          "$XX"
+        ]
+      ],
+      "rating": 4.8,
+      "review_count": 43,
+      "rating_source": "Google",
+      "gallery_title": "Our work",
+      "gallery": [
+        "Nail art",
+        "Gel manicure",
+        "Signature pedicure",
+        "Hair color",
+        "Head spa room"
+      ]
+    },
+    "hand_built": true
+  },
+  "golden-state-jewelers": {
+    "layout": "cardhero",
+    "font_head": "Playfair Display",
+    "font_body": "Lato",
+    "image_key": "trophy",
+    "skeleton": "craft_workshop",
+    "headline": "Golden State Jewelers",
+    "subhead": "Jewelry, custom design and repairs in Lake Crest Village, since 1978.",
+    "meta_description": "Golden State Jewelers, 996 Florin Rd Ste B, Sacramento. Jewelry, custom design, repairs and appraisals since 1978. Call (916) 421-5284.",
+    "paragraphs": [
+      "Golden State Jewelers is a jewelry store in Lake Crest Village at 996 Florin Rd, Suite B, in Sacramento. Its Better Business Bureau profile lists a founding date of 1978 and an A+ rating.",
+      "Listings describe custom jewelry design, repairs and appraisals, and customers mention ring repairs (bands and prongs) and watch battery changes.",
+      "Listings show credit cards accepted, walk-ins welcome and appointments available. Call (916) 421-5284."
+    ],
+    "highlights": [
+      "Since 1978 (per BBB)",
+      "Custom jewelry design",
+      "Ring and jewelry repair",
+      "Lake Crest Village"
+    ],
+    "services": [
+      "Custom jewelry design",
+      "Ring sizing and repair",
+      "Prong and stone setting repair",
+      "Jewelry appraisals",
+      "Watch battery replacement"
+    ],
+    "hours": [],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Loc8NearMe lists 12 - 5 PM daily but also notes 'by appointment only'. Call (916) 421-5284 before visiting.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Repair quote",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "G",
+    "aside_html": "<p><strong>Address:</strong> 996 Florin Rd Ste B (Lake Crest Village), Sacramento, CA 95831</p><p><strong>Phone:</strong> (916) 421-5284</p>",
+    "verification": "BBB (founded 1978, A+), Loc8NearMe (hours, repairs, credit cards, walk-ins), MapQuest (custom design, repairs, appraisals). Latest review found March 2024. No prices or quotes.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Repair and custom design quote request with photo upload (DEMO)",
+        "Text when your piece is ready (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "BBB A+ shown up front",
+        "Collection gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Request a repair or custom quote",
+        "select_label": "Service",
+        "options": [
+          "Ring sizing",
+          "Ring / prong repair",
+          "Chain repair",
+          "Custom design",
+          "Appraisal",
+          "Watch battery",
+          "Other"
+        ],
+        "photo": true,
+        "button": "Request quote"
+      },
+      "sms": "Text me when my piece is ready",
+      "sample_prices": [
+        [
+          "Ring sizing",
+          "$XX"
+        ],
+        [
+          "Prong retip",
+          "$XX"
+        ],
+        [
+          "Chain solder",
+          "$XX"
+        ],
+        [
+          "Watch battery",
+          "$XX"
+        ],
+        [
+          "Appraisal",
+          "$XX"
+        ]
+      ],
+      "gallery_title": "Collection",
+      "gallery": [
+        "Engagement rings",
+        "Custom pieces",
+        "Gold chains",
+        "Repair bench",
+        "Lake Crest Village store"
+      ]
+    },
+    "hand_built": true
+  },
+  "saras-alterations": {
+    "layout": "split",
+    "font_head": "Cormorant Garamond",
+    "font_body": "Jost",
+    "image_key": "fabric",
+    "skeleton": "craft_workshop",
+    "headline": "Sara's Alterations",
+    "subhead": "Family-run alterations and tailoring inside Country Club Plaza.",
+    "meta_description": "Sara's Alterations, 2380 Watt Ave #350 (Country Club Plaza), Sacramento. Family-run alterations and tailoring. Cash only. Call (916) 480-2959.",
+    "paragraphs": [
+      "Sara's Alterations is a family-run alterations and tailoring shop inside Country Club Plaza at 2380 Watt Ave, Suite 350.",
+      "In the shop's own listing description, it is skilled in altering leather jackets, coats, vests and furs, bridal and bridesmaid dresses, tuxedos, jeans and dress pants, as well as Halloween costumes. Reviewers mention hemming jeans with the original hem.",
+      "Recent reviews say the shop is cash only. Call (916) 480-2959."
+    ],
+    "highlights": [
+      "Family-run",
+      "Leather, coats and furs",
+      "Bridal and tuxedos",
+      "Cash only (per recent reviews)"
+    ],
+    "services": [
+      "Leather jackets, coats and vests",
+      "Fur alterations",
+      "Bridal and bridesmaid dresses",
+      "Tuxedos",
+      "Jeans (including original hem)",
+      "Dress pants",
+      "Halloween costumes"
+    ],
+    "hours": [
+      "Tuesday - Saturday: 10:00 AM - 4:00 PM",
+      "Sunday - Monday: Closed"
+    ],
+    "services_heading": "Alterations",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours from Country Club Plaza's store directory and Yahoo/Yelp. Older directories list 10 AM - 7:30 PM daily. Call (916) 480-2959 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Drop-off",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "S",
+    "aside_html": "<p><strong>Address:</strong> 2380 Watt Ave #350, inside Country Club Plaza, Sacramento, CA 95825</p><p><strong>Phone:</strong> (916) 480-2959</p><p>Cash only</p>",
+    "verification": "Yahoo/Yelp (business description, 4.5/97, cash-only and family-run per 2025-26 reviews), Country Club Plaza retail page (hours), Exa (Facebook page). Facebook not readable without login.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Drop-off / fitting request (DEMO)",
+        "Text when your alterations are ready (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Cash-only notice up front",
+        "Rating and reviews link",
+        "Before and after gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Plan a drop-off or fitting",
+        "select_label": "Item",
+        "options": [
+          "Jeans / pants hem",
+          "Dress pants",
+          "Leather jacket / coat",
+          "Fur",
+          "Bridal / bridesmaid",
+          "Tuxedo",
+          "Costume",
+          "Other"
+        ],
+        "date": true,
+        "photo": true,
+        "button": "Send request"
+      },
+      "sms": "Text me when my alterations are ready",
+      "sample_prices": [
+        [
+          "Jeans hem (original hem)",
+          "$XX"
+        ],
+        [
+          "Dress pants hem",
+          "$XX"
+        ],
+        [
+          "Leather jacket sleeves",
+          "$XX"
+        ],
+        [
+          "Bridal alterations",
+          "From $XX"
+        ],
+        [
+          "Payment",
+          "Cash only (real)"
+        ]
+      ],
+      "rating": 4.5,
+      "review_count": 97,
+      "rating_source": "Yelp",
+      "gallery_title": "Before and after",
+      "gallery": [
+        "Original-hem jeans",
+        "Leather jacket",
+        "Bridal fitting",
+        "Tuxedo",
+        "Shop in Country Club Plaza"
+      ]
+    },
+    "hand_built": true
+  },
+  "express-watch-repair": {
+    "layout": "cardhero",
+    "font_head": "Libre Baskerville",
+    "font_body": "Work Sans",
+    "image_key": "trophy",
+    "skeleton": "craft_workshop",
+    "headline": "Express Watch Repair",
+    "subhead": "Watch, jewelry and engraving work inside Country Club Plaza. Most jobs while you wait.",
+    "meta_description": "Express Watch Repair, 2380 Watt Ave #310 (Country Club Plaza), Sacramento. Watch and jewelry repair, batteries, bands, engraving. Cash only. Call (916) 827-8186.",
+    "paragraphs": [
+      "Express Watch Repair is a family-owned watch and jewelry repair shop inside Country Club Plaza at 2380 Watt Ave, Suite 310, run by Scott.",
+      "Country Club Plaza's directory lists watch repair, jewelry repair, engraving, ID bracelets, inside ring engraving, and watch bands and batteries. Listings also mention clock repair, and say most jobs can be done while you wait and appointments are preferred.",
+      "The shop is cash only. Call (916) 827-8186."
+    ],
+    "highlights": [
+      "Most jobs while you wait",
+      "Watch batteries and bands",
+      "Engraving, including inside rings",
+      "Cash only"
+    ],
+    "services": [
+      "Watch repair",
+      "Watch batteries",
+      "Watch bands and resizing",
+      "Jewelry repair",
+      "Clock repair",
+      "Engraving",
+      "Inside ring engraving",
+      "ID bracelets"
+    ],
+    "hours": [
+      "Monday - Saturday: 10:00 AM - 6:00 PM",
+      "Sunday: Closed"
+    ],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours agree across Country Club Plaza's directory, Exa, Loc8NearMe and Cylex.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Book",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "E",
+    "aside_html": "<p><strong>Address:</strong> 2380 Watt Ave #310, inside Country Club Plaza, Sacramento, CA 95825</p><p><strong>Phone:</strong> (916) 827-8186</p><p>Cash only</p>",
+    "verification": "Country Club Plaza retail page (services, hours), Loc8NearMe (family-owned, while-you-wait, appointments preferred, clocks), OverlookMaps (Scott). Rating 4.4/99 from lead brief. Facebook not readable without login.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Book a while-you-wait slot (DEMO)",
+        "Text when your repair is ready (DEMO)",
+        "Engraving preview tool (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Cash-only notice up front",
+        "Rating and reviews link"
+      ],
+      "booking": {
+        "title": "Book a while-you-wait slot",
+        "select_label": "Service",
+        "options": [
+          "Watch battery",
+          "Band / resizing",
+          "Watch repair",
+          "Jewelry repair",
+          "Clock repair",
+          "Engraving",
+          "Inside ring engraving"
+        ],
+        "date": true,
+        "photo": true,
+        "button": "Request slot"
+      },
+      "sms": "Text me when my repair is ready",
+      "sample_prices": [
+        [
+          "Watch battery",
+          "$XX"
+        ],
+        [
+          "Band resizing",
+          "$XX"
+        ],
+        [
+          "Engraving (per line)",
+          "$XX"
+        ],
+        [
+          "Inside ring engraving",
+          "$XX"
+        ],
+        [
+          "Payment",
+          "Cash only (real)"
+        ]
+      ],
+      "rating": 4.4,
+      "review_count": 99,
+      "gallery_title": "At the bench",
+      "gallery": [
+        "Watch battery change",
+        "Band resizing",
+        "Engraved ID bracelet",
+        "Inside ring engraving",
+        "Country Club Plaza shop"
       ]
     },
     "hand_built": true

@@ -10,7 +10,7 @@ lead_number,business_name,slug,preview_url,compare_url,email,phone
 9,CK's Donuts,cks-donuts,https://themarkkbradoncollective.github.io/TMBC-Works/cks-donuts/,,,(916) 381-3818
 10,16th Street Donuts,16th-street-donuts,https://themarkkbradoncollective.github.io/TMBC-Works/16th-street-donuts/,,,(916) 443-6689
 11,Le Croissant Factory,le-croissant-factory,https://themarkkbradoncollective.github.io/TMBC-Works/le-croissant-factory/,,,(916) 392-9227
-12,Taqueria Sanchez,taqueria-sanchez,https://themarkkbradoncollective.github.io/TMBC-Works/taqueria-sanchez/,,,(916) 345-3015
+12,Taqueria Sanchez,taqueria-sanchez,https://themarkkbradoncollective.github.io/TMBC-Works/taqueria-sanchez/,https://themarkkbradoncollective.github.io/TMBC-Works/taqueria-sanchez/compare.html,,(916) 345-3015
 13,E Z Tires,e-z-tires,https://themarkkbradoncollective.github.io/TMBC-Works/e-z-tires/,,eztires4011@gmail.com,(916) 923-5767
 14,Golden State Upholstery,golden-state-upholstery,https://themarkkbradoncollective.github.io/TMBC-Works/golden-state-upholstery/,,goldenstateupholstery@gmail.com,(916) 969-5720
 15,Upholstery Unlimited,upholstery-unlimited,https://themarkkbradoncollective.github.io/TMBC-Works/upholstery-unlimited/,,,(916) 454-3277
@@ -65,3 +65,8 @@ lead_number,business_name,slug,preview_url,compare_url,email,phone
 64,Rafa's Mexican Food,rafas-mexican-food,https://themarkkbradoncollective.github.io/TMBC-Works/rafas-mexican-food/,https://themarkkbradoncollective.github.io/TMBC-Works/rafas-mexican-food/compare.html,,(916) 613-8145
 65,Pho King 2,pho-king-2,https://themarkkbradoncollective.github.io/TMBC-Works/pho-king-2/,https://themarkkbradoncollective.github.io/TMBC-Works/pho-king-2/compare.html,,(916) 395-9244
 66,Ricardo's Auto Repair,ricardos-auto-repair,https://themarkkbradoncollective.github.io/TMBC-Works/ricardos-auto-repair/,https://themarkkbradoncollective.github.io/TMBC-Works/ricardos-auto-repair/compare.html,,(916) 456-7343
+67,Ad Smog,ad-smog,https://themarkkbradoncollective.github.io/TMBC-Works/ad-smog/,https://themarkkbradoncollective.github.io/TMBC-Works/ad-smog/compare.html,,(916) 498-0988
+68,Lotus Hair & Nails,lotus-hair-nails,https://themarkkbradoncollective.github.io/TMBC-Works/lotus-hair-nails/,https://themarkkbradoncollective.github.io/TMBC-Works/lotus-hair-nails/compare.html,thailandp@yahoo.com,(916) 451-1510
+69,Golden State Jewelers,golden-state-jewelers,https://themarkkbradoncollective.github.io/TMBC-Works/golden-state-jewelers/,https://themarkkbradoncollective.github.io/TMBC-Works/golden-state-jewelers/compare.html,goldenstatejewelers@gmail.com,(916) 421-5284
+70,Sara's Alterations,saras-alterations,https://themarkkbradoncollective.github.io/TMBC-Works/saras-alterations/,https://themarkkbradoncollective.github.io/TMBC-Works/saras-alterations/compare.html,,(916) 480-2959
+71,Express Watch Repair,express-watch-repair,https://themarkkbradoncollective.github.io/TMBC-Works/express-watch-repair/,https://themarkkbradoncollective.github.io/TMBC-Works/express-watch-repair/compare.html,,(916) 827-8186
