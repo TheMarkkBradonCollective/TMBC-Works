@@ -229,5 +229,37 @@
   "USA Smog": {
     "lat": 38.518731,
     "lon": -121.439604
+  },
+  "TLH Auto Repair": {
+    "lat": 38.7567292,
+    "lon": -121.2732984
+  },
+  "Rancho Tires & Auto Repair": {
+    "lat": 38.6038942,
+    "lon": -121.2680542
+  },
+  "Fired Up Pizza Co": {
+    "lat": 38.7016436,
+    "lon": -121.2904815
+  },
+  "Citrus Heights Smog": {
+    "lat": 38.6794389,
+    "lon": -121.3197976
+  },
+  "West Sacramento Smog Brake & Light": {
+    "lat": 38.580415,
+    "lon": -121.5347657
+  },
+  "Beverly's Never Just Haircuts": {
+    "lat": 38.579729,
+    "lon": -121.5356026
+  },
+  "48 Hours Fleet Care Inc": {
+    "lat": 38.5823803,
+    "lon": -121.5519578
+  },
+  "Absolute Alterations": {
+    "lat": 38.670595,
+    "lon": -121.159807
   }
 }

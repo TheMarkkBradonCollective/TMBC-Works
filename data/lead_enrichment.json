@@ -8797,5 +8797,1114 @@
       "Open 7 days"
     ],
     "hand_built": true
+  },
+  "tlh-auto-repair": {
+    "layout": "split",
+    "font_head": "Teko",
+    "font_body": "Roboto",
+    "image_key": "auto",
+    "skeleton": "service_trust",
+    "headline": "TLH Auto Repair",
+    "subhead": "Honest, owner-run auto repair on Atlantic St in Roseville. Open 6 days.",
+    "meta_description": "TLH Auto Repair, 830 Atlantic St, Roseville. Brakes, oil changes, alignment, engine and transmission repair, diagnostics. Call (916) 771-0887.",
+    "paragraphs": [
+      "TLH Auto Repair is a full-service auto repair shop at 830 Atlantic St in Roseville.",
+      "The shop handles brakes, oil changes, alignments, suspension, engine and transmission repair, diagnostics and fleet repairs. Its business listing mentions more than 20 years of experience and free inspections when diagnosing a problem.",
+      "Reviewers describe honest advice, fair prices and quick turnaround, and many name the owner, Thinh. Call (916) 771-0887."
+    ],
+    "highlights": [
+      "Owner-run",
+      "20+ years' experience",
+      "Fair, honest pricing",
+      "Open 6 days"
+    ],
+    "services": [
+      "Brake service",
+      "Oil changes",
+      "Wheel alignment",
+      "Suspension and steering",
+      "Engine repair and replacement",
+      "Transmission repair",
+      "Diagnostics",
+      "Fleet repairs"
+    ],
+    "hours": [
+      "Tuesday - Saturday: 9:00 AM - 5:00 PM",
+      "Sunday: 9:00 AM - 5:00 PM (one listing says 3:00 PM)",
+      "Monday: Closed"
+    ],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Tuesday to Saturday hours agree across Birdeye, Cylex, AutoRepairScore and Google. Sunday closing time differs by listing. Call (916) 771-0887 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Book",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "T",
+    "aside_html": "<p><strong>Address:</strong> 830 Atlantic St, Roseville, CA 95678</p><p><strong>Phone:</strong> (916) 771-0887</p>",
+    "verification": "Birdeye (4.8/119, hours), AutoRepairScore (hours, services), Cylex (services), CitySquares (business About text: 20+ years, free inspections), Exa (Google 4.8/109, owner named in reviews). Cylex lists rosevilleautorepair.net, which does not load.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online appointment requests (DEMO)",
+        "Text repair updates and pickup alerts (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Shop gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Book a service appointment",
+        "select_label": "Service",
+        "options": [
+          "Oil change",
+          "Brakes",
+          "Alignment",
+          "Check engine light / diagnostics",
+          "Suspension / steering",
+          "Engine or transmission",
+          "Fleet vehicle",
+          "Other"
+        ],
+        "date": true,
+        "button": "Request appointment"
+      },
+      "sms": "Text me repair updates and when my car is ready",
+      "sample_prices": [
+        [
+          "Oil change",
+          "From $XX"
+        ],
+        [
+          "Brake pads (per axle)",
+          "From $XX"
+        ],
+        [
+          "Wheel alignment",
+          "$XX"
+        ],
+        [
+          "Diagnostic inspection",
+          "$XX"
+        ]
+      ],
+      "gallery_title": "In the shop",
+      "gallery": [
+        "Service bays",
+        "Diagnostics",
+        "Brake work",
+        "The shop"
+      ],
+      "rating": 4.8,
+      "review_count": 109,
+      "rating_source": "Google",
+      "facebook": "https://facebook.com/872950062797374"
+    },
+    "trust_strip": [
+      "Owner-run",
+      "20+ years",
+      "Closed Mondays"
+    ],
+    "booking_blurb": "Call (916) 771-0887 or try the DEMO request form below.",
+    "gallery_labels": [
+      "Brakes",
+      "Diagnostics",
+      "Alignment",
+      "Atlantic St shop"
+    ],
+    "hand_built": true
+  },
+  "rancho-tires-and-auto-repair": {
+    "layout": "cardhero",
+    "font_head": "Teko",
+    "font_body": "Roboto",
+    "image_key": "tire",
+    "skeleton": "service_trust",
+    "headline": "Rancho Tires & Auto Repair",
+    "subhead": "Tires, brakes and repairs on Sunrise Blvd. Open 7 days, 4.9 stars on Google.",
+    "meta_description": "Rancho Tires & Auto Repair, 2668 Sunrise Blvd, Rancho Cordova. Tires, flat repair, alignment, brakes, oil changes, diagnostics. Open 7 days. Call (916) 635-7333.",
+    "paragraphs": [
+      "Rancho Tires & Auto Repair is a tire and auto repair shop at 2668 Sunrise Blvd in Rancho Cordova.",
+      "It sells and installs tires and handles rotations, flat repairs, wheel alignments, oil changes, batteries, brakes, engine diagnostics and general repairs, including fleet maintenance.",
+      "Reviewers describe honest work, fair prices and fast, often same-day service. Wi-Fi, restrooms and wheelchair access; credit cards accepted. Open seven days. Call (916) 635-7333."
+    ],
+    "highlights": [
+      "Open 7 days",
+      "4.9 stars on Google",
+      "Same-day service",
+      "Credit cards accepted"
+    ],
+    "services": [
+      "Tire sales and installation",
+      "Tire rotation",
+      "Flat repair",
+      "Wheel alignment",
+      "Brake service",
+      "Oil changes",
+      "Battery replacement",
+      "Engine diagnostics",
+      "General auto repair",
+      "Fleet maintenance"
+    ],
+    "hours": [
+      "Monday - Friday: 7:45 AM - 6:15 PM",
+      "Saturday - Sunday: 10:00 AM - 5:00 PM"
+    ],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours agree across Google, Roadtrippers and Wheree. Call (916) 635-7333 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Quote",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "R",
+    "aside_html": "<p><strong>Address:</strong> 2668 Sunrise Blvd, Rancho Cordova, CA 95742</p><p><strong>Phone:</strong> (916) 635-7333</p>",
+    "verification": "Exa (Google 4.9/320, hours, Facebook), Roadtrippers (hours, amenities, Yelp 54 reviews), MapQuest and Wheree (services, review themes). Not Made In Japan, an older listing at the same address.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Tire quote request by size (DEMO)",
+        "Book a repair or install time (DEMO)",
+        "Text when your car is ready (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Tire and shop gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Get a tire quote or book a repair",
+        "select_label": "What do you need?",
+        "options": [
+          "New tires",
+          "Flat repair",
+          "Rotation",
+          "Alignment",
+          "Brakes",
+          "Oil change",
+          "Battery",
+          "Check engine light",
+          "Other repair"
+        ],
+        "date": true,
+        "photo": true,
+        "button": "Send request"
+      },
+      "sms": "Text me when my car is ready",
+      "sample_prices": [
+        [
+          "Flat repair",
+          "$XX"
+        ],
+        [
+          "Tire rotation",
+          "$XX"
+        ],
+        [
+          "Wheel alignment",
+          "$XX"
+        ],
+        [
+          "Oil change",
+          "From $XX"
+        ],
+        [
+          "Brake pads (per axle)",
+          "From $XX"
+        ]
+      ],
+      "gallery_title": "At the shop",
+      "gallery": [
+        "New tires",
+        "Alignment",
+        "Brake work",
+        "Service bays",
+        "The shop"
+      ],
+      "rating": 4.9,
+      "review_count": 320,
+      "rating_source": "Google",
+      "facebook": "https://facebook.com/339298892607874"
+    },
+    "trust_strip": [
+      "Open 7 days",
+      "4.9 on Google",
+      "Tires & repairs"
+    ],
+    "booking_blurb": "Call (916) 635-7333 or try the DEMO quote form below.",
+    "gallery_labels": [
+      "Tires",
+      "Alignment",
+      "Brakes",
+      "Sunrise Blvd shop"
+    ],
+    "hand_built": true
+  },
+  "fired-up-pizza-co": {
+    "layout": "split",
+    "font_head": "Alfa Slab One",
+    "font_body": "Karla",
+    "image_key": "food",
+    "skeleton": "menu_forward",
+    "headline": "Fired Up Pizza Co",
+    "subhead": "Gourmet pizza from a mobile oven, ready in about five minutes.",
+    "meta_description": "Fired Up Pizza Co, pizza food truck listed at 7440 Auburn Blvd, Citrus Heights. Fresh pies baked in minutes. Call (916) 360-0407.",
+    "paragraphs": [
+      "Fired Up Pizza Co is a pizza food truck listed at 7440 Auburn Blvd in Citrus Heights.",
+      "Reviewers describe gourmet-quality pies baked in under two minutes and handed over in about five, with a signature salt and pepper (S&P) touch. Pies named in listings and reviews include The Fun Guy, The Carnivore and The Steakhouse.",
+      "Hours and spots vary, often into the late evening. Call (916) 360-0407 or check Facebook before heading out."
+    ],
+    "highlights": [
+      "Ready in about 5 minutes",
+      "Late-night hours",
+      "5.0 stars on Google",
+      "Cards and mobile pay"
+    ],
+    "services": [
+      "Pizzas made to order",
+      "Late-night service",
+      "Cards and mobile payments accepted"
+    ],
+    "hours": [
+      "Wednesday - Thursday: 7:00 PM - 11:00 PM",
+      "Friday: 6:00 PM - 9:00 PM",
+      "Sunday: 6:00 PM - 10:00 PM",
+      "Monday, Tuesday, Saturday: Closed"
+    ],
+    "services_heading": "How to order",
+    "menu_heading": "Pies from the truck",
+    "menu_note": "Pie names from listing photos and reviews; no prices shown. Ask what's on tonight.",
+    "hours_note": "Hours from one listing (Google via Exa). A food truck's hours and location change. Call (916) 360-0407 to confirm.",
+    "sections": [
+      "story",
+      "menu",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Truck tracker",
+        "href": "#book"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "F",
+    "aside_html": "<p><strong>Address:</strong> Listed at 7440 Auburn Blvd, Citrus Heights, CA 95610 (truck location varies)</p><p><strong>Phone:</strong> (916) 360-0407</p>",
+    "verification": "Exa (Google 5.0/11, hours, Facebook, review quotes), MapQuest (address, photo captions naming pies), Atly (baking speed, payment). fireduppizzaco.com is a parked domain. Not FiredUpPizza (fireduppizzawest.com), a different business.",
+    "upgrade": {
+      "features": [
+        "Live 'where's the truck tonight' banner (DEMO)",
+        "Tap-to-call from any phone",
+        "Order ahead for pickup (DEMO)",
+        "Text alerts when the truck parks or your pie is ready (DEMO)",
+        "Private event and catering request (DEMO)",
+        "Rating and reviews link",
+        "Pizza photo gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Order ahead or book the truck",
+        "select_label": "Request type",
+        "options": [
+          "Pickup order",
+          "Private event / party",
+          "Catering",
+          "Other"
+        ],
+        "date": true,
+        "button": "Send request"
+      },
+      "sms": "Text me where the truck is parked and when my pizza is ready",
+      "sample_prices": [
+        [
+          "The Fun Guy",
+          "$XX"
+        ],
+        [
+          "The Carnivore",
+          "$XX"
+        ],
+        [
+          "The Steakhouse",
+          "$XX"
+        ],
+        [
+          "Private event",
+          "From $XX"
+        ]
+      ],
+      "gallery_title": "Out of the oven",
+      "gallery": [
+        "The Fun Guy",
+        "The Carnivore",
+        "The Steakhouse",
+        "Fresh from the oven",
+        "The truck"
+      ],
+      "rating": 5.0,
+      "review_count": 11,
+      "rating_source": "Google",
+      "facebook": "https://facebook.com/605881382611400"
+    },
+    "menu_categories": [
+      {
+        "title": "Pizzas",
+        "items": [
+          "The Fun Guy",
+          "The Carnivore",
+          "The Steakhouse"
+        ]
+      }
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1600&q=80",
+    "trust_strip": [
+      "Ready in ~5 minutes",
+      "Late nights",
+      "5.0 on Google"
+    ],
+    "hand_built": true
+  },
+  "absolute-alterations": {
+    "layout": "split",
+    "font_head": "Cormorant Garamond",
+    "font_body": "Jost",
+    "image_key": "alter",
+    "skeleton": "craft_workshop",
+    "headline": "Absolute Alterations",
+    "subhead": "Expert alterations, bridal and leather repair in Folsom since 2000.",
+    "meta_description": "Absolute Alterations, 711 E Bidwell St Ste 11, Folsom. Clothing alterations, tailoring, bridal, leather repair. Call (916) 984-6956.",
+    "paragraphs": [
+      "Absolute Alterations is an independent alterations and repair shop at 711 E Bidwell St, Suite 11, in Folsom, near E Bidwell and Riley St. It has been in business since 2000.",
+      "It offers clothing alterations and tailoring for men, women and children, wedding and bridal alterations, restyling, leather repair and consultations. Reviewers name Nadia and describe flawless work on suits, dresses and everyday repairs.",
+      "Major credit cards accepted. Call (916) 984-6956."
+    ],
+    "highlights": [
+      "Since 2000",
+      "Bridal specialist",
+      "Leather repair",
+      "Open 6 days"
+    ],
+    "services": [
+      "Clothing alterations",
+      "Tailoring for men, women and children",
+      "Wedding and bridal alterations",
+      "Suit alterations",
+      "Restyling",
+      "Leather repair",
+      "Zipper and everyday repairs",
+      "Consultations"
+    ],
+    "hours": [
+      "Monday - Friday: 9:00 AM - 6:00 PM",
+      "Saturday: 9:00 AM - 2:00 PM",
+      "Sunday: Closed"
+    ],
+    "services_heading": "Alterations",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours agree across Superpages, Yahoo/Yelp, Nextdoor and Google. Call (916) 984-6956 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Drop-off",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "A",
+    "aside_html": "<p><strong>Address:</strong> 711 E Bidwell St Ste 11, Folsom, CA 95630</p><p><strong>Phone:</strong> (916) 984-6956</p>",
+    "verification": "Superpages (hours, services, years, payment), Yahoo/Yelp (4.0/61, cross streets), Nextdoor (hours, suite, reviewer comments), Hubbiz (since 2000, services; lists an older Blue Ravine Rd address), Exa (Google 4.3/30). Some listings mention same-day service; not shown.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Drop-off / fitting request with photo (DEMO)",
+        "Text when your alterations are ready (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Before and after gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Plan a drop-off or fitting",
+        "select_label": "Item",
+        "options": [
+          "Pants / jeans hem",
+          "Suit / jacket",
+          "Dress",
+          "Bridal / bridesmaid",
+          "Leather",
+          "Zipper replacement",
+          "Other"
+        ],
+        "date": true,
+        "photo": true,
+        "button": "Send request"
+      },
+      "sms": "Text me when my alterations are ready",
+      "sample_prices": [
+        [
+          "Pants hem",
+          "$XX"
+        ],
+        [
+          "Zipper replacement",
+          "$XX"
+        ],
+        [
+          "Suit jacket sleeves",
+          "$XX"
+        ],
+        [
+          "Bridal alterations",
+          "From $XX"
+        ],
+        [
+          "Leather repair",
+          "From $XX"
+        ]
+      ],
+      "gallery_title": "Before and after",
+      "gallery": [
+        "Bridal gown",
+        "Suit fitting",
+        "Hems",
+        "Leather repair",
+        "The shop"
+      ],
+      "rating": 4.3,
+      "review_count": 30,
+      "rating_source": "Google"
+    },
+    "hand_built": true
+  },
+  "citrus-heights-smog": {
+    "layout": "split",
+    "font_head": "Teko",
+    "font_body": "Roboto",
+    "image_key": "smog",
+    "skeleton": "service_trust",
+    "headline": "Citrus Heights Smog",
+    "subhead": "STAR certified, test-only smog checks on Auburn Blvd, plus a self-serve car wash.",
+    "meta_description": "Citrus Heights Smog, 6232 Auburn Blvd, Citrus Heights. STAR certified test-only smog checks for cars, trucks, RVs and diesel. Call (916) 722-1821.",
+    "paragraphs": [
+      "Citrus Heights Smog, also known as Citrus Heights Smog and Wash, is at 6232 Auburn Blvd, just north of Greenback Lane. The station has been here since 1996.",
+      "The shop describes itself as a STAR certified, test-only smog check center for cars, trucks, RVs and diesel vehicles, all makes and models. Kevin, its STAR certified smog tech, has run the station for about 25 years. Reviewers mention fast checks, often 20 to 30 minutes, and a cool waiting area.",
+      "On the same lot is a four-bay self-serve car wash with vacuums. Credit cards accepted. Call (916) 722-1821."
+    ],
+    "highlights": [
+      "STAR certified",
+      "Test-only station",
+      "Since 1996",
+      "Self-serve car wash"
+    ],
+    "services": [
+      "Smog check (test only)",
+      "STAR station inspections",
+      "Cars, trucks, RVs and diesel",
+      "Four-bay self-serve car wash",
+      "Vacuums and wash supplies",
+      "Amsoil products"
+    ],
+    "hours": [
+      "Monday - Friday: 8:30 AM - 5:00 PM",
+      "Saturday: 8:30 AM - 3:00 PM",
+      "Sunday: Closed"
+    ],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours agree across Google, Loc8NearMe, Nextdoor and CityOf. Call (916) 722-1821 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Check-in",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "C",
+    "aside_html": "<p><strong>Address:</strong> 6232 Auburn Blvd, Citrus Heights, CA 95621</p><p><strong>Phone:</strong> (916) 722-1821</p>",
+    "verification": "Exa (Google 4.5/204, hours), Loc8NearMe (hours, review themes), Nextdoor (business story: Kevin, 25 years, car wash), Unilocal (business specialties: STAR, test only, vehicle types, Amsoil, history since 1996). STAR status not checked on the BAR lookup. Old smogchecknwash.business.site returns 404.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online check-in / reserve a time (DEMO)",
+        "Text reminder when your registration smog is due (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Car wash section"
+      ],
+      "booking": {
+        "title": "Check in online",
+        "select_label": "Vehicle type",
+        "options": [
+          "Gas car / truck",
+          "Hybrid",
+          "Diesel",
+          "RV / motorhome",
+          "Other"
+        ],
+        "date": true,
+        "button": "Reserve a time"
+      },
+      "sms": "Text me next year when my smog check is due",
+      "sample_prices": [
+        [
+          "Smog check (most cars)",
+          "$XX"
+        ],
+        [
+          "Diesel / RV",
+          "$XX"
+        ],
+        [
+          "DMV certificate",
+          "$XX"
+        ],
+        [
+          "Self-serve wash",
+          "$XX"
+        ]
+      ],
+      "rating": 4.5,
+      "review_count": 204,
+      "rating_source": "Google",
+      "facebook": "https://facebook.com/1665654553732340"
+    },
+    "trust_strip": [
+      "STAR certified",
+      "Test only",
+      "Since 1996"
+    ],
+    "hand_built": true
+  },
+  "west-sacramento-smog-brake-and-light": {
+    "layout": "cardhero",
+    "font_head": "Teko",
+    "font_body": "Roboto",
+    "image_key": "smog",
+    "skeleton": "service_trust",
+    "headline": "West Sacramento Smog Brake & Light",
+    "subhead": "Smog checks plus brake and lamp inspections in one stop on W Capitol Ave. Open 7 days.",
+    "meta_description": "West Sacramento Smog Brake & Light, 1922 W Capitol Ave, West Sacramento. Test-only smog check, brake and lamp inspections. Walk-ins. Call (916) 371-6033.",
+    "paragraphs": [
+      "West Sacramento Smog Brake & Light is a test-only smog check station at 1922 W Capitol Ave in West Sacramento, listed by the California Department of Consumer Affairs as a licensed smog station.",
+      "It handles smog checks plus brake and lamp inspections in one stop, and reviewers mention vehicle safety system inspections for repaired salvage vehicles and checks on pre-2000 cars. Most visits take under 15 minutes, and walk-ins are welcome.",
+      "Cash, credit, debit and checks accepted. Call (916) 371-6033."
+    ],
+    "highlights": [
+      "Smog, brake and lamp",
+      "Walk-ins welcome",
+      "Most visits under 15 min",
+      "Open 7 days"
+    ],
+    "services": [
+      "Smog check (test only)",
+      "Brake inspection",
+      "Lamp (light) inspection",
+      "Salvage vehicle safety inspections",
+      "Pre-2000 vehicles"
+    ],
+    "hours": [
+      "Monday - Friday: 9:00 AM - 5:00 PM",
+      "Saturday: 9:30 AM - 12:00 PM (one listing adds 1:30 - 5:00 PM)",
+      "Sunday: 10:00 AM - 2:00 PM"
+    ],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours from Google and emissions-testing.com; Saturday afternoon differs. Call (916) 371-6033 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Check-in",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "W",
+    "aside_html": "<p><strong>Address:</strong> 1922 W Capitol Ave, West Sacramento, CA 95691</p><p><strong>Phone:</strong> (916) 371-6033</p>",
+    "verification": "DCA license search (valid smog station), emissions-testing.com (test only, services, wait, payment, hours), Exa (Google 4.4/59, hours, reviews). Listing price range ($55 - $80) not shown. westsacramentosmog.com redirects to a different business.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online check-in to skip the line (DEMO)",
+        "Brake and lamp inspection request (DEMO)",
+        "Text reminder when your registration smog is due (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link"
+      ],
+      "booking": {
+        "title": "Check in online",
+        "select_label": "Inspection",
+        "options": [
+          "Smog check",
+          "Brake inspection",
+          "Lamp inspection",
+          "Brake and lamp",
+          "Salvage / safety inspection",
+          "Other"
+        ],
+        "date": true,
+        "button": "Reserve a time"
+      },
+      "sms": "Text me next year when my smog check is due",
+      "sample_prices": [
+        [
+          "Smog check (most cars)",
+          "$XX"
+        ],
+        [
+          "Brake inspection",
+          "$XX"
+        ],
+        [
+          "Lamp inspection",
+          "$XX"
+        ],
+        [
+          "Brake and lamp together",
+          "$XX"
+        ]
+      ],
+      "rating": 4.4,
+      "review_count": 59,
+      "rating_source": "Google",
+      "facebook": "https://facebook.com/382036365568462"
+    },
+    "trust_strip": [
+      "Smog + brake + lamp",
+      "Walk-ins",
+      "Open 7 days"
+    ],
+    "hand_built": true
+  },
+  "beverlys-never-just-haircuts": {
+    "layout": "split",
+    "font_head": "Cormorant Garamond",
+    "font_body": "Jost",
+    "image_key": "spa",
+    "skeleton": "studio_booking",
+    "headline": "Beverly's Never Just Haircuts",
+    "subhead": "A friendly West Sacramento salon for cuts, color, perms and nails.",
+    "meta_description": "Beverly's Never Just Haircuts, 2007 W Capitol Ave, West Sacramento. Haircuts, styling, perms, manicures and pedicures. By appointment. Call (916) 372-5606.",
+    "paragraphs": [
+      "Beverly's Never Just Haircuts is a hair and nail salon at 2007 W Capitol Ave in West Sacramento.",
+      "It offers haircuts and styling for adults and kids, perms and blowouts, plus manicures and pedicures. Reviewers name Beverly, Vatsana and Lily, and describe a welcoming, professional salon with reasonable prices.",
+      "By appointment. Free Wi-Fi, private lot parking and wheelchair access; credit cards accepted. Call (916) 372-5606."
+    ],
+    "highlights": [
+      "Hair and nails",
+      "Good for kids",
+      "By appointment",
+      "Reasonable prices"
+    ],
+    "services": [
+      "Haircuts",
+      "Kids' haircuts",
+      "Hairstyling and blowouts",
+      "Perms",
+      "Manicures",
+      "Pedicures"
+    ],
+    "hours": [
+      "Tuesday - Friday: 9:00 AM - 6:00 PM",
+      "Saturday: 9:00 AM - 3:00 PM",
+      "Sunday - Monday: Closed"
+    ],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours from BestProsInTown and Loc8NearMe. Call (916) 372-5606 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Book",
+        "href": "#book"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "B",
+    "aside_html": "<p><strong>Address:</strong> 2007 W Capitol Ave, West Sacramento, CA 95691</p><p><strong>Phone:</strong> (916) 372-5606</p>",
+    "verification": "BestProsInTown (hours, amenities, by appointment, review themes), Loc8NearMe (hours), Exa (Google 4.7/47, Facebook, stylist names in reviews). edan.io and hub.biz pages are directory listings, not the salon's site.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online booking by service and stylist (DEMO)",
+        "Text appointment reminders (DEMO)",
+        "Upfront sample price menu (DEMO)",
+        "Rating and reviews link",
+        "Hair and nails gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Book an appointment",
+        "select_label": "Service",
+        "options": [
+          "Haircut",
+          "Kids' haircut",
+          "Style / blowout",
+          "Perm",
+          "Manicure",
+          "Pedicure"
+        ],
+        "date": true,
+        "button": "Request appointment"
+      },
+      "sms": "Text me a reminder the day before my appointment",
+      "sample_prices": [
+        [
+          "Haircut",
+          "$XX"
+        ],
+        [
+          "Kids' haircut",
+          "$XX"
+        ],
+        [
+          "Perm",
+          "From $XX"
+        ],
+        [
+          "Manicure",
+          "$XX"
+        ],
+        [
+          "Pedicure",
+          "$XX"
+        ]
+      ],
+      "gallery_title": "Our work",
+      "gallery": [
+        "Cuts",
+        "Perms",
+        "Blowouts",
+        "Pedicures",
+        "The salon"
+      ],
+      "rating": 4.7,
+      "review_count": 47,
+      "rating_source": "Google",
+      "facebook": "https://facebook.com/560620940652712"
+    },
+    "hero_image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1600&q=80",
+    "booking_blurb": "By appointment: call (916) 372-5606. Online booking below is a DEMO.",
+    "gallery_labels": [
+      "Cuts",
+      "Perms",
+      "Nails",
+      "W Capitol Ave salon"
+    ],
+    "hand_built": true
+  },
+  "48-hours-fleet-care": {
+    "layout": "split",
+    "font_head": "Teko",
+    "font_body": "Roboto",
+    "image_key": "industrial",
+    "skeleton": "service_trust",
+    "headline": "48 Hours Fleet Care Inc",
+    "subhead": "Semi truck and fleet repair off I-80 in West Sacramento, 5.0 stars on Google.",
+    "meta_description": "48 Hours Fleet Care Inc, 613 Galveston St, West Sacramento. Semi truck and fleet repair, alignment, valve adjustment, inspections. Call (916) 953-2360.",
+    "paragraphs": [
+      "48 Hours Fleet Care Inc is a truck and fleet repair shop at 613 Galveston St in West Sacramento, about half a mile off I-80 at exit 83.",
+      "Drivers describe heavy repairs on loaded trucks done fast enough to deliver on schedule, truck alignments, valve adjustments and full checks, with factory filters and clear updates along the way. Reviewers name Igor and Denis, and one notes Volvo truck know-how.",
+      "Weekdays, 7:00 AM to 3:30 PM. Call (916) 953-2360."
+    ],
+    "highlights": [
+      "Semi trucks",
+      "Off I-80, exit 83",
+      "5.0 stars on Google",
+      "Fast turnaround"
+    ],
+    "services": [
+      "Semi truck repair",
+      "Heavy repairs",
+      "Truck alignment",
+      "Valve adjustment",
+      "Full inspections and checks",
+      "Fleet maintenance"
+    ],
+    "hours": [
+      "Monday - Friday: 7:00 AM - 3:30 PM",
+      "Saturday - Sunday: Closed"
+    ],
+    "services_heading": "Services",
+    "menu_heading": "",
+    "menu_note": "",
+    "hours_note": "Hours agree across HighwaySource, Google and Nears.me. Call (916) 953-2360 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Request",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "4",
+    "aside_html": "<p><strong>Address:</strong> 613 Galveston St, West Sacramento, CA 95691</p><p><strong>Phone:</strong> (916) 953-2360</p>",
+    "verification": "HighwaySource (Google 5.0/78, hours, I-80 exit 83, semi trucks), Exa (hours, reviews naming services and staff), Nears.me (hours). 48hoursfleetcare.com shows a Squarespace Coming Soon page; owner unknown.",
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Repair request with truck details and photo (DEMO)",
+        "Text updates while your truck is in the shop (DEMO)",
+        "Fleet maintenance reminders (DEMO)",
+        "Rating and reviews link",
+        "Upfront sample price list (DEMO)"
+      ],
+      "booking": {
+        "title": "Request a repair",
+        "select_label": "What do you need?",
+        "options": [
+          "Breakdown / heavy repair",
+          "Alignment",
+          "Valve adjustment",
+          "Inspection / full check",
+          "Fleet maintenance",
+          "Other"
+        ],
+        "date": true,
+        "photo": true,
+        "button": "Send request"
+      },
+      "sms": "Text me updates while my truck is in the shop",
+      "sample_prices": [
+        [
+          "Truck alignment",
+          "$XX"
+        ],
+        [
+          "Valve adjustment",
+          "$XX"
+        ],
+        [
+          "Full inspection",
+          "$XX"
+        ],
+        [
+          "Shop labor (per hour)",
+          "$XX"
+        ]
+      ],
+      "rating": 5.0,
+      "review_count": 78,
+      "rating_source": "Google"
+    },
+    "hero_image": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1600&q=80",
+    "trust_strip": [
+      "Semi trucks",
+      "I-80 exit 83",
+      "5.0 on Google"
+    ],
+    "hand_built": true
   }
 }
