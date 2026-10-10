@@ -308,7 +308,7 @@ html,body{overflow-x:hidden}img,iframe{max-width:100%}
         <label>Preferred day and time<input type="datetime-local" name="when"></label>
         <label>Notes<textarea name="notes" rows="3"></textarea></label>
         <label class="chk"><input type="checkbox" checked> <span>Text me when my order is ready <span class="demo-tag">DEMO</span></span></label>
-        <button type="submit">Send pre-order</button>
+        <button aria-disabled="true" disabled type="submit">Send pre-order</button>
         <div class="up-toast" role="status"></div>
       </form>
     </div></section>
@@ -316,8 +316,8 @@ html,body{overflow-x:hidden}img,iframe{max-width:100%}
     <h2 id="more-demos-h">More ways to order and stay in touch <span class="demo-tag">DEMO</span></h2>
     <p class="demo-note">Demos of features this site could offer. Nothing here is live yet; call <a href="tel:+19166643138">(916) 664-3138</a> today.</p>
     <div class="demo-grid">
-      <div class="demo-card"><span class="demo-tag">DEMO – activates after setup</span><h3>Event and gathering tray request</h3><p>Request booza or pastry trays for a party, Eid or office event.</p><label for="ss-c-bt">Service</label><select id="ss-c-bt"><option>Booza</option><option>Baklava</option><option>Kunafeh</option><option>Mixed pastry tray</option></select><label for="ss-c-bd">Preferred date</label><input id="ss-c-bd" type="date"><label for="ss-c-bp">Mobile phone</label><input id="ss-c-bp" type="tel" autocomplete="tel"><button class="btn btn-primary" type="button" disabled>Send request (demo)</button><p class="demo-note">Demo only – nothing is sent or booked.</p></div>
-      <div class="demo-card"><span class="demo-tag">DEMO – activates after setup</span><h3>New flavor and fresh batch texts</h3><p>Get a text when a new booza flavor or fresh kunafeh is ready.</p><label for="ss-t-tx">Mobile number</label><input id="ss-t-tx" type="tel" autocomplete="tel"><button class="btn btn-primary" type="button" disabled>Sign up (demo)</button><p class="demo-note">Demo only – no texts are sent; requires customer opt-in at setup.</p></div>
+      <div class="demo-card"><span class="demo-tag">DEMO – activates after setup</span><h3>Event and gathering tray request</h3><p>Request booza or pastry trays for a party, Eid or office event.</p><label for="ss-c-bt">Service</label><select id="ss-c-bt"><option>Booza</option><option>Baklava</option><option>Kunafeh</option><option>Mixed pastry tray</option></select><label for="ss-c-bd">Preferred date</label><input id="ss-c-bd" type="date"><label for="ss-c-bp">Mobile phone</label><input id="ss-c-bp" type="tel" autocomplete="tel"><button aria-disabled="true" class="btn btn-primary" type="button" disabled>Send request (demo)</button><p class="demo-note">Demo only – nothing is sent or booked.</p></div>
+      <div class="demo-card"><span class="demo-tag">DEMO – activates after setup</span><h3>New flavor and fresh batch texts</h3><p>Get a text when a new booza flavor or fresh kunafeh is ready.</p><label for="ss-t-tx">Mobile number</label><input id="ss-t-tx" type="tel" autocomplete="tel"><button aria-disabled="true" class="btn btn-primary" type="button" disabled>Sign up (demo)</button><p class="demo-note">Demo only – no texts are sent; requires customer opt-in at setup.</p></div>
     </div></div></section>
     <section class="up-block reveal" id="gallery"><div class="wrap">
       <h2>From the counter <span class="demo-tag">DEMO</span></h2>
@@ -333,8 +333,8 @@ html,body{overflow-x:hidden}img,iframe{max-width:100%}
     <section class="menu-block reveal" id="menu">
       <div class="wrap">
         <h2>Menu</h2>
-        <p class="menu-note">Prices are as listed on MenuPix and may have changed. Items without prices are from Edible Sacramento&#x27;s feature. Call (916) 664-3138 to confirm.</p>
-        <div class="menu-grid"><article class="menu-card reveal"><h3>Booza (Arabic ice cream)</h3><ul><li>Arabic ice cream, half pound: $9.99 (MenuPix)</li><li>Ashta (sweet cream with rose water), pistachio-coated</li><li>Chocolate (sometimes available)</li></ul></article><article class="menu-card reveal"><h3>Kunafeh</h3><ul><li>Kunafeh Nabulsia plate, 24 oz: $10.99 (MenuPix)</li><li>Kunafeh Nabulsia tray, 13 x 9.5 in: $49.99 (MenuPix)</li></ul></article><article class="menu-card reveal"><h3>Baklava &amp; pastries</h3><ul><li>Warbat / baklava with cream, 1 piece: $4.99 (MenuPix)</li><li>Baklava roll, half sheet: $79.99 (MenuPix)</li><li>Turkish delight</li><li>Cookies</li></ul></article></div>
+        <p class="menu-note">Item names from MenuPix and Edible Sacramento&#x27;s feature. Prices shown as $XX are SAMPLE placeholders, not real prices. Call (916) 664-3138 to confirm.</p>
+        <div class="menu-grid"><article class="menu-card reveal"><h3>Booza (Arabic ice cream)</h3><ul><li>Arabic ice cream, half pound: $XX (SAMPLE)</li><li>Ashta (sweet cream with rose water), pistachio-coated</li><li>Chocolate (sometimes available)</li></ul></article><article class="menu-card reveal"><h3>Kunafeh</h3><ul><li>Kunafeh Nabulsia plate, 24 oz: $XX (SAMPLE)</li><li>Kunafeh Nabulsia tray, 13 x 9.5 in: $XX (SAMPLE)</li></ul></article><article class="menu-card reveal"><h3>Baklava &amp; pastries</h3><ul><li>Warbat / baklava with cream, 1 piece: $XX (SAMPLE)</li><li>Baklava roll, half sheet: $XX (SAMPLE)</li><li>Turkish delight</li><li>Cookies</li></ul></article></div>
       </div>
     </section>
     <section class="services-block reveal" id="services">

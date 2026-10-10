@@ -275,7 +275,6 @@ html,body{overflow-x:hidden}img,iframe{max-width:100%}
           
         </div>
       </div>
-      <div class="trust-bar reveal"><article class='reveal'><strong>STAR certified</strong></article><article class='reveal'><strong>Open 7 days</strong></article><article class='reveal'><strong>Walk-ins, no appointment</strong></article></div>
     </div>
   </section>
   
@@ -294,7 +293,7 @@ html,body{overflow-x:hidden}img,iframe{max-width:100%}
         <label>Preferred day and time<input type="datetime-local" name="when"></label>
         <label>Notes<textarea name="notes" rows="3"></textarea></label>
         <label class="chk"><input type="checkbox" checked> <span>Text me next year when my smog check is due <span class="demo-tag">DEMO</span></span></label>
-        <button type="submit">Reserve a time</button>
+        <button aria-disabled="true" disabled type="submit">Reserve a time</button>
         <div class="up-toast" role="status"></div>
       </form>
     </div></section>
@@ -307,7 +306,7 @@ html,body{overflow-x:hidden}img,iframe{max-width:100%}
     <h2 id="more-demos-h">More ways to order and stay in touch <span class="demo-tag">DEMO</span></h2>
     <p class="demo-note">Demos of features this site could offer. Nothing here is live yet; call <a href="tel:+19164980988">(916) 498-0988</a> today.</p>
     <div class="demo-grid">
-      <div class="demo-card"><span class="demo-tag">DEMO – activates after setup</span><h3>Smog due-date reminder texts</h3><p>Get a text before your next smog check or DMV registration is due.</p><label for="ad-t-tx">Mobile number</label><input id="ad-t-tx" type="tel" autocomplete="tel"><button class="btn btn-primary" type="button" disabled>Sign up (demo)</button><p class="demo-note">Demo only – no texts are sent; requires customer opt-in at setup.</p></div>
+      <div class="demo-card"><span class="demo-tag">DEMO – activates after setup</span><h3>Smog due-date reminder texts</h3><p>Get a text before your next smog check or DMV registration is due.</p><label for="ad-t-tx">Mobile number</label><input id="ad-t-tx" type="tel" autocomplete="tel"><button aria-disabled="true" class="btn btn-primary" type="button" disabled>Sign up (demo)</button><p class="demo-note">Demo only – no texts are sent; requires customer opt-in at setup.</p></div>
       <div class="demo-card"><span class="demo-tag">DEMO – activates after setup</span><h3>Fleet and multi-vehicle requests</h3><p>Businesses with several vehicles could request a block of smog checks in one form.</p><p class="demo-note">Demo only – nothing is sent.</p></div>
     </div></div></section>
     <section class="up-block reveal" id="reviews"><div class="wrap">

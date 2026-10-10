@@ -314,7 +314,7 @@ html,body{overflow-x:hidden}img,iframe{max-width:100%}
         <label>Preferred day and time<input type="datetime-local" name="when"></label>
         <label>Notes<textarea name="notes" rows="3"></textarea></label>
         <label class="chk"><input type="checkbox" checked> <span>Text me when my order is ready <span class="demo-tag">DEMO</span></span></label>
-        <button type="submit">Place pickup order</button>
+        <button aria-disabled="true" disabled type="submit">Place pickup order</button>
         <div class="up-toast" role="status"></div>
       </form>
     </div></section>
@@ -330,8 +330,8 @@ html,body{overflow-x:hidden}img,iframe{max-width:100%}
     <h2 id="more-demos-h">More ways to order and stay in touch <span class="demo-tag">DEMO</span></h2>
     <p class="demo-note">Demos of features this site could offer. Nothing here is live yet; call <a href="tel:+19163453015">(916) 345-3015</a> today.</p>
     <div class="demo-grid">
-      <div class="demo-card"><span class="demo-tag">DEMO – activates after setup</span><h3>Catering and party tray request</h3><p>Request taco trays or food for a party.</p><label for="ts-c-bt">Service</label><select id="ts-c-bt"><option>Taco tray</option><option>Party order</option><option>Other</option></select><label for="ts-c-bd">Preferred date</label><input id="ts-c-bd" type="date"><label for="ts-c-bp">Mobile phone</label><input id="ts-c-bp" type="tel" autocomplete="tel"><button class="btn btn-primary" type="button" disabled>Send request (demo)</button><p class="demo-note">Demo only – nothing is sent or booked.</p></div>
-      <div class="demo-card"><span class="demo-tag">DEMO – activates after setup</span><h3>Weekly specials texts</h3><p>Get a text with the week's taco and drink specials.</p><label for="ts-t-tx">Mobile number</label><input id="ts-t-tx" type="tel" autocomplete="tel"><button class="btn btn-primary" type="button" disabled>Sign up (demo)</button><p class="demo-note">Demo only – no texts are sent; requires customer opt-in at setup.</p></div>
+      <div class="demo-card"><span class="demo-tag">DEMO – activates after setup</span><h3>Catering and party tray request</h3><p>Request taco trays or food for a party.</p><label for="ts-c-bt">Service</label><select id="ts-c-bt"><option>Taco tray</option><option>Party order</option><option>Other</option></select><label for="ts-c-bd">Preferred date</label><input id="ts-c-bd" type="date"><label for="ts-c-bp">Mobile phone</label><input id="ts-c-bp" type="tel" autocomplete="tel"><button aria-disabled="true" class="btn btn-primary" type="button" disabled>Send request (demo)</button><p class="demo-note">Demo only – nothing is sent or booked.</p></div>
+      <div class="demo-card"><span class="demo-tag">DEMO – activates after setup</span><h3>Weekly specials texts</h3><p>Get a text with the week's taco and drink specials.</p><label for="ts-t-tx">Mobile number</label><input id="ts-t-tx" type="tel" autocomplete="tel"><button aria-disabled="true" class="btn btn-primary" type="button" disabled>Sign up (demo)</button><p class="demo-note">Demo only – no texts are sent; requires customer opt-in at setup.</p></div>
     </div></div></section>
     <section class="up-block reveal" id="gallery"><div class="wrap">
       <h2>From the kitchen <span class="demo-tag">DEMO</span></h2>
@@ -340,7 +340,7 @@ html,body{overflow-x:hidden}img,iframe{max-width:100%}
     </div></section>
     <section class="story-block reveal" id="story" aria-labelledby="about-h">
       <div class="wrap story-grid"><h2 id="about-h">About Taqueria Sanchez</h2>
-        <div class="story-copy"><p>Taqueria Sanchez is a Mexican restaurant at 2885 Norwood Ave in North Sacramento. Listings show a compact menu built around tacos, burritos, quesadillas and gorditas, with outdoor dining and a parking lot.</p><p>Tacos come in options such as al pastor and carne asada, and listings mention radish, grilled serrano peppers and onions served alongside. Specialties include a super burrito, machetes (two-foot-long quesadillas made with homemade tortillas) and gorditas de chicharron prensado.</p><p>Apple Maps lists takeout, delivery, Apple Pay and credit cards. Hours are consistent across listings: open Tuesday through Sunday, closed Monday.</p></div>
+        <div class="story-copy"><p>Taqueria Sanchez is a Mexican restaurant at 2885 Norwood Ave in North Sacramento. Listings show a compact menu built around tacos, burritos, quesadillas and gorditas, with outdoor dining and a parking lot.</p><p>Tacos come in options such as al pastor and carne asada, and listings mention radish, grilled serrano peppers and onions served alongside. Specialties include a super burrito, machetes (two-foot-long quesadillas made with homemade tortillas) and gorditas de chicharron prensado.</p><p>Apple Maps lists takeout, delivery, Apple Pay and credit cards. Call (916) 345-3015 to confirm hours.</p></div>
         <div class="story-aside"><p><strong>Address:</strong> 2885 Norwood Ave, Sacramento, CA 95815</p><p><strong>Phone:</strong> (916) 345-3015</p></div>
       </div>
     </section>
