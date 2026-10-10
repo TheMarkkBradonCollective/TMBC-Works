@@ -351,6 +351,11 @@ def render_index(row: dict, profile: dict, slug: str, base_url: str) -> str:
     else:
         hero_tail = ""
     sec_html = build_sections(skeleton, profile, row, name, address, lat, lon, phone, map_url)
+    up_css, up_js = "", ""
+    if profile.get("upgrade"):
+        from lib.upgrades import UPGRADE_CSS, DEMO_JS, render_upgrades
+        sec_html = render_upgrades(profile, name, address, ph) + sec_html
+        up_css, up_js = UPGRADE_CSS, DEMO_JS
 
     og_img = profile["hero_image"]
     page_url = f"{base_url}/{slug}/"
@@ -380,7 +385,7 @@ def render_index(row: dict, profile: dict, slug: str, base_url: str) -> str:
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?{profile['fonts_query']}&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../_shared/tmbc.css">
-  <style>{layout_css(profile)}</style>
+  <style>{layout_css(profile)}{up_css}</style>
   <!-- Hero image: {html.escape(profile.get('hero_credit', 'Unsplash'))} -->
 </head>
 <body class="skel-{html.escape(skeleton)}" data-biz-phone="{ph}" data-biz-map="{html.escape(map_url)}">
@@ -427,7 +432,7 @@ def render_index(row: dict, profile: dict, slug: str, base_url: str) -> str:
     <a class="tmbc-sticky-map" href="{html.escape(map_url)}">Directions</a>
   </div>
   <script src="../_shared/tmbc-config.js" defer></script>
-  <script src="../_shared/tmbc.js" defer></script>
+  <script src="../_shared/tmbc.js" defer></script>{up_js}
 </body>
 </html>
 """

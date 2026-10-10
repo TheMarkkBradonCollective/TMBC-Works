@@ -167,18 +167,18 @@
     "font_body": "Lato",
     "image_key": "barber",
     "headline": "Norm's Barber Shop",
-    "subhead": "Barbershop on 4th Ave, Sacramento.",
+    "subhead": "Owner-barber Norm's 4th Ave shop, serving Sacramento since 1994.",
     "meta_description": "Norm's Barber Shop, 2890 4th Ave, Sacramento. Haircuts and barbering. Call (916) 456-9713.",
     "paragraphs": [
-      "Norm's Barber Shop is a neighborhood barbershop at 2890 4th Ave in Sacramento. Public listings agree on a Tuesday through Saturday schedule, with Mondays and Sundays closed.",
-      "The shop has no website of its own, so the phone is the main way to reach the barbers: call (916) 456-9713 to ask about availability.",
-      "Directory listings suggest bringing a photo of the cut you want if you are unsure how to describe it."
+      "Norm's Barber Shop is a neighborhood barbershop at 2890 4th Ave in Sacramento, run by owner-barber Norm since 1994.",
+      "Public listings agree on a Tuesday through Saturday schedule, with Mondays and Sundays closed. The shop is cash only.",
+      "Call (916) 456-9713 to ask about availability."
     ],
     "highlights": [
-      "2890 4th Ave, Sacramento",
-      "Open Tuesday through Saturday",
-      "Later hours on Wednesday, Friday and Saturday",
-      "Call (916) 456-9713"
+      "Owner-barber Norm",
+      "Established 1994",
+      "Cash only",
+      "Open Tuesday - Saturday"
     ],
     "services": [
       "Men's haircuts",
@@ -210,8 +210,16 @@
         "href": "#story"
       },
       {
-        "label": "Barbering",
-        "href": "#services"
+        "label": "Book",
+        "href": "#book"
+      },
+      {
+        "label": "Prices",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
       },
       {
         "label": "Hours",
@@ -228,9 +236,9 @@
     ],
     "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
     "favicon_initial": "N",
-    "verification": "Second pass: hours confirmed across four public listings (Exa, Waze, Birdeye, Barberhead). Service list is category-level for a barbershop and is not a business-specific menu; no prices, staff or review quotes used.",
+    "verification": "Second pass: hours confirmed across four public listings (Exa, Waze, Birdeye, Barberhead). Service list is category-level for a barbershop and is not a business-specific menu; no prices, staff or review quotes used. Upgrade batch: owner Norm, cash only, est. 1994, rating 4.9/92 and Facebook from lead brief.",
     "skeleton": "studio_booking",
-    "booking_blurb": "No online booking page found. Call (916) 456-9713 to ask about availability.",
+    "booking_blurb": "Call (916) 456-9713 to ask about availability. Online booking below is a DEMO.",
     "gallery_labels": [
       "Men's haircuts",
       "Beard trims",
@@ -241,7 +249,63 @@
       "https://reviews.birdeye.com/norms-barber-shop-170251520479717",
       "https://www.waze.com/live-map/directions/us/ca/sacramento/norms-barber-shop?to=place.ChIJ78o7gljQmoARTVXUTdQxHMs",
       "https://barberhead.com/sacramento/norm-s-barber-shop"
-    ]
+    ],
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online appointment requests (DEMO)",
+        "Text appointment reminders (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "4.9-star rating and reviews link",
+        "Cut gallery (DEMO)",
+        "Cash-only notice up front"
+      ],
+      "booking": {
+        "title": "Book a chair with Norm",
+        "select_label": "Service",
+        "options": [
+          "Haircut",
+          "Beard trim",
+          "Haircut and beard",
+          "Neck and edge clean-up"
+        ],
+        "date": true,
+        "button": "Request appointment"
+      },
+      "sms": "Text me a reminder the day before my appointment",
+      "sample_prices": [
+        [
+          "Men's haircut",
+          "$XX"
+        ],
+        [
+          "Beard trim",
+          "$XX"
+        ],
+        [
+          "Haircut and beard",
+          "$XX"
+        ],
+        [
+          "Neck clean-up",
+          "$XX"
+        ],
+        [
+          "Payment",
+          "Cash only (real)"
+        ]
+      ],
+      "rating": 4.9,
+      "review_count": 92,
+      "facebook": "https://facebook.com/111663978888159",
+      "gallery_title": "Fresh cuts",
+      "gallery": [
+        "Classic taper",
+        "Beard trim",
+        "Line-up",
+        "Inside the 4th Ave shop"
+      ]
+    }
   },
   "antonios-barber-shop": {
     "layout": "split",
@@ -1870,8 +1934,16 @@
         "href": "#story"
       },
       {
-        "label": "Services",
-        "href": "#services"
+        "label": "Repair quote",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
       },
       {
         "label": "Hours",
@@ -1888,7 +1960,7 @@
     ],
     "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
     "favicon_initial": "S",
-    "verification": "Second pass: CBS Sacramento cobbler roundup, Yahoo Local business tagline, BestProsInTown, Exa and Chamber of Commerce listings. Hours conflict between sources so none are published. No prices, staff or review quotes used.",
+    "verification": "Second pass: CBS Sacramento cobbler roundup, Yahoo Local business tagline, BestProsInTown, Exa and Chamber of Commerce listings. Hours conflict between sources so none are published. No prices, staff or review quotes used. Upgrade batch: rating 4.4/109 and Facebook link from lead brief.",
     "skeleton": "craft_workshop",
     "process_steps": [
       "Bring in your shoes, boots or belt, or call (916) 441-1912 first",
@@ -1900,7 +1972,68 @@
       "https://www.cbsnews.com/sacramento/news/best-cobblers-in-sacramento/",
       "https://local.yahoo.com/info-21778256-schroeder-s-shoe-repair-sacramento/",
       "https://exa.ai/library/place/4qmnb70r8sx"
-    ]
+    ],
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online repair quote requests with photo upload (DEMO)",
+        "Text alerts when repairs are ready (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Before/after work gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Request a repair quote",
+        "select_label": "Repair type",
+        "options": [
+          "Sole or heel repair",
+          "Heel and toe tips",
+          "Zipper repair",
+          "Boot repair",
+          "Bag repair",
+          "Belt work",
+          "Cleaning and refresh",
+          "Other"
+        ],
+        "photo": true,
+        "button": "Request quote"
+      },
+      "sms": "Text me when my repair is ready",
+      "sample_prices": [
+        [
+          "Heel tips (pair)",
+          "$XX"
+        ],
+        [
+          "Full resole",
+          "$XX"
+        ],
+        [
+          "Zipper replacement",
+          "$XX"
+        ],
+        [
+          "Belt shortening / new holes",
+          "$XX"
+        ],
+        [
+          "Clean and polish",
+          "$XX"
+        ]
+      ],
+      "rating": 4.4,
+      "review_count": 109,
+      "facebook": "https://facebook.com/155641994474350",
+      "gallery_title": "Before and after",
+      "gallery": [
+        "Resoled dress shoes",
+        "Boot heel rebuild",
+        "Zipper repair",
+        "Bag repair",
+        "Cleaned and polished leather",
+        "Shop counter on 10th St"
+      ]
+    }
   },
   "ks-complete-shoe-repair": {
     "layout": "cardhero",
@@ -4475,34 +4608,42 @@
     ],
     "skeleton": "craft_workshop"
   },
-  "pescados-mexican-restaurant": {
-    "layout": "editorial",
-    "font_head": "Alfa Slab One",
-    "font_body": "Karla",
-    "image_key": "mex",
-    "headline": "Pescado's Mexican Restaurant",
-    "subhead": "Mexican restaurant on Fair Oaks Blvd, Sacramento.",
-    "meta_description": "Pescado's Mexican Restaurant, 2610 Fair Oaks Blvd, Sacramento. Mexican restaurant. Call (916) 483-3474.",
+  "elegant-designs": {
+    "layout": "split",
+    "font_head": "Cormorant Garamond",
+    "font_body": "Jost",
+    "image_key": "fabric",
+    "skeleton": "craft_workshop",
+    "headline": "Elegant Designs",
+    "subhead": "Tailoring and alterations on Fair Oaks Blvd, Sacramento.",
+    "meta_description": "Elegant Designs, 2326 Fair Oaks Blvd #F, Sacramento. Tailoring and alterations. Call (916) 921-1221.",
     "paragraphs": [
-      "Pescado's Mexican Restaurant is a Mexican restaurant at 2610 Fair Oaks Blvd, near Fair Oaks Blvd and Munroe St in Sacramento.",
-      "Listings describe a casual spot serving traditional Mexican dishes.",
-      "Call (916) 483-3474 for the current menu, hours and to place an order."
+      "Elegant Designs is a tailoring and alterations shop at 2326 Fair Oaks Blvd, Suite F, in Sacramento, run by Jenny.",
+      "Its Yelp listing shows clothing alterations, skirts and dresses, and clothing mending and repair, and many reviewers mention wedding dress alterations and bustles.",
+      "Listings show credit cards and Apple Pay accepted, and the business is listed as women-owned. Call (916) 921-1221 to set up a fitting."
     ],
     "highlights": [
-      "Mexican restaurant",
-      "Casual dining",
-      "Fair Oaks Blvd, Sacramento",
-      "Call for the current menu"
+      "Owner Jenny",
+      "Wedding dress alterations",
+      "Women-owned",
+      "Credit cards and Apple Pay"
     ],
     "services": [
-      "Dine in",
-      "Call ahead to order"
+      "Clothing alterations",
+      "Hemming and fit adjustments",
+      "Skirts and dresses",
+      "Wedding dress alterations and bustles",
+      "Clothing mending and repair"
     ],
-    "hours": [],
+    "hours": [
+      "Monday - Friday: 10:00 AM - 7:00 PM",
+      "Saturday: 10:30 AM - 6:00 PM",
+      "Sunday: Closed"
+    ],
     "menu_heading": "",
-    "menu_note": "Call (916) 483-3474 for the current menu.",
-    "services_heading": "How to order",
-    "hours_note": "Published hours are inconsistent across listings. Call (916) 483-3474 to confirm before visiting.",
+    "menu_note": "",
+    "services_heading": "Alterations",
+    "hours_note": "Hours from Yelp. BestProsInTown lists shorter hours (Mon 10-5, Tue-Fri 10-6, Sat 11-5), so call (916) 921-1221 to confirm.",
     "sections": [
       "story",
       "services",
@@ -4510,15 +4651,23 @@
       "location",
       "contact"
     ],
-    "aside_html": "<p><strong>Address:</strong> 2610 Fair Oaks Blvd, Sacramento, CA 95864</p><p><strong>Phone:</strong> (916) 483-3474</p>",
+    "aside_html": "<p><strong>Address:</strong> 2326 Fair Oaks Blvd #F, Sacramento, CA 95825</p><p><strong>Phone:</strong> (916) 921-1221</p>",
     "nav": [
       {
         "label": "About",
         "href": "#story"
       },
       {
-        "label": "Services",
-        "href": "#services"
+        "label": "Book a fitting",
+        "href": "#book"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
       },
       {
         "label": "Hours",
@@ -4534,13 +4683,214 @@
       }
     ],
     "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
-    "favicon_initial": "P",
-    "verification": "MapQuest and Unilocal listings confirm address and phone. Hours unverified (one directory lists a different phone). No menu items, prices or review quotes used.",
+    "favicon_initial": "E",
+    "verification": "Yelp (services, hours, payment, women-owned, 4.1/69), BestProsInTown (conflicting hours). maygdesign.com deliberately not used. No review quotes or prices.",
     "sources": [
-      "https://www.mapquest.com/us/california/pescados-mexican-restaurant-434291827"
+      "https://www.yelp.com/biz/elegant-designs-sacramento",
+      "https://www.bestprosintown.com/ca/sacramento/elegant-designs-/"
     ],
-    "skeleton": "menu_forward",
-    "menu_categories": [],
-    "payment_methods": []
+    "upgrade": {
+      "features": [
+        "Tap-to-call from any phone",
+        "Online fitting appointments (DEMO)",
+        "Text reminders and pickup alerts (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Bridal and alterations gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Book a fitting",
+        "select_label": "Alteration type",
+        "options": [
+          "Hem (pants, skirt or dress)",
+          "Take in / let out",
+          "Wedding dress alterations",
+          "Bustle",
+          "Mending and repair",
+          "Other"
+        ],
+        "date": true,
+        "photo": true,
+        "button": "Request fitting"
+      },
+      "sms": "Text me a fitting reminder and when my alterations are ready",
+      "sample_prices": [
+        [
+          "Pant hem",
+          "$XX"
+        ],
+        [
+          "Dress hem",
+          "$XX"
+        ],
+        [
+          "Take in / let out",
+          "$XX"
+        ],
+        [
+          "Wedding dress bustle",
+          "$XX"
+        ],
+        [
+          "Zipper replacement",
+          "$XX"
+        ]
+      ],
+      "rating": 4.1,
+      "review_count": 69,
+      "rating_source": "Yelp",
+      "gallery_title": "Alterations gallery",
+      "gallery": [
+        "Wedding dress bustle",
+        "Gown fitting",
+        "Suit tailoring",
+        "Hemmed dress",
+        "Mending detail",
+        "Fair Oaks Blvd studio"
+      ]
+    }
+  },
+  "nisei-barber-shop": {
+    "layout": "editorial",
+    "font_head": "Playfair Display",
+    "font_body": "Lato",
+    "image_key": "barber",
+    "skeleton": "studio_booking",
+    "headline": "Nisei Barber Shop",
+    "subhead": "A two-chair shop from about 1950: the last surviving business of Sacramento's original Japantown.",
+    "meta_description": "Nisei Barber Shop, 1505 4th St, Sacramento. Family barbershop since about 1950, the last business of Sacramento's original Japantown. Call (916) 442-2168.",
+    "paragraphs": [
+      "Nisei Barber Shop has been cutting hair at 1505 4th St since about 1950. It is the last surviving business of Sacramento's original Japantown, which the city cleared and redeveloped after the World War II incarceration of Japanese Americans.",
+      "Founder Jack Umezu opened the shop after serving in the U.S. Army in World War II. Attorney Henry Taketa, one of Sacramento's early nisei (second-generation Japanese Americans), put up the building and leased Jack the space.",
+      "Today Jack's grandson, Cory Umezu, runs the two-chair shop. Some of his grandfather's longtime clients still come in, alongside downtown workers. With only two chairs, it is best to call ahead."
+    ],
+    "highlights": [
+      "Open since about 1950",
+      "Last business of the original Japantown",
+      "Run by the founder's grandson",
+      "Two chairs: call ahead"
+    ],
+    "services": [
+      "Haircuts",
+      "Fades and line-ups",
+      "Beard work",
+      "Hot towel shaves"
+    ],
+    "hours": [
+      "Tuesday - Friday: 10:00 AM - 6:00 PM",
+      "Saturday: 10:00 AM - 3:00 PM",
+      "Sunday - Monday: Closed"
+    ],
+    "menu_heading": "",
+    "menu_note": "",
+    "services_heading": "Barbering",
+    "hours_note": "Hours match the shop's details, Barbershops.net and Sac Goes. Call (916) 442-2168 to confirm.",
+    "sections": [
+      "story",
+      "services",
+      "hours",
+      "location",
+      "contact"
+    ],
+    "aside_html": "<p><strong>Address:</strong> 1505 4th St, Sacramento, CA 95814</p><p><strong>Phone:</strong> (916) 442-2168</p><p><strong>Email:</strong> niseibarbershop@gmail.com</p>",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#story"
+      },
+      {
+        "label": "Book",
+        "href": "#book"
+      },
+      {
+        "label": "Prices",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "Find us",
+        "href": "#location"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "hero_credit": "Stock photo via Unsplash (illustrative; not the business)",
+    "favicon_initial": "N",
+    "booking_blurb": "Two chairs fill up. Call (916) 442-2168, or try the DEMO booking form below.",
+    "gallery_labels": [
+      "Haircuts",
+      "Fades",
+      "Hot towel shaves",
+      "4th St shop"
+    ],
+    "verification": "Medium feature on the shop (history, Taketa, GI Bill), Sac Goes (since 1950, last Japantown business, 4.8/48 Google), Barbershops.net (services, hours). barbershop.org deliberately not used.",
+    "sources": [
+      "https://medium.com/@stephmbuck/the-tiny-barbershop-that-survived-japanese-internment-5450c6320c8b",
+      "https://sacgoes.com/only-in-sac/nisei-barber-shop",
+      "https://www.barbershops.net/barbers/91558/nisei-barber-shop/"
+    ],
+    "upgrade": {
+      "features": [
+        "Heritage story: the last business of Sacramento's original Japantown",
+        "Tap-to-call and email",
+        "Online chair booking (DEMO)",
+        "Text appointment reminders (DEMO)",
+        "Upfront sample price list (DEMO)",
+        "Rating and reviews link",
+        "Archive and cuts gallery (DEMO)"
+      ],
+      "booking": {
+        "title": "Book one of the two chairs",
+        "select_label": "Service",
+        "options": [
+          "Haircut",
+          "Fade",
+          "Beard work",
+          "Hot towel shave"
+        ],
+        "date": true,
+        "button": "Request appointment"
+      },
+      "sms": "Text me a reminder the day before my appointment",
+      "sample_prices": [
+        [
+          "Haircut",
+          "$XX"
+        ],
+        [
+          "Fade",
+          "$XX"
+        ],
+        [
+          "Beard work",
+          "$XX"
+        ],
+        [
+          "Hot towel shave",
+          "$XX"
+        ]
+      ],
+      "rating": 4.8,
+      "review_count": 48,
+      "rating_source": "Google",
+      "facebook": "https://facebook.com/196776663677221",
+      "gallery_title": "Since 1950",
+      "gallery": [
+        "Historic photo: Jack Umezu at the chair",
+        "Japantown-era storefront",
+        "Today's two-chair shop",
+        "Fresh fade",
+        "Hot towel shave"
+      ]
+    }
   }
 }
